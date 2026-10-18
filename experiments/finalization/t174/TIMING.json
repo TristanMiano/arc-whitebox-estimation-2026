@@ -1,0 +1,15 @@
+{
+  "task_id": "T174",
+  "session_start_utc": "2026-10-18T18:16:34+00:00",
+  "preparation_and_handoff_recorded_utc": "2026-10-18T18:25:40.193058+00:00",
+  "recorded_session_minutes": 9.103217633333333,
+  "original_full_task_estimate_minutes": [
+    25,
+    60
+  ],
+  "full_task_completed": false,
+  "estimate_error_minutes": null,
+  "estimate_error_note": "The original estimate covered external actions that remain assigned to the owner, so the full-task estimate error is not yet measurable.",
+  "new_estimator_runs": 0,
+  "new_training_runs": 0
+}

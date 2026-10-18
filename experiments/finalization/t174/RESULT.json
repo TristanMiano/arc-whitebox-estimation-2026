@@ -1,0 +1,41 @@
+{
+  "task": "T174",
+  "status": "final_report_published_owner_will_nominate_and_post",
+  "nominations_requested": [
+    336809,
+    336785
+  ],
+  "nominations_saved": false,
+  "nomination_state_verified": false,
+  "writeup_submission_id": 336809,
+  "final_pdf": "writeup/arc-whestbench-phase2-336809.pdf",
+  "final_pdf_sha256": "5909b02b8d38c4269eee8799c4452ddbb09d81bc0f589a0d0a250fd8e86acb24",
+  "forum_published": false,
+  "forum_url": null,
+  "blocker": "Computer Use cannot initialize: sandboxCwd is not a local file URI: file:///home/trist/arc_challenge. Reset and retry failed. Read-only website GraphQL with the existing participant API token returned null viewerSelectionContext; the token remains valid for submission status. No selection or forum mutation was attempted.",
+  "prepared_forum_title_file": "FORUM_TITLE.txt",
+  "prepared_forum_body_file": "FORUM_POST.md",
+  "official_nomination_deadline_utc": "2026-10-22T23:59:00Z",
+  "official_writeup_deadline_utc": "2026-10-28T23:59:00Z",
+  "owner_will_complete_external_actions": true,
+  "final_pdf_github_published": true,
+  "public_report_commit": "1ac12e91f5fbadc6398dcba91f5d92a751c3cb9e",
+  "owner_handoff_accepted": "Owner explicitly chose to select 336809 and 336785 and publish the prepared forum post in this conversation. No completion confirmation received yet.",
+  "task_id": "T174",
+  "timing": {
+    "task_id": "T174",
+    "session_start_utc": "2026-10-18T18:16:34+00:00",
+    "preparation_and_handoff_recorded_utc": "2026-10-18T18:25:40.193058+00:00",
+    "recorded_session_minutes": 9.103217633333333,
+    "original_full_task_estimate_minutes": [
+      25,
+      60
+    ],
+    "full_task_completed": false,
+    "estimate_error_minutes": null,
+    "estimate_error_note": "The original estimate covered external actions that remain assigned to the owner, so the full-task estimate error is not yet measurable.",
+    "new_estimator_runs": 0,
+    "new_training_runs": 0
+  },
+  "document_validation": "All 12 pages checked; changed pages 1, 8 and 12 inspected visually; no draft labels, overfull boxes, missing references, or missing glyphs. All 24 accepted archives unchanged."
+}
