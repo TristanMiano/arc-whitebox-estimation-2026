@@ -49,17 +49,17 @@ To rerun fitting, reconstruct the specified public rows and intermediate feature
 
 ## Rebuild the final report
 
-The report is a **draft for author review**, linked to exactly one accepted submission: **336809**. The additional algorithm pages are retrospective history, not separate formal prize submissions.
+The final report is linked to exactly one accepted submission: **336809**. The T173 review draft remains preserved; T174 contains the final source and PDF. The additional algorithm pages are retrospective history, not separate formal prize submissions.
 
 ```bash
 .venv/bin/python -m pip install matplotlib
 .venv/bin/python experiments/finalization/t173/build_evidence.py
 .venv/bin/python experiments/finalization/t173/build_figures.py
 # Install Tectonic 0.17.0 and DejaVu Serif/Sans fonts, then:
-.venv/bin/python experiments/finalization/t173/build_pdf.py
+.venv/bin/python experiments/finalization/t174/build_pdf.py
 ```
 
-The source is [main.tex](../experiments/finalization/t173/writeup/main.tex), with [appendix.tex](../experiments/finalization/t173/writeup/appendix.tex) and included vector figures. Evidence rebuilding verifies source/asset identities and recomputes the quoted comparisons from preserved records. PDF compilation can differ in byte identity between environments; the committed PDF has its own hash. The original publication check used the existing local Tectonic runtime and inspected the generated pages.
+The source is [main.tex](../experiments/finalization/t174/writeup/main.tex), with [appendix.tex](../experiments/finalization/t174/writeup/appendix.tex) and included vector figures. Evidence rebuilding verifies source/asset identities and recomputes the quoted comparisons from preserved records. PDF compilation can differ in byte identity between environments; the committed PDF has its own hash. The final document check used Tectonic 0.17.0, checked all 12 pages for text bounds and missing references, and visually inspected the changed pages. Optional validation requires PyMuPDF: run `python experiments/finalization/t174/validate_final.py` after compilation. T173 evidence/figure rebuilding validates the preserved comparisons; T174 retains identical vector figures and its own hashes.
 
 ## Historical evidence boundaries
 

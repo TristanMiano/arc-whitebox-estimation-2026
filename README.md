@@ -9,18 +9,18 @@ The best retained public submission is **336809 / ALG058-V001**, with adjusted f
 - **[All 24 submitted algorithm writeups](writeups/README.md)** — method, provenance, results, exact source and accepted package for every graded version; failed attempts are also disclosed.
 - **[How the research was done](docs/WORKFLOW_AND_MODEL_REPORT.md)** — human/model roles, task and TODO structure, protocol changes, theory versus fitting, delegation, failures and reproducible workflow prompts.
 - **[Time between submissions](docs/SUBMISSION_TIMELINE.md)** — recorded sessions, active research, interruption exclusions, overlapping agent time and missing records; includes CSV/JSON data and a rebuild script.
-- **[Final 12-page technical report draft](experiments/finalization/t173/writeup/arc-whestbench-phase2-336809-draft.pdf)** and [LaTeX source](experiments/finalization/t173/writeup/main.tex) — associated with submission336809; still marked for author review.
+- **[Final 12-page technical report](experiments/finalization/t174/writeup/arc-whestbench-phase2-336809.pdf)** and [LaTeX source](experiments/finalization/t174/writeup/main.tex) — associated with submission 336809. The earlier review draft is preserved.
 - **[Reproduction guide](docs/REPRODUCTION.md)** — exact packages, runtime versions, local inference harness, evidence and report rebuilding, and explicit limits of the historical archive.
 
 ## Final candidates
 
-| Role in the local recommendation | Algorithm | Submission | Official public adjusted error |
+| Role in the owner-approved selection | Algorithm | Submission | Official public adjusted error |
 |---|---|---:|---:|
 | Primary | [ALG058-V001](writeups/ALG058-V001.md) | 336809 | 2.971106406126817e−9 |
 | Second | [ALG055-V000](writeups/ALG055-V000.md) | 336785 | 2.982822327838572e−9 |
 | Reserve | [ALG054-V000](writeups/ALG054-V000.md) | 336778 | 3.0332910471237746e−9 |
 
-These are recommendations as of October18,2026; this release does not perform AIcrowd final nominations or formal writeup delivery.
+The owner approved 336809 and 336785 on October 18, 2026. Website nomination and forum delivery remain pending; publication of the final PDF here does not itself complete those steps. [Prepared forum post](experiments/finalization/t174/FORUM_POST.md).
 
 ## Attribution and evidence
 

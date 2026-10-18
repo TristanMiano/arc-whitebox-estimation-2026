@@ -1,0 +1,20 @@
+{
+  "task": "T174",
+  "status": "final_report_ready_external_actions_blocked",
+  "nominations_requested": [
+    336809,
+    336785
+  ],
+  "nominations_saved": false,
+  "nomination_state_verified": false,
+  "writeup_submission_id": 336809,
+  "final_pdf": "writeup/arc-whestbench-phase2-336809.pdf",
+  "final_pdf_sha256": "5909b02b8d38c4269eee8799c4452ddbb09d81bc0f589a0d0a250fd8e86acb24",
+  "forum_published": false,
+  "forum_url": null,
+  "blocker": "Computer Use cannot initialize: sandboxCwd is not a local file URI: file:///home/trist/arc_challenge. Reset and retry failed. Read-only website GraphQL with the existing participant API token returned null viewerSelectionContext; the token remains valid for submission status. No selection or forum mutation was attempted.",
+  "prepared_forum_title_file": "FORUM_TITLE.txt",
+  "prepared_forum_body_file": "FORUM_POST.md",
+  "official_nomination_deadline_utc": "2026-10-22T23:59:00Z",
+  "official_writeup_deadline_utc": "2026-10-28T23:59:00Z"
+}

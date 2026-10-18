@@ -11,3 +11,6 @@ __pycache__/
 *.log
 *.out
 experiments/finalization/t173/writeup/main.pdf
+experiments/finalization/t174/writeup/main.pdf
+experiments/finalization/t174/preview/
+experiments/finalization/t174/PDF_TEXT.txt
