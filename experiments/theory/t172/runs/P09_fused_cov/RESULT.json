@@ -1,0 +1,101 @@
+{
+  "probe": "P09_fused_cov",
+  "records": [
+    {
+      "call": 0,
+      "row": 750,
+      "meter": {
+        "flops": 349528298489,
+        "wall_time_s": 45.060238679999884,
+        "residual_wall_time_s": 0.3780469610230739,
+        "outer_wall_time_s": 45.060302525
+      },
+      "setup_s": 0.046596063000151844,
+      "peak_rss_bytes": 5818499072,
+      "prediction_sha256": "64ca9d7503451b9f3a7ceb6add2ceb92607a2c697d1dc021c1fb9ea681bafd1c",
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "raw_mse": 2.002042354131849e-08,
+      "adjusted_mse": 3.1821876179611407e-09
+    },
+    {
+      "call": 1,
+      "row": 976,
+      "meter": {
+        "flops": 332357393365,
+        "wall_time_s": 42.268093402999966,
+        "residual_wall_time_s": 0.36776387100871943,
+        "outer_wall_time_s": 42.26814680000007
+      },
+      "setup_s": 0.046596063000151844,
+      "peak_rss_bytes": 5818499072,
+      "prediction_sha256": "259d4392faf84490ca35b9b7d8483a494ab4b8423c746315b1500ae3fd8582ac",
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "raw_mse": 1.7834250596103218e-08,
+      "adjusted_mse": 2.6954444550661096e-09
+    },
+    {
+      "call": 2,
+      "row": 772,
+      "meter": {
+        "flops": 342838438741,
+        "wall_time_s": 42.47531121600014,
+        "residual_wall_time_s": 0.3654182049915562,
+        "outer_wall_time_s": 42.47536238899988
+      },
+      "setup_s": 0.046596063000151844,
+      "peak_rss_bytes": 5847891968,
+      "prediction_sha256": "67304c8765f2dc8f604f8b43c31daa64eaadf510e81bde9b5b71d23965a3093c",
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "raw_mse": 1.9489109023301395e-08,
+      "adjusted_mse": 3.038447043764693e-09
+    },
+    {
+      "call": 3,
+      "row": 795,
+      "meter": {
+        "flops": 327553543394,
+        "wall_time_s": 41.83055137400015,
+        "residual_wall_time_s": 0.36351154899102767,
+        "outer_wall_time_s": 41.830604429000005
+      },
+      "setup_s": 0.046596063000151844,
+      "peak_rss_bytes": 5859557376,
+      "prediction_sha256": "493229af28e20e4cb04e4d1c838ae29dbfdd9afde5b9c6fbdc51fe8d6a576d1d",
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "raw_mse": 2.3651416579166968e-08,
+      "adjusted_mse": 3.5229756153029203e-09
+    }
+  ],
+  "complete": true,
+  "all_caps_pass": true,
+  "mean_raw": 2.024879993497252e-08,
+  "mean_adjusted": 3.109763683023716e-09
+}

@@ -2,7 +2,7 @@
   "release": "2026-10-18",
   "files": {
     ".gitattributes": "1a26cd11c583a291a2633a269420b0a042247836bd0a740305141460c80572c2",
-    ".gitignore": "8efae03b3bae26261fbf430e60fbdf04376128f4706cc4f7b5d0179c5789a679",
+    ".gitignore": "1542c810459c25c560f2868a6fd79c3b19b307912a698808f18182eb7a605c4e",
     "LICENSE": "e3e4daa4b31b6f2b409ecab8610b223bc5ce5c917f0a633fd9f66dbf9e7f6c5f",
     "README.md": "8a95e183df1908f953816d5acc6617ce306791d0f22c160868ba370cdd337da2",
     "THIRD_PARTY_NOTICES.md": "906019af70cf2d107375bfe8d44f8d60beec77a3bb7402656120de9611a4a905",
@@ -20,7 +20,7 @@
     "docs/SUBMISSION_MILESTONE_TIME_AUDIT.md": "66b0fde2993addef09614ba9714d506d8ea1f420fc84d38ef2678a2a84f2bee1",
     "docs/SUBMISSION_TIMELINE.md": "e969f565b965a278fc2e08bdbdc6c4e774785ce696452f103f22b5aeb211e25a",
     "docs/WORKFLOW_AND_MODEL_REPORT.md": "7cf28c7857ef7644b52c9fa8c741c62afdca723eb4062e201e87e30eff6c305a",
-    "evidence/export_origins.json": "653a0847d504b24484eb800fbf6697af2284c37154c3fa774ed170548a17e412",
+    "evidence/export_origins.json": "43648cb105e28d33942002c3874e73fc2955b967440d67e383f1614cfc5e4e02",
     "evidence/failed_attempts.json": "06b4a26b0254ed64485e1570b40d2a8be4f01df35f4e23d9ec4e7f600689188c",
     "evidence/package_identity.json": "8c57d723893f1be0c16067fb11e47305ccbb38619786d1a8c6114a9321aadd47",
     "evidence/submissions.csv": "17d5ad64a8e98c904ecbdf1291f0bb14a5e22dde47de77fe56dc6fb66eda8bef",

@@ -2801,10 +2801,6 @@
       "source": "experiments/theory/t172/candidates/ALG058-V001/MANIFEST_VALIDATION.json",
       "sha256": "bb31fa14740e806ccd70f442b13e5595bb09092e6ed243a96f1c27ae5e4f2c5d"
     },
-    "experiments/theory/t172/runs/P09_fused_cov/RESULT.json": {
-      "source": "experiments/theory/t172/runs/P09_fused_cov/RESULT.json",
-      "sha256": "67ef30f5ef4f571013be3dcc34e79b4d64330abb031d006958f8be867635d7f5"
-    },
     "experiments/theory/t172/runs/P02_e30/RESULT.json": {
       "source": "experiments/theory/t172/runs/P02_e30/RESULT.json",
       "sha256": "27d3615e79402fa1501af76404f3cdea32c8e4600656f2bf790cc28454e2e9f2"
@@ -2816,6 +2812,10 @@
     "experiments/theory/t172/runs/P19_new_trace/RESULT.json": {
       "source": "experiments/theory/t172/runs/P19_new_trace/RESULT.json",
       "sha256": "838f193cbfb4214b3893496a5011b1a768be835667dd750e9f1bd403a93b2432"
+    },
+    "experiments/theory/t172/runs/P09_fused_cov/RESULT.json": {
+      "source": "experiments/theory/t172/runs/P09_fused_cov/RESULT.json",
+      "sha256": "67ef30f5ef4f571013be3dcc34e79b4d64330abb031d006958f8be867635d7f5"
     },
     "experiments/theory/t172/OFFICIAL_GAIN_DECOMPOSITION.json": {
       "source": "experiments/theory/t172/OFFICIAL_GAIN_DECOMPOSITION.json",

@@ -5,7 +5,7 @@ __pycache__/
 .env.*
 *.key
 *.pem
-runs/
+/runs/
 .cache/
 *.aux
 *.log
