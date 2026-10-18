@@ -1,0 +1,54 @@
+{
+  "task_id": "T157",
+  "experiment_id": "E152",
+  "algorithm_id": "ALG048-V000",
+  "hypothesis_id": "H153-NFC128",
+  "status": "registered_before_execution",
+  "start_utc": "2026-09-13T01:07:28+00:00",
+  "registered_utc": "2026-09-13T01:08:42.372827+00:00",
+  "git_head_at_start": "1368ff0924d513f0fe073653df8c40c6faf1781d",
+  "estimate_total_range_minutes": [
+    150,
+    240
+  ],
+  "engineering_reassessment_minutes": 30,
+  "owner_authorized_upload": true,
+  "grade_wait_minutes": 30,
+  "unchanged_generic_error_retry_limit": 1,
+  "fit_calls": 0,
+  "subagents": 0,
+  "specification": "experiments/theory/t153/NFC128_SPEC.md",
+  "specification_sha256": "029e73d9c01f115244e746559bfd9e1554dc563ccea71a8650af43942f0ddc47",
+  "variant_change": "Suite-only NFC128: fresh coupled native Gram in predicted multi-layer metric; M-orthogonal projection at ranks256/128; fixed PCG64 seed15329 64/128-column designs; original ages, source recurrence, calibration and generic fallback.",
+  "comparison": {
+    "exploratory_rows": [
+      750,
+      976
+    ],
+    "screen_rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "data_role": "Reused development; exploratory pair may reject clear loss. Freeze predictions before scoring. No final blind access.",
+    "comparator": "ALG043-V000; current matched T153 P03 evidence on pair; rerun current parent panel if screen proceeds.",
+    "bootstrap_seed": 157001,
+    "decision": "Lower arithmetic mean adjusted score and roughly90% whole-network bootstrap support sufficient. Stop a clear loss early; no automatic parameter ladder."
+  },
+  "incumbent": {
+    "algorithm_id": "ALG043-V000",
+    "submission_id": 330597,
+    "official_adjusted_score": 5.419051334510831e-09
+  },
+  "runtime": "tmp/t128-runtime312/bin/python",
+  "no_automatic_next_task": true
+}

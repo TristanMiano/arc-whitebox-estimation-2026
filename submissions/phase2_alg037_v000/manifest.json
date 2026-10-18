@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "api_version": "2.0",
+  "entrypoint": {
+    "module": "estimator",
+    "class": "Estimator"
+  },
+  "python": {
+    "min_version": "3.12"
+  },
+  "files": [
+    {
+      "name": "LICENSE",
+      "sha256": "e3e4daa4b31b6f2b409ecab8610b223bc5ce5c917f0a633fd9f66dbf9e7f6c5f"
+    },
+    {
+      "name": "PUBLIC_FAST_LICENSE",
+      "sha256": "8951bf59cbe4e79527fecd49bc816f4d13f40c7631a3cbd37d2bd930e40b4616"
+    },
+    {
+      "name": "README.md",
+      "sha256": "e9f50dd43fe516959c63161a8af7226fa0595bd933f4173b76ec9d2aefd512a9"
+    },
+    {
+      "name": "absolute_coefficients.py",
+      "sha256": "dfc1336b9e9bd308645c196b23c2235123a3af9ca0587512535737196252f477"
+    },
+    {
+      "name": "base_family.py",
+      "sha256": "74879a41f02313096a02b58684f9fa795af94b0827763aad045b4225606efec6"
+    },
+    {
+      "name": "candidate_family.py",
+      "sha256": "92c56fb973f2ad84bc65c40f0d9db5f5c8eb0c812e47fb8968bbeb9b1e6feba3"
+    },
+    {
+      "name": "coefficients.py",
+      "sha256": "8c8cdc6463f86c5d61fac998d0ce17a39bd033e2bac5c5e3f6182b4bb11311cd"
+    },
+    {
+      "name": "estimator.py",
+      "sha256": "7c84d5fd9ab7eefefb116b327f27ac58cab9ef3ba4a45bea62814a15d4572ca6"
+    },
+    {
+      "name": "fast_kernel.py",
+      "sha256": "6e9c40b5652554d30e5100603006b8e1b44d84082e259332435a006a75352a70"
+    },
+    {
+      "name": "joint_coefficients.py",
+      "sha256": "25adb3a7e0818271d9a256a8863d5b1709c49c7d84704ab12f42b8648f831c5f"
+    },
+    {
+      "name": "parity_coefficients.py",
+      "sha256": "1ab6ab86aba80ccb181b4693d258c7b25a03235de673f018d1cff04eafb3e7e6"
+    },
+    {
+      "name": "public_release/public_fast_reference.py",
+      "sha256": "b5418459c4c0cce62129027affb15170cc5aca477ff0af6c5590d718bc9947ed"
+    },
+    {
+      "name": "r1p_family.py",
+      "sha256": "c2926d452f193d5d72eb64b1a4b2669dcf99e58efaa6841299fb3cecaa826865"
+    },
+    {
+      "name": "response_family.py",
+      "sha256": "ed4e3680addbcc9d160fe0aad11556b020f56664bd7a89729d6971ea1e154d3b"
+    }
+  ],
+  "created_at_utc": "2026-09-06T22:05:35.154181+00:00",
+  "packager_version": "0.1.0",
+  "whestbench_version": "0.16.0",
+  "flopscope_version": "0.12.0",
+  "python_version": "3.12.3",
+  "numpy_version": "2.2.6"
+}

@@ -1,0 +1,11 @@
+{
+  "submission_id": 330101,
+  "created_at": "2026-09-06T22:06:29.964Z",
+  "recorded_utc": "2026-09-06T22:06:28.681664+00:00",
+  "deadline_utc": "2026-09-06T22:36:29.964000+00:00",
+  "attempt": 1,
+  "archive_sha256": "5d6ddf7461fe7322c592bddfd420c8e5e5068797a47f34bd7f005e61e74748d5",
+  "status": "ACCEPTED_MONITORING",
+  "retry_created": false,
+  "status_file": "SUBMISSION_330101_STATUS.json"
+}

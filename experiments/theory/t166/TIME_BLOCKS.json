@@ -1,0 +1,543 @@
+{
+  "closed": [
+    {
+      "category": "derivation",
+      "route": "native_source_cost",
+      "start_utc": "2026-09-27T04:05:23.589505+00:00",
+      "note": "Map exact native source structure and identify finite complete compression-cost question",
+      "end_utc": "2026-09-27T04:15:56.582273+00:00",
+      "minutes": 10.549879466666665
+    },
+    {
+      "category": "literature",
+      "route": "broad_successor",
+      "start_utc": "2026-09-27T04:15:56.582273+00:00",
+      "note": "Search primary disclosures and methods for distributed non-Gaussian state; compare against already tested positive closures",
+      "end_utc": "2026-09-27T04:19:32.475942+00:00",
+      "minutes": 3.5982278166666664
+    },
+    {
+      "category": "empirical",
+      "route": "nonlinear_propagated_closure",
+      "start_utc": "2026-09-27T04:19:32.475942+00:00",
+      "note": "Build finite full-trajectory feature collection on existing32F, no new target corpus",
+      "end_utc": "2026-09-27T04:26:35.145462+00:00",
+      "minutes": 7.044492
+    },
+    {
+      "category": "derivation",
+      "route": "hybrid_matrix_residual",
+      "start_utc": "2026-09-27T04:26:35.145462+00:00",
+      "note": "Derive full-matrix residual carriers beyond shared physical subspace and finite capacity test",
+      "end_utc": "2026-09-27T04:31:40.623635+00:00",
+      "minutes": 5.091302883333333
+    },
+    {
+      "category": "administration",
+      "route": "checkpoint",
+      "start_utc": "2026-09-27T04:31:40.623635+00:00",
+      "note": "Save crash-recovery checkpoint, excluding recordkeeping from active research",
+      "end_utc": "2026-09-27T04:31:40.710557+00:00",
+      "minutes": 0.0014487
+    },
+    {
+      "category": "derivation",
+      "route": "hybrid_matrix_residual",
+      "start_utc": "2026-09-27T04:31:40.710557+00:00",
+      "note": "Continue hybrid representation constructor and physical response analysis",
+      "end_utc": "2026-09-27T04:40:58.272539+00:00",
+      "minutes": 9.292699699999998
+    },
+    {
+      "category": "empirical",
+      "route": "dual_upper_homotopy",
+      "start_utc": "2026-09-27T04:40:58.272539+00:00",
+      "note": "Implement checked endpoint homotopy while P03 collector finishes",
+      "end_utc": "2026-09-27T04:46:15.837414+00:00",
+      "minutes": 5.292747916666666
+    },
+    {
+      "category": "derivation",
+      "route": "response_conditioning",
+      "start_utc": "2026-09-27T04:46:15.837414+00:00",
+      "note": "Interpret nonlinear generalization and derive low-rank response learning; P05 capacity runs separately.",
+      "end_utc": "2026-09-27T04:48:57.259159+00:00",
+      "minutes": 2.6903624166666664
+    },
+    {
+      "category": "administration",
+      "route": "checkpoint",
+      "start_utc": "2026-09-27T04:48:57.259159+00:00",
+      "note": "Save recoverable P03-P08 evidence and continuation.",
+      "end_utc": "2026-09-27T04:49:46.792311+00:00",
+      "minutes": 0.8255525333333333
+    },
+    {
+      "category": "literature",
+      "route": "adjoint_response",
+      "start_utc": "2026-09-27T04:49:46.792311+00:00",
+      "note": "Read primary reduced-order closure and goal-oriented tensor approximation literature while P06 trains.",
+      "end_utc": "2026-09-27T04:52:18.919290+00:00",
+      "minutes": 2.53544965
+    },
+    {
+      "category": "derivation",
+      "route": "deflated_unbiased",
+      "start_utc": "2026-09-27T04:52:18.919290+00:00",
+      "note": "Derive exact cross-output variance after source-space deflation and identify missing recurrence coupling.",
+      "end_utc": "2026-09-27T04:57:05.726142+00:00",
+      "minutes": 4.7801142
+    },
+    {
+      "category": "empirical",
+      "route": "dual_upper_homotopy",
+      "start_utc": "2026-09-27T04:57:05.726142+00:00",
+      "note": "Prepare serial capacity runs and inspect completed nonlinear folds.",
+      "end_utc": "2026-09-27T05:07:31.218345+00:00",
+      "minutes": 10.42487005
+    },
+    {
+      "category": "derivation",
+      "route": "native_defect_response",
+      "start_utc": "2026-09-27T05:07:31.218345+00:00",
+      "note": "Derive low-rank adjoint covariance and multi-step response limits for measured compression defects.",
+      "end_utc": "2026-09-27T05:13:18.624249+00:00",
+      "minutes": 5.790098400000001
+    },
+    {
+      "category": "administration",
+      "route": "checkpoint",
+      "start_utc": "2026-09-27T05:13:18.624249+00:00",
+      "note": "Save second T166 continuation and finished probes.",
+      "end_utc": "2026-09-27T05:14:12.763307+00:00",
+      "minutes": 0.9023176333333333
+    },
+    {
+      "category": "derivation",
+      "route": "reduced_response_geometry",
+      "start_utc": "2026-09-27T05:14:12.763307+00:00",
+      "note": "Develop compact difference and response-weighted fourth-state geometry beyond the tested half map.",
+      "end_utc": "2026-09-27T05:19:03.036366+00:00",
+      "minutes": 4.837884316666666
+    },
+    {
+      "category": "empirical",
+      "route": "physical_fourth_range",
+      "start_utc": "2026-09-27T05:19:03.036366+00:00",
+      "note": "Build physical Hessian-image range experiment and inspect serial capacity outcomes.",
+      "end_utc": "2026-09-27T05:21:43.901444+00:00",
+      "minutes": 2.6810846333333336
+    },
+    {
+      "category": "literature",
+      "route": "nonlinear_integration",
+      "start_utc": "2026-09-27T05:21:43.901444+00:00",
+      "note": "Review primary work on finite-width quenched closure, Gaussian nonlinear integration and low-rank tensor contraction.",
+      "end_utc": "2026-09-27T05:26:25.076735+00:00",
+      "minutes": 4.68625485
+    },
+    {
+      "category": "derivation",
+      "route": "dual_difference_sources",
+      "start_utc": "2026-09-27T05:26:25.076735+00:00",
+      "note": "Derive exact low/high third-source difference and complete shape bill; interpret physical-range capacity.",
+      "end_utc": "2026-09-27T05:32:34.735733+00:00",
+      "minutes": 6.1609833
+    },
+    {
+      "category": "empirical",
+      "route": "persistent_compression_defect",
+      "start_utc": "2026-09-27T05:32:34.735733+00:00",
+      "note": "Build and evaluate one-event future response; preserve fixed input pair and horizons.",
+      "end_utc": "2026-09-27T05:42:03.294763+00:00",
+      "minutes": 9.475983833333334
+    },
+    {
+      "category": "administration",
+      "route": "checkpoint",
+      "start_utc": "2026-09-27T05:42:03.294763+00:00",
+      "note": "Preserve source and evidence before the next coupled experiment.",
+      "end_utc": "2026-09-27T05:43:04.882962+00:00",
+      "minutes": 1.0264699833333333
+    },
+    {
+      "category": "derivation",
+      "route": "stochastic_joint_closure",
+      "start_utc": "2026-09-27T05:43:04.882962+00:00",
+      "note": "Derive coupled sketch bias, noise propagation and useful deterministic controls while fixed-seed probes run.",
+      "end_utc": "2026-09-27T05:46:16.319353+00:00",
+      "minutes": 3.1906065166666666
+    },
+    {
+      "category": "literature",
+      "route": "nonmarkov_closure",
+      "start_utc": "2026-09-27T05:46:16.319353+00:00",
+      "note": "Read primary operator-inference and noise-stability methods for an alternative retained-state route.",
+      "end_utc": "2026-09-27T05:51:54.808428+00:00",
+      "minutes": 5.641484583333334
+    },
+    {
+      "category": "derivation",
+      "route": "grouped_source_sampling",
+      "start_utc": "2026-09-27T05:51:54.808428+00:00",
+      "note": "Derive cancellation-preserving group sampling and a noise diagnostic before any changed trajectory.",
+      "end_utc": "2026-09-27T05:56:16.141232+00:00",
+      "minutes": 4.355546733333333
+    },
+    {
+      "category": "empirical",
+      "route": "first_chaos_observer",
+      "start_utc": "2026-09-27T05:56:16.141232+00:00",
+      "note": "Build fixed coherent-path and path-energy observer test on existing32F cache; no new nonlinear search.",
+      "end_utc": "2026-09-27T05:58:04.844284+00:00",
+      "minutes": 1.8117175333333333
+    },
+    {
+      "category": "derivation",
+      "route": "future_slice_repair",
+      "start_utc": "2026-09-27T05:58:04.844284+00:00",
+      "note": "Derive delayed next-layer repeated-slice repair as a distinct approximation from current-coordinate Tucker completion.",
+      "end_utc": "2026-09-27T06:00:49.016586+00:00",
+      "minutes": 2.7362050333333334
+    },
+    {
+      "category": "administration",
+      "route": "checkpoint",
+      "start_utc": "2026-09-27T06:00:49.016586+00:00",
+      "note": "Save completed stochastic and observer evidence, plus active future-repair probe.",
+      "end_utc": "2026-09-27T06:00:49.155080+00:00",
+      "minutes": 0.0023082333333333334
+    },
+    {
+      "category": "literature",
+      "route": "interpolatory_dynamics",
+      "start_utc": "2026-09-27T06:00:49.155080+00:00",
+      "note": "Read primary sparse-fiber tensor methods for affordable source evaluation.",
+      "end_utc": "2026-09-27T06:03:27.822343+00:00",
+      "minutes": 2.644454383333333
+    },
+    {
+      "category": "derivation",
+      "route": "sparse_source_construction",
+      "start_utc": "2026-09-27T06:03:27.822343+00:00",
+      "note": "Translate interpolatory source evaluation and distinguish prior Nystr\u00f6m failures before proposing a new finite method.",
+      "end_utc": "2026-09-27T06:06:59.036476+00:00",
+      "minutes": 3.52023555
+    },
+    {
+      "category": "derivation",
+      "route": "integrable_surrogate",
+      "start_utc": "2026-09-27T06:06:59.036476+00:00",
+      "note": "Derive an antithetic first-layer plus Gaussian conditional-mean control and its complete sampling break-even condition.",
+      "end_utc": "2026-09-27T06:09:56.519481+00:00",
+      "minutes": 2.958050083333333
+    },
+    {
+      "category": "derivation",
+      "route": "coupled_response_learning",
+      "start_utc": "2026-09-27T06:09:56.519481+00:00",
+      "note": "Derive coupled mean and variance response and identify information absent from frozen mean-only heads.",
+      "end_utc": "2026-09-27T06:13:40.022657+00:00",
+      "minutes": 3.725052933333333
+    },
+    {
+      "category": "derivation",
+      "route": "positive_cone_observables",
+      "start_utc": "2026-09-27T06:13:40.022657+00:00",
+      "note": "Reopen exact mass-weighted angular law with a one-step true-moment capacity test before selecting a finite recurrence.",
+      "end_utc": "2026-09-27T06:22:42.333155+00:00",
+      "minutes": 9.0385083
+    },
+    {
+      "category": "empirical",
+      "route": "angular_scalar_transform",
+      "start_utc": "2026-09-27T06:22:42.333155+00:00",
+      "note": "Implement and test finite joint-cumulant angular observables against exact weighted moments",
+      "end_utc": "2026-09-27T06:24:14.902753+00:00",
+      "minutes": 1.5428266333333334
+    },
+    {
+      "category": "literature",
+      "route": "angular_approximations",
+      "start_utc": "2026-09-27T06:24:14.902753+00:00",
+      "note": "Read related self-normalized/weighted-law asymptotics and practical directional moment methods while P22 runs",
+      "end_utc": "2026-09-27T06:25:36.395092+00:00",
+      "minutes": 1.35820565
+    },
+    {
+      "category": "derivation",
+      "route": "positive_radial_disintegration",
+      "start_utc": "2026-09-27T06:25:36.395092+00:00",
+      "note": "Derive a support-preserving conditional moment alternative after finite denominator series failed",
+      "end_utc": "2026-09-27T06:27:46.662429+00:00",
+      "minutes": 2.1711222833333332
+    },
+    {
+      "category": "administration",
+      "route": "checkpoint",
+      "start_utc": "2026-09-27T06:27:46.662429+00:00",
+      "note": "Save completed P18-P23 research and current continuation state",
+      "end_utc": "2026-09-27T06:28:45.073769+00:00",
+      "minutes": 0.9735223333333334
+    },
+    {
+      "category": "derivation",
+      "route": "angular_width_transfer",
+      "start_utc": "2026-09-27T06:28:45.073769+00:00",
+      "note": "Plan an actual-width angular capacity diagnostic and examine observable state alternatives",
+      "end_utc": "2026-09-27T06:33:37.257815+00:00",
+      "minutes": 4.8697341000000005
+    },
+    {
+      "category": "derivation",
+      "route": "normalized_site_response",
+      "start_utc": "2026-09-27T06:33:37.257815+00:00",
+      "note": "Develop explicit correlated-innovation single-site response and identify double-counting control",
+      "end_utc": "2026-09-27T06:37:11.053789+00:00",
+      "minutes": 3.563266233333333
+    },
+    {
+      "category": "literature",
+      "route": "tensor_source_bypass",
+      "start_utc": "2026-09-27T06:37:11.053789+00:00",
+      "note": "Review tensor contraction and boundary-query alternatives with current cost failures explicit",
+      "end_utc": "2026-09-27T06:41:25.339979+00:00",
+      "minutes": 4.238103166666667
+    },
+    {
+      "category": "derivation",
+      "route": "coordinate_restriction_constructor",
+      "start_utc": "2026-09-27T06:41:25.339979+00:00",
+      "note": "Derive exact selected-coordinate closure restriction and a fourth-birth interpolation capacity test",
+      "end_utc": "2026-09-27T06:50:32.780866+00:00",
+      "minutes": 9.124014783333333
+    },
+    {
+      "category": "administration",
+      "route": "checkpoint",
+      "start_utc": "2026-09-27T06:50:32.780866+00:00",
+      "note": "Preserve angular, single-site, and interpolation outcomes before continuing",
+      "end_utc": "2026-09-27T06:51:33.396197+00:00",
+      "minutes": 1.0102555166666667
+    },
+    {
+      "category": "empirical",
+      "route": "conditional_fourth_state",
+      "start_utc": "2026-09-27T06:51:33.396197+00:00",
+      "note": "Repair the reconstruction metric distinction, preserve failed initial check, and test conditional residual capacity",
+      "end_utc": "2026-09-27T06:58:38.637709+00:00",
+      "minutes": 7.087358533333333
+    },
+    {
+      "category": "literature",
+      "route": "moment_realizability",
+      "start_utc": "2026-09-27T06:58:38.637709+00:00",
+      "note": "Read adjacent realizable closure and polynomial transport work against observed fourth-state failures",
+      "end_utc": "2026-09-27T07:00:30.779884+00:00",
+      "minutes": 1.86903625
+    },
+    {
+      "category": "derivation",
+      "route": "moment_error_attribution",
+      "start_utc": "2026-09-27T07:00:30.779884+00:00",
+      "note": "Derive actual-width paired local mean-error decomposition from saved true moments and incumbent state",
+      "end_utc": "2026-09-27T07:09:33.947811+00:00",
+      "minutes": 9.052798783333333
+    },
+    {
+      "category": "empirical",
+      "route": "intermediate_supervision",
+      "start_utc": "2026-09-27T07:09:33.947811+00:00",
+      "note": "Build fixed local-source supervision from existing32F intermediate labels, with whole-network held folds",
+      "end_utc": "2026-09-27T07:12:20.589781+00:00",
+      "minutes": 2.7773661666666665
+    },
+    {
+      "category": "administration",
+      "route": "checkpoint",
+      "start_utc": "2026-09-27T07:12:20.589781+00:00",
+      "note": "Preserve completed reconstruction audit, true-moment attribution and the new intermediate supervision plan",
+      "end_utc": "2026-09-27T07:13:19.606766+00:00",
+      "minutes": 0.9836164166666667
+    },
+    {
+      "category": "empirical",
+      "route": "intermediate_supervision",
+      "start_utc": "2026-09-27T07:13:19.606766+00:00",
+      "note": "Continue new local-label supervision while wider capacity finishes",
+      "end_utc": "2026-09-27T07:14:06.844004+00:00",
+      "minutes": 0.7872872999999999
+    },
+    {
+      "category": "literature",
+      "route": "supervised_closure",
+      "start_utc": "2026-09-27T07:14:06.844004+00:00",
+      "note": "Read primary comparisons of operator fitting and trajectory fitting to assess the new intermediate supervision route",
+      "end_utc": "2026-09-27T07:15:24.952298+00:00",
+      "minutes": 1.3018049
+    },
+    {
+      "category": "derivation",
+      "route": "supervised_error_transport",
+      "start_utc": "2026-09-27T07:15:24.952298+00:00",
+      "note": "Derive layerwise oracle error transport and targeted closure placement from known training means",
+      "end_utc": "2026-09-27T07:26:18.662137+00:00",
+      "minutes": 10.895163983333333
+    },
+    {
+      "category": "empirical",
+      "route": "neural_source_feedback",
+      "start_utc": "2026-09-27T07:26:18.662137+00:00",
+      "note": "Build and meter the fixed learned-source shadow and online state-feedback probes",
+      "end_utc": "2026-09-27T07:27:14.773669+00:00",
+      "minutes": 0.9351921999999999
+    },
+    {
+      "category": "derivation",
+      "route": "late_dual_state",
+      "start_utc": "2026-09-27T07:27:14.773669+00:00",
+      "note": "Derive late-window proper dual recurrence, high-state initialization and marginal cost break-even",
+      "end_utc": "2026-09-27T07:31:54.751050+00:00",
+      "minutes": 4.666289683333333
+    },
+    {
+      "category": "derivation",
+      "route": "supervised_memory",
+      "start_utc": "2026-09-27T07:31:54.751050+00:00",
+      "note": "Derive causal history observers for intermediate-supervised source identification",
+      "end_utc": "2026-09-27T07:32:53.529234+00:00",
+      "minutes": 0.9796364000000001
+    },
+    {
+      "category": "administration",
+      "route": "checkpoint",
+      "start_utc": "2026-09-27T07:32:53.529234+00:00",
+      "note": "Preserve completed neural/attribution results and live research state",
+      "end_utc": "2026-09-27T07:33:39.514172+00:00",
+      "minutes": 0.7664156333333333
+    },
+    {
+      "category": "literature",
+      "route": "learned_observability",
+      "start_utc": "2026-09-27T07:33:39.514172+00:00",
+      "note": "Read adjacent results on trajectory-informed closure and identifiability",
+      "end_utc": "2026-09-27T07:36:02.849566+00:00",
+      "minutes": 2.3889232333333337
+    },
+    {
+      "category": "empirical",
+      "route": "response_aligned_supervision",
+      "start_utc": "2026-09-27T07:36:02.849566+00:00",
+      "note": "Build one fixed combined local-source and terminal-response training probe",
+      "end_utc": "2026-09-27T07:38:31.189418+00:00",
+      "minutes": 2.472330866666667
+    },
+    {
+      "category": "derivation",
+      "route": "compact_late_state",
+      "start_utc": "2026-09-27T07:38:31.189418+00:00",
+      "note": "Derive exact repeated bypass and combined late-state cost tradeoff",
+      "end_utc": "2026-09-27T07:41:54.254445+00:00",
+      "minutes": 3.3844171166666666
+    },
+    {
+      "category": "empirical",
+      "route": "frozen_neural_prototype",
+      "start_utc": "2026-09-27T07:41:54.254445+00:00",
+      "note": "Freeze full32 trained research asset and prepare one implementation/cost comparison",
+      "end_utc": "2026-09-27T07:48:56.105069+00:00",
+      "minutes": 7.030843733333333
+    },
+    {
+      "category": "selection",
+      "route": "evidence_calibration",
+      "start_utc": "2026-09-27T07:48:56.105069+00:00",
+      "note": "Assess paired uncertainty, full-fit behavior, source identifiability and remaining implementation risks",
+      "end_utc": "2026-09-27T07:52:58.228395+00:00",
+      "minutes": 4.035388766666666
+    },
+    {
+      "category": "derivation",
+      "route": "label_noise_identifiability",
+      "start_utc": "2026-09-27T07:52:58.228395+00:00",
+      "note": "Analyze correlated intermediate-label noise and its implications for supervised source selection",
+      "end_utc": "2026-09-27T07:56:31.009867+00:00",
+      "minutes": 3.546357866666667
+    },
+    {
+      "category": "derivation",
+      "route": "sparse_upper_births",
+      "start_utc": "2026-09-27T07:56:31.009867+00:00",
+      "note": "Derive a fixed sparse late birth schedule and distinguish its actual savings from omitted repair costs",
+      "end_utc": "2026-09-27T07:58:50.532071+00:00",
+      "minutes": 2.3253700666666663
+    },
+    {
+      "category": "selection",
+      "route": "final_route_selection",
+      "start_utc": "2026-09-27T07:58:50.532071+00:00",
+      "note": "Choose nominees and future route priorities from capacity, native cost, uncertainty, and diminishing returns",
+      "end_utc": "2026-09-27T08:06:12.011320+00:00",
+      "minutes": 7.357987483333333
+    },
+    {
+      "category": "derivation",
+      "route": "final_cost_frontier",
+      "start_utc": "2026-09-27T08:06:12.011320+00:00",
+      "note": "Derive complete-cost break-even for full versus sparse late fourth-state updates, using both generated widths and explicit transfer assumptions",
+      "end_utc": "2026-09-27T08:10:03.049108+00:00",
+      "minutes": 3.8506298
+    },
+    {
+      "category": "selection",
+      "route": "research_synthesis",
+      "start_utc": "2026-09-27T08:10:03.049108+00:00",
+      "note": "Synthesize the failure mechanisms, larger-route construction priorities and calibrated nominee recommendation",
+      "end_utc": "2026-09-27T08:12:04.910153+00:00",
+      "minutes": 2.031017416666667
+    },
+    {
+      "category": "derivation",
+      "route": "native_history_query",
+      "start_utc": "2026-09-27T08:12:04.910153+00:00",
+      "note": "Specify a factorized mixed third-moment query for the real native history, including thin feedback and harmonic trace, with small dense identity checks",
+      "end_utc": "2026-09-27T08:17:37.505520+00:00",
+      "minutes": 5.543256116666667
+    },
+    {
+      "category": "selection",
+      "route": "updated_route_forecast",
+      "start_utc": "2026-09-27T08:17:37.505520+00:00",
+      "note": "Reassess larger-route gain forecast after source-only capacity and complete adjusted-cost break-even calculations",
+      "end_utc": "2026-09-27T08:18:57.088479+00:00",
+      "minutes": 1.32638265
+    },
+    {
+      "category": "administration",
+      "route": "evidence_inventory",
+      "start_utc": "2026-09-27T08:18:57.088479+00:00",
+      "note": "Assemble routine evidence records while the final wider probe completes; this interval is excluded from research",
+      "end_utc": "2026-09-27T08:20:56.156541+00:00",
+      "minutes": 1.9844677
+    },
+    {
+      "category": "selection",
+      "route": "final_wider_interpretation",
+      "start_utc": "2026-09-27T08:20:56.156541+00:00",
+      "note": "Interpret the final query-only compression transfer, revise larger-route forecast, and close the research selection",
+      "end_utc": "2026-09-27T08:21:55.667784+00:00",
+      "minutes": 0.99185405
+    },
+    {
+      "category": "administration",
+      "route": "final_records",
+      "start_utc": "2026-09-27T08:21:55.667784+00:00",
+      "note": "Research floor met; close evidence, status, privacy checks and scoped commit",
+      "end_utc": "2026-09-27T08:24:03.456041+00:00",
+      "minutes": 2.1298042833333333
+    }
+  ],
+  "active": null,
+  "conservative_excluded_minutes": 7.0,
+  "exclusion_note": "Conservative total allowance of7minutes for context compaction/recovery across the recurrence; excluded from active derivation totals, charged against supervised_error_transport only for category bookkeeping."
+}

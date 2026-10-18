@@ -1,0 +1,12 @@
+{
+  "state_consistent": true,
+  "incumbent_unchanged": true,
+  "source_identity": true,
+  "prediction_seal": true,
+  "current_source_resources_pass": true,
+  "earlier_failures_retained": true,
+  "generated_checks_pass": true,
+  "csv_record": true,
+  "no_upload_or_archive": true,
+  "pass": true
+}

@@ -1,0 +1,19 @@
+{
+  "task_id": "T124",
+  "algorithm_id": "ALG029-V000",
+  "archive": "experiments/submission_policy/t124/packages/ALG029-V000.tar.gz",
+  "archive_sha256": "c8e6e9286bc5c6e9ad5be8c5bb693e810162e7775bd0e0b69668038afef295cb",
+  "size_bytes": 28713,
+  "checks": {
+    "archive_manifest": true,
+    "allowed_imports": true,
+    "resource_and_numerical_checks": true,
+    "original_production_determinism": true,
+    "deterministic_current_source_identity": true,
+    "exact_integrated_cost": true
+  },
+  "pass": true,
+  "raw_import_findings": [],
+  "package_replay": "attempts/package-002/RESULT.json",
+  "targets_accessed": false
+}

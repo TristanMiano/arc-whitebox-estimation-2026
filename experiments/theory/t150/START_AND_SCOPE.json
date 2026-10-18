@@ -1,0 +1,23 @@
+{
+  "task_id": "T150",
+  "status": "active",
+  "request_start_utc": "2026-09-11T06:54:13+00:00",
+  "registration_utc": "2026-09-11T06:59:04.344938+00:00",
+  "estimated_elapsed_minutes": 90,
+  "minimum_active_written_theory_minutes": 60,
+  "objective": "Develop a higher-upside algorithm for the current incumbent; preserve T149 as not tested and deferred. End with an inventory of untested algorithms, subjective success probabilities and conditional/expected retained adjusted-score reductions.",
+  "authority": "Owner explicitly requested another theory recurrence after identifying drift toward high-probability small gains.",
+  "scope": [
+    "Written derivations and small generated mathematical checks",
+    "Targeted literature if useful",
+    "Explicit finite approximate candidate specifications and inventory"
+  ],
+  "excluded": [
+    "Candidate execution on challenge inputs",
+    "Challenge targets or fitting",
+    "Packaging or submission",
+    "Subagents"
+  ],
+  "git_head_at_start": "626768785c492273a7fb4927da0c64287e1c42aa",
+  "timing": "Actual exclusive UTC categories; intake, recovery and records excluded from written-theory floor."
+}

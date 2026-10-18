@@ -1,0 +1,54 @@
+{
+  "task_id": "T163",
+  "start_utc": "2026-09-23T02:45:29+00:00",
+  "research_end_utc": "2026-09-23T06:52:33.210776+00:00",
+  "end_utc": "2026-09-23T07:05:16.319344+00:00",
+  "end_scope": "Through final records/verification before scoped commit; commit and final response are not research time.",
+  "minimum_active_research_minutes": 240,
+  "minimum_written_derivation_minutes": 60,
+  "active_research_minutes": 240.18078836666666,
+  "category_minutes": {
+    "administration": 19.60745035,
+    "derivation": 119.70514948333336,
+    "empirical": 83.64459941666664,
+    "literature": 23.217857483333333,
+    "selection": 13.613181983333334
+  },
+  "elapsed_minutes_through_research": 247.0701796,
+  "elapsed_minutes": 259.7886557333333,
+  "administration_after_research_minutes": 12.718476133333333,
+  "excluded_interruption_minutes": 0,
+  "passive_wait_minutes": 0,
+  "unclassified_clock_transition_seconds": 0.025021,
+  "clock_transitions": [
+    {
+      "start_utc": "2026-09-23T02:50:26.242708+00:00",
+      "end_utc": "2026-09-23T02:50:26.267729+00:00",
+      "seconds": 0.025021,
+      "role": "Initial clock registration transition; not counted as research."
+    }
+  ],
+  "estimated_elapsed_minutes": [
+    255,
+    315
+  ],
+  "actual_minus_estimated_lower_minutes": 4.788655733333314,
+  "actual_minus_estimated_upper_minutes": -55.211344266666686,
+  "actual_minus_estimated_midpoint_minutes": -25.211344266666686,
+  "inside_estimated_range": true,
+  "overlap_counted_once": true,
+  "per_route_clock_available": false,
+  "machine_subtotals_overlap_research": {
+    "full_shape_prediction_minutes": 102.95963699588333,
+    "generated_recurrence_minutes": 134.98408476204997,
+    "new_reference_minutes": 10.774712036566674,
+    "metered_full_shape_flops": 68820389273942
+  },
+  "notes": [
+    "No interruption gap or passive wait in T163.",
+    "All prediction/reference jobs finished before research end.",
+    "Machine subtotals overlap active research and may overlap one another; do not add to elapsed or category time.",
+    "Failed partial work and untimed analysis are not fully included in machine subtotals.",
+    "Exact per-route hours were not separately clocked."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "task_id": "T154",
+  "start_utc": "2026-09-11T17:33:45+00:00",
+  "end_utc": "2026-09-11T17:45:33.346264+00:00",
+  "elapsed_minutes": 11.805771066666667,
+  "exclusive_minutes": {
+    "engineering": 8.743227533333334,
+    "unattended_compute": 3.0625435333333333
+  },
+  "estimated_elapsed_range_minutes": [
+    25,
+    90
+  ],
+  "estimate_error_minutes": [
+    -13.194228933333333,
+    -78.19422893333333
+  ],
+  "estimate_is_minimum": false,
+  "engineering_extension_used": false,
+  "method": "Observed exclusive UTC blocks; useful record work overlapping compute counts as engineering. No agents.",
+  "explanation": "The fixed delta reused the established harness. A clear local loss removed qualification and grading time.",
+  "timing_note": "During T155 records, the start of overlapping engineering was corrected from the later classification tool timestamp to the observed17:42:19 protocol/read time."
+}

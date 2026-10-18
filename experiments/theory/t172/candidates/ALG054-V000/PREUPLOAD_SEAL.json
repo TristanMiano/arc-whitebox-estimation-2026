@@ -1,0 +1,10 @@
+{
+  "algorithm_id": "ALG054-V000",
+  "archive_path": "experiments/theory/t172/candidates/ALG054-V000/ALG054-V000.tar.gz",
+  "archive_sha256": "603e16a2c1d675f4ce0f353990aa59491771b8f712fc287f2020768e93c30d5e",
+  "qualification_pass": true,
+  "owner_authorized_upload": true,
+  "decision": "SUPPORTED_SUBMISSION",
+  "scored_utc": "2026-10-17T18:50:56.793730+00:00",
+  "score_path": "experiments/theory/t172/candidates/ALG054-V000/SCORE.json"
+}

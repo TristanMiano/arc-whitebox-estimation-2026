@@ -1,0 +1,71 @@
+{
+  "task_id": "T144",
+  "experiment_id": "E139",
+  "algorithm_id": "ALG041-V000",
+  "name": "JSP joint-source paired response",
+  "status": "OFFICIAL_PROJECT_BEST",
+  "start_utc": "2026-09-09T00:48:16Z",
+  "registered_utc": "2026-09-09T00:51:55.565226+00:00",
+  "estimate_total_range_minutes": [
+    35,
+    75
+  ],
+  "initial_active_engineering_budget_minutes": 60,
+  "reassess_at_minutes": 30,
+  "owner_authorized_upload": true,
+  "grade_wait_minutes": 30,
+  "unchanged_generic_error_retry_limit": 1,
+  "fit_calls": 0,
+  "subagents": 0,
+  "mathematical_handoff": "experiments/theory/t143/JSP_MATHEMATICAL_HANDOFF.md",
+  "mathematical_parent": "ALG038-V001",
+  "implementation_parent": "ALG038-V001",
+  "variant_change": "H143-JSP: replace off-diagonal fresh B source by F+HG+HS+HAD, using pre-activation mup,Cp,ap,Dp,Sp and returned Gaussian d,e. Recompute repeated-index completion against changed B. Preserve all old third history, ephemeral E, radial fourth h, diagonal convention and scaling. No E1 or added fourth path.",
+  "coefficients": "Exactly fixed equations in mathematical handoff; no clipping, damping, fitting, random probes or parameter sweep.",
+  "small_shape_rule": "Inherited counted direct products for ineligible shapes. Repeated-index repair exhausts the third tensor at widths1/2; first two output activation rows are mathematically unchanged.",
+  "numerical_contract": "Source response float64 before inherited factor storage cast. Compute r=-m/v and theta=r*ap+0.5*(m*m/v-1)/v*diag(Dp), v=max(diag(Cp),1e-30); avoid derivative ratios. Build F*(1+theta/2) before adding HG,HS,delta_d*Cp,d*Dp. Skip correction at centered Gaussian layer0. Preserve incumbent tiny-tail q convention. Ordinary associative roundoff allowed for formula translation; deterministic current-source replay required.",
+  "comparison": {
+    "initial_rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "data_role": "same reused development networks; seal predictions before targets; saved ALG038-V001 comparator",
+    "bootstrap_seed": 144001,
+    "decision": "lower actual adjusted arithmetic mean with approximately.90 whole-network bootstrap support; clear loss stops; optional one decision-relevant extension to24 under protocol"
+  },
+  "incumbent": {
+    "algorithm_id": "ALG038-V001",
+    "submission_id": 330153,
+    "official_adjusted_score": 1.4667675875416682e-08,
+    "flops": 756892228334,
+    "multiplier": 0.3441947357414392
+  },
+  "runtime": "tmp/t128-runtime312/bin/python",
+  "final_blind_block": "untouched",
+  "no_automatic_second_candidate": true,
+  "parent_source_hashes": {
+    "README.md": "1673744c82e41b141d2bf6d8ece3ec9e6063939f6ee55c22f4b2ae9d0f97987b",
+    "LICENSE": "e3e4daa4b31b6f2b409ecab8610b223bc5ce5c917f0a633fd9f66dbf9e7f6c5f",
+    "fast_kernel.py": "76cf01635b68cee1d0bee51228e64bff49ccfe81b91154a2ca3d991487d46c6c",
+    "moments.py": "1023af54259c5d743c40455384e809435d36d9be2b70d5cff0bb58cc93fabe8a",
+    "PUBLIC_FAST_LICENSE": "8951bf59cbe4e79527fecd49bc816f4d13f40c7631a3cbd37d2bd930e40b4616",
+    "estimator.py": "17134d55511c3b4cb62eb0748cab5d864bfa9451755fc6bd90d5825ca087bff2",
+    "public_release/public_fast_reference.py": "b5418459c4c0cce62129027affb15170cc5aca477ff0af6c5590d718bc9947ed"
+  },
+  "mathematical_handoff_sha256": "2a47d7f5f212086ba8c7ecf22efc60f8691a17138d2395f3941131a5d2114864",
+  "local_decision": "experiments/submission_policy/t144/LOCAL_DECISION.json",
+  "qualification_record": "experiments/submission_policy/t144/PREUPLOAD_SEAL.json",
+  "result_record": "experiments/submission_policy/t144/RESULT.json",
+  "official_submission_id": 330392,
+  "official_adjusted_score": 1.1833081571784114e-08
+}

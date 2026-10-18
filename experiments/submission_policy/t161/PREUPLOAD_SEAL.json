@@ -1,0 +1,174 @@
+{
+  "task_id": "T161",
+  "algorithm_id": "ALG050-V000",
+  "sealed_utc": "2026-09-20T02:38:42.675958+00:00",
+  "owner_authorized_upload": true,
+  "qualification_pass": true,
+  "archive_path": "experiments/submission_policy/t161/packages/ALG050-V000.tar.gz",
+  "archive_sha256": "f3e186139f65d0407539bf8518de43a7e4522f5f9e4ac1e46e73212f594ab1bc",
+  "source_hashes": {
+    "README.md": "bb49ed4b151b25c0ed35bc2c55c3438b964c1dfc8c92cb873b906068116cabab",
+    "LICENSE": "d2c9a83a86ed95c8d279219cd36d5a025c0372dee57d072fe4718850e226e740",
+    "estimator.py": "40012a17eb43d004ff9f0c49f34c0ee6f15e9330603554fd6c7bdad628ec63fe"
+  },
+  "research_source_byte_identical": true,
+  "production_score": {
+    "candidate": "H160-INTERFACE-GATE",
+    "source": "experiments/theory/t160/sources/P25a_interface_gate03/estimator.py",
+    "source_sha256": "40012a17eb43d004ff9f0c49f34c0ee6f15e9330603554fd6c7bdad628ec63fe",
+    "environment": {},
+    "n": 8,
+    "adjusted_wins": 8,
+    "mean_adjusted_ratio": 0.9130586811085495,
+    "mean_raw_ratio": 0.9967403854061118,
+    "descriptive_bootstrap_support": 1.0,
+    "descriptive_bootstrap_ratio_90pct": [
+      0.9035105128408842,
+      0.9226766836954226
+    ],
+    "bootstrap_is_not_private_suite_probability": true,
+    "records": [
+      {
+        "row": 750,
+        "run": "P25a_interface_gate03",
+        "call": 0,
+        "raw": 2.2797388381185337e-08,
+        "parent_raw": 2.357374672941953e-08,
+        "adjusted": 5.097378198452949e-09,
+        "parent_adjusted": 5.770004547289061e-09,
+        "flops": 491690232816,
+        "parent_flops": 538241728384,
+        "residual": 0.2855628689276273,
+        "parent_cost_role": "Corresponding natural call-position cost from ALG049 equivalent source; saved parent prediction uses its original call position, so floating point path is not necessarily identical"
+      },
+      {
+        "row": 772,
+        "run": "P29a_combined_pilot",
+        "call": 0,
+        "raw": 2.2504752002196968e-08,
+        "parent_raw": 2.2231556183441152e-08,
+        "adjusted": 4.967872054046529e-09,
+        "parent_adjusted": 5.441484620333253e-09,
+        "flops": 485429307392,
+        "parent_flops": 538241728384,
+        "residual": 0.2786075889107451,
+        "parent_cost_role": "Corresponding natural call-position cost from ALG049 equivalent source; saved parent prediction uses its original call position, so floating point path is not necessarily identical"
+      },
+      {
+        "row": 817,
+        "run": "P29a_combined_pilot",
+        "call": 1,
+        "raw": 1.9280356633190036e-08,
+        "parent_raw": 1.9282489355414152e-08,
+        "adjusted": 3.984138759182406e-09,
+        "parent_adjusted": 4.318338620576374e-09,
+        "flops": 454411396608,
+        "parent_flops": 492474123904,
+        "residual": 0.2997882790896256,
+        "parent_cost_role": "Corresponding natural call-position cost from ALG049 equivalent source; saved parent prediction uses its original call position, so floating point path is not necessarily identical"
+      },
+      {
+        "row": 885,
+        "run": "P29b_combined_pilot",
+        "call": 0,
+        "raw": 1.9315812434742104e-08,
+        "parent_raw": 1.9392911516016616e-08,
+        "adjusted": 4.296554200839163e-09,
+        "parent_adjusted": 4.746686596617456e-09,
+        "flops": 489144458112,
+        "parent_flops": 538241728384,
+        "residual": 0.27571774102671043,
+        "parent_cost_role": "Corresponding natural call-position cost from ALG049 equivalent source; saved parent prediction uses its original call position, so floating point path is not necessarily identical"
+      },
+      {
+        "row": 930,
+        "run": "P29b_combined_pilot",
+        "call": 1,
+        "raw": 2.320581264686872e-08,
+        "parent_raw": 2.3393720923691395e-08,
+        "adjusted": 4.89510009700844e-09,
+        "parent_adjusted": 5.239054288153781e-09,
+        "flops": 463868217648,
+        "parent_flops": 492474123904,
+        "residual": 0.30815107796115626,
+        "parent_cost_role": "Corresponding natural call-position cost from ALG049 equivalent source; saved parent prediction uses its original call position, so floating point path is not necessarily identical"
+      },
+      {
+        "row": 976,
+        "run": "P25a_interface_gate03",
+        "call": 1,
+        "raw": 2.1995175612028975e-08,
+        "parent_raw": 2.1786552886417195e-08,
+        "adjusted": 4.543861086412009e-09,
+        "parent_adjusted": 4.879126911703893e-09,
+        "flops": 454283992784,
+        "parent_flops": 492474123904,
+        "residual": 0.31241583396877104,
+        "parent_cost_role": "Corresponding natural call-position cost from ALG049 equivalent source; saved parent prediction uses its original call position, so floating point path is not necessarily identical"
+      },
+      {
+        "row": 795,
+        "run": "P43_combined_additional",
+        "call": 0,
+        "raw": 2.4755537726647875e-08,
+        "parent_raw": 2.4517569064777298e-08,
+        "adjusted": 5.41328969417903e-09,
+        "parent_adjusted": 6.00101827749305e-09,
+        "flops": 480860083024,
+        "parent_flops": 538241728384,
+        "residual": 0.2797387179653015,
+        "parent_cost_role": "Retained parent exact same natural call position; historical exposure declared"
+      },
+      {
+        "row": 999,
+        "run": "P43_combined_additional",
+        "call": 1,
+        "raw": 2.0024547754417657e-08,
+        "parent_raw": 2.0269469832531566e-08,
+        "adjusted": 4.177943413000314e-09,
+        "parent_adjusted": 4.539374184684921e-09,
+        "flops": 458806602688,
+        "parent_flops": 492474123904,
+        "residual": 0.315979326969682,
+        "parent_cost_role": "Retained parent exact same natural call position; historical exposure declared"
+      }
+    ],
+    "maximum_residual_s": 0.315979326969682,
+    "maximum_peak_rss_bytes": 6746300416,
+    "cold_flops_range": [
+      480860083024,
+      491690232816
+    ],
+    "warm_flops_range": [
+      454283992784,
+      463868217648
+    ],
+    "final_source_frozen_for_research_selection": true,
+    "submission_variant_registered": false,
+    "archive_qualified": false,
+    "shipping_defaults_already_match_research": true,
+    "new_target_coefficient_fits": 0,
+    "adaptive_parameter_selection": true,
+    "comparator_caveat": "First six parent outputs retain their original call-specific floating-point path despite cost matching; additional two have exact matching positions."
+  },
+  "production_score_reused": true,
+  "qualification_full_size_calls": 5,
+  "settled_replay": true,
+  "resources": {
+    "maximum_residual_s": 0.3063286530505138,
+    "maximum_rss_bytes": 6600003584,
+    "maximum_outer_wall_s": 39.48592995800027,
+    "setup_s": 0.02248648600107117,
+    "flops": [
+      491690232816,
+      454283992784,
+      452485716912,
+      450406000448,
+      450406000448
+    ]
+  },
+  "grade_wait_minutes": 30,
+  "unchanged_generic_error_retry_limit": 1,
+  "new_target_fits": 0,
+  "final_blind_accessed": false
+}

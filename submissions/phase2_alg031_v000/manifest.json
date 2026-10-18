@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "api_version": "2.0",
+  "entrypoint": {
+    "module": "estimator",
+    "class": "Estimator"
+  },
+  "python": {
+    "min_version": "3.10"
+  },
+  "files": [
+    {
+      "name": "LICENSE",
+      "sha256": "e3e4daa4b31b6f2b409ecab8610b223bc5ce5c917f0a633fd9f66dbf9e7f6c5f"
+    },
+    {
+      "name": "PUBLIC_FAST_LICENSE",
+      "sha256": "8951bf59cbe4e79527fecd49bc816f4d13f40c7631a3cbd37d2bd930e40b4616"
+    },
+    {
+      "name": "README.md",
+      "sha256": "68b21b49237753d5e0f92a35f5f357548f3ea78028a1f2b1edd0309efb28be54"
+    },
+    {
+      "name": "base_family.py",
+      "sha256": "74879a41f02313096a02b58684f9fa795af94b0827763aad045b4225606efec6"
+    },
+    {
+      "name": "candidate_family.py",
+      "sha256": "6729615c3d7d92b5e14a600411cb9f8e339b75fbcaaa337654f7fd363636cfe0"
+    },
+    {
+      "name": "coefficients.py",
+      "sha256": "8c8cdc6463f86c5d61fac998d0ce17a39bd033e2bac5c5e3f6182b4bb11311cd"
+    },
+    {
+      "name": "estimator.py",
+      "sha256": "665fcb0b4614e4cbd8ccea22dde2e8c50886e4ea1019abf1ca8360be2c7a99b2"
+    },
+    {
+      "name": "fast_kernel.py",
+      "sha256": "5094519f9f91f2343a60d0ace19c51d7c4572659a1ff9ac103a59b5adcdd9d33"
+    },
+    {
+      "name": "parity_coefficients.py",
+      "sha256": "1ab6ab86aba80ccb181b4693d258c7b25a03235de673f018d1cff04eafb3e7e6"
+    },
+    {
+      "name": "public_release/public_fast_reference.py",
+      "sha256": "b5418459c4c0cce62129027affb15170cc5aca477ff0af6c5590d718bc9947ed"
+    },
+    {
+      "name": "r1p_family.py",
+      "sha256": "ec45f05b9830e17cff59169ad2916462ec5310475070b6fe54da32b7f11fb3a2"
+    },
+    {
+      "name": "response_family.py",
+      "sha256": "3e2c4fdfb377d1670653864187177b73622aa3b581505e53a7567e737bafb32e"
+    }
+  ],
+  "created_at_utc": "2026-09-06T00:55:09.439654+00:00",
+  "packager_version": "0.1.0",
+  "whestbench_version": "0.16.0",
+  "flopscope_version": "0.12.0",
+  "python_version": "3.10.20",
+  "numpy_version": "2.2.6"
+}

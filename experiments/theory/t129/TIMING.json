@@ -1,0 +1,45 @@
+{
+  "task_start_utc": "2026-09-06T03:46:58+00:00",
+  "root_theory_intervals": [
+    {
+      "start_utc": "2026-09-06T03:49:53.081258+00:00",
+      "end_utc": "2026-09-06T07:11:02.190973+00:00",
+      "activity": "Current-source derivation, observer transport/feature redundancy analysis, synthetic mathematical checks, literature and agent synthesis",
+      "overhead_deduction_minutes": 20.0
+    }
+  ],
+  "minimum_root_active_minutes": 180,
+  "hard_deadline_utc": "2026-09-06T07:46:58+00:00",
+  "no_idle_wait_counted": true,
+  "status": "COMPLETED_THEORY",
+  "root_theory_elapsed_minutes": 201.15182858333336,
+  "root_active_theory_minutes": 181.15182858333336,
+  "overhead_basis": "Conservative20-minute allowance for orientation, coordination, record handling and tool overhead within the theory interval; final state/verification/commit closeout excluded entirely.",
+  "agent_theory_records": {
+    "rcerc": {
+      "active_theory_minutes": 86.1426656,
+      "scope": "Exact controls, full-head influence, QR theorem, fitting-noise and grammar reviews",
+      "last_end_utc": "2026-09-06T06:43:19.416115+00:00"
+    },
+    "uniform": {
+      "active_theory_minutes": 86.74212736666667,
+      "scope": "Uniform/compression, partial controls, exact propagation/covariance cost",
+      "last_end_utc": "2026-09-06T06:25:52.481241+00:00",
+      "note": "Final under2-minute wording correction excluded from theory credit."
+    },
+    "current_shape": {
+      "active_theory_minutes": 112.02633595,
+      "scope": "Conditional shape, full cumulants, H3 product and late cost re-ranking",
+      "last_end_utc": "2026-09-06T06:50:08.398843+00:00"
+    }
+  },
+  "aggregate_agent_theory_person_minutes": 284.91112891666666,
+  "maximum_simultaneous_subagents": 3,
+  "agent_time_note": "Approximate active mathematical/source-analysis categories only; record/tool overhead and gaps between assignments excluded. These overlap root and each other, and do not multiply elapsed theory credit.",
+  "aggregate_root_and_agent_theory_person_minutes": 466.06295750000004,
+  "task_end_checkoff_utc": "2026-09-06T07:16:16.988348+00:00",
+  "estimated_total_minutes": 225,
+  "elapsed_minutes_to_checkoff": 209.31647246666668,
+  "estimate_error_minutes_to_checkoff": -15.683527533333319,
+  "end_definition": "Theory and record checkoff; final integrity verification, scoped commit and chat delivery follow, separately timestamped in VERIFICATION.json."
+}

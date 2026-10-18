@@ -1,0 +1,70 @@
+{
+  "task_id": "T171",
+  "experiment_id": "E167",
+  "algorithm_id": "ALG053-V000",
+  "hypothesis_id": "H170-QUADRATIC-COVARIANCE",
+  "status": "COMPLETED_OFFICIAL_IMPROVEMENT",
+  "submission_id": 335391,
+  "submission_ids": [
+    335391
+  ],
+  "submission_attempts": 1,
+  "official_adjusted_score": 4.1556172645504615e-09,
+  "official_raw_mse": 2.0127173101514018e-08,
+  "official_predecessor_adjusted_score": 4.285182274373245e-09,
+  "official_ratio": 0.9697644110502315,
+  "official_improvement_percent": 3.023558894976852,
+  "official_best_changed": true,
+  "retained_official_algorithm": "ALG053-V000",
+  "source_hashes": {
+    "README.md": "dd9808eb0dd8300cf607f204312c3a35b6608d58c960d999d816f7e29f287aa0",
+    "LICENSE": "d2c9a83a86ed95c8d279219cd36d5a025c0372dee57d072fe4718850e226e740",
+    "nn_asset.json": "3bb8b66e7d1988ba9984ccf1dae366ba5127449bd0465c6dcd75416c03bb4dce",
+    "estimator.py": "f31d8c70733464b0ad1d60ba240442299165b8658df9d9aa95538139d32d0e50"
+  },
+  "archive_path": "experiments/submission_policy/t171/packages/ALG053-V000.tar.gz",
+  "archive_sha256": "13f9dd52e24fde2987d16b004cd66d6049b31a3b2cb630a53c9652826c2ccc4e",
+  "local_mean_adjusted_ratio": 0.9715328959918481,
+  "local_mean_raw_ratio": 0.9638326274261578,
+  "local_adjusted_wins": 11,
+  "local_networks": 12,
+  "bootstrap_support": 1.0,
+  "new_comparison_calls": 12,
+  "reused_incumbent_comparison_calls": 12,
+  "additional_replay_calls": 1,
+  "new_full_shape_calls": 13,
+  "new_fits": 0,
+  "estimator_source_and_asset_byte_identical_to_T170": true,
+  "novelty": "Our analytic defect dictionary, response fit and native covariance feedback added to public504aldoV29 and ALG052. Standard cumulant/Edgeworth/Hermite methods; learned adaptation, no academic priority claim.",
+  "resource_summary": {
+    "new_candidate_calls": 13,
+    "reused_incumbent_calls": 12,
+    "maximum_residual_s": 0.3959515529713826,
+    "maximum_wall_s": 42.79037073000018,
+    "maximum_rss_bytes": 6779273216,
+    "setup_s": 0.02152105900040624,
+    "minimum_flops": 446164603697,
+    "maximum_flops": 495554312161,
+    "settled_replay_pass": true
+  },
+  "archive_qualified": true,
+  "current_package_replay_tested": true,
+  "final_blind_accessed": false,
+  "subagents": 0,
+  "algorithm_repairs": 0,
+  "packaging_repairs": 1,
+  "next_task": "T172",
+  "next_task_started": false,
+  "report": "experiments/submission_policy/t171/REPORT.md",
+  "timing_file": "experiments/submission_policy/t171/TIMING.json",
+  "official_states": [
+    {
+      "id": 335391,
+      "grading_status_cd": "graded",
+      "grading_message": "<p>Graded successfully</p>\n",
+      "score": 4.1556172645504615e-09,
+      "score_secondary": 2.0127173101514018e-08,
+      "created_at": "2026-10-11T16:37:03.880Z"
+    }
+  ]
+}

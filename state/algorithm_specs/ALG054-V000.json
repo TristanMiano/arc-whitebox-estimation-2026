@@ -1,0 +1,60 @@
+{
+  "task_id": "T172",
+  "algorithm_id": "ALG054-V000",
+  "probe": "P09_fused_cov",
+  "created_utc": "2026-10-17T18:35:05.264814+00:00",
+  "source_directory": "submissions/phase2_alg054_v000",
+  "source_hashes": {
+    "README.md": "9be8ecfaacc841ee47adc74db5c9826f32216d991fc41eea3acd06a0bffd5866",
+    "LICENSE": "17cf7ad008400756c32ef01c6e20d3c33b38e6e51bc16cf0cea664358a3492ec",
+    "ALG053_LICENSE": "d2c9a83a86ed95c8d279219cd36d5a025c0372dee57d072fe4718850e226e740",
+    "estimator.py": "5cde18d5403afe67acd69003b273c92ee44e03900ba28fb354383ace43f095bd"
+  },
+  "research_config": {
+    "probe": "P09_fused_cov",
+    "question": "Regroup frozen covariance fields into low-rank kernel products to reduce residual overhead; compare numerical predictions with P04_e30_cov",
+    "source_sha256": "5cde18d5403afe67acd69003b273c92ee44e03900ba28fb354383ace43f095bd",
+    "origin": "P04_e30_cov",
+    "created_utc": "2026-10-17T18:21:59.884465+00:00",
+    "rows": [
+      750,
+      976,
+      772,
+      795
+    ],
+    "data_role": "adaptive public development; algebra check and native score/resource test"
+  },
+  "comparison_rows": [
+    750,
+    976,
+    772,
+    795,
+    817,
+    840,
+    863,
+    885,
+    908,
+    930,
+    953,
+    999
+  ],
+  "archive_new_rows": [
+    817,
+    840,
+    863,
+    885,
+    908,
+    930,
+    953,
+    999,
+    999
+  ],
+  "data_role": "Previously exposed adaptive public development. First4matchedcurrent-runtime calls may be reused by exact source identity. Additional8andbyte replay fromcleanarchive. Historicalincumbentcomparison explicitly runtime-mismatched; official feedback is authoritative.",
+  "owner_authorized_upload": true,
+  "owner_authority": "Final unrestricted recurrence to achieve best adjusted score while followingARC rules.",
+  "grade_wait_minutes": 60,
+  "status": "OFFICIAL_IMPROVEMENT",
+  "official_submission_id": 336778,
+  "official_adjusted_score": 3.0332910471237746e-09,
+  "result_path": "experiments/theory/t172/candidates/ALG054-V000/OFFICIAL_RESULT.json"
+}

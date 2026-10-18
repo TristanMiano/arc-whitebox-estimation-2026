@@ -1,0 +1,51 @@
+{
+  "schema_version": "algorithm-spec-v1",
+  "algorithm_id": "ALG019-V000",
+  "identity_status": "complete",
+  "source": "OURS",
+  "academic_novelty": "N1-NOVEL-COMBINATION",
+  "novelty_dimension": 3,
+  "research_tier": "M1-mechanism-signal-current-shape",
+  "role": "current_local_and_official_best_Phase2_submission_candidate",
+  "candidate_task_id": "T108",
+  "parent_hypothesis_id": "H107-O",
+  "mechanism_family": "harmonic_shrunk_terminal_skew_Edgeworth_plus_alpha_stratified_fusion_and_nested_partial_extension",
+  "semantic_fingerprint_sha256": "9846c3d34c85c6c91772a2b2236dc337ff05caba387cab3d450fddc7b17a4d4f",
+  "implementation": {
+    "source_path": "submissions/phase2_alg019_v000/estimator.py",
+    "estimator_class": "EstimatorV000",
+    "source_sha256": "74879a41f02313096a02b58684f9fa795af94b0827763aad045b4225606efec6",
+    "contract_validator": "pass",
+    "package_validator": "pass",
+    "official_upload_performed": true,
+    "official_submission_id": 328762,
+    "official_grading_status": "graded",
+    "official_adjusted_score": 2.3995983178792816e-7,
+    "official_final_layer_mse": 2.399598317879281e-6,
+    "official_vs_sampling_approx": 5.000836977834426,
+    "official_evidence": "experiments/submission_policy/t108a/REPORT.md"
+  },
+  "compute": {"measured_flops": 219788985209, "score_multiplier": 0.1, "score_floor_headroom_flops": 113340346.2000122},
+  "current_shape_disposition": {
+    "adjusted_score": 2.4508671800218226e-7,
+    "candidate_to_ALG018_V000_ratio": 0.8792987145844114,
+    "wins": 12,
+    "maximum_paired_ratio": 0.9592253681631024,
+    "bootstrap_upper95": 0.9005731151658819,
+    "harmonic_shrink_to_ALG019_V002_ratio": 0.9835378238188348,
+    "current_shape_M1": "AWARDED",
+    "submission_succession": true,
+    "submission_candidate": "ALG019-V000",
+    "historical_P1": "NOT-RUN"
+  },
+  "official_disposition": {
+    "status": "POSITIVE_OFFICIAL_SUCCESSION",
+    "submission_id": 328762,
+    "predecessor": "ALG018-V000_submission_328686",
+    "adjusted_ratio_to_predecessor": 0.8910015318786768,
+    "adjusted_relative_reduction": 0.10899846812132324,
+    "scientific_tier_transfer": false,
+    "final_designation": false
+  },
+  "protected_disposition": "POSITIVE_LOCAL_AND_OFFICIAL_SUCCESSION"
+}

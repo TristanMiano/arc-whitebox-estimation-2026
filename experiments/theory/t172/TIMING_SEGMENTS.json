@@ -1,0 +1,82 @@
+{
+  "closed": [
+    {
+      "category": "research",
+      "start_utc": "2026-10-17T18:03:49+00:00",
+      "note": "Orientation, public-method/rules refresh and research preparation.",
+      "end_utc": "2026-10-17T21:58:53.253295+00:00",
+      "minutes": 235.07088825
+    },
+    {
+      "category": "passive",
+      "start_utc": "2026-10-17T21:58:53.253295+00:00",
+      "note": "Waiting_for_final_sequential_native_comparisons",
+      "end_utc": "2026-10-17T21:59:59.701550+00:00",
+      "minutes": 1.1074709166666667
+    },
+    {
+      "category": "research",
+      "start_utc": "2026-10-17T21:59:59.701550+00:00",
+      "note": "Native_results_and_final_candidate_selection",
+      "end_utc": "2026-10-17T22:08:24.194486+00:00",
+      "minutes": 8.4082156
+    },
+    {
+      "category": "passive",
+      "start_utc": "2026-10-17T22:08:24.194486+00:00",
+      "note": "Waiting_for_final_archive_calls",
+      "end_utc": "2026-10-17T22:09:37.852070+00:00",
+      "minutes": 1.2276264
+    },
+    {
+      "category": "research",
+      "start_utc": "2026-10-17T22:09:37.852070+00:00",
+      "note": "Final_score_decision_and_records",
+      "end_utc": "2026-10-17T22:13:39.189647+00:00",
+      "minutes": 4.02229295
+    },
+    {
+      "category": "passive",
+      "start_utc": "2026-10-17T22:13:39.189647+00:00",
+      "note": "Monitoring_final_blend_native_evaluation",
+      "end_utc": "2026-10-17T22:16:14.696799+00:00",
+      "minutes": 2.5917858666666667
+    },
+    {
+      "category": "engineering",
+      "start_utc": "2026-10-17T22:16:14.696799+00:00",
+      "note": "Repair_blended_source_residual_overhead",
+      "end_utc": "2026-10-17T22:18:20.815548+00:00",
+      "minutes": 2.10197915
+    },
+    {
+      "category": "passive",
+      "start_utc": "2026-10-17T22:18:20.815548+00:00",
+      "note": "Monitoring_batched_blend_package",
+      "end_utc": "2026-10-17T22:26:37.717096+00:00",
+      "minutes": 8.281692466666666
+    },
+    {
+      "category": "engineering",
+      "start_utc": "2026-10-17T22:26:37.717096+00:00",
+      "note": "Final_submission_decision",
+      "end_utc": "2026-10-17T22:28:55.269903+00:00",
+      "minutes": 2.2925467833333335
+    },
+    {
+      "category": "passive",
+      "start_utc": "2026-10-17T22:28:55.269903+00:00",
+      "note": "Awaiting_official_submission_336809",
+      "end_utc": "2026-10-17T22:59:45.590691+00:00",
+      "minutes": 30.8386798
+    },
+    {
+      "category": "records",
+      "start_utc": "2026-10-17T22:59:45.590691+00:00",
+      "note": "Official_result_and_final_handoff",
+      "end_utc": "2026-10-17T23:00:33.412260+00:00",
+      "minutes": 0.79702615
+    }
+  ],
+  "active": null
+}

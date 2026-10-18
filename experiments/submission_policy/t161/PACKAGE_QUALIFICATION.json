@@ -1,0 +1,69 @@
+{
+  "task_id": "T161",
+  "algorithm_id": "ALG050-V000",
+  "archive": "experiments/submission_policy/t161/packages/ALG050-V000.tar.gz",
+  "archive_sha256": "f3e186139f65d0407539bf8518de43a7e4522f5f9e4ac1e46e73212f594ab1bc",
+  "size_bytes": 33309,
+  "pass_checks": true,
+  "imports": [
+    {
+      "line": 146,
+      "modules": [
+        "__future__"
+      ]
+    },
+    {
+      "line": 148,
+      "modules": [
+        "math"
+      ]
+    },
+    {
+      "line": 150,
+      "modules": [
+        "flopscope"
+      ]
+    },
+    {
+      "line": 151,
+      "modules": [
+        "flopscope.numpy"
+      ]
+    },
+    {
+      "line": 152,
+      "modules": [
+        "whestbench"
+      ]
+    },
+    {
+      "line": 153,
+      "modules": [
+        "whestbench.domain"
+      ]
+    },
+    {
+      "line": 313,
+      "modules": [
+        "os"
+      ]
+    },
+    {
+      "line": 314,
+      "modules": [
+        "gc"
+      ]
+    },
+    {
+      "line": 1816,
+      "modules": [
+        "local_engine"
+      ]
+    }
+  ],
+  "manifest_pass": true,
+  "allowed_imports_pass": true,
+  "clean_extraction_pass": true,
+  "numerical_api_note": "Inherited allowed APIs; os reads named configuration, gc disables/restores collection. Numerical changes use flopscope.numpy and are charged. local_engine remains only in the development __main__ demo.",
+  "targets_accessed": false
+}

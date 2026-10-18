@@ -1,0 +1,44 @@
+{
+  "task_id": "T159A",
+  "experiment_id": "E155",
+  "status": "COMPLETED_TIME_AND_PROVENANCE_AUDIT",
+  "report": "docs/SUBMISSION_MILESTONE_TIME_AUDIT.md",
+  "summary": {
+    "tasks": 151,
+    "timed_tasks": 115,
+    "missing_task_times": 36,
+    "partial_task_times": 2,
+    "recorded_session_hours": 100.70252200164444,
+    "recorded_active_research_hours": 41.80828729805556,
+    "recorded_active_mathematics_hours": 32.54579199166667,
+    "overlapping_agent_person_hours": 4.7485188152777775,
+    "successful_submissions": 17,
+    "milestone_time_groups": 16,
+    "early_pre_numbered_events_without_session_times": 7,
+    "additional_untimed_followup": "E120: visualization repair; excluded from duration and not counted as a second T128A task",
+    "boundaries": "Recorded task completion event sequence; all intervening started tasks included, including failures, operations, policy and reviews. Milestone task closure included. This is not calendar subtraction or causal attribution.",
+    "current_audit_excluded": true
+  },
+  "provenance_entries": 17,
+  "academic_priority_claimed": false,
+  "new_experiments": 0,
+  "subagents": 0,
+  "official_uploads": 0,
+  "official_best_changed": false,
+  "next_task": "T160",
+  "next_task_started": false,
+  "timing": {
+    "start_utc": "2026-09-13T15:43:10+00:00",
+    "record_completion_utc": "2026-09-13T15:55:35.197258+00:00",
+    "actual_elapsed_minutes": 12.4199543,
+    "estimated_elapsed_range_minutes": [
+      20,
+      30
+    ],
+    "estimate_error_minutes": [
+      -7.580045699999999,
+      -17.5800457
+    ],
+    "note": "This audit occurs after T159 and is excluded from the achievement-time totals. Final record verification, commit and chat delivery follow."
+  }
+}

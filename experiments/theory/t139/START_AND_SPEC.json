@@ -1,0 +1,30 @@
+{
+  "task_id": "T139",
+  "experiment_id": "E134",
+  "status": "COMPLETED",
+  "start_utc": "2026-09-08T16:45:33+00:00",
+  "authority": "Owner approved T138A plan and requested T139 on 2026-09-08.",
+  "minimum_useful_minutes": 120,
+  "minimum_active_theory_minutes": 90,
+  "estimate_elapsed_minutes": [
+    120,
+    150
+  ],
+  "estimate_is_hard_ceiling": false,
+  "allocation_minutes": {
+    "focused_literature": 15,
+    "written_theory": 90,
+    "selection": 15
+  },
+  "comparator": "ALG038-V001 / submission330153",
+  "scope": [
+    "persistent_joint_cumulant_state_compression",
+    "specifically_motivated_omitted_response"
+  ],
+  "allowed_checks": "Small synthetic mathematical and operation-count checks; register material estimator variants before candidate execution.",
+  "challenge_target_access": false,
+  "candidate_submission_in_scope": false,
+  "agents_in_scope": false,
+  "selection": "Zero to two implementable candidates with fully charged cost and cheapest decisive production test. Prefer credible larger upside; retain cheap fallback.",
+  "end_utc": "2026-09-08T18:46:33.983719+00:00"
+}

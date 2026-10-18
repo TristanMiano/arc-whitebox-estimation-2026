@@ -1,0 +1,63 @@
+{
+  "task_id": "T124",
+  "experiment_id": "E114",
+  "algorithm_id": "ALG029-V000",
+  "status": "COMPLETED_OFFICIAL_IMPROVEMENT",
+  "task_checked_off": true,
+  "submission_id": 329806,
+  "official_adjusted_score": 1.367555488513972e-07,
+  "official_final_layer_mse": 1.3675554885139717e-06,
+  "official_vs_sampling_reference": 8.774781060649737,
+  "prior_official_algorithm": "ALG028-V000",
+  "prior_official_submission": 329774,
+  "prior_official_adjusted_score": 1.4229966461698496e-07,
+  "official_ratio_to_prior": 0.9610391508615964,
+  "official_improvement_percent": 3.8960849138403586,
+  "official_best_changed": true,
+  "archive_path": "experiments/submission_policy/t124/packages/ALG029-V000.tar.gz",
+  "archive_sha256": "c8e6e9286bc5c6e9ad5be8c5bb693e810162e7775bd0e0b69668038afef295cb",
+  "local_screen_ratio": 0.9670454227093571,
+  "local_bootstrap_support": 1.0,
+  "screen_networks": 12,
+  "screen_wins": 10,
+  "comparison_role": "reused adaptive development evidence",
+  "training_rows": [
+    0,
+    500
+  ],
+  "training_fit_calls": 1,
+  "training_selected_step": 1.0,
+  "coefficient_asset_sha256": "8c8cdc6463f86c5d61fac998d0ce17a39bd033e2bac5c5e3f6182b4bb11311cd",
+  "comparison_extension_used": false,
+  "actual_flops": 218985745647,
+  "additional_flops_over_parent": 683040,
+  "score_multiplier": 0.1,
+  "scientific_tier_transfer": false,
+  "final_designation": false,
+  "retry_created": false,
+  "operational_failures": "INHERITED_SOURCE_IDENTITY.json",
+  "next_task": "T125",
+  "next_task_started": false,
+  "next_task_recommendation": "One bounded early-feasibility covariance trace attempt, T122-B, on the retained official parent; no refit. Stop early if residual margin cannot be met cheaply.",
+  "timing": {
+    "start_utc": "2026-09-04T23:57:01+00:00",
+    "end_utc": "2026-09-05T00:30:49.974234+00:00",
+    "estimate_total_minutes": 75,
+    "estimate_range_minutes": [
+      45,
+      90
+    ],
+    "initial_active_engineering_budget_minutes": 60,
+    "actual_elapsed_minutes": 33.81623723333333,
+    "estimate_error_minutes": -41.18376276666667,
+    "time_to_upload_minutes": 15.557866666666666,
+    "acceptance_to_finalization_minutes": 18.258370566666667,
+    "allocation_approximate": {
+      "analysis_minutes": 2,
+      "implementation_repair_and_recordkeeping_minutes": 9,
+      "local_execution_and_recovery_wait_minutes": 6,
+      "remaining_grading_wait_minutes": 16.816237233333332,
+      "note": "Approximate mutually exclusive allocation; some recordkeeping overlapped official grading. No engineering budget extension or further candidate test."
+    }
+  }
+}

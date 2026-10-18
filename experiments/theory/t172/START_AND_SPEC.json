@@ -1,0 +1,34 @@
+{
+  "task_id": "T172",
+  "experiment_id": "E168",
+  "title": "Final broad score-focused recurrence",
+  "start_utc": "2026-10-17T18:03:49+00:00",
+  "registered_utc": "2026-10-17T18:05:20.453849+00:00",
+  "active_work_floor_minutes": 240,
+  "estimated_elapsed_minutes": [
+    270,
+    360
+  ],
+  "owner_authorized": true,
+  "owner_direction": "No restrictions on time allocation or research protocol; do best to improve adjusted score, work at least four hours, obey ARC rules.",
+  "protocol_override": "Task-specific waiver of prior internal quotas, cohort gates, candidate limits and sequencing. Preserve truthful evidence, challenge rules and source provenance. No automatic permanent policy change.",
+  "submission_authority": "Owner authorizes best effort for best adjusted score with no research-protocol restrictions; package and submit worthwhile compliant improvements within this task.",
+  "incumbent": {
+    "algorithm_id": "ALG053-V000",
+    "submission_id": 335391,
+    "adjusted_score": 4.1556172645504615e-09,
+    "final_layer_mse": 2.0127173101514018e-08,
+    "predecessor": "ALG052-V000_submission_332641",
+    "adjusted_ratio_to_predecessor": 0.9697644110502315,
+    "adjusted_relative_reduction": 0.03023558894976852,
+    "source_origin": "T170 P49 quadratic mixed-cumulant covariance adaptation of ALG052/public 504aldo V29"
+  },
+  "research_priorities": [
+    "Refresh current public methods and rules; try promising complementary changes quickly.",
+    "Use empirical results to allocate work; pursue meaningful gains, including larger uncertain routes.",
+    "Retain best qualified algorithm and obtain official feedback when informative."
+  ],
+  "subagents": 0,
+  "challenge_deadline_owner_report": "2026-10-21",
+  "no_automatic_follow_on_task": true
+}

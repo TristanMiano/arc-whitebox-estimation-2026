@@ -1,0 +1,80 @@
+{
+  "schema_version": "arc-t102-submission-policy-audit-v1",
+  "task": "T102",
+  "event": "E072",
+  "status": "completed_revoke_P2_submission_ban",
+  "authority": {
+    "official_rules": {
+      "path": "../arc_challenge_rules.txt",
+      "sha256": "52f9507ee5218c5e4066a3ce591cf216843b4ab46810497aba765b7176b910b9"
+    },
+    "website_instructions": {
+      "path": "../how_to_submit.txt",
+      "sha256": "e5004eda09cec9c79a60cb1f58e18a1621ee50b9feb73db443a6762f5c9d8319"
+    }
+  },
+  "official_phase_2": {
+    "start_utc": "2026-08-22T00:00:00Z",
+    "end_utc": "2026-10-17T23:59:00Z",
+    "writeup_deadline_utc": "2026-10-24T23:59:00Z",
+    "width": 1024,
+    "depth": 16,
+    "output_shape": [16, 1024],
+    "per_mlp_budget_flops": 2199023255552,
+    "daily_submission_cap": 10,
+    "final_designation_slots": 2,
+    "solution_memory_limit": "8 GB",
+    "per_mlp_wall_seconds": 120,
+    "per_mlp_residual_seconds": 0.4,
+    "setup_seconds": 5,
+    "numerical_execution": "grader_python_flopscope_only"
+  },
+  "audit_decision": {
+    "official_rules_require_internal_scientific_tier": false,
+    "old_P2_before_translation_submission_policy_supported": false,
+    "old_policy": "REVOKED",
+    "scientific_tiers_retained_for_claims": true,
+    "scientific_failure_bans_submission": false,
+    "owner_authorization_required_for_external_upload": true
+  },
+  "hard_minimum_submission_gate": [
+    "current_Phase2_estimator_contract_and_validator",
+    "permitted_computation_dependencies_and_accounting",
+    "finite_16x1024_output",
+    "flop_wall_residual_memory_and_setup_headroom",
+    "fixed_seed_reproducibility",
+    "graceful_failure",
+    "source_provenance_and_licensing",
+    "package_fresh_extraction_local_and_subprocess_validation"
+  ],
+  "submission_lanes": [
+    {
+      "role": "reliable_fallback",
+      "source_candidate": "ALG003-V008",
+      "novelty": "N0-KNOWN-BASELINE",
+      "phase2_package_ready": false
+    },
+    {
+      "role": "best_at_least_somewhat_novel",
+      "source_candidate": "ALG014-V000",
+      "novelty": "N1-NOVEL-COMBINATION",
+      "scientific_status": "historical_P1_no_R1_no_P2",
+      "submission_policy_eligible": true,
+      "phase2_package_ready": false
+    }
+  ],
+  "routing": {
+    "next_task": "T074",
+    "owner_authorized_upload_task": "T075",
+    "next_scientific_task": "T095",
+    "scientific_task_may_run_in_parallel": true
+  },
+  "timing": {
+    "start": "2026-08-25T20:12:47,225435218-07:00",
+    "estimate_minutes": 30,
+    "plausible_range_minutes": [20, 50],
+    "end_check_off": "2026-08-25T20:27:53,849937867-07:00",
+    "elapsed": "00:15:06.625931956",
+    "elapsed_nanoseconds": 906625931956
+  }
+}

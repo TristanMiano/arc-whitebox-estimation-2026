@@ -1,0 +1,23 @@
+{
+  "task_id": "T173",
+  "status": "SELECTED_PENDING_OWNER_REVIEW_AND_T174_NOMINATION",
+  "primary": {
+    "algorithm_id": "ALG058-V001",
+    "submission_id": 336809,
+    "adjusted_score": 2.971106406126817e-09
+  },
+  "secondary": {
+    "algorithm_id": "ALG055-V000",
+    "submission_id": 336785,
+    "adjusted_score": 2.982822327838572e-09
+  },
+  "reserve": {
+    "algorithm_id": "ALG054-V000",
+    "submission_id": 336778
+  },
+  "writeup_submission_id": 336809,
+  "nomination_performed": false,
+  "writeup_delivered": false,
+  "selection_record": "experiments/finalization/t173/FINAL_SELECTION.md",
+  "draft_pdf": "experiments/finalization/t173/writeup/arc-whestbench-phase2-336809-draft.pdf"
+}

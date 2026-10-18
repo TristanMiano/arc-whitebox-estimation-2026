@@ -1,0 +1,42 @@
+{
+  "task_id": "T162",
+  "start_utc": "2026-09-20T04:52:51+00:00",
+  "research_end_utc": "2026-09-20T16:22:42.747204+00:00",
+  "minimum_active_research_minutes": 240,
+  "minimum_written_derivation_minutes": 60,
+  "active_research_minutes": 240.00072481666666,
+  "category_minutes": {
+    "derivation": 77.94427595,
+    "empirical": 117.68985973333334,
+    "literature": 31.386162266666666,
+    "selection": 12.980426866666665,
+    "administration": 9.0587683,
+    "passive": 441.4948696833334
+  },
+  "elapsed_minutes_through_research": 689.8624533999999,
+  "excluded_interruption_minutes": 441.4948696833334,
+  "elapsed_minus_interruptions_minutes": 249.05949311666654,
+  "estimated_elapsed_minutes": [
+    260,
+    320
+  ],
+  "raw_elapsed_estimate_error_vs_range_minutes": [
+    430.5543627999999,
+    370.5543627999999
+  ],
+  "interruption_adjusted_estimate_error_vs_range_minutes": [
+    -10.940506883333455,
+    -70.94050688333346
+  ],
+  "administration_after_research_not_yet_included": false,
+  "overlap_counted_once": true,
+  "per_route_clock_available": false,
+  "notes": [
+    "Two interruption gaps conservatively excluded; see recovery records.",
+    "Research-only reference and prediction compute overlaps active work; do not add compute subtotals to task duration.",
+    "Final bookkeeping after research_end is administration and will be recorded at verification."
+  ],
+  "end_utc": "2026-09-20T16:23:24.261768+00:00",
+  "elapsed_minutes": 690.5543627999999,
+  "administration_after_research_minutes": 0.6919094
+}

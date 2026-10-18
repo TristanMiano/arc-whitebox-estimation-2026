@@ -1,0 +1,46 @@
+{
+  "task_id": "T158",
+  "experiment_id": "E153",
+  "start_utc": "2026-09-13T01:40:26+00:00",
+  "registered_utc": "2026-09-13T01:42:32.883858+00:00",
+  "status": "active_broad_empirical_theory_recurrence",
+  "git_head_at_start": "81c0b5027d39228e57fd33911fbad9c093d39f79",
+  "owner_authority": "Owner requests another research recurrence with broader exploration and empirical work between toy/theory probes and a full algorithm pass/reject task; four-hour total floor.",
+  "minimum_active_research_minutes": 240,
+  "minimum_written_derivation_minutes": 60,
+  "provisional_allocation_minutes": {
+    "derivation": 80,
+    "empirical": 100,
+    "literature": 30,
+    "selection": 30
+  },
+  "allocation_note": "The 240-active-minute total and default60-minute written-mathematics floor bind; other allocations are flexible to follow evidence. Initial administration, passive waits and closeout do not count. Overlap counted once.",
+  "estimated_elapsed_minutes": [
+    260,
+    320
+  ],
+  "scope": "Broaden across native compression/projection, compatible homogeneous state, conditional or observable-law closure, computational realization and a cheap trajectory-matched correction reserve. Begin with a bounded NFC approximation diagnosis; do not let it consume the whole recurrence. Distinct routes are prioritized by information and possible retained score gain, not by readiness alone.",
+  "empirical_changes": "Use integrated or near-integrated probes earlier; give promising directions a small multi-network pilot and at least one hypothesis-driven stress/transfer check when informative. Do not nominate a compounded untested design merely from one-state geometry if an affordable pilot is possible. Usually1\u20132 networks for triage and4\u20136 for promising mechanisms; no compulsory sample quota, archive qualification or formal90-percent gate during research. Keep the final forecasts honest even if no stronger candidate emerges.",
+  "exploratory_rows": [
+    750,
+    772,
+    795,
+    817,
+    840,
+    863,
+    885,
+    908,
+    930,
+    953,
+    976,
+    999
+  ],
+  "data_role": "Public/reused development data, repeatedly exposed and usable adaptively. Preserve historical freezes and final blind. Any small targeted fit must record train/evaluation roles; no expanding corpus or training campaign.",
+  "initial_compute_plan": "Plan approximately40\u201348 full-shape call equivalents across the round, with saved-state/generated probes. Reassess cumulative cost and learning around24 calls; this is an allocation estimate, not a required quota or a hard micro-probe limit.",
+  "incumbent_algorithm": "ALG043-V000",
+  "incumbent_submission": 330597,
+  "official_adjusted_score": 5.419051334510831e-09,
+  "no_agents": true,
+  "no_automatic_upload": true,
+  "round_specific_changes": true
+}

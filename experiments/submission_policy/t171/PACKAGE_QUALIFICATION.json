@@ -1,0 +1,81 @@
+{
+  "task_id": "T171",
+  "algorithm_id": "ALG053-V000",
+  "archive": "experiments/submission_policy/t171/packages/ALG053-V000.tar.gz",
+  "archive_sha256": "13f9dd52e24fde2987d16b004cd66d6049b31a3b2cb630a53c9652826c2ccc4e",
+  "size_bytes": 46015,
+  "pass_checks": true,
+  "imports": [
+    {
+      "line": 146,
+      "modules": [
+        "__future__"
+      ]
+    },
+    {
+      "line": 149,
+      "modules": [
+        "math"
+      ]
+    },
+    {
+      "line": 151,
+      "modules": [
+        "flopscope"
+      ]
+    },
+    {
+      "line": 152,
+      "modules": [
+        "flopscope.numpy"
+      ]
+    },
+    {
+      "line": 153,
+      "modules": [
+        "whestbench"
+      ]
+    },
+    {
+      "line": 154,
+      "modules": [
+        "whestbench.domain"
+      ]
+    },
+    {
+      "line": 314,
+      "modules": [
+        "os"
+      ]
+    },
+    {
+      "line": 315,
+      "modules": [
+        "gc"
+      ]
+    },
+    {
+      "line": 1875,
+      "modules": [
+        "local_engine"
+      ]
+    },
+    {
+      "line": 1927,
+      "modules": [
+        "pathlib"
+      ]
+    },
+    {
+      "line": 1928,
+      "modules": [
+        "json"
+      ]
+    }
+  ],
+  "manifest_pass": true,
+  "allowed_imports_pass": true,
+  "clean_extraction_pass": true,
+  "numerical_api_note": "Exact research source. JSON/pathlib used only in setup for frozen weights; inference numerics use flopscope.numpy. local_engine only in development __main__.",
+  "targets_accessed": false
+}

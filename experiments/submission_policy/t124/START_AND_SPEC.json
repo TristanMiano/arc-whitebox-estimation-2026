@@ -1,0 +1,140 @@
+{
+  "task_id": "T124",
+  "algorithm_id": "ALG029-V000",
+  "parent": "ALG028-V000",
+  "status": "REGISTERED_BEFORE_FIT_OR_EXECUTION",
+  "start_utc": "2026-09-04T23:57:01Z",
+  "estimate_total_minutes": 75,
+  "estimate_range_minutes": [
+    45,
+    90
+  ],
+  "initial_active_engineering_budget_minutes": 60,
+  "reassess_at_active_minutes": 30,
+  "authorization": "Owner: Please begin T124. Includes bounded upload and monitoring.",
+  "grade_wait_per_attempt_minutes": 30,
+  "generic_evaluator_retry_limit": 1,
+  "definition": "experiments/theory/t122/CANDIDATE_A.md",
+  "definition_sha256": "9a064111b1c307c9394f6ede18f59fdef79d25dddc3f042f1c62ae834e4eae22",
+  "novelty": "OURS+PUBLIC, combination: cap-aware anchored trace recalibration with fixed physical Hermite remainder; no scientific tier",
+  "training": {
+    "rows": {
+      "start_inclusive": 0,
+      "end_exclusive": 500
+    },
+    "role": "previously declared Full-F training, permitted for future T124 fitting",
+    "targets_path": "experiments/checkpoint3/t117/F_TARGETS.npz",
+    "targets_read_in_T122": false,
+    "primitive_rows": "experiments/checkpoint3/t118/primitive_rows",
+    "trace_rows": "experiments/checkpoint3/t120/trace_rows",
+    "trace_arm_rows": "experiments/checkpoint3/t120/trace_arm_rows",
+    "manifest_and_preserved_spec_sha256": {
+      "experiments/checkpoint3/t118/F_DENSE_PRIMITIVE_MANIFEST.json": "be262c467d1d8793c5a02f4f055d9d72f45dc7eb1f850e131aa357f4d1a059ce",
+      "experiments/checkpoint3/t120/TRACE_MANIFEST.json": "699a98d05c4d302235060eba5f9226c650e4b4ecb4d0ad1b9dbb958d52086f9d",
+      "experiments/checkpoint3/t120/TRACE_ARM_MANIFEST.json": "959ef35251de492e09a513dca6709d8dd87fe3f358a7c1f57682ab0e5bd34f07",
+      "experiments/checkpoint3/t119/CGMA_SCALAR_SEAL.md": "63a85bbccda447b1fbb01395d830500818390f9d1dce927aefd636b2f2557037",
+      "experiments/checkpoint3/t119/DECISION_FREEZE.json": "5b7b9b92c43eacc339ae08f6fd58b51bebe7f3371864c780f2439588c35a0377",
+      "experiments/submission_policy/t120b/PREUPLOAD_SEAL.json": "b29bae2539cd478b29be3b407a9e0e2ba9f3c60380c40df16d0479d0ed5b1d78",
+      "state/algorithm_specs/ALG028-V000.json": "8374f124169e672682e4fed281f01ffcf46d88ba99f170926a3c2453ca19795d"
+    }
+  },
+  "comparison": {
+    "initial_rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "role": "reused adaptive development evidence; not independent validation",
+    "optional_extension_selection": "ascending SHA256 of UTF-8 T124:<decimal row>, rows750:1000 excluding initial12; first12",
+    "optional_extension_rows": [
+      932,
+      973,
+      851,
+      778,
+      984,
+      806,
+      979,
+      850,
+      933,
+      846,
+      926,
+      858
+    ],
+    "maximum_normal_total_rows": 24,
+    "extension_condition": "one extension only if likely to change decision; disclose repeat look",
+    "scoring": "arithmetic mean terminal MSE times max(.1, actual FLOPs/2**41), each algorithm charged independently",
+    "bootstrap_unit": "whole network paired adjusted difference",
+    "bootstrap_draws": 20000,
+    "bootstrap_seed": 122124,
+    "rough_support_target": 0.9,
+    "lower_adjusted_mean_required": true,
+    "no_minimum_gain_or_two_sided_interval_gate": true,
+    "freeze_predictions_before_comparison_targets": true,
+    "final_blind_block": "untouched"
+  },
+  "fixture": {
+    "row": 0,
+    "role": "early integrated feasibility and numerical replay on a Full-F training input; excluded from the comparison cohort",
+    "fit_timing": "the tiny cached fit can precede this fixture; meter the actual frozen candidate before the paired comparison",
+    "old_parent_numerical_equivalence": "reuse the recorded historical 1e-5 maximum absolute /1e-12 numerical-MSE contract where applicable; do not claim old byte parity",
+    "candidate_score_source": "actual production outputs; geometry and cached training predictions are not qualification"
+  },
+  "fit_law": {
+    "id": "T122-A",
+    "rank": 1,
+    "next_task": "T124",
+    "algorithm_registration": "new material variant to register before implementation/test; no ALG identity created by T122",
+    "definition": "CANDIDATE_A.md",
+    "definition_sha256": "9a064111b1c307c9394f6ede18f59fdef79d25dddc3f042f1c62ae834e4eae22",
+    "parent": "ALG028-V000",
+    "design_columns": 16,
+    "fit": "one cap-aware anchored normalized ridge direction and fixed training-only backtrack",
+    "ridge_ratio": 0.01,
+    "backtrack_steps": [
+      1,
+      0.5,
+      0.25,
+      0.125,
+      0.0625,
+      0.03125,
+      0.015625,
+      0.0078125
+    ],
+    "shape_domain": "abs(alpha)<=6 and reconstructed sigma>0; zero outside",
+    "raw_design_not_residualized": true,
+    "coefficients_unconstrained_in_sign": true,
+    "training_networks": 500,
+    "new_network_propagations_for_training": 0,
+    "comparison_parameter_search": false,
+    "inference_added_flops_conservative_upper_estimate": 1000000,
+    "planning_judgment": {
+      "chance_retained_official_improvement_range": [
+        0.55,
+        0.75
+      ],
+      "conditional_relative_gain_range": [
+        0.04,
+        0.12
+      ],
+      "total_minutes_range": [
+        45,
+        90
+      ],
+      "not_calibrated": true
+    }
+  },
+  "numerical_equivalence": {
+    "maximum_absolute_difference": 1e-05,
+    "numerical_mse": 1e-12,
+    "purpose": "Cached versus production numerical realization; actual production scores decide; current-package replay must be byte exact."
+  }
+}

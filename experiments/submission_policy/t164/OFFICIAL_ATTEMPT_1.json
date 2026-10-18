@@ -1,0 +1,12 @@
+{
+  "submission_id": 332018,
+  "created_at": "2026-09-23T12:58:04.309Z",
+  "recorded_utc": "2026-09-23T12:58:03.841667+00:00",
+  "deadline_utc": "2026-09-23T13:58:04.309000+00:00",
+  "attempt": 1,
+  "owner_wait_minutes": 60,
+  "archive_sha256": "3b46441c39a7e2dc8b2d8344cdea410bf23aa023a7dcbfdc7b4c0a841c45e26f",
+  "status": "GRADED",
+  "status_file": "SUBMISSION_332018_STATUS.json",
+  "last_recorded_utc": "2026-09-23T13:28:33.996587+00:00"
+}

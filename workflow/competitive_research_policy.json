@@ -1,0 +1,245 @@
+{
+  "schema_version": "arc-submission-focused-policy-v4",
+  "effective_date": "2026-09-20",
+  "authority": "Owner-directed T123 restructuring, amended by T156 to interleave small experiments with derivations and increase research floors; latest explicit owner instruction overrides defaults; owner T161 amendment makes60-minute grading windows the standing default",
+  "prospective_only": true,
+  "policy_document": "docs/COMPETITIVE_RESEARCH_LOOP.md",
+  "live_state_path": "state/current_state.json",
+  "active_queue_path": "TODO.md",
+  "prior_policy_snapshot": "experiments/protocol/t123/before/state/competitive_research_policy.json",
+  "default_mode": "submission_focused",
+  "cadence": {
+    "default_tasks_per_request": 1,
+    "follow_active_queue_only": true,
+    "parked_tasks_block_queue": false,
+    "early_theory_recurrence_allowed": true,
+    "reserved_second_candidate_required": false
+  },
+  "priority": {
+    "objective": "expected_retained_official_adjusted_score_reduction_per_remaining_hour",
+    "remaining_time_includes": [
+      "theory",
+      "implementation",
+      "local_execution",
+      "qualification",
+      "repairs",
+      "official_grading"
+    ],
+    "use_uncertainty_ranges": true,
+    "compulsory_weighted_points_rubric": false,
+    "rerank_after_new_evidence": true,
+    "novelty_required_for_score_submission": false,
+    "larger_upside_preference": {
+      "effective_date": "2026-09-08",
+      "authority_task": "T138A",
+      "status": "standing_until_owner_revisits",
+      "action": "During research, record a cheap candidate as fallback and prefer a credible thread offering substantially greater score reduction.",
+      "balance": [
+        "plausible_gain",
+        "success_probability",
+        "remaining_work",
+        "information_value"
+      ],
+      "ready_candidate_automatically_ends_recurrence": false,
+      "small_improvements_remain_eligible": true,
+      "existing_evidence_and_task_budget_rules_unchanged": true,
+      "task_specific_duration_overrides_remain_separate": true,
+      "owner_correction_2026_09_11": {
+        "authority_task": "T150",
+        "applies_to_final_selection": true,
+        "research_prior_need_not_meet_submission_support_threshold": true,
+        "speculative_gain_per_hour_midpoint_is_not_veto_on_exploration": true,
+        "explicit_approximation_may_be_tested_without_all_orders_completion": true,
+        "compare_subjective_success_probability_and_conditional_gain": true,
+        "fixed_risk_quota": false
+      }
+    }
+  },
+  "candidate_budget": {
+    "default_active_engineering_minutes": 60,
+    "reassess_after_minutes": 30,
+    "budget_is_time_to_fill": false,
+    "extension_requires_recorded_finite_budget_and_concrete_payoff": true,
+    "passive_time_reported_separately_and_included_in_priority_estimate": true,
+    "training_fitting_and_cache_generation_included": true
+  },
+  "theory": {
+    "minimum_active_written_minutes": 60,
+    "owner_may_override": true,
+    "agent_may_shorten_minimum": false,
+    "may_continue_longer": true,
+    "idle_or_grader_wait_counts": false,
+    "packaging_counts": false,
+    "minimum_candidates_to_nominate": 0,
+    "maximum_candidates_to_nominate": 2,
+    "mandatory_hypothesis_count": null,
+    "mandatory_fraction_of_all_task_time": null,
+    "required_work": [
+      "written_equations_and_derivations",
+      "counterexamples_and_failure_boundaries",
+      "empirical_feedback_interleaved_with_derivations_when_informative",
+      "prior_evidence_and_focused_prior_art",
+      "fully_charged_cost_and_plausible_score_gain",
+      "ranked_zero_to_two_candidates_and_cheapest_decisive_test"
+    ],
+    "minimum_active_research_minutes": 120,
+    "additional_empirical_research_allocation_minutes": 60,
+    "empirical_allocation_may_be_used_for_further_derivation": true,
+    "overlapping_minutes_counted_once": true,
+    "routine_administration_counts": false,
+    "active_time_categories": [
+      "written_derivation",
+      "empirical_design_prototyping_execution_and_interpretation",
+      "literature",
+      "candidate_selection"
+    ],
+    "interleaved_experiments": {
+      "authorized_with_recurrence": true,
+      "allowed_during_derivations": true,
+      "complete_algorithm_prerequisite": false,
+      "fixed_probe_count_limit": null,
+      "submission_confidence_threshold_applies": false,
+      "separate_owner_approval_per_probe": false,
+      "full_algorithm_registry_per_probe": false,
+      "lightweight_record_before_run_or_batch": [
+        "local_probe_id",
+        "question",
+        "source_version_and_configuration",
+        "inputs_and_seeds",
+        "comparator"
+      ],
+      "retain_executed_source_and_output": true,
+      "record_observation_and_effect_on_next_derivation": true,
+      "adaptive_variants_get_new_local_labels": true,
+      "examples": [
+        "counterexamples",
+        "toy_or_reduced_shape_systems",
+        "saved_output_analysis",
+        "internal_state_traces",
+        "partial_prototypes",
+        "targeted_ablations",
+        "targeted_parameter_and_rank_sensitivities",
+        "small_full_shape_development_runs"
+      ],
+      "exploratory_development_targets_may_be_reused_adaptively": true,
+      "research_reference_tools_allowed": true,
+      "production_cost_claims_require_actual_metered_path": true,
+      "budget": "Manage cumulative task cost and learning; use the smallest informative scale, batch and reuse. No compulsory full submission screen or per-probe candidate-engineering budget.",
+      "large_campaign": "Large sweeps, corpus generation or expanding training require a deliberate finite rescope; targeted adaptive probes are normal research.",
+      "final_nominee_limit_does_not_limit_probe_variants": true
+    }
+  },
+  "submission_screen": {
+    "primary_metric": "ratio_of_arithmetic_mean_actual_adjusted_final_layer_scores_to_same_network_incumbent",
+    "default_initial_networks": 12,
+    "mandatory_minimum_networks": null,
+    "existing_relevant_evidence_may_reduce_new_runs": true,
+    "approximate_confidence_target": 0.9,
+    "confidence_is_universal_hard_cutoff": false,
+    "bootstrap_is_calibrated_private_win_probability": false,
+    "point_win_alone_automatically_authorizes_submission": false,
+    "normal_decision": "lower_adjusted_mean_with_about_90pct_support_and_operational_checks; explain judgment from all comparable evidence",
+    "default_maximum_extensions": 1,
+    "default_total_networks_after_extension": 24,
+    "extension_must_be_decision_relevant": true,
+    "repeat_looks_must_be_disclosed": true,
+    "larger_study_requires_separately_justified_task": true,
+    "extra_confidence_threshold": null,
+    "minimum_percentage_gain": null,
+    "two_sided_interval_must_exclude_zero": false,
+    "universal_tail_ratio_cutoff": null,
+    "mechanism_ablation_required": false,
+    "scientific_tier_required": false
+  },
+  "production": {
+    "actual_integrated_full_shape_probe_before_large_cache": true,
+    "default_submission_path": "Python_Whest_with_allowed_FlopScope_APIs",
+    "duplicate_native_implementation_required": false,
+    "reuse_passing_affected_checks": true,
+    "preferred_current_environment": "qualified_WSL_Linux",
+    "new_windows_first_attempt_required_each_task": false,
+    "required": [
+      "lawful_accounting_APIs",
+      "finite_full_shape_and_declared_fallback",
+      "actual_FLOPs_and_score_multiplier",
+      "resource_contract",
+      "current_package_deterministic_replay",
+      "immutable_archive_manifest_and_clean_extraction"
+    ],
+    "historical_cross_environment_byte_equality_required": false,
+    "numerical_equivalence_requires": [
+      "recorded_identity",
+      "explained_discrepancy",
+      "justified_tolerance_before_comparison",
+      "error_small_relative_to_gain",
+      "actual_executable_score"
+    ],
+    "consecutive_clean_run_streak_required": false,
+    "fresh_multi_platform_campaign_required": false,
+    "current_rule_reference": "docs/SUBMISSION_RIGOR_AUDIT_2026-08-25.md",
+    "current_limits": {
+      "flop_budget": 2199023255552,
+      "score_multiplier_floor": 0.1,
+      "floor_is_hard_cost_cap": false,
+      "residual_seconds": 0.4,
+      "prediction_wall_seconds": 120,
+      "setup_seconds": 5,
+      "memory_bytes": 8589934592
+    }
+  },
+  "official_feedback": {
+    "supported_winner_gets_immediate_submission_action": true,
+    "explicit_execute_submission_task_authorizes_upload_and_monitor": true,
+    "task_insertion_alone_authorizes_upload": false,
+    "ask_again_if_authority_already_supplied": false,
+    "wait_minutes_per_attempt": 60,
+    "wait_measured_from": "submission_acceptance",
+    "maximum_unchanged_package_retries_for_generic_failure_or_timeout": 1,
+    "poor_valid_grade_triggers_unchanged_retry": false,
+    "official_grade_transfers_scientific_tier": false,
+    "final_designation_inferred_from_upload": false,
+    "wait_default_authority": "T161 owner amendment,2026-09-20UTC; current and future attempts"
+  },
+  "optional_science": {
+    "automatic_trigger": false,
+    "requires_separately_chosen_task": true,
+    "requires_specific_claim_and_finite_budget": true,
+    "reference": "docs/SCIENTIFIC_RESEARCH_PROTOCOL.md",
+    "old_funnel_is_submission_prerequisite": false
+  },
+  "integrity": {
+    "historical_freezes_and_results_immutable": true,
+    "reused_panels_labeled_development": true,
+    "fit_on_frozen_validation_allowed": false,
+    "final_local_blind_opened_for_routine_submission": false,
+    "prediction_seal_before_submission_scoring": true,
+    "prior_target_exposure_disclosed": true,
+    "exploratory_development_targets_may_be_reused_adaptively": true,
+    "selected_candidate_registered_and_frozen_before_submission_comparison": true
+  },
+  "recordkeeping": {
+    "one_compact_task_record": true,
+    "append_event_ledger": true,
+    "update_relevant_candidate_ledger": true,
+    "live_state_and_active_todo_are_current_route": "state/current_state.json and TODO.md",
+    "duplicate_full_narrative_across_policies_required": false,
+    "record_start_estimate_end_actual_and_error": true
+  },
+  "literature_trial": {
+    "task": "T132",
+    "owner_authorized": true,
+    "internet_authorized_for_task": true,
+    "estimate_minutes": 60,
+    "ceiling_minutes": 90,
+    "minimum_minutes": null,
+    "standing_mandatory_gate": false,
+    "novelty_required": false,
+    "theory_minimum_credit": false,
+    "direct_implementation_handoff_allowed": true,
+    "index": "docs/LITERATURE_INDEX.md",
+    "route_tracker": "docs/RESEARCH_ROUTE_STATUS.md",
+    "update_routes_on_meaningful_evidence": true,
+    "probability_ranges_are_subjective": true
+  },
+  "previous_revision_snapshot": "experiments/protocol/t156/BEFORE_POLICY.json"
+}

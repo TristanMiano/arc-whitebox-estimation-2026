@@ -1,0 +1,45 @@
+{
+  "task_id": "T148",
+  "start_utc": "2026-09-11T02:53:53+00:00",
+  "research_end_utc": "2026-09-11T06:43:48.271261+00:00",
+  "records_end_utc": "2026-09-11T06:47:38.967118+00:00",
+  "elapsed_through_records_minutes": 233.76611863333335,
+  "estimated_elapsed_minutes": [
+    180,
+    220
+  ],
+  "estimate_error_through_records_minutes": {
+    "versus_lower": 53.76611863333335,
+    "versus_upper": 13.766118633333349
+  },
+  "exclusive_minutes": {
+    "literature": 30.09973336666667,
+    "theory": 121.18613153333334,
+    "overhead": 48.250497249999995,
+    "selection": 30.1413132
+  },
+  "initial_intake_minutes_excluded": 4.0884432833333335,
+  "useful_minutes": 181.4271781,
+  "minimum_minutes": {
+    "theory": 120,
+    "literature": 30,
+    "selection": 30
+  },
+  "minimums_met": true,
+  "conservative_crash_and_recovery_exclusion": {
+    "start": "2026-09-11T05:42:29+00:00",
+    "end": "2026-09-11T06:09:50.704799+00:00",
+    "minutes": 27.36174665
+  },
+  "elapsed_through_records_excluding_crash_interval_minutes": 206.40437198333336,
+  "method": "Exclusive actual UTC blocks; intake, context consolidation, crash/recovery and recordkeeping excluded from useful floors. No idle waits or agents.",
+  "per_route_minutes_recorded": false,
+  "subagents": 0,
+  "note": "The initial START_AND_SCOPE ACTIVE status is historical; RESULT.json and current live state record completion.",
+  "verification_end_utc": "2026-09-11T06:49:09.986237+00:00",
+  "elapsed_through_verification_minutes": 235.28310395,
+  "estimate_error_through_verification_minutes": {
+    "versus_lower": 55.28310395,
+    "versus_upper": 15.283103949999997
+  }
+}

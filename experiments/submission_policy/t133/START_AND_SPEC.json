@@ -1,0 +1,131 @@
+{
+  "task_id": "T133",
+  "experiment_id": "E126",
+  "algorithm_id": "ALG035-V000",
+  "name": "public_Gaussian_covariance_fixed_five_feature_calibration",
+  "provenance": "PUBLIC: venture_agent_ai, MIT; no project novelty claimed",
+  "status": "REGISTERED_BEFORE_EXECUTION",
+  "start_utc": "2026-09-06T20:49:50+00:00",
+  "registered_utc": "2026-09-06T20:53:53.232657+00:00",
+  "estimate_total_minutes": 40,
+  "initial_active_engineering_budget_minutes": 60,
+  "reassess_at_minutes": 30,
+  "source_pin": {
+    "repository": "https://github.com/agentaiventure-dot/arc-whest-estimator",
+    "commit": "fb33bb5a66b4b0aed3022e6a70a9274d5957d61d",
+    "commit_date_utc": "2026-09-05T23:45:15Z",
+    "source_inspection_only": true,
+    "files": [
+      {
+        "path": "LICENSE",
+        "url": "https://raw.githubusercontent.com/agentaiventure-dot/arc-whest-estimator/fb33bb5a66b4b0aed3022e6a70a9274d5957d61d/LICENSE",
+        "sha256": "0414ac446fa4925715fb5d9c119b1dca026f18bca81a28f6ec587691f85e5005",
+        "bytes": 1073
+      },
+      {
+        "path": "estimator/estimator.py",
+        "url": "https://raw.githubusercontent.com/agentaiventure-dot/arc-whest-estimator/fb33bb5a66b4b0aed3022e6a70a9274d5957d61d/estimator/estimator.py",
+        "sha256": "0a22f57ce5670d1acac0b9bc9d15651fd49e04f1cae7210e2068369e3685c37c",
+        "bytes": 11919
+      },
+      {
+        "path": "results/exact_cov_RESULTS.md",
+        "url": "https://raw.githubusercontent.com/agentaiventure-dot/arc-whest-estimator/fb33bb5a66b4b0aed3022e6a70a9274d5957d61d/results/exact_cov_RESULTS.md",
+        "sha256": "1ed22e041e270e3c55cc42a9662a30a60889c17737aee2d0b10a759a8a3d2af8",
+        "bytes": 32606
+      },
+      {
+        "path": "results/higher_order_RESULTS.md",
+        "url": "https://raw.githubusercontent.com/agentaiventure-dot/arc-whest-estimator/fb33bb5a66b4b0aed3022e6a70a9274d5957d61d/results/higher_order_RESULTS.md",
+        "sha256": "6c81ce79e15e33b21c70c6682570481a2d51ef135d20ddc872da183b076d5281",
+        "bytes": 19317
+      },
+      {
+        "path": "README.md",
+        "url": "https://raw.githubusercontent.com/agentaiventure-dot/arc-whest-estimator/fb33bb5a66b4b0aed3022e6a70a9274d5957d61d/README.md",
+        "sha256": "c7191f9b0fb504777523c6eb6e8e83f819b489e991828e2de02edb27ec59542c",
+        "bytes": 2864
+      }
+    ]
+  },
+  "numerical_design": "Literal pinned estimator.py, embedded 16x5 _CALIB tuple and eight-node covariance quadrature unchanged. No calibration_weights.npz. No new fit, feature search, coefficient choice, clipping or numerical optimization.",
+  "comparison": {
+    "initial_rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "role": "reused adaptive development evidence; not independent validation",
+    "optional_extension_selection": "Reuse the already predetermined T124 extension rows; no outcome-based row selection",
+    "optional_extension_rows": [
+      932,
+      973,
+      851,
+      778,
+      984,
+      806,
+      979,
+      850,
+      933,
+      846,
+      926,
+      858
+    ],
+    "maximum_normal_total_rows": 24,
+    "extension_condition": "one extension only if likely to change decision; disclose repeat look",
+    "scoring": "arithmetic mean terminal MSE times max(.1, actual FLOPs/2**41), each algorithm charged independently",
+    "bootstrap_unit": "whole network paired adjusted difference",
+    "bootstrap_draws": 20000,
+    "bootstrap_seed": 126127,
+    "rough_support_target": 0.9,
+    "lower_adjusted_mean_required": true,
+    "no_minimum_gain_or_two_sided_interval_gate": true,
+    "freeze_predictions_before_comparison_targets": true,
+    "final_blind_block": "untouched"
+  },
+  "production_fixture": {
+    "row": 0,
+    "repeats": 2,
+    "targets_accessed": false,
+    "contract": "finite full-shape output, budget, residual, wall, setup, memory, byte-exact current-design replay"
+  },
+  "incumbent": {
+    "algorithm_id": "ALG031-V000",
+    "submission_id": 329989,
+    "official_adjusted_score": 1.3618567538742354e-07,
+    "exact_flops": 218986065179,
+    "source_sha256": {
+      "response_family.py": "3e2c4fdfb377d1670653864187177b73622aa3b581505e53a7567e737bafb32e",
+      "base_family.py": "74879a41f02313096a02b58684f9fa795af94b0827763aad045b4225606efec6",
+      "README.md": "68b21b49237753d5e0f92a35f5f357548f3ea78028a1f2b1edd0309efb28be54",
+      "coefficients.py": "8c8cdc6463f86c5d61fac998d0ce17a39bd033e2bac5c5e3f6182b4bb11311cd",
+      "LICENSE": "e3e4daa4b31b6f2b409ecab8610b223bc5ce5c917f0a633fd9f66dbf9e7f6c5f",
+      "fast_kernel.py": "5094519f9f91f2343a60d0ace19c51d7c4572659a1ff9ac103a59b5adcdd9d33",
+      ".whestignore": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+      "PUBLIC_FAST_LICENSE": "8951bf59cbe4e79527fecd49bc816f4d13f40c7631a3cbd37d2bd930e40b4616",
+      "parity_coefficients.py": "1ab6ab86aba80ccb181b4693d258c7b25a03235de673f018d1cff04eafb3e7e6",
+      "candidate_family.py": "6729615c3d7d92b5e14a600411cb9f8e339b75fbcaaa337654f7fd363636cfe0",
+      "r1p_family.py": "ec45f05b9830e17cff59169ad2916462ec5310475070b6fe54da32b7f11fb3a2",
+      "estimator.py": "665fcb0b4614e4cbd8ccea22dde2e8c50886e4ea1019abf1ca8360be2c7a99b2",
+      "public_release/public_fast_reference.py": "b5418459c4c0cce62129027affb15170cc5aca477ff0af6c5590d718bc9947ed"
+    },
+    "archive_sha256": "b40b309a9fa3a353fa3f8d9163fa8bd1566299af87e3338558cefb8607c0f247"
+  },
+  "new_fit": false,
+  "fit_calls_planned": 0,
+  "runtime": "tmp/t128-runtime312/bin/python",
+  "owner_authorized_upload": true,
+  "grade_wait_minutes": 30,
+  "unchanged_generic_error_retry_limit": 1,
+  "after_T133": "Stop; conditional L132-B/L132-C need separately selected task.",
+  "git_head_at_start": "ef10ea8bfd7cf07c602bf3579e4829225c993edc"
+}

@@ -1,0 +1,245 @@
+{
+  "task_id": "T126",
+  "experiment_id": "E116",
+  "status": "COMPLETED_TWO_HOUR_THEORY_TWO_PROSPECTIVE_OPTIONS",
+  "task_checked_off": true,
+  "decision": "T127 parity-split response fit next; T128 projected shape is conditional and must be re-ranked.",
+  "ranked_prospective_candidates": [
+    {
+      "id": "T126-A",
+      "rank": 1,
+      "next_task": "T127",
+      "definition": "CANDIDATE_A.md",
+      "definition_sha256": "754557c81b3b3580f5b530c7c980e165a9c5fdc80d34b5a1cc272596b2fa0a85",
+      "parent": "ALG029-V000",
+      "new_columns": 6,
+      "joint_design_columns": 22,
+      "fit": "one normalized cap-aware anchored ridge and training-only backtrack",
+      "ridge_ratio": 0.01,
+      "backtrack_steps": [
+        1,
+        0.5,
+        0.25,
+        0.125,
+        0.0625,
+        0.03125,
+        0.015625,
+        0.0078125
+      ],
+      "coefficients_unconstrained_in_sign": true,
+      "training_rows": {
+        "start_inclusive": 0,
+        "end_exclusive": 500
+      },
+      "new_training_propagations": 0,
+      "inference_added_billed_flops_planning_allowance": 2000000,
+      "planning_judgment": {
+        "chance_retained_official_improvement": [
+          0.5,
+          0.7
+        ],
+        "conditional_relative_gain": [
+          0.005,
+          0.04
+        ],
+        "expected_total_minutes": [
+          25,
+          60
+        ],
+        "not_calibrated": true
+      }
+    },
+    {
+      "id": "T126-B",
+      "rank": 2,
+      "next_task_if_chosen": "T128",
+      "automatic_execution": false,
+      "definition": "CANDIDATE_B.md",
+      "definition_sha256": "7b822697ca82e807e7d467be761303e61990405d9b774f81abc17a392fce8a5e",
+      "parent_rule": "Retained official T127 winner, otherwise ALG029; bind concrete source and assets before execution",
+      "direction_seed_xor": "0x12605A11",
+      "power_iterations": 5,
+      "extra_reference_action_for_loading": 1,
+      "maximum_absolute_loading": 0.8,
+      "maximum_projected_reference_mean_ratio": 64,
+      "finite_bin_boundaries": [
+        -6.0,
+        -5.5,
+        -5.0,
+        -4.5,
+        -4.0,
+        -3.5,
+        -3.0,
+        -2.5,
+        -2.0,
+        -1.5,
+        -1.0,
+        -0.5,
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0,
+        3.5,
+        4.0,
+        4.5,
+        5.0,
+        5.5,
+        6.0
+      ],
+      "bins": 26,
+      "source_moments_per_bin": 4,
+      "low_Hermite_orders_removed": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "new_fitted_columns": 2,
+      "parent_coefficients_fixed": true,
+      "fit": "one normalized cap-aware anchored ridge and training-only backtrack",
+      "ridge_ratio": 0.01,
+      "backtrack_steps": [
+        1,
+        0.5,
+        0.25,
+        0.125,
+        0.0625,
+        0.03125,
+        0.015625,
+        0.0078125
+      ],
+      "coefficients_unconstrained_in_sign": true,
+      "training_rows": [
+        0,
+        16,
+        32,
+        48,
+        64,
+        80,
+        97,
+        113,
+        129,
+        145,
+        161,
+        177,
+        193,
+        209,
+        225,
+        241,
+        258,
+        274,
+        290,
+        306,
+        322,
+        338,
+        354,
+        370,
+        386,
+        402,
+        419,
+        435,
+        451,
+        467,
+        483,
+        499
+      ],
+      "new_training_propagations": 32,
+      "early_fixture_before_training_collection": true,
+      "operational_fixture_coefficients": [
+        1,
+        0
+      ],
+      "operational_fixture_targets_not_read": true,
+      "inference_added_billed_flops_planning_allowance": 300000000,
+      "fixed_mathematical_assets_sha256": {
+        "CHI_ASYMPTOTIC_CHECKS.json": "251fc1bd1e9a57b2e6588005509469eebda3037e18047c0f73e636e05dfe40c7",
+        "GAUSSIAN_BIN_CONSTANTS.json": "48068ff7b0bad81b77344b6ca760310c96a427ef186298b61b27259ca137fcf1"
+      },
+      "planning_judgment": {
+        "chance_retained_official_improvement": [
+          0.25,
+          0.45
+        ],
+        "conditional_relative_gain": [
+          0.005,
+          0.05
+        ],
+        "expected_total_minutes": [
+          45,
+          90
+        ],
+        "not_calibrated": true
+      }
+    }
+  ],
+  "decision_freeze_sha256": "358764fda23c20f717be450031bceae136f18bbf53401ebade68dfd514fbc2e2",
+  "next_task": "T127",
+  "next_task_started": false,
+  "conditional_option": "T128",
+  "fit_calls": 0,
+  "new_training_propagations": 0,
+  "new_challenge_predictions": 0,
+  "challenge_targets_accessed": false,
+  "uploads": 0,
+  "new_algorithm_ids": [],
+  "mathematical_and_diagnostic_scripts_executed": 13,
+  "mathematical_checks_role": "Synthetic identities and failure cases; input-only cache geometry; sealed prior-output risk decomposition. No candidate score evidence.",
+  "strongest_positive_evidence": [
+    "Lower-response fields add nonredundant source information; exact mean-transport link to retained T117 positive evidence.",
+    "T125 direction was initially favorable on 7/12 reused networks despite its unchanged full-step loss.",
+    "Projected functional readout detects part of a ReLU mean difference invisible to the first four moments."
+  ],
+  "limitations": [
+    "Feature geometry and synthetic checks do not establish leaderboard improvement.",
+    "The selected direction can miss orthogonal shape; conditional projections need not commute.",
+    "Resource and gain ranges are planning estimates; candidate B has no production implementation.",
+    "Reused development evidence and planning priors are not calibrated private-suite probabilities."
+  ],
+  "not_nominated": [
+    "fourth-Wick trace and two fourth-order readouts",
+    "T125 scalar attenuation without new F evidence",
+    "Cholesky/recursive-fast R3 cost route",
+    "whole CGMA pipeline",
+    "naive norm variance mixture",
+    "naive covariance cubic completion"
+  ],
+  "official_best_changed": false,
+  "official_best_algorithm": "ALG029-V000",
+  "official_submission_id": 329806,
+  "official_adjusted_score": 1.367555488513972e-07,
+  "scientific_tier_changed": false,
+  "general_theory_minimum_active_minutes": 60,
+  "timing": {
+    "task_start_utc": "2026-09-05T22:19:35Z",
+    "theory_intervals": [
+      {
+        "start_utc": "2026-09-05T22:24:06Z",
+        "end_utc": "2026-09-06T00:34:24.988770+00:00",
+        "activity": "Derivations, source review, counterexamples and synthetic mathematical checks",
+        "deducted_non_theory_minutes": 10,
+        "deduction_reason": "Conservative allowance for context compression, commentary, clock calls and mechanical record handling within the otherwise continuous mathematical work interval. No idle waits were used."
+      }
+    ],
+    "non_theory_intervals": [],
+    "status": "completed",
+    "theory_interval_wall_minutes": 130.31647949999999,
+    "active_theory_minutes": 120.31647949999999,
+    "owner_minimum_active_theory_minutes": 120,
+    "minimum_met": true,
+    "unattended_wait_minutes_counted_as_theory": 0,
+    "theory_end_utc": "2026-09-06T00:34:24.988770+00:00",
+    "task_end_utc": "2026-09-06T00:43:36.733659+00:00",
+    "estimated_total_minutes": 140,
+    "actual_elapsed_minutes": 144.02889431666665,
+    "estimate_error_minutes": 4.028894316666651,
+    "orientation_minutes": 4.516666666666667,
+    "final_bookkeeping_minutes": 9.195748149999998,
+    "total_non_theory_minutes": 23.712414816666666,
+    "candidate_execution_minutes": 0,
+    "official_wait_minutes": 0,
+    "task_end_definition": "Final record checkoff; scoped git staging and commit follow."
+  }
+}

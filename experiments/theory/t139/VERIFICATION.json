@@ -1,0 +1,12 @@
+{
+  "verified_at_utc": "2026-09-08T18:47:02.509968+00:00",
+  "json_and_python_syntax": true,
+  "local_document_links": true,
+  "time_floors": true,
+  "single_E134_event": true,
+  "official_best_unchanged": true,
+  "T140_proposed_not_started": true,
+  "global_theory_minimum_unchanged": true,
+  "production_candidate_tests_run": 0,
+  "scope": "Documentation, mathematical artifacts and state consistency; no additional numerical campaign."
+}

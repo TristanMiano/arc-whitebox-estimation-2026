@@ -1,0 +1,9 @@
+{
+  "verified_utc": "2026-09-20T16:23:24.261768+00:00",
+  "time_floors_pass": true,
+  "incumbent_source_unchanged": true,
+  "no_automatic_next_task": true,
+  "event_row_unique": true,
+  "report_links_resolve": true,
+  "checks_scope": "Records/source identity only; estimator code unchanged, previous numerical checks retained."
+}

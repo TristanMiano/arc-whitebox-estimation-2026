@@ -1,0 +1,229 @@
+{
+  "task_id": "T141",
+  "experiment_id": "E136",
+  "algorithm_id": "ALG039-V001",
+  "status": "COMPLETED_LOCAL_REJECT_NO_UPLOAD",
+  "report": "experiments/submission_policy/t141/REPORT.md",
+  "source_freeze": "experiments/submission_policy/t141/SOURCE_FREEZE.json",
+  "score": {
+    "task_id": "T141",
+    "algorithm_id": "ALG039-V001",
+    "evidence_class": "submission-facing production confirmation; reused development panels, not independent scientific validation",
+    "rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "n": 12,
+    "raw_mse": 3.6177676894611767e-07,
+    "adjusted_score": 6.487878835651187e-08,
+    "parent_raw_mse": 4.5309500866514844e-08,
+    "parent_adjusted_score": 1.5595291677326586e-08,
+    "ratio": 4.160152288195849,
+    "improvement_percent": -316.0152288195849,
+    "wins": 0,
+    "bootstrap_probability_of_mean_improvement": 0.0,
+    "bootstrap_mean_change_90pct_interval": [
+      4.691056279610433e-08,
+      5.1693907251660873e-08
+    ],
+    "network_ratio_quantiles": {
+      "median": 4.207794660800673,
+      "p90": 4.6138947541665525,
+      "p95": 4.722367383386861,
+      "maximum": 4.854558970318884
+    },
+    "flops": [
+      394359109358,
+      394359109358,
+      394359109358,
+      394359109358,
+      394359109358,
+      394359109358,
+      394359109358,
+      394359109358,
+      394359109358,
+      394359109358,
+      394359109358,
+      394359109358
+    ],
+    "multipliers": [
+      0.1793337602784959,
+      0.1793337602784959,
+      0.1793337602784959,
+      0.1793337602784959,
+      0.1793337602784959,
+      0.1793337602784959,
+      0.1793337602784959,
+      0.1793337602784959,
+      0.1793337602784959,
+      0.1793337602784959,
+      0.1793337602784959,
+      0.1793337602784959
+    ],
+    "prediction_seal_sha256": "5c3a7a4d687685fd2d14d488f420414e9b8401e9a3cea5907487751a4cc5f200",
+    "per_network": [
+      {
+        "row": 750,
+        "candidate_raw_mse": 3.1757048457000745e-07,
+        "parent_raw_mse": 3.8793625684691605e-08,
+        "adjusted_ratio": 4.265182236645533
+      },
+      {
+        "row": 772,
+        "candidate_raw_mse": 3.858037733214724e-07,
+        "parent_raw_mse": 4.3922877254435005e-08,
+        "adjusted_ratio": 4.576500565337507
+      },
+      {
+        "row": 795,
+        "candidate_raw_mse": 3.7534072022522324e-07,
+        "parent_raw_mse": 4.950768159938803e-08,
+        "adjusted_ratio": 3.9501257826382723
+      },
+      {
+        "row": 817,
+        "candidate_raw_mse": 3.683155144784279e-07,
+        "parent_raw_mse": 4.607015261500804e-08,
+        "adjusted_ratio": 4.1654141992103
+      },
+      {
+        "row": 840,
+        "candidate_raw_mse": 4.4452639330263266e-07,
+        "parent_raw_mse": 5.806688216618281e-08,
+        "adjusted_ratio": 3.988658689997008
+      },
+      {
+        "row": 863,
+        "candidate_raw_mse": 3.8254098783266586e-07,
+        "parent_raw_mse": 4.322507930039158e-08,
+        "adjusted_ratio": 4.61105186768322
+      },
+      {
+        "row": 885,
+        "candidate_raw_mse": 3.485067900065541e-07,
+        "parent_raw_mse": 3.7404107289631236e-08,
+        "adjusted_ratio": 4.854558970318884
+      },
+      {
+        "row": 908,
+        "candidate_raw_mse": 3.329422994844861e-07,
+        "parent_raw_mse": 5.223600752456325e-08,
+        "adjusted_ratio": 3.3209078903330127
+      },
+      {
+        "row": 930,
+        "candidate_raw_mse": 3.212461941386955e-07,
+        "parent_raw_mse": 4.657171323182797e-08,
+        "adjusted_ratio": 3.593963049761776
+      },
+      {
+        "row": 953,
+        "candidate_raw_mse": 3.4669678461352066e-07,
+        "parent_raw_mse": 4.251150961446593e-08,
+        "adjusted_ratio": 4.249140755893706
+      },
+      {
+        "row": 976,
+        "candidate_raw_mse": 3.583681387212515e-07,
+        "parent_raw_mse": 4.481477262689011e-08,
+        "adjusted_ratio": 4.166448565707639
+      },
+      {
+        "row": 999,
+        "candidate_raw_mse": 3.5946314665847536e-07,
+        "parent_raw_mse": 4.058960149070256e-08,
+        "adjusted_ratio": 4.614210630442479
+      }
+    ],
+    "competition_pass": false,
+    "resource_checks_pass": true,
+    "comparison_refit": false,
+    "single_training_fit": false,
+    "scientific_tier_awarded": false,
+    "interim_look": null,
+    "coefficient_fit_calls": 0
+  },
+  "resources": {
+    "task_id": "T141",
+    "completed_prediction_calls": 13,
+    "flops": [
+      394359109358
+    ],
+    "prediction_wall_range_s": [
+      24.81169077999948,
+      25.874676180001188
+    ],
+    "prediction_wall_total_minutes": 5.508260006500071,
+    "residual_range_s": [
+      0.3347739920245658,
+      0.3522707410174917
+    ],
+    "peak_rss_bytes": 5212139520,
+    "setup_max_s": 0.03773426599946106,
+    "all_resource_checks_pass": true
+  },
+  "timing": {
+    "task_id": "T141",
+    "start_utc": "2026-09-08T19:09:27Z",
+    "decision_utc": "2026-09-08T19:18:14Z",
+    "record_completion_utc": "2026-09-08T19:21:21.279027+00:00",
+    "elapsed_minutes": 11.90465045,
+    "estimate_total_range_minutes": [
+      45,
+      75
+    ],
+    "error_to_lower_estimate_minutes": -33.09534955,
+    "error_to_upper_estimate_minutes": -63.09534955,
+    "metered_full_size_prediction_minutes": 5.508260006500071,
+    "official_wait_minutes": 0,
+    "explicit_idle_sleep_minutes": 2.25,
+    "approximate_active_engineering_minutes": 9.40465045,
+    "approximate_execution_and_io_wait_minutes": 2.5,
+    "allocation_method": "Elapsed and full-size prediction time measured. Approximate active/wait split; prediction meters overlap useful work and are not additive. Explicit sleeps135s and final process wait8.17s lie within the2.5-minute wait estimate.",
+    "budget_extension": false,
+    "estimate_explanation": "Immediate production feasibility and a clear negative screen avoided packaging and grader waiting; reused most T140 implementation.",
+    "final_verification_utc": "2026-09-08T19:22:58.945900+00:00",
+    "elapsed_through_commit_preparation_minutes": 13.532431666666668,
+    "final_error_to_lower_estimate_minutes": -31.467568333333332,
+    "final_error_to_upper_estimate_minutes": -61.46756833333333
+  },
+  "full_rank_trajectory_check_pass": true,
+  "unchanged_core_primitive_checks_reused": true,
+  "production_calls": 13,
+  "generated_full_rank_fixtures": 4,
+  "generated_estimator_calls_including_reference": 8,
+  "production_repairs": 0,
+  "comparison_looks": 1,
+  "comparison_extension": false,
+  "fit_calls": 0,
+  "rank_or_seed_search": false,
+  "final_blind_accessed": false,
+  "uploads": 0,
+  "archive_created": false,
+  "subagents": 0,
+  "usage_resets": 0,
+  "official_best_changed": false,
+  "retained_incumbent": {
+    "algorithm_id": "ALG038-V001",
+    "submission_id": 330153,
+    "adjusted_score": 1.4667675875416682e-08,
+    "final_layer_mse": 4.261352437140431e-08,
+    "vs_sampling_approx": 81.81255232202287,
+    "predecessor": "ALG038-V000_submission_330141",
+    "adjusted_ratio_to_predecessor": 0.8444606124765383,
+    "adjusted_relative_reduction": 0.15553938752346175
+  },
+  "next_task": "T142",
+  "next_task_started": false,
+  "next_task_scope": "Q4D: retain complete incumbent third history, replace radial fourth scalar with trace/marginal vectors; separately register, meter and run lean submission screen."
+}

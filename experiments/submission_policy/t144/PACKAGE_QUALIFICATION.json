@@ -1,0 +1,21 @@
+{
+  "task_id": "T144",
+  "algorithm_id": "ALG041-V000",
+  "archive": "experiments/submission_policy/t144/packages/ALG041-V000.tar.gz",
+  "archive_sha256": "25de10fad808b8f66b11bcd363841c34a6daf518f24c040ea589aa174c98ad70",
+  "size_bytes": 18673,
+  "checks": {
+    "archive_manifest": true,
+    "unchanged_incumbent_kernel": true,
+    "allowed_imports": true,
+    "resource_and_numerical_checks": true,
+    "changed_operations": true,
+    "reused_workspace_determinism": true,
+    "deterministic_current_source_identity": true,
+    "exact_integrated_cost": true
+  },
+  "pass": true,
+  "raw_import_findings": [],
+  "package_replay": "attempts/package-001/RESULT.json",
+  "targets_accessed": false
+}

@@ -1,0 +1,79 @@
+{
+  "task_id": "T155",
+  "experiment_id": "E149",
+  "status": "completed_diagnosis_partial_hgc_repair_no_submission",
+  "start_utc": "2026-09-11T17:46:08.949606+00:00",
+  "records_snapshot_utc": "2026-09-11T18:11:05.689538+00:00",
+  "report": "experiments/diagnosis/t155/REPORT.md",
+  "timing": "experiments/diagnosis/t155/TIMING.json",
+  "findings": {
+    "hgc_original_two_row_raw_ratio": 8.584715813968502,
+    "hgc_zero_floor_two_row_raw_ratio": 1.104618085581915,
+    "hgc_unanchored_two_row_raw_ratio": 9.063011896600763,
+    "hgc_unconfined_one_row_ratio_to_unconfined_parent": 8.736993518864466,
+    "hgc_parent_core_replay_one_row_raw_ratio": 579.7695453394113,
+    "cmf_proxy_improved_updates": 28,
+    "cmf_proxy_checked_updates": 28,
+    "cmf_metric_error_ratio_range": [
+      0.34934,
+      0.91671
+    ],
+    "scp_trace_complete_networks": 1,
+    "all_four_original_sources_unchanged": true
+  },
+  "execution": {
+    "task_id": "T155",
+    "completed_full_shape_diagnostic_calls": 14,
+    "failed_diagnostic_attempts": 3,
+    "total_attempts": 17,
+    "planned_initial_calls": 16,
+    "additional_recovery_attempts": 1,
+    "failures": {
+      "D04_hgc_parent_core": {
+        "complete_rows": [
+          750
+        ],
+        "failed_row": 976,
+        "failures": 2,
+        "reason": "flopscope operation-accounting SystemError, original and one unchanged-source fresh-process recovery"
+      },
+      "D09_scp_trace": {
+        "complete_rows": [
+          750
+        ],
+        "failed_row": 976,
+        "failures": 1,
+        "reason": "flopscope operation-accounting SystemError in instrumented replay; no retry"
+      }
+    },
+    "numerical_candidate_failures_observed": 0,
+    "interpretation": "All original frozen15-call candidate runs passed. Exceptions concern added diagnostic observers/counterfactuals, not original score failures. Complete row evidence stays usable with explicit one-network limits. No further calls are planned."
+  },
+  "demonstrated": "HGC inherited lower clamp drives most of its large observed deterioration; zero-floor intervention greatly reduces it but still loses. CMF improves its intended metric proxy on28/28 checked updates but not final score.",
+  "unresolved": "Remaining HGC closure error; which core/response/compression interaction negates CMF; exact omitted radial response in SCP; which compensating approximation makes isolated FAR completion harmful.",
+  "candidate_formula_bug_found": false,
+  "diagnostic_material_changes_registered": true,
+  "fit_calls": 0,
+  "parameter_sweeps": 0,
+  "new_official_submissions": 0,
+  "subagents": 0,
+  "new_full_shape_calls_completed": 14,
+  "new_full_shape_attempts_failed": 3,
+  "diagnostic_rows_post_hoc": [
+    750,
+    976
+  ],
+  "final_blind_access": false,
+  "incumbent": {
+    "algorithm_id": "ALG043-V000",
+    "submission_id": 330597,
+    "official_adjusted_score": 5.419051334510831e-09
+  },
+  "official_incumbent_unchanged": true,
+  "next_task": "T153",
+  "next_task_started": false,
+  "next_task_authorized": false,
+  "next_proposal": "experiments/diagnosis/t155/NEXT_PROPOSAL.json",
+  "end_utc": "2026-09-11T18:13:44.778388+00:00",
+  "elapsed_minutes": 27.597146366666667
+}

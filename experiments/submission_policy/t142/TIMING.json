@@ -1,0 +1,29 @@
+{
+  "task_id": "T142",
+  "start_utc": "2026-09-08T19:39:41Z",
+  "decision_utc": "2026-09-08T20:07:16Z",
+  "record_completion_utc": "2026-09-08T20:16:24.324096+00:00",
+  "elapsed_minutes": 36.72206826666666,
+  "estimate_total_range_minutes": [
+    45,
+    75
+  ],
+  "error_to_lower_estimate_minutes": -8.27793173333334,
+  "error_to_upper_estimate_minutes": -38.27793173333334,
+  "all_metered_prediction_minutes": 13.733009630333283,
+  "current_source_metered_prediction_minutes": 9.780100307549917,
+  "official_wait_minutes": 0,
+  "explicit_sleep_minutes": 1.5,
+  "approximate_active_implementation_analysis_records_minutes": 29.72206826666666,
+  "approximate_execution_io_wait_minutes": 7,
+  "allocation_method": "Elapsed and prediction meters measured. Rough exclusive active/wait allocation; metered prediction time overlaps active work and is not additive. Two45-second sleeps plus asynchronous waiting are included in wait.",
+  "initial_active_engineering_budget_minutes": 60,
+  "repair_allocation_minutes": 20,
+  "repair_episode_elapsed_minutes_approx": 12,
+  "engineering_budget_extended": false,
+  "reassessment": "At the first score decision, the compliant design loses adjusted score despite a raw gain. Stop this realization; preserve Q4D and cost envelope for future work.",
+  "final_verification_utc": "2026-09-08T20:21:43.131387+00:00",
+  "elapsed_through_commit_preparation_minutes": 42.03552311666667,
+  "final_error_to_lower_estimate_minutes": -2.964476883333333,
+  "final_error_to_upper_estimate_minutes": -32.96447688333333
+}

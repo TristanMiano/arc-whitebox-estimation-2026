@@ -1,0 +1,329 @@
+[
+  {
+    "algorithm_id": "ALG003-V009",
+    "archive_sha256": "6ecf8418f621af41e134ec7ea71a319817b11242881ce873de6cdaccee74cb7f",
+    "metadata_confirmations": [
+      "experiments/submission_policy/t075/RESULT.json",
+      "state/algorithm_specs/ALG003-V009.json",
+      "experiments/submission_policy/t075/RESULT.json",
+      "experiments/submission_policy/t075/ALG003-V009_SUBMISSION.json",
+      "experiments/submission_policy/t074/RESULT.json"
+    ],
+    "manifest_files": 3,
+    "all_manifest_hashes_match": true
+  },
+  {
+    "algorithm_id": "ALG014-V003",
+    "archive_sha256": "f69e0762d637ca2f253316e6bb5e18b39403ba3d2d7776a3c1c028977e67cce9",
+    "metadata_confirmations": [
+      "experiments/submission_policy/t075/RESULT.json",
+      "state/algorithm_specs/ALG014-V003.json",
+      "experiments/submission_policy/t075/ALG014-V003_SUBMISSION.json",
+      "experiments/submission_policy/t075/RESULT.json",
+      "experiments/submission_policy/t074/RESULT.json"
+    ],
+    "manifest_files": 2,
+    "all_manifest_hashes_match": true
+  },
+  {
+    "algorithm_id": "ALG015-V000",
+    "archive_sha256": "9591d5fdcc316e7d7e08aa7c57f2514ad64127e3b3336965690e16f023dc1bda",
+    "metadata_confirmations": [
+      "experiments/submission_policy/t096a/RESULT.json",
+      "experiments/submission_policy/t096a/RESULT.json",
+      "experiments/submission_policy/t096a/QUALIFICATION.json",
+      "experiments/submission_policy/t096a/ALG015-V000_SUBMISSION.json"
+    ],
+    "manifest_files": 2,
+    "all_manifest_hashes_match": true
+  },
+  {
+    "algorithm_id": "ALG018-V000",
+    "archive_sha256": "7dff1ba505a85e237fdfc0e7b5ab114bcb2df30910195b9129c27e6cdeff02d9",
+    "metadata_confirmations": [
+      "experiments/submission_policy/t105a/QUALIFICATION.json",
+      "experiments/submission_policy/t105a/PREUPLOAD_SEAL.json",
+      "experiments/submission_policy/t105a/RETRY_SEAL.json",
+      "experiments/submission_policy/t105a/ALG018-V000_SUBMISSION.json"
+    ],
+    "manifest_files": 2,
+    "all_manifest_hashes_match": true
+  },
+  {
+    "algorithm_id": "ALG019-V000",
+    "archive_sha256": "cf95929aaf2f76b35f0c5374339943ffbcceeaf0a7617b0d6ff56ccc3887bb7a",
+    "metadata_confirmations": [
+      "experiments/submission_policy/t108a/ALG019-V000_SUBMISSION.json",
+      "experiments/submission_policy/t108a/QUALIFICATION.json",
+      "experiments/submission_policy/t108a/PREUPLOAD_SEAL.json"
+    ],
+    "manifest_files": 1,
+    "all_manifest_hashes_match": true
+  },
+  {
+    "algorithm_id": "ALG024-V000",
+    "archive_sha256": "4353f9cd6d50143bba7591cf158d6fe745afaa7c8a05279b356e0fc7bce42378",
+    "metadata_confirmations": [
+      "state/algorithm_specs/ALG024-V000.json",
+      "experiments/submission_policy/t117a/ALG024-V000_SUBMISSION.json",
+      "experiments/submission_policy/t117a/REPAIR_SEAL.json",
+      "experiments/submission_policy/t117a/REPAIRED_QUALIFICATION.json"
+    ],
+    "manifest_files": 6,
+    "all_manifest_hashes_match": true
+  },
+  {
+    "algorithm_id": "ALG026-V000",
+    "archive_sha256": "a1d66a380afd79e99411ac0ad564c6eba3cdb9939b5a1effb0b41f9d3a84eb9c",
+    "metadata_confirmations": [
+      "experiments/submission_policy/t118a/RESULT.json",
+      "state/algorithm_specs/ALG026-V000.json",
+      "experiments/submission_policy/t118a/RESULT.json",
+      "experiments/submission_policy/t118a/WINDOWS_NATIVE_QUALIFICATION.json",
+      "experiments/submission_policy/t118a/PREUPLOAD_SEAL.json",
+      "experiments/submission_policy/t118a/LINUX_CURRENT_QUALIFICATION.json",
+      "experiments/submission_policy/t118a/ALG026-V000_SUBMISSION.json"
+    ],
+    "manifest_files": 9,
+    "all_manifest_hashes_match": true
+  },
+  {
+    "algorithm_id": "ALG028-V000",
+    "archive_sha256": "0415448d568e81441919094cfc6f9374aa69e491a388096620ccb4b721c4f878",
+    "metadata_confirmations": [
+      "experiments/submission_policy/t120b/RESULT.json",
+      "state/algorithm_specs/ALG028-V000.json",
+      "experiments/submission_policy/t120b/ARTIFACT_MANIFEST.json",
+      "experiments/submission_policy/t120b/RESULT.json",
+      "experiments/submission_policy/t120b/PREUPLOAD_SEAL.json",
+      "experiments/submission_policy/t120b/PACKAGE_QUALIFICATION.json"
+    ],
+    "manifest_files": 10,
+    "all_manifest_hashes_match": true
+  },
+  {
+    "algorithm_id": "ALG029-V000",
+    "archive_sha256": "c8e6e9286bc5c6e9ad5be8c5bb693e810162e7775bd0e0b69668038afef295cb",
+    "metadata_confirmations": [
+      "experiments/submission_policy/t124/RESULT.json",
+      "state/algorithm_specs/ALG029-V000.json",
+      "experiments/submission_policy/t124/ARTIFACT_MANIFEST.json",
+      "experiments/submission_policy/t124/RESULT.json",
+      "experiments/submission_policy/t124/PREUPLOAD_SEAL.json",
+      "experiments/submission_policy/t124/OFFICIAL_ATTEMPT.json",
+      "experiments/submission_policy/t124/PACKAGE_QUALIFICATION.json"
+    ],
+    "manifest_files": 11,
+    "all_manifest_hashes_match": true
+  },
+  {
+    "algorithm_id": "ALG031-V000",
+    "archive_sha256": "b40b309a9fa3a353fa3f8d9163fa8bd1566299af87e3338558cefb8607c0f247",
+    "metadata_confirmations": [
+      "experiments/submission_policy/t127/RESULT.json",
+      "state/algorithm_specs/ALG031-V000.json",
+      "experiments/submission_policy/t127/ARTIFACT_MANIFEST.json",
+      "experiments/submission_policy/t127/RESULT.json",
+      "experiments/submission_policy/t127/PREUPLOAD_SEAL.json",
+      "experiments/submission_policy/t127/OFFICIAL_ATTEMPT.json",
+      "experiments/submission_policy/t127/PACKAGE_QUALIFICATION.json"
+    ],
+    "manifest_files": 12,
+    "all_manifest_hashes_match": true
+  },
+  {
+    "algorithm_id": "ALG036-V000",
+    "archive_sha256": "0fdfa15c36c94def66692f8b8003b837d954b3c8189e1596b79d1607befcbb25",
+    "metadata_confirmations": [
+      "experiments/submission_policy/t134/RESULT.json",
+      "state/algorithm_specs/ALG036-V000.json",
+      "experiments/submission_policy/t134/RESULT.json",
+      "experiments/submission_policy/t134/PREUPLOAD_SEAL.json",
+      "experiments/submission_policy/t134/OFFICIAL_ATTEMPT.json",
+      "experiments/submission_policy/t134/PACKAGE_QUALIFICATION.json"
+    ],
+    "manifest_files": 13,
+    "all_manifest_hashes_match": true
+  },
+  {
+    "algorithm_id": "ALG037-V000",
+    "archive_sha256": "5d6ddf7461fe7322c592bddfd420c8e5e5068797a47f34bd7f005e61e74748d5",
+    "metadata_confirmations": [
+      "experiments/submission_policy/t135/RESULT.json",
+      "state/algorithm_specs/ALG037-V000.json",
+      "experiments/submission_policy/t135/RESULT.json",
+      "experiments/submission_policy/t135/PREUPLOAD_SEAL.json",
+      "experiments/submission_policy/t135/OFFICIAL_ATTEMPT.json",
+      "experiments/submission_policy/t135/PACKAGE_QUALIFICATION.json"
+    ],
+    "manifest_files": 14,
+    "all_manifest_hashes_match": true
+  },
+  {
+    "algorithm_id": "ALG038-V000",
+    "archive_sha256": "e83da8bbea78b45be296edaea50a31083079bfdb497442b276ec9b2a31cd5745",
+    "metadata_confirmations": [
+      "experiments/submission_policy/t137/RESULT.json",
+      "experiments/submission_policy/t137/RESULT.json",
+      "experiments/submission_policy/t137/PREUPLOAD_SEAL.json",
+      "experiments/submission_policy/t137/OFFICIAL_ATTEMPT.json",
+      "experiments/submission_policy/t137/PACKAGE_QUALIFICATION.json"
+    ],
+    "manifest_files": 7,
+    "all_manifest_hashes_match": true
+  },
+  {
+    "algorithm_id": "ALG038-V001",
+    "archive_sha256": "b5cad63ef997dc0ead3dd17587b56340580119de8d460f95bcd5e9a9e5f6f367",
+    "metadata_confirmations": [
+      "experiments/submission_policy/t138/RESULT.json",
+      "experiments/submission_policy/t138/LOCAL_COMPLETE.json",
+      "experiments/submission_policy/t138/RESULT.json",
+      "experiments/submission_policy/t138/PREUPLOAD_SEAL.json",
+      "experiments/submission_policy/t138/OFFICIAL_ATTEMPT.json",
+      "experiments/submission_policy/t138/PACKAGE_QUALIFICATION.json"
+    ],
+    "manifest_files": 7,
+    "all_manifest_hashes_match": true
+  },
+  {
+    "algorithm_id": "ALG041-V000",
+    "archive_sha256": "25de10fad808b8f66b11bcd363841c34a6daf518f24c040ea589aa174c98ad70",
+    "metadata_confirmations": [
+      "experiments/submission_policy/t144/RESULT.json",
+      "experiments/submission_policy/t144/RESULT.json",
+      "experiments/submission_policy/t144/PREUPLOAD_SEAL.json",
+      "experiments/submission_policy/t144/OFFICIAL_ATTEMPT.json",
+      "experiments/submission_policy/t144/PACKAGE_QUALIFICATION.json"
+    ],
+    "manifest_files": 8,
+    "all_manifest_hashes_match": true
+  },
+  {
+    "algorithm_id": "ALG043-V000",
+    "archive_sha256": "fdf4b3bf4f0cf0a0cabeefb42fca39985123a0ad636eb750ad7bafa963a7717f",
+    "metadata_confirmations": [
+      "experiments/submission_policy/t147/RESULT.json",
+      "state/algorithm_specs/ALG043-V000.json",
+      "experiments/submission_policy/t147/RESULT.json",
+      "experiments/submission_policy/t147/PREUPLOAD_SEAL.json",
+      "experiments/submission_policy/t147/OFFICIAL_ATTEMPT.json",
+      "experiments/submission_policy/t147/PACKAGE_QUALIFICATION.json"
+    ],
+    "manifest_files": 3,
+    "all_manifest_hashes_match": true
+  },
+  {
+    "algorithm_id": "ALG049-V000",
+    "archive_sha256": "f61fc6eb9e0525f6d40c8c856a46becb88a360d116d036d36a1e4024512f001e",
+    "metadata_confirmations": [
+      "experiments/submission_policy/t159/RESULT.json",
+      "state/algorithm_specs/ALG049-V000.json",
+      "experiments/submission_policy/t159/RESULT.json",
+      "experiments/submission_policy/t159/OFFICIAL_ATTEMPT_1_BEFORE_EXTENSION.json",
+      "experiments/submission_policy/t159/PREUPLOAD_SEAL.json",
+      "experiments/submission_policy/t159/OFFICIAL_ATTEMPT_1.json",
+      "experiments/submission_policy/t159/OFFICIAL_ATTEMPT_1_BEFORE_EXTENSION_120.json",
+      "experiments/submission_policy/t159/PACKAGE_QUALIFICATION.json"
+    ],
+    "manifest_files": 3,
+    "all_manifest_hashes_match": true
+  },
+  {
+    "algorithm_id": "ALG050-V000",
+    "archive_sha256": "f3e186139f65d0407539bf8518de43a7e4522f5f9e4ac1e46e73212f594ab1bc",
+    "metadata_confirmations": [
+      "experiments/submission_policy/t161/RESULT.json",
+      "state/algorithm_specs/ALG050-V000.json",
+      "experiments/submission_policy/t161/RESULT.json",
+      "experiments/submission_policy/t161/OFFICIAL_ATTEMPT_1_BEFORE_EXTENSION.json",
+      "experiments/submission_policy/t161/PREUPLOAD_SEAL.json",
+      "experiments/submission_policy/t161/OFFICIAL_ATTEMPT_1.json",
+      "experiments/submission_policy/t161/PACKAGE_QUALIFICATION.json"
+    ],
+    "manifest_files": 3,
+    "all_manifest_hashes_match": true
+  },
+  {
+    "algorithm_id": "ALG051-V000",
+    "archive_sha256": "3b46441c39a7e2dc8b2d8344cdea410bf23aa023a7dcbfdc7b4c0a841c45e26f",
+    "metadata_confirmations": [
+      "experiments/submission_policy/t164/RESULT.json",
+      "state/algorithm_specs/ALG051-V000.json",
+      "experiments/submission_policy/t164/RESULT.json",
+      "experiments/submission_policy/t164/PREUPLOAD_SEAL.json",
+      "experiments/submission_policy/t164/OFFICIAL_ATTEMPT_1.json",
+      "experiments/submission_policy/t164/PACKAGE_QUALIFICATION.json"
+    ],
+    "manifest_files": 3,
+    "all_manifest_hashes_match": true
+  },
+  {
+    "algorithm_id": "ALG052-V000",
+    "archive_sha256": "827a2ff81a318eb655013b7766df194b851d0bad4be34669db87d0121066d547",
+    "metadata_confirmations": [
+      "experiments/submission_policy/t167/RESULT.json",
+      "state/algorithm_specs/ALG052-V000.json",
+      "experiments/submission_policy/t167/RESULT.json",
+      "experiments/submission_policy/t167/PREUPLOAD_SEAL.json",
+      "experiments/submission_policy/t167/OFFICIAL_ATTEMPT_1.json",
+      "experiments/submission_policy/t167/PACKAGE_QUALIFICATION.json"
+    ],
+    "manifest_files": 4,
+    "all_manifest_hashes_match": true
+  },
+  {
+    "algorithm_id": "ALG053-V000",
+    "archive_sha256": "13f9dd52e24fde2987d16b004cd66d6049b31a3b2cb630a53c9652826c2ccc4e",
+    "metadata_confirmations": [
+      "experiments/submission_policy/t171/RESULT.json",
+      "state/algorithm_specs/ALG053-V000.json",
+      "experiments/submission_policy/t171/RESULT.json",
+      "experiments/submission_policy/t171/PREUPLOAD_SEAL.json",
+      "experiments/submission_policy/t171/OFFICIAL_ATTEMPT_1.json",
+      "experiments/submission_policy/t171/PACKAGE_QUALIFICATION.json"
+    ],
+    "manifest_files": 4,
+    "all_manifest_hashes_match": true
+  },
+  {
+    "algorithm_id": "ALG054-V000",
+    "archive_sha256": "603e16a2c1d675f4ce0f353990aa59491771b8f712fc287f2020768e93c30d5e",
+    "metadata_confirmations": [
+      "experiments/theory/t172/candidates/ALG054-V000/OFFICIAL_RESULT.json",
+      "experiments/theory/t172/candidates/ALG054-V000/QUALIFICATION.json",
+      "experiments/theory/t172/candidates/ALG054-V000/PREUPLOAD_SEAL.json",
+      "experiments/theory/t172/candidates/ALG054-V000/OFFICIAL_RESULT.json",
+      "experiments/theory/t172/candidates/ALG054-V000/OFFICIAL_ATTEMPT_1.json"
+    ],
+    "manifest_files": 4,
+    "all_manifest_hashes_match": true
+  },
+  {
+    "algorithm_id": "ALG055-V000",
+    "archive_sha256": "d8d1b905632e0e5937ed3f61a6ca86b2e4afb9f28366d6a4f32c185f29ebc394",
+    "metadata_confirmations": [
+      "experiments/theory/t172/candidates/ALG055-V000/OFFICIAL_RESULT.json",
+      "experiments/theory/t172/candidates/ALG055-V000/QUALIFICATION.json",
+      "experiments/theory/t172/candidates/ALG055-V000/PREUPLOAD_SEAL.json",
+      "experiments/theory/t172/candidates/ALG055-V000/OFFICIAL_RESULT.json",
+      "experiments/theory/t172/candidates/ALG055-V000/OFFICIAL_ATTEMPT_1.json"
+    ],
+    "manifest_files": 5,
+    "all_manifest_hashes_match": true
+  },
+  {
+    "algorithm_id": "ALG058-V001",
+    "archive_sha256": "2c28711f6d44709182886eb6e1535503af415ecd97721b46868b39f2ff0660db",
+    "metadata_confirmations": [
+      "experiments/theory/t172/candidates/ALG058-V001/OFFICIAL_RESULT.json",
+      "experiments/theory/t172/candidates/ALG058-V001/PREUPLOAD_AUTOMATIC.json",
+      "experiments/theory/t172/candidates/ALG058-V001/QUALIFICATION.json",
+      "experiments/theory/t172/candidates/ALG058-V001/PREUPLOAD_SEAL.json",
+      "experiments/theory/t172/candidates/ALG058-V001/OFFICIAL_RESULT.json",
+      "experiments/theory/t172/candidates/ALG058-V001/OFFICIAL_ATTEMPT_1.json"
+    ],
+    "manifest_files": 5,
+    "all_manifest_hashes_match": true
+  }
+]

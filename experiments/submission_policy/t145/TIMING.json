@@ -1,0 +1,20 @@
+{
+  "task_id": "T145",
+  "start_utc": "2026-09-10T21:16:25Z",
+  "score_decision_utc": "2026-09-10T21:37:57.086018+00:00",
+  "record_completion_utc": "2026-09-10T21:42:43.800000+00:00",
+  "elapsed_minutes": 26.313333333333333,
+  "estimate_total_range_minutes": [
+    35,
+    75
+  ],
+  "error_to_lower_estimate_minutes": -8.686666666666667,
+  "error_to_upper_estimate_minutes": -48.68666666666667,
+  "initial_active_engineering_budget_minutes": 60,
+  "engineering_budget_extended": false,
+  "bounded_repair_allocation_minutes": 15,
+  "official_wait_minutes": 0,
+  "all_metered_prediction_minutes": 11.240553661399996,
+  "current_source_metered_prediction_minutes": 9.737418171699996,
+  "accounting_note": "Elapsed milestones and metered predictions measured. Compute overlaps implementation/records; these are not additive and no exact exclusive active-minute claim is made. The entire elapsed task remains below the 60-active-minute allocation."
+}

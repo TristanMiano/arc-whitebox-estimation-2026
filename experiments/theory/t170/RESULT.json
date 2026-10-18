@@ -1,0 +1,85 @@
+{
+  "task_id": "T170",
+  "experiment_id": "E166",
+  "status": "completed_empirical_theory_one_nominee_no_upload",
+  "completed_utc": "2026-10-11T16:17:40.260219+00:00",
+  "active_research_minutes": 240.17449536666663,
+  "category_minutes": {
+    "administration": 6.4304655,
+    "literature": 16.83663616666667,
+    "derivation": 79.35580081666667,
+    "empirical": 132.53024716666664,
+    "passive": 709.9210418333334,
+    "selection": 11.451811216666666
+  },
+  "submission_nominees": [
+    {
+      "name": "P49_quadratic_mixed_cumulant_covariance",
+      "source": "experiments/theory/t170/sources/P49_quadratic_full/estimator.py",
+      "source_sha256": "f31d8c70733464b0ad1d60ba240442299165b8658df9d9aa95538139d32d0e50",
+      "status": "Assembled from existing all32 fixed-ridge coefficients; not executed or qualified.",
+      "forecast": {
+        "official_improvement_probability_subjective": [
+          0.8,
+          0.9
+        ],
+        "conditional_adjusted_reduction": [
+          0.01,
+          0.04
+        ],
+        "expected_retained_reduction_endpoint_product": [
+          0.008,
+          0.036
+        ],
+        "note": "Planning ranges, not calibrated statistical confidence; adaptation and final asset transfer remain uncertainties."
+      }
+    }
+  ],
+  "research_nominees": [],
+  "incumbent_retained": true,
+  "incumbent_algorithm": "ALG052-V000",
+  "incumbent_submission": 332641,
+  "official_adjusted_score": 4.285182274373245e-09,
+  "incumbent_source_sha256": "b094bb97c90e42d91b0552f80ed9f8817922afb99706f761a235cb49f86ae7b1",
+  "incumbent_asset_sha256": "3bb8b66e7d1988ba9984ccf1dae366ba5127449bd0465c6dcd75416c03bb4dce",
+  "covariance_reused32_cv_raw_ratio": 0.9560486241882113,
+  "covariance_actual8_raw_ratio": 0.9623484720068237,
+  "covariance_actual8_adjusted_ratio": 0.9699751526131547,
+  "actual8_adjusted_wins": 6,
+  "actual8_descriptive_bootstrap_support": 0.995,
+  "actual8_resources": {
+    "max_residual_s": 0.36878871302769767,
+    "max_wall_s": 44.076982169000075,
+    "max_rss_bytes": 6787809280,
+    "min_flops": 442576528433,
+    "max_flops": 482824021105,
+    "max_setup_s": 0.022799520999797096
+  },
+  "candidate_full_asset_executed": false,
+  "candidate_qualified": false,
+  "compression_combination_actual8_adjusted_ratio": 0.9665878461738283,
+  "compression_combination_resource_status": "Residual cap failed; fused repair still fails on one of two checked rows.",
+  "diagnosis": "Aggressive repaired cubic compression loses covariance and cubic information needed at later layers; exact trace/diagonal/mean-axis repair alone is insufficient. Conditional heads and new memory features lose their fixed recipes. Cheap higher-order observers provide little signal; complete higher-order recurrences remain untested.",
+  "full_shape_calls_with_meter": 141,
+  "known_additional_completed_predictions_without_meter": 1,
+  "full_shape_flops_recorded_lower_bound": 63252410654423,
+  "probe_ids_through": "P55",
+  "written_scratchpad_sections": 58,
+  "literature_entries": 22,
+  "official_upload_performed": false,
+  "new_algorithm_registered": false,
+  "subagents": 0,
+  "final_blind_accessed": false,
+  "new_challenge_target_collection": false,
+  "new_model_fit": true,
+  "fit_role": "Analytic dictionary fixed-ridge and small neural recipes on adaptively reused32F training networks; no fresh validation claim.",
+  "next_task": "T171",
+  "next_task_started": false,
+  "next_task_owner_authorized": false,
+  "unresolved_jobs": [],
+  "novelty": "Our analytic covariance-defect dictionary, response fitting and native implementation added to the public cumulant framework and our incumbent learned source; standard Edgeworth/Hermite algebra, no academic priority claim.",
+  "report": "experiments/theory/t170/REPORT.md",
+  "selection": "experiments/theory/t170/CANDIDATE_SELECTION.md",
+  "timing_file": "experiments/theory/t170/TIMING.json",
+  "evidence_inventory": "experiments/theory/t170/EVIDENCE_INVENTORY.json"
+}

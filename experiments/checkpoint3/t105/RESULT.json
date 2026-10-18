@@ -1,0 +1,25 @@
+{
+  "schema_version": "arc-t105-result-v1",
+  "task_id": "T105",
+  "experiment_id": "E084",
+  "status": "completed_positive_activate_T099",
+  "FC006_status": "closed_positive",
+  "new_historical_P1": "ALG017-V000",
+  "global_historical_P1_pool": ["ALG014-V000", "ALG017-V000"],
+  "RC002_eligible_pool": ["ALG017-V000"],
+  "current_local_submission_candidate": "ALG018-V000",
+  "best_officially_graded_entry": "ALG015-V000_submission_328500",
+  "tiers_changed_by_adjudication": false,
+  "submission_candidate_changed_by_adjudication": false,
+  "official_upload_performed": false,
+  "T099_activated": true,
+  "next_task": "T099",
+  "owner_action_required": false,
+  "timing": {
+    "start_pdt": "2026-08-27T12:12:02,962606180-07:00",
+    "estimate_minutes": 30,
+    "end_checkoff_pdt": "2026-08-27T12:19:59,519169339-07:00",
+    "elapsed_ns": 476556563159
+  },
+  "evidence": "experiments/checkpoint3/t105/FC006_ADJUDICATION.json"
+}

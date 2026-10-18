@@ -1,0 +1,164 @@
+{
+  "task_id": "T127",
+  "algorithm_id": "ALG031-V000",
+  "sealed_utc": "2026-09-06T00:56:12.554866+00:00",
+  "owner_authorized_upload": true,
+  "archive_path": "experiments/submission_policy/t127/packages/ALG031-V000.tar.gz",
+  "archive_sha256": "b40b309a9fa3a353fa3f8d9163fa8bd1566299af87e3338558cefb8607c0f247",
+  "flops": 218986065179,
+  "multiplier": 0.1,
+  "production_score": {
+    "task_id": "T127",
+    "algorithm_id": "ALG031-V000",
+    "evidence_class": "submission-facing production confirmation; reused development panels, not independent scientific validation",
+    "rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "n": 12,
+    "raw_mse": 1.2887078848617875e-06,
+    "adjusted_score": 1.2887078848617877e-07,
+    "parent_raw_mse": 1.3072899347778126e-06,
+    "parent_adjusted_score": 1.3072899347778128e-07,
+    "ratio": 0.9857858234644916,
+    "improvement_percent": 1.4214176535508383,
+    "wins": 9,
+    "bootstrap_probability_of_mean_improvement": 0.98205,
+    "bootstrap_mean_change_90pct_interval": [
+      -3.2680295357649188e-09,
+      -4.086950467086405e-10
+    ],
+    "network_ratio_quantiles": {
+      "median": 0.9800226632667337,
+      "p90": 1.0185991410633801,
+      "p95": 1.019777988856563,
+      "maximum": 1.020909620264206
+    },
+    "flops": [
+      218986065179,
+      218986065179,
+      218986065179,
+      218986065179,
+      218986065179,
+      218986065179,
+      218986065179,
+      218986065179,
+      218986065179,
+      218986065179,
+      218986065179,
+      218986065179
+    ],
+    "multipliers": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "prediction_seal_sha256": "1fccf8b6bed65fc19d485b8a3958c2cc7531e238320b71f8be321ee8b73a1fec",
+    "per_network": [
+      {
+        "row": 750,
+        "candidate_raw_mse": 9.613061065240224e-07,
+        "parent_raw_mse": 9.860850382964678e-07,
+        "adjusted_ratio": 0.9748714047875092
+      },
+      {
+        "row": 772,
+        "candidate_raw_mse": 1.5461194687571316e-06,
+        "parent_raw_mse": 1.5774561733629327e-06,
+        "adjusted_ratio": 0.9801346591208329
+      },
+      {
+        "row": 795,
+        "candidate_raw_mse": 1.052547895496706e-06,
+        "parent_raw_mse": 1.077025187654916e-06,
+        "adjusted_ratio": 0.9772732407386812
+      },
+      {
+        "row": 817,
+        "candidate_raw_mse": 1.5187420477252175e-06,
+        "parent_raw_mse": 1.5196723958840565e-06,
+        "adjusted_ratio": 0.9993877968953316
+      },
+      {
+        "row": 840,
+        "candidate_raw_mse": 1.4814747029963948e-06,
+        "parent_raw_mse": 1.5390966426940219e-06,
+        "adjusted_ratio": 0.962561194599992
+      },
+      {
+        "row": 863,
+        "candidate_raw_mse": 1.1654032456858427e-06,
+        "parent_raw_mse": 1.180220247063978e-06,
+        "adjusted_ratio": 0.9874455624575197
+      },
+      {
+        "row": 885,
+        "candidate_raw_mse": 1.3067314313521238e-06,
+        "parent_raw_mse": 1.279967790894113e-06,
+        "adjusted_ratio": 1.020909620264206
+      },
+      {
+        "row": 908,
+        "candidate_raw_mse": 1.4480573637585296e-06,
+        "parent_raw_mse": 1.4777442596701127e-06,
+        "adjusted_ratio": 0.9799106674126344
+      },
+      {
+        "row": 930,
+        "candidate_raw_mse": 1.0807644242027992e-06,
+        "parent_raw_mse": 1.1357761930903853e-06,
+        "adjusted_ratio": 0.9515646046974253
+      },
+      {
+        "row": 953,
+        "candidate_raw_mse": 1.293026027692356e-06,
+        "parent_raw_mse": 1.269100801539684e-06,
+        "adjusted_ratio": 1.0188521086139462
+      },
+      {
+        "row": 976,
+        "candidate_raw_mse": 1.4941730714030715e-06,
+        "parent_raw_mse": 1.4701762184205117e-06,
+        "adjusted_ratio": 1.0163224331082847
+      },
+      {
+        "row": 999,
+        "candidate_raw_mse": 1.1161488327472557e-06,
+        "parent_raw_mse": 1.1751582687625702e-06,
+        "adjusted_ratio": 0.9497859670617381
+      }
+    ],
+    "competition_pass": true,
+    "resource_checks_pass": true,
+    "comparison_refit": false,
+    "single_training_fit": true,
+    "scientific_tier_awarded": false
+  },
+  "qualification_pass": true,
+  "coefficient_fit_calls": 1,
+  "coefficient_asset_sha256": "1ab6ab86aba80ccb181b4693d258c7b25a03235de673f018d1cff04eafb3e7e6",
+  "fit_sha256": "2555b7d8f28967539382e9b09f811e3e5db43b9d2c35b97481b79b9aec709e67",
+  "grade_wait_minutes": 30,
+  "generic_unchanged_retry_limit": 1,
+  "scientific_tier_transfer": false,
+  "final_designation": false
+}

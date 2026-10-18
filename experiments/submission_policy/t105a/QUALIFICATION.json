@@ -1,0 +1,100 @@
+{
+  "schema_version": "arc-t105a-qualification-v1",
+  "task_id": "T105A",
+  "experiment_id": "E085",
+  "algorithm_id": "ALG018-V000",
+  "status": "pass",
+  "environment": {
+    "platform": "WSL2_x86_64",
+    "python": "3.10.20",
+    "numpy": "2.2.6",
+    "flopscope": "0.12.0",
+    "whestbench": "0.16.0",
+    "blas_threads": 1
+  },
+  "source": {
+    "path": "submissions/phase2_alg018_v000/estimator.py",
+    "sha256": "7c1228792721deae9d99bcb9accbd0445bc4bbb1fd33d0e637d260c2e3c7eee0",
+    "license_path": "submissions/phase2_alg018_v000/LICENSE",
+    "license_sha256": "832662579fdfd916d03c2d5e15cd53491635b51d807c4db46ae89ffa66c82690",
+    "contract_validator": "pass"
+  },
+  "package": {
+    "path": "experiments/submission_policy/t105a/packages/ALG018-V000.tar.gz",
+    "sha256": "7dff1ba505a85e237fdfc0e7b5ab114bcb2df30910195b9129c27e6cdeff02d9",
+    "size_bytes": 3583,
+    "validator": "pass",
+    "manifest_python_min_version": "3.10",
+    "manifest_whestbench_version": "0.16.0",
+    "manifest_flopscope_version": "0.12.0",
+    "manifest_numpy_version": "2.2.6",
+    "manifest_files": {
+      "estimator.py": "7c1228792721deae9d99bcb9accbd0445bc4bbb1fd33d0e637d260c2e3c7eee0",
+      "LICENSE": "832662579fdfd916d03c2d5e15cd53491635b51d807c4db46ae89ffa66c82690"
+    }
+  },
+  "fresh_extraction": {
+    "contract_validator": "pass",
+    "estimator_sha256_matches_source": true,
+    "license_sha256_matches_source": true,
+    "fixed_seed_prediction_sha256": "e19f3d55d908b205db0860282a8d8916fa4c2f2476f79d40f41a61cba73e4b7d",
+    "fixed_seed_repeated_byte_identical": true,
+    "flops_used_both_runs": 216711677067,
+    "flops_repeated_identical": true,
+    "maximum_fixed_seed_wall_time_s": 2.6040677169994524,
+    "maximum_fixed_seed_residual_wall_time_s": 0.04924500999095471,
+    "setup_seconds": 0.000006556000698765274,
+    "peak_working_set_bytes": 255217664,
+    "memory_headroom_bytes": 8334716928
+  },
+  "public_phase2_one_mlp_smoke": {
+    "dataset": "hf://aicrowd/arc-whestbench-public-2026@v2-phase2",
+    "dataset_sha256": "aab61cf11271d20118e2109065c165a931dfac493849f0d611f7a2d82a03790",
+    "network": "logan-fitzgerald",
+    "local_runner": {
+      "adjusted_score": 2.628418314998271e-7,
+      "final_layer_mse": 2.628418314998271e-6,
+      "flops_used": 216711677067,
+      "wall_time_s": 2.511613921999924,
+      "residual_wall_time_s": 0.042895807005152164,
+      "failures": 0
+    },
+    "subprocess_runner": {
+      "adjusted_score": 2.628418314998271e-7,
+      "final_layer_mse": 2.628418314998271e-6,
+      "flops_used": 216711677067,
+      "wall_time_s": 2.6921160289994077,
+      "residual_wall_time_s": 0.040493853964107984,
+      "failures": 0
+    },
+    "local_and_subprocess_scores_identical": true,
+    "local_and_subprocess_flops_identical": true
+  },
+  "hard_limits": {
+    "flop_budget": 2199023255552,
+    "wall_time_s": 120,
+    "residual_wall_time_s": 0.4,
+    "setup_time_s": 5,
+    "memory_bytes": 8589934592,
+    "package_bytes": 52428800
+  },
+  "preupload_incidents": [
+    {
+      "class": "packaging_environment",
+      "disposition": "self_repaired_before_upload",
+      "detail": "The first valid archive inherited Python 3.12 from an isolated tool runner. It was replaced under the accepted Python 3.10.20 stack; estimator bytes were unchanged and every package/fresh-extraction check was rerun. Only the replacement hash is authorized."
+    },
+    {
+      "class": "qualification_harness_dependency",
+      "disposition": "self_repaired_before_candidate_execution",
+      "detail": "The first fixed-seed harness invocation lacked psutil and stopped at import. The isolated qualification environment added psutil and reran the unchanged archive successfully."
+    }
+  ],
+  "hard_gate": "PASS",
+  "scientific_tier_transfer": false,
+  "official_upload_performed_after_qualification": true,
+  "official_attempt_1_submission_id": 328678,
+  "official_attempt_1_terminal_status": "failed_generic_retryable",
+  "official_attempt_2_submission_id": 328686,
+  "official_attempt_2_terminal_status": "graded"
+}

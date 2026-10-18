@@ -1,0 +1,134 @@
+{
+  "task_id": "T168",
+  "start_utc": "2026-10-08T04:03:32+00:00",
+  "research_start_utc": "2026-10-08T04:05:22.588932+00:00",
+  "research_end_utc": "2026-10-08T08:24:09.535713+00:00",
+  "end_recorded_utc": "2026-10-08T08:31:03.362929+00:00",
+  "elapsed_minutes": 267.52271548333334,
+  "estimated_elapsed_range_minutes": [
+    255,
+    315
+  ],
+  "estimate_midpoint_minutes": 285,
+  "estimate_error_from_midpoint_minutes": -17.477284516666657,
+  "active_research_minutes": 241.91006056666666,
+  "minimum_active_research_minutes": 240,
+  "minimum_written_derivation_minutes": 60,
+  "category_minutes": {
+    "administration": 25.612344,
+    "derivation": 111.13290301666666,
+    "empirical": 85.01010778333332,
+    "literature": 29.843718883333334,
+    "selection": 15.923330883333335
+  },
+  "dominant_route_minutes": {
+    "birth_query": 24.415131333333335,
+    "auxiliary_constructor": 5.096378666666666,
+    "fourth_basis": 1.5427013333333333,
+    "hidden_closure": 3.724669083333333,
+    "targeted_response": 4.501602016666666,
+    "memory_closure": 3.4792456666666665,
+    "quartic_observer": 4.872399700000001,
+    "joint_state": 15.480521333333334,
+    "grouped_birth": 5.682284933333333,
+    "split_query": 4.598668566666667,
+    "sparse_refresh": 0.5985626666666667,
+    "structured_closure": 2.7768125666666665,
+    "complete_projection": 2.31666045,
+    "connected_fourth": 4.785261533333334,
+    "neuron_gauge": 6.49389805,
+    "comparison_geometry": 4.434316466666667,
+    "covariance_observer": 0.21489913333333333,
+    "covariance_response": 16.047736733333334,
+    "warm_pair": 5.924193316666666,
+    "implicit_repeated": 1.9409523499999999,
+    "warm_pair_cost": 5.162136733333333,
+    "harmonic_residual": 16.1403787,
+    "star_query": 5.467914716666667,
+    "quenched_closure": 3.8179529666666667,
+    "star_operator": 15.07111186666667,
+    "repeated_operator": 14.507862333333334,
+    "transported_star": 4.5495296,
+    "distributional_closure": 4.386560466666666,
+    "transported_operator": 25.640222333333334,
+    "affordable_feedback": 10.5254143,
+    "graph_cost": 8.916606849999999,
+    "feasibility": 2.2637945999999998,
+    "covariance_basis": 1.16746255,
+    "covariance_eigenspace": 3.706680366666667,
+    "final_routes": 17.659536283333335,
+    "context_and_admin_adjustment": -16.0
+  },
+  "category_adjustments": [
+    {
+      "from": "empirical",
+      "to": "administration",
+      "minutes": 4.0,
+      "note": "Conservative approximate context-recovery exclusion around05:09\u201305:13UTC; no research credit."
+    },
+    {
+      "from": "derivation",
+      "to": "empirical",
+      "minutes": 10.0,
+      "note": "Conservative reclassification of short coding/building and ledger intervals inside derivation blocks through05:40; research total unchanged."
+    },
+    {
+      "from": "derivation",
+      "to": "administration",
+      "minutes": 4.0,
+      "note": "Conservative exclusion for second context recovery around05:52\u201305:56."
+    },
+    {
+      "from": "derivation",
+      "to": "empirical",
+      "minutes": 4.0,
+      "note": "Conservative reassignment for P27 coding/identity repair and wider-control runner construction during06:10\u201306:26."
+    },
+    {
+      "from": "derivation",
+      "to": "administration",
+      "minutes": 3,
+      "note": "Third context recovery and protocol reread at approximately 06:41\u201306:44 UTC."
+    },
+    {
+      "from": "derivation",
+      "to": "empirical",
+      "minutes": 3,
+      "note": "P41 instrumentation and P42 runner construction during transported-operator block."
+    },
+    {
+      "from": "derivation",
+      "to": "administration",
+      "minutes": 1,
+      "note": "Checkpoint notes and scoped commit near07:16 UTC."
+    },
+    {
+      "from": "derivation",
+      "to": "administration",
+      "minutes": 3,
+      "note": "Conservative exclusion for fourth context recovery around07:41\u201307:44UTC."
+    },
+    {
+      "from": "derivation",
+      "to": "empirical",
+      "minutes": 3,
+      "note": "P58 weighted/masked CT source construction and identity check within graph-cost block."
+    },
+    {
+      "from": "selection",
+      "to": "administration",
+      "minutes": 1,
+      "note": "Scoped checkpoint/source inventory around08:10\u201308:11UTC."
+    },
+    {
+      "from": "selection",
+      "to": "empirical",
+      "minutes": 3,
+      "note": "P59b repair, P61 native meter source, and final P62/P64 source construction during selection blocks."
+    }
+  ],
+  "floor_met": true,
+  "written_floor_met": true,
+  "records_closed": true,
+  "accounting": "Exclusive active categories; overlapping compute counted once. Context recovery, routine records, checkpointing and administration excluded. Final already-registered compute overlaps records without research credit. End before final verification/commit."
+}

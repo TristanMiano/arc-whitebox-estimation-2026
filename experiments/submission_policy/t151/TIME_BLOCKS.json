@@ -1,0 +1,20 @@
+[
+  {
+    "category": "engineering",
+    "start": "2026-09-11T16:12:45+00:00",
+    "note": "Read scoped protocol and specification, implement fixed candidate, perform focused checks and decision.",
+    "end": "2026-09-11T16:27:00.829675+00:00"
+  },
+  {
+    "category": "unattended_compute",
+    "start": "2026-09-11T16:27:00.829675+00:00",
+    "note": "The frozen12-row screen is running; implementation and preparation of conditional qualification are complete.",
+    "end": "2026-09-11T16:33:34.003923+00:00"
+  },
+  {
+    "category": "engineering",
+    "start": "2026-09-11T16:33:34.003923+00:00",
+    "note": "Score the sealed comparison and complete the resulting submission or research decision.",
+    "end": "2026-09-11T16:39:52.923127+00:00"
+  }
+]

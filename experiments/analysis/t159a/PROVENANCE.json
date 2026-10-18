@@ -1,0 +1,191 @@
+[
+  {
+    "algorithm_id": "ALG003-V009",
+    "short_label": "Known baseline",
+    "provenance_class": "Known method implemented for this challenge",
+    "local_change": "Standard Sobol sampling, stored point bank, radial normalization and current-shape/API translation. Local implementation/packaging; no new estimator principle claimed.",
+    "sources": [
+      "state/algorithm_specs/ALG003-V009.json"
+    ],
+    "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+  },
+  {
+    "algorithm_id": "ALG014-V003",
+    "short_label": "Local sampling combination",
+    "provenance_class": "Project combination of published ingredients",
+    "local_change": "Haar-Stiefel/QR frames, antipodal pairing, mean-chi radius, exact first layer and budget-sized frame schedule. Established tools combined and implemented here; not an unchanged public challenge submission.",
+    "sources": [
+      "state/algorithm_specs/ALG014-V003.json",
+      "submissions/phase2_alg014_v003/README.md"
+    ],
+    "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+  },
+  {
+    "algorithm_id": "ALG015-V000",
+    "short_label": "Local closure/sample blend",
+    "provenance_class": "Project combination of published ingredients",
+    "local_change": "One Haar frame blended 0.25/0.75 with the bundled full-covariance closure. The project contribution is the concrete cost-aware composition; shrinkage and Gaussian closure are known.",
+    "sources": [
+      "state/algorithm_specs/ALG015-V000.json",
+      "submissions/phase2_alg015_v000/README.md"
+    ],
+    "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+  },
+  {
+    "algorithm_id": "ALG018-V000",
+    "short_label": "Local closure/fusion changes",
+    "provenance_class": "Project combination of published ingredients",
+    "local_change": "Order-12 Price/Hermite closure plus an independent partial-Haar arm and fixed fusion weights. A locally developed allocation and combination of known tools.",
+    "sources": [
+      "state/algorithm_specs/ALG018-V000.json",
+      "submissions/phase2_alg018_v000/README.md"
+    ],
+    "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+  },
+  {
+    "algorithm_id": "ALG019-V000",
+    "short_label": "Local skew/fusion mechanism",
+    "provenance_class": "Local structural derivative",
+    "local_change": "Harmonic-shrunk terminal skew/Edgeworth correction, alpha-stratified fusion and nested partial extension. The source registry calls this OURS, while its sampling and closure lineage uses established ingredients.",
+    "sources": [
+      "state/algorithm_specs/ALG019-V000.json"
+    ],
+    "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+  },
+  {
+    "algorithm_id": "ALG024-V000",
+    "short_label": "Local fitted observer",
+    "provenance_class": "Local features and calibration on inherited machinery",
+    "local_change": "A 12-feature analytic-synthesis observer, locally fitted coefficients, correction cap and output projection over ALG019. Public/known numerical ingredients remain inherited.",
+    "sources": [
+      "state/algorithm_specs/ALG024-V000.json",
+      "submissions/phase2_alg024_v000/README.md"
+    ],
+    "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+  },
+  {
+    "algorithm_id": "ALG026-V000",
+    "short_label": "Local composition + public kernel",
+    "provenance_class": "Local structural and compute derivative",
+    "local_change": "Combines a public MIT fast multiplication kernel with an independent child frame, cross-frame harmonic reliability and the fitted analytic observer. Substantive local composition; multiplication algorithm is public.",
+    "sources": [
+      "state/algorithm_specs/ALG026-V000.json",
+      "submissions/phase2_alg026_v000/README.md"
+    ],
+    "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+  },
+  {
+    "algorithm_id": "ALG028-V000",
+    "short_label": "Local trace correction",
+    "provenance_class": "Local mathematical derivative",
+    "local_change": "Replaces the terminal harmonic-skew correction with a radial-law-corrected physical third-cumulant trace projection; retains the existing observer coefficients. A local mathematical adaptation, not a new fit.",
+    "sources": [
+      "state/algorithm_specs/ALG028-V000.json",
+      "experiments/submission_policy/t120b/REPORT.md"
+    ],
+    "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+  },
+  {
+    "algorithm_id": "ALG029-V000",
+    "short_label": "Local response recalibration",
+    "provenance_class": "Local feature/fit derivative",
+    "local_change": "Cap-aware anchored physical-response recalibration with a fixed Hermite remainder, followed by a local coefficient fit. Incremental response/calibration work on ALG028.",
+    "sources": [
+      "state/algorithm_specs/ALG029-V000.json",
+      "experiments/submission_policy/t124/REPORT.md"
+    ],
+    "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+  },
+  {
+    "algorithm_id": "ALG031-V000",
+    "short_label": "Local parity features + fit",
+    "provenance_class": "Local feature/fit derivative",
+    "local_change": "Parity-split physical response features and a fitted correction on ALG029. A local extension and recalibration of the inherited estimator.",
+    "sources": [
+      "state/algorithm_specs/ALG031-V000.json",
+      "experiments/submission_policy/t127/REPORT.md"
+    ],
+    "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+  },
+  {
+    "algorithm_id": "ALG036-V000",
+    "short_label": "Adapted public features + fit",
+    "provenance_class": "Specific public-method feature transfer",
+    "local_change": "Transfers the five absolute-state calibration features from venture_agent_ai public work into our own ALG031 state, with our coefficients fitted locally. Neither a wholly local feature invention nor a copied complete estimator.",
+    "sources": [
+      "state/algorithm_specs/ALG036-V000.json",
+      "experiments/submission_policy/t134/REPORT.md"
+    ],
+    "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+  },
+  {
+    "algorithm_id": "ALG037-V000",
+    "short_label": "Local refit only",
+    "provenance_class": "Calibration-only change from predecessor",
+    "local_change": "One joint regularized refit of the existing 27 correction columns. No new feature vocabulary, sampling rule or recurrence; inherits the local/public mixture of ALG036.",
+    "sources": [
+      "state/algorithm_specs/ALG037-V000.json",
+      "experiments/submission_policy/t135/REPORT.md"
+    ],
+    "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+  },
+  {
+    "algorithm_id": "ALG038-V000",
+    "short_label": "Adapted public cumulant method",
+    "provenance_class": "Substantial mathematical adaptation of published method",
+    "local_change": "Public joint-cumulant framework rebuilt as our paired compressed full-history recurrence, with repeated-index completion, radial fourth scalar and signed mean/covariance response. Reuses public fast multiplication. No local fit; not an exact implementation of the full published method.",
+    "sources": [
+      "experiments/theory/t136/REPORT.md",
+      "experiments/theory/t136/CANDIDATE_A.md",
+      "submissions/phase2_alg038_v000/README.md"
+    ],
+    "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+  },
+  {
+    "algorithm_id": "ALG038-V001",
+    "short_label": "Local arithmetic changes only",
+    "provenance_class": "Compute-only change from adapted public-method parent",
+    "local_change": "Retains ALG038-V000 state and recurrence; uses final marginal contractions and a four-level multiplication schedule. The fresh contribution is lower cost, not a new statistical mechanism.",
+    "sources": [
+      "state/algorithm_specs/ALG038-V001.json",
+      "experiments/submission_policy/t138/REPORT.md"
+    ],
+    "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+  },
+  {
+    "algorithm_id": "ALG041-V000",
+    "short_label": "Local joint-source correction",
+    "provenance_class": "Local mathematical derivative of adapted public framework",
+    "local_change": "Adds the locally derived/implemented JSP fresh-source joint response to ALG038-V001 and recomputes repeated-entry completion. No local fit. Related cumulant-response ideas are published; this record does not establish academic priority.",
+    "sources": [
+      "state/algorithm_specs/ALG041-V000.json",
+      "experiments/submission_policy/t144/REPORT.md",
+      "experiments/theory/t143/JSP_MATHEMATICAL_HANDOFF.md"
+    ],
+    "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+  },
+  {
+    "algorithm_id": "ALG043-V000",
+    "short_label": "Unchanged public copy",
+    "provenance_class": "Unmodified public estimator source",
+    "local_change": "504aldo public V29 at commit18c17e2d7a9aeacd399cfc2c6b571e4e16dbfb45, numerical source byte-identical. Published terms, fitted tables, defaults and schedules unchanged. Only packaging, qualification and harness work were ours.",
+    "sources": [
+      "state/algorithm_specs/ALG043-V000.json",
+      "experiments/submission_policy/t147/REPORT.md",
+      "experiments/submission_policy/t147/ATTRIBUTION.md"
+    ],
+    "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+  },
+  {
+    "algorithm_id": "ALG049-V000",
+    "short_label": "Modified public V29",
+    "provenance_class": "Local mathematical and compute adaptations of public code",
+    "local_change": "Starts from public V29 and adds the coupled native history basis, covariance-cup compensation for lost third-tensor trace, ranks320/192 and Winograd/shared-arena arithmetic. Inherits V29 calibration and core machinery; no new fit. The Winograd algorithm itself is established.",
+    "sources": [
+      "state/algorithm_specs/ALG049-V000.json",
+      "submissions/phase2_alg049_v000/README.md",
+      "experiments/submission_policy/t159/REPORT.md"
+    ],
+    "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+  }
+]

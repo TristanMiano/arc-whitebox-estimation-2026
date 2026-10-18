@@ -1,0 +1,16 @@
+{
+  "frozen_candidate_source_unchanged": true,
+  "incumbent_source_unchanged": true,
+  "preserved_T148_T150_and_incumbent": true,
+  "sealed_same_row_actual_call_score": true,
+  "no_package_or_upload": true,
+  "live_state_and_deferred_task_consistent": true,
+  "artifact_links_resolve": true,
+  "python_syntax_pass": true,
+  "one_E145_event": true,
+  "git_diff_check_pass": true,
+  "task_id": "T151",
+  "verified_utc": "2026-09-11T16:39:52.923127+00:00",
+  "pass_result": true,
+  "scope": "Record, source identity and saved evidence checks; no further candidate execution or score look."
+}

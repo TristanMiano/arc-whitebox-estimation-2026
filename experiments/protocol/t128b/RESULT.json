@@ -1,0 +1,36 @@
+{
+  "task_id": "T128B",
+  "experiment_id": "E121",
+  "status": "COMPLETED_NEGLECTED_TRACK_REVIEW",
+  "report": "docs/NEGLECTED_RESEARCH_TRACKS.md",
+  "strategy_map_updated": "docs/RESEARCH_STRATEGY_MAP.md",
+  "ranked_data": "experiments/protocol/t128b/TRACKS.json",
+  "tracks_ranked": 8,
+  "strongest_omissions": [
+    "T117 DS/M positive selection results excluded by old gain/sequential gate",
+    "T119 RCERC fully developed but displaced by candidate cap",
+    "T092 uniform continuation signal excluded by T093 distinct-family rule"
+  ],
+  "probabilities": "Subjective useful-lead and unconditional official-win probabilities; ranges and common bounded horizons declared; no independent-union calculation.",
+  "proposed_trial": "One optional wave of three agents: RCERC, uniform continuation, output-aware compression; main agent DS/M cache review and integration. Higher-risk joint-state track can replace compression. Evaluate once before protocol changes.",
+  "old_T117_F_feature_files_present": 500,
+  "feature_or_target_arrays_opened": false,
+  "new_candidate_execution": false,
+  "new_fit": false,
+  "official_upload": false,
+  "agents_launched": 0,
+  "model_or_effort_changed": false,
+  "usage_reset_redeemed": false,
+  "theory_T129_started": false,
+  "permanent_protocol_change": false,
+  "inline_visualization": "Owner abandoned further repair after second failed delivery; text documents used.",
+  "retained_incumbent": "ALG031-V000 / 329989",
+  "timing": {
+    "start_utc": "2026-09-06T03:17:49+00:00",
+    "end_checkoff_utc": "2026-09-06T03:37:25.521007+00:00",
+    "estimate_total_minutes": 35,
+    "actual_elapsed_minutes": 19.60868345,
+    "estimate_error_minutes": -15.391316549999999,
+    "definition": "Review to record checkoff; final artifact verification and scoped commit follow."
+  }
+}

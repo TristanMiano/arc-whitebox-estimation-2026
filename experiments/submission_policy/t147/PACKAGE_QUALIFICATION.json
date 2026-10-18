@@ -1,0 +1,75 @@
+{
+  "task_id": "T147",
+  "algorithm_id": "ALG043-V000",
+  "archive": "experiments/submission_policy/t147/packages/ALG043-V000.tar.gz",
+  "archive_sha256": "fdf4b3bf4f0cf0a0cabeefb42fca39985123a0ad636eb750ad7bafa963a7717f",
+  "size_bytes": 31053,
+  "checks": {
+    "archive_manifest": true,
+    "unchanged_public_source": true,
+    "allowed_imports": true,
+    "resource_and_numerical_checks": true,
+    "fallback": true,
+    "matching_lifecycle_determinism": true,
+    "matching_lifecycle_cost": true
+  },
+  "pass": true,
+  "imports": [
+    {
+      "line": 146,
+      "modules": [
+        "__future__"
+      ]
+    },
+    {
+      "line": 148,
+      "modules": [
+        "math"
+      ]
+    },
+    {
+      "line": 150,
+      "modules": [
+        "flopscope"
+      ]
+    },
+    {
+      "line": 151,
+      "modules": [
+        "flopscope.numpy"
+      ]
+    },
+    {
+      "line": 152,
+      "modules": [
+        "whestbench"
+      ]
+    },
+    {
+      "line": 153,
+      "modules": [
+        "whestbench.domain"
+      ]
+    },
+    {
+      "line": 313,
+      "modules": [
+        "os"
+      ]
+    },
+    {
+      "line": 314,
+      "modules": [
+        "gc"
+      ]
+    },
+    {
+      "line": 1678,
+      "modules": [
+        "local_engine"
+      ]
+    }
+  ],
+  "stdlib_audit": "os only reads named optional configuration switches; gc only disables and restores collection around prediction. No grader-state, process, filesystem, network or untracked numerical access. local_engine is guarded development demo only.",
+  "targets_accessed": false
+}

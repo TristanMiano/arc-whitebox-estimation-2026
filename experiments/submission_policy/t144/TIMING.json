@@ -1,0 +1,23 @@
+{
+  "task_id": "T144",
+  "start_utc": "2026-09-09T00:48:16Z",
+  "score_decision_utc": "2026-09-09T01:03:52.706159+00:00",
+  "accepted_utc": "2026-09-09T01:06:02.638Z",
+  "official_terminal_observed_utc": "2026-09-09T01:33:09Z",
+  "record_completion_utc": "2026-09-09T01:33:32.243912+00:00",
+  "elapsed_minutes": 45.270731866666665,
+  "estimate_total_range_minutes": [
+    35,
+    75
+  ],
+  "error_to_lower_estimate_minutes": 10.270731866666665,
+  "error_to_upper_estimate_minutes": -29.729268133333335,
+  "elapsed_through_upload_minutes": 17.7773,
+  "official_wait_until_observed_minutes": 27.106033333333336,
+  "metered_prediction_minutes": 10.918906318650018,
+  "initial_active_engineering_budget_minutes": 60,
+  "engineering_budget_extended": false,
+  "time_accounting_note": "Start, milestones, total elapsed, official wait and prediction meters measured. Compute and grader waiting overlap preparation/records; do not add these durations. No claim of exact exclusive active minutes.",
+  "first_attempt_wait_minutes_owner_override": 60,
+  "monitor_recovery_note": "Initial PID selector also matched its parent shell, stopped before mutation; shell then started a second read-only monitor. Corrected exact executable selection stops both monitors and resumes a single watcher. No duplicate submission or candidate change."
+}

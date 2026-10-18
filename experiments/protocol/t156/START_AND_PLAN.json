@@ -1,0 +1,27 @@
+{
+  "task_id": "T156",
+  "experiment_id": "E150",
+  "status": "active_protocol_change",
+  "start_utc": "2026-09-11T18:20:59+00:00",
+  "registered_utc": "2026-09-11T18:22:31.171301+00:00",
+  "estimated_elapsed_minutes": [
+    10,
+    20
+  ],
+  "minimum_applies": false,
+  "scope": "Permit numerous small adaptive experiments during derivations; keep records lightweight, preserve mathematical time and larger-upside selection, increase research floors, update prospective T153 without starting it.",
+  "owner_authority": "Latest request to change the research/theory protocol and increase floors. Exact numerical allocations chosen by the assistant to implement that request.",
+  "allocation": {
+    "default_active_research_floor": 120,
+    "default_written_mathematics_floor": 60,
+    "T153_active_research_floor": 240,
+    "T153_written_floor": 120,
+    "T153_literature_floor": 30,
+    "T153_selection_floor": 30,
+    "T153_empirical_work_allowance": 60
+  },
+  "git_head_at_start": "7248c6370f68491c7544ca3066b8d4abc94b7932",
+  "candidate_runs": 0,
+  "new_submissions": 0,
+  "subagents": 0
+}

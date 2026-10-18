@@ -1,0 +1,68 @@
+{
+  "task_id": "T158",
+  "experiment_id": "E153",
+  "status": "completed_broad_empirical_theory_one_integrated_nominee_no_upload",
+  "decision": "Nominate H158-TRACE-WINOGRAD for proposed T159; retain ALG043-V000 pending an actual submission result.",
+  "candidate": "H158-TRACE-WINOGRAD",
+  "candidate_spec": "experiments/theory/t158/CANDIDATE_SPEC.md",
+  "source": "experiments/theory/t158/sources/P26_trace_winograd_pilot/estimator.py",
+  "source_sha256": "d61aaea1101c915ec15e53e3e6adfa5cc7450b27f16f524e001638ba35f112e7",
+  "environment": {
+    "V21_R_OLD": "320",
+    "V24_R_OLD2": "192",
+    "V26_STRASSEN": "6",
+    "V26_STRASSEN_MIN": "16"
+  },
+  "new_submission_algorithm_registered": false,
+  "networks": 8,
+  "adjusted_wins": 8,
+  "mean_adjusted": 4.954908324750595e-09,
+  "parent_mean_adjusted": 5.3535852140222115e-09,
+  "mean_raw": 2.1806002061463613e-08,
+  "parent_mean_raw": 2.0837367649198587e-08,
+  "mean_adjusted_ratio": 0.9255308595392495,
+  "mean_raw_ratio": 1.0464854500132736,
+  "subjective_probability_retained_win": [
+    0.85,
+    0.95
+  ],
+  "subjective_central_probability": 0.9,
+  "conditional_gain_range": [
+    0.04,
+    0.1
+  ],
+  "descriptive_bootstrap_is_not_private_probability": true,
+  "completed_full_shape_calls": 91,
+  "probe_entries": 46,
+  "literature_entries": 21,
+  "primary_target_fits": 1,
+  "diagnostic_loo_fits": 6,
+  "nominee_new_target_fits": 0,
+  "total_complete_call_flops": 49663919182206,
+  "settled_nominee_flops": 480530585472,
+  "maximum_nominee_residual_s": 0.2898325750029471,
+  "maximum_nominee_rss_bytes": 7653724160,
+  "archive_qualified": false,
+  "uploads": 0,
+  "subagents": 0,
+  "final_blind_accessed": false,
+  "official_incumbent": {
+    "algorithm_id": "ALG043-V000",
+    "submission_id": 330597,
+    "adjusted_score": 5.419051334510831e-09
+  },
+  "active_research_minutes": 240.09583206666667,
+  "timing_file": "experiments/theory/t158/TIMING.json",
+  "next_task": "T159",
+  "next_task_started": false,
+  "remaining_candidates": "experiments/theory/t158/CANDIDATE_SELECTION.md",
+  "route_update": "experiments/theory/t158/ROUTE_UPDATE.md",
+  "limitations": [
+    "Adaptive reused development throughout; no private-suite grade or calibrated success posterior.",
+    "Main gain is adjusted efficiency with4.65% worse raw error, not a new large accuracy breakthrough.",
+    "Full-size comparisons/resource checks do not qualify the eventual shipping archive.",
+    "New zero-diagonal-repaired fourth-chain range is saved-state evidence only; its trace projection and full feedback remain unbuilt.",
+    "Metered full-call subtotal excludes incompletely metered offline research.",
+    "TRACE snapshots remain local and excluded from Git; frozen code, scalar results and public-input predictions are preserved."
+  ]
+}

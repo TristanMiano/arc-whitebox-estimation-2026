@@ -1,0 +1,33 @@
+{
+  "task_id": "T153",
+  "start_utc": "2026-09-12T11:49:14+00:00",
+  "research_end_utc": "2026-09-12T16:00:11.325375+00:00",
+  "end_utc": "2026-09-12T16:07:35.982964+00:00",
+  "elapsed_minutes": 258.36638273333335,
+  "exclusive_minutes": {
+    "administration": 9.06717955,
+    "derivation": 121.44046614999999,
+    "empirical": 67.45564628333334,
+    "literature": 30.36210631666667,
+    "selection": 30.040697583333333
+  },
+  "active_research_minutes": 249.29891633333332,
+  "minimum_active_minutes": 240,
+  "minimum_category_minutes": {
+    "derivation": 120,
+    "literature": 30,
+    "empirical": 60,
+    "selection": 30
+  },
+  "all_floors_pass": true,
+  "estimated_elapsed_range_minutes": [
+    260,
+    310
+  ],
+  "estimate_error_minutes": [
+    -1.633617266666647,
+    -51.63361726666665
+  ],
+  "estimate_error_from_midpoint_minutes": -26.633617266666647,
+  "method": "Exclusive observed active categories; overlapping compute counted once; administrative packaging and passive time excluded from research; no agents."
+}

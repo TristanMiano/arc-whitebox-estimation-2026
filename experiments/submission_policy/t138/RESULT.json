@@ -1,0 +1,242 @@
+{
+  "task_id": "T138",
+  "experiment_id": "E132",
+  "algorithm_id": "ALG038-V001",
+  "status": "COMPLETED_OFFICIAL_IMPROVEMENT",
+  "task_checked_off": true,
+  "production_score": {
+    "task_id": "T138",
+    "algorithm_id": "ALG038-V001",
+    "evidence_class": "submission-facing production confirmation; reused development panels, not independent scientific validation",
+    "rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "n": 12,
+    "raw_mse": 4.5309500866514844e-08,
+    "adjusted_score": 1.5595291677326586e-08,
+    "parent_raw_mse": 4.5307229340590526e-08,
+    "parent_adjusted_score": 1.8466982056501396e-08,
+    "ratio": 0.8444959566003468,
+    "improvement_percent": 15.550404339965318,
+    "wins": 12,
+    "bootstrap_probability_of_mean_improvement": 1.0,
+    "bootstrap_mean_change_90pct_interval": [
+      -3.0418025044755008e-09,
+      -2.7137830741855508e-09
+    ],
+    "network_ratio_quantiles": {
+      "median": 0.8445564292975355,
+      "p90": 0.8448193257457608,
+      "p95": 0.8448414392450573,
+      "maximum": 0.8448659482546735
+    },
+    "flops": [
+      756892228334,
+      756892228334,
+      756892228334,
+      756892228334,
+      756892228334,
+      756892228334,
+      756892228334,
+      756892228334,
+      756892228334,
+      756892228334,
+      756892228334,
+      756892228334
+    ],
+    "multipliers": [
+      0.3441947357414392,
+      0.3441947357414392,
+      0.3441947357414392,
+      0.3441947357414392,
+      0.3441947357414392,
+      0.3441947357414392,
+      0.3441947357414392,
+      0.3441947357414392,
+      0.3441947357414392,
+      0.3441947357414392,
+      0.3441947357414392,
+      0.3441947357414392
+    ],
+    "prediction_seal_sha256": "b62aa24640d03e13c2f0b9447ac213c5ad2442759a729a3a8e6da041b432b111",
+    "per_network": [
+      {
+        "row": 750,
+        "candidate_raw_mse": 3.8793625684691605e-08,
+        "parent_raw_mse": 3.881416945407599e-08,
+        "adjusted_ratio": 0.8440066621354623
+      },
+      {
+        "row": 772,
+        "candidate_raw_mse": 4.3922877254435005e-08,
+        "parent_raw_mse": 4.3946960620959903e-08,
+        "adjusted_ratio": 0.8439908501376219
+      },
+      {
+        "row": 795,
+        "candidate_raw_mse": 4.950768159938803e-08,
+        "parent_raw_mse": 4.948351982045106e-08,
+        "adjusted_ratio": 0.8448659482546735
+      },
+      {
+        "row": 817,
+        "candidate_raw_mse": 4.607015261500804e-08,
+        "parent_raw_mse": 4.6090945738474715e-08,
+        "adjusted_ratio": 0.8440726585536247
+      },
+      {
+        "row": 840,
+        "candidate_raw_mse": 5.806688216618281e-08,
+        "parent_raw_mse": 5.804956232937103e-08,
+        "adjusted_ratio": 0.8447055726698457
+      },
+      {
+        "row": 863,
+        "candidate_raw_mse": 4.322507930039158e-08,
+        "parent_raw_mse": 4.321523730645146e-08,
+        "adjusted_ratio": 0.8446459379354125
+      },
+      {
+        "row": 885,
+        "candidate_raw_mse": 3.7404107289631236e-08,
+        "parent_raw_mse": 3.740768302355183e-08,
+        "adjusted_ratio": 0.844372899203605
+      },
+      {
+        "row": 908,
+        "candidate_raw_mse": 5.223600752456325e-08,
+        "parent_raw_mse": 5.2214541769057494e-08,
+        "adjusted_ratio": 0.8448007796865395
+      },
+      {
+        "row": 930,
+        "candidate_raw_mse": 4.657171323182797e-08,
+        "parent_raw_mse": 4.655143964744902e-08,
+        "adjusted_ratio": 0.8448213864190076
+      },
+      {
+        "row": 953,
+        "candidate_raw_mse": 4.251150961446593e-08,
+        "parent_raw_mse": 4.2525917811120494e-08,
+        "adjusted_ratio": 0.8441675098830184
+      },
+      {
+        "row": 976,
+        "candidate_raw_mse": 4.481477262689011e-08,
+        "parent_raw_mse": 4.479781242325411e-08,
+        "adjusted_ratio": 0.8447733244863633
+      },
+      {
+        "row": 999,
+        "candidate_raw_mse": 4.058960149070256e-08,
+        "parent_raw_mse": 4.058896214286913e-08,
+        "adjusted_ratio": 0.8444669206596584
+      }
+    ],
+    "competition_pass": true,
+    "resource_checks_pass": true,
+    "comparison_refit": false,
+    "single_training_fit": false,
+    "scientific_tier_awarded": false,
+    "interim_look": null,
+    "coefficient_fit_calls": 0
+  },
+  "same_mathematical_state_as": "ALG038-V000",
+  "kernel_depth": 4,
+  "fit_calls": 0,
+  "new_training_data": false,
+  "comparison_networks": 12,
+  "comparison_extension": false,
+  "interim_score_looks": 0,
+  "exact_prediction_flops": 756892228334,
+  "parent_prediction_flops": 896310006000,
+  "prediction_flops_reduction_percent": 15.554638097613738,
+  "score_multiplier": 0.3441947357414392,
+  "comparison_max_reference_rms": 3.805094666186541e-07,
+  "comparison_max_reference_absolute": 2.384185791015625e-06,
+  "prediction_wall_range_s": [
+    31.868343367001216,
+    43.07529954299753
+  ],
+  "residual_range_s": [
+    0.327825967255194,
+    0.3899761824468442
+  ],
+  "setup_max_s": 0.006383533000189345,
+  "peak_rss_bytes": 6805348352,
+  "completed_recorded_metered_prediction_calls": 17,
+  "additional_completed_prediction_before_harness_error": 1,
+  "harness_path_failure": 1,
+  "candidate_execution_failures": 0,
+  "source_freeze": "SOURCE_FREEZE.json",
+  "package": {
+    "task_id": "T138",
+    "algorithm_id": "ALG038-V001",
+    "archive": "experiments/submission_policy/t138/packages/ALG038-V001.tar.gz",
+    "archive_sha256": "b5cad63ef997dc0ead3dd17587b56340580119de8d460f95bcd5e9a9e5f6f367",
+    "size_bytes": 18559,
+    "checks": {
+      "archive_manifest": true,
+      "allowed_imports": true,
+      "resource_and_numerical_checks": true,
+      "changed_operations": true,
+      "unchanged_moment_kernel": true,
+      "reused_workspace_determinism": true,
+      "deterministic_current_source_identity": true,
+      "exact_integrated_cost": true
+    },
+    "pass": true,
+    "raw_import_findings": [],
+    "package_replay": "attempts/package-001/RESULT.json",
+    "targets_accessed": false
+  },
+  "submission_attempts": 1,
+  "first_monitor_reached_30_minute_endpoint": true,
+  "post_deadline_single_recheck": true,
+  "retry_avoided_due_to_late_grade": true,
+  "submission_id": 330153,
+  "official_grading_status": "graded",
+  "official_adjusted_score": 1.4667675875416682e-08,
+  "official_raw_mse": 4.261352437140431e-08,
+  "official_predecessor_adjusted_score": 1.7369283609807433e-08,
+  "official_ratio": 0.8444606124765383,
+  "official_improvement_percent": 15.553938752346175,
+  "official_best_changed": true,
+  "retained_official_algorithm": "ALG038-V001",
+  "final_blind_accessed": false,
+  "scientific_tier_awarded": false,
+  "subagents": 0,
+  "next_task": null,
+  "next_action": "Await owner selection. Recommend a focused recurrence on compression of the persistent joint-cumulant history and a specifically motivated omitted correction. Preserve the successful full state as comparator; avoid extending T138 into a kernel tuning campaign.",
+  "timing": {
+    "start_utc": "2026-09-07T03:27:43Z",
+    "end_checkoff_utc": "2026-09-07T04:21:09.351407+00:00",
+    "actual_elapsed_minutes": 53.439190116666666,
+    "estimate_total_minutes": 75,
+    "estimate_total_range_minutes": [
+      60,
+      90
+    ],
+    "estimate_error_minutes": -21.560809883333334,
+    "elapsed_through_upload_minutes": 21.34733333333333,
+    "grader_wait_minutes": 31.011423218250275,
+    "recorded_metered_prediction_minutes": 11.710596908016548,
+    "initial_active_engineering_budget_minutes": 60,
+    "engineering_extension_used": false,
+    "note": "Prediction time is included in elapsed time. First harness-error prediction is additional and retained in its log. Grader waiting overlaps recordkeeping.",
+    "end_verification_utc": "2026-09-07T04:24:17.059306+00:00",
+    "elapsed_through_verification_minutes": 56.5676551,
+    "estimate_error_through_verification_minutes": -18.432344899999997
+  }
+}

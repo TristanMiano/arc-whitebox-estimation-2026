@@ -1,0 +1,17 @@
+{
+  "probe": "P75_context64data",
+  "question": "Does context48 improve actual adjusted score with this fixed training recipe?",
+  "source_sha256": "851bb21a772feb194ab9455a5af7a2d9e6a0363f1c1207308eb7b10e47229eea",
+  "asset_sha256": "6eec96bbe44266ccf2fe76692c90e3c3ece655a38db2b373f436aca4d2ad288f",
+  "asset_origin": "P65_EXPANDED_FIT/context48-ALL-asset.json",
+  "training_networks": 64,
+  "origin": "P19 physical path; context48 learned source",
+  "created_utc": "2026-10-17T21:44:08.113617+00:00",
+  "rows": [
+    750,
+    976,
+    772,
+    795
+  ],
+  "data_role": "Adaptive exposed development; training provenance recorded beside fixed asset."
+}

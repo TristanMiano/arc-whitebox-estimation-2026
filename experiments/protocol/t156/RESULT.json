@@ -1,0 +1,40 @@
+{
+  "task_id": "T156",
+  "experiment_id": "E150",
+  "status": "completed_protocol_amendment",
+  "start_utc": "2026-09-11T18:20:59+00:00",
+  "end_utc": "2026-09-11T18:30:32.958638+00:00",
+  "estimated_elapsed_minutes": [
+    10,
+    20
+  ],
+  "actual_elapsed_minutes": 9.566,
+  "estimate_error_minutes_vs_midpoint": -5.434,
+  "within_estimated_range": false,
+  "minimum_applies": false,
+  "policy_version": "arc-submission-focused-policy-v3",
+  "allocation": {
+    "default_active_research_floor": 120,
+    "default_written_mathematics_floor": 60,
+    "T153_active_research_floor": 240,
+    "T153_written_floor": 120,
+    "T153_literature_floor": 30,
+    "T153_selection_floor": 30,
+    "T153_empirical_work_allowance": 60
+  },
+  "allocation_authority": "Latest request to change the research/theory protocol and increase floors. Exact numerical allocations chosen by the assistant to implement that request.",
+  "empirical_allocation_flexible": true,
+  "report": "experiments/protocol/t156/REPORT.md",
+  "next_proposal": "experiments/protocol/t156/NEXT_PROPOSAL.json",
+  "next_task": "T153",
+  "next_task_status": "proposed_awaiting_owner_authorization",
+  "candidate_runs": 0,
+  "new_submissions": 0,
+  "subagents": 0,
+  "verification": [
+    "Policy, state and proposal JSON parse; allocations agree.",
+    "Submission screen, production, grading and larger-upside policies unchanged.",
+    "Previous algorithm/submission result objects preserved.",
+    "Local documentation links resolve; git diff whitespace check passes."
+  ]
+}

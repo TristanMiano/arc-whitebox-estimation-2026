@@ -1,0 +1,39 @@
+{
+  "task_id": "T143",
+  "status": "COMPLETED",
+  "start_utc": "2026-09-08T20:33:24+00:00",
+  "owner_authorization": "Start T143 with at least two hours derivations, one hour literature review including adjacent areas, and30 minutes candidate selection; continue longer when useful.",
+  "minimum_minutes": {
+    "theory": 120,
+    "literature": 60,
+    "selection": 30
+  },
+  "minimum_useful_minutes": 210,
+  "estimated_elapsed_minutes": [
+    235,
+    265
+  ],
+  "estimate_is_hard_ceiling": false,
+  "objective": "Better official submissions; pursue credible larger gains while preserving Q4D as a fallback.",
+  "scope": [
+    "Broad primary-source literature review with transfer and failure boundaries",
+    "Written derivations, counterexamples and small generated mathematical checks",
+    "Select zero to two concrete costed candidate handoffs and next task",
+    "Update literature/route status with scoped exhaustion and return estimates"
+  ],
+  "excluded": [
+    "Challenge prediction or target access",
+    "Candidate fitting or algorithm screens",
+    "Packaging or upload",
+    "Automatic subagents"
+  ],
+  "incumbent": {
+    "algorithm_id": "ALG038-V001",
+    "submission_id": 330153,
+    "official_adjusted_score": 1.4667675875416682e-08,
+    "local_flops": 756892228334
+  },
+  "git_head_at_start": "712616b8a9f3070c576ed9046ffdab773d86525a",
+  "timing_method": "Prospective exclusive UTC blocks, with explicit overhead excluded and conservative final credit. No idle wait counts; adjacent literature, derivations and selection meet separate floors.",
+  "end_utc": "2026-09-09T00:43:50.002370+00:00"
+}

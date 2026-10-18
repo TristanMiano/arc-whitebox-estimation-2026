@@ -1,0 +1,21 @@
+{
+  "task_id": "T128",
+  "verified_utc": "2026-09-06T02:14:57.977092+00:00",
+  "pass": true,
+  "fit_calls": 1,
+  "sealed_training_rows": 32,
+  "comparison_networks": 12,
+  "fit_and_source_identity": true,
+  "incumbent_identity_unchanged": true,
+  "all_comparison_parent_outputs_byte_match_retained_outputs": true,
+  "original_zero_update_parent_replay": true,
+  "fitted_cache_byte_replay": true,
+  "isolated_runtime_fixture_byte_replay": true,
+  "training_incomplete_attempts": 8,
+  "training_timing_overrun_row402_retained": true,
+  "historical_evidence_preserved": true,
+  "new_estimator_runs": 0,
+  "new_target_reads": 0,
+  "official_grade_checked": false,
+  "terminal_state_queue_consistent": true
+}

@@ -1,0 +1,66 @@
+{
+  "task_id": "T140",
+  "experiment_id": "E135",
+  "algorithm_id": "ALG039-V000",
+  "name": "C64-E compressed joint third history",
+  "status": "registered_before_execution",
+  "start_utc": "2026-09-08T18:49:14Z",
+  "registered_utc": "2026-09-08T18:52:57.209311+00:00",
+  "estimate_total_range_minutes": [
+    100,
+    130
+  ],
+  "initial_active_engineering_budget_minutes": 60,
+  "reassess_at_minutes": 30,
+  "owner_authorized_upload": true,
+  "grade_wait_minutes": 30,
+  "unchanged_generic_error_retry_limit": 1,
+  "fit_calls": 0,
+  "subagents": 0,
+  "mathematical_handoff": "experiments/theory/t139/C64E_MATHEMATICAL_HANDOFF.md",
+  "rank": 64,
+  "recent_blocks": 2,
+  "probe_pairs_per_refresh": 128,
+  "probe_seed": 139064001,
+  "probe_recipe": "setup default_rng(139064001); for nonfinal layer indices 2..depth-2 generate g then h standard_normal((width,128),dtype=float32); deterministic fixed stream reused for every network",
+  "small_shape_rule": "rank=min(64,width); 2*rank probe pairs; same recurrence with direct products if rectangular kernel ineligible",
+  "old_E_transport": "gated M@E and M each divided by scale; included from first compression; never newly generated E at same step",
+  "numerical_contract": "float32 large factors/core/probes; incumbent float64 moment response and final reductions; direct counted core products; current archive deterministic replay required; no incumbent equivalence gate for new formula",
+  "comparison": {
+    "initial_rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "data_role": "reused development networks; seal all predictions before targets; saved ALG038-V001 comparator",
+    "bootstrap_seed": 140001,
+    "decision": "lower actual adjusted arithmetic mean and approximately .90 whole-network bootstrap support; clear loss stops; optional one decision-relevant extension to24 under protocol"
+  },
+  "incumbent": {
+    "algorithm_id": "ALG038-V001",
+    "submission_id": 330153,
+    "official_adjusted_score": 1.4667675875416682e-08,
+    "flops": 756892228334,
+    "multiplier": 0.3441947357414392
+  },
+  "runtime": "tmp/t128-runtime312/bin/python",
+  "final_blind_block": "untouched",
+  "parent_source_hashes": {
+    "README.md": "1673744c82e41b141d2bf6d8ece3ec9e6063939f6ee55c22f4b2ae9d0f97987b",
+    "LICENSE": "e3e4daa4b31b6f2b409ecab8610b223bc5ce5c917f0a633fd9f66dbf9e7f6c5f",
+    "fast_kernel.py": "76cf01635b68cee1d0bee51228e64bff49ccfe81b91154a2ca3d991487d46c6c",
+    "moments.py": "1023af54259c5d743c40455384e809435d36d9be2b70d5cff0bb58cc93fabe8a",
+    "PUBLIC_FAST_LICENSE": "8951bf59cbe4e79527fecd49bc816f4d13f40c7631a3cbd37d2bd930e40b4616",
+    "estimator.py": "17134d55511c3b4cb62eb0748cab5d864bfa9451755fc6bd90d5825ca087bff2",
+    "public_release/public_fast_reference.py": "b5418459c4c0cce62129027affb15170cc5aca477ff0af6c5590d718bc9947ed"
+  }
+}

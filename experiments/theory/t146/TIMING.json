@@ -1,0 +1,40 @@
+{
+  "task_id": "T146",
+  "start_utc": "2026-09-10T21:46:28+00:00",
+  "research_end_utc": "2026-09-11T01:24:35.124742+00:00",
+  "records_end_utc": "2026-09-11T01:26:20.355064+00:00",
+  "latest_recorded_endpoint_utc": "2026-09-11T01:28:21.154186+00:00",
+  "elapsed_through_records_minutes": 219.8725844,
+  "estimated_elapsed_minutes": [
+    180,
+    220
+  ],
+  "estimate_error_through_records_minutes": {
+    "versus_lower": 39.872584399999994,
+    "versus_upper": -0.12741560000000618
+  },
+  "exclusive_minutes": {
+    "literature": 30.23500866666667,
+    "theory": 120.11458329999999,
+    "overhead": 37.46483096666667,
+    "selection": 30.143733733333335
+  },
+  "initial_intake_minutes_excluded": 3.927746433333333,
+  "useful_minutes": 180.49332569999999,
+  "minimum_minutes": {
+    "theory": 120,
+    "literature": 30,
+    "selection": 30
+  },
+  "minimums_met": true,
+  "method": "Actual UTC exclusive blocks. Initial intake, context recovery and records excluded. No idle waits or agent overlap.",
+  "per_route_minutes_recorded": false,
+  "subagents": 0,
+  "note": "The start/scope file is the original intake record; its ACTIVE status is historical. COMPLETION.json and live state are authoritative now.",
+  "verification_end_utc": "2026-09-11T01:28:21.154186+00:00",
+  "elapsed_through_verification_minutes": 221.8859031,
+  "estimate_error_through_verification_minutes": {
+    "versus_lower": 41.88590310000001,
+    "versus_upper": 1.8859031000000073
+  }
+}

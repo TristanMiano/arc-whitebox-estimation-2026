@@ -1,0 +1,57 @@
+{
+  "schema_version": "arc-t108a-submission-record-v1",
+  "task_id": "T108A",
+  "experiment_id": "E092",
+  "algorithm_id": "ALG019-V000",
+  "hypothesis_id": "H107-O",
+  "novelty": "N1-NOVEL-COMBINATION_dimension_3",
+  "artifact_path": "experiments/submission_policy/t108a/packages/ALG019-V000.tar.gz",
+  "artifact_sha256": "cf95929aaf2f76b35f0c5374339943ffbcceeaf0a7617b0d6ff56ccc3887bb7a",
+  "description": "ALG019-V000 H107-O harmonic-skew plus alpha-stratified nested partial extension",
+  "challenge_slug": "arc-white-box-estimation-challenge-2026",
+  "owner_authorization": "Go ahead and prepare ALG019-V000 / O for submission and please submit.",
+  "pre_network_attempts": [
+    {
+      "status": "STOPPED_BEFORE_CONTACTING_AICROWD",
+      "reason": "terminal-handshake invocation reached local auth resolution and Windows-native process could not see the owner-configured WSL credential after reboot",
+      "submission_created": false
+    },
+    {
+      "status": "STOPPED_BEFORE_CONTACTING_AICROWD",
+      "reason": "direct WSL environment assignment was not propagated to the Windows-native child without WSLENV",
+      "submission_created": false
+    }
+  ],
+  "self_repair": "dummy-value bridge probe passed; existing credential then bridged to the native child process in memory through WSLENV without displaying or copying the key",
+  "api_response": {
+    "id": 328762,
+    "challenge_id": 1174,
+    "challenge_round_id": 1429,
+    "created_at": "2026-08-28T15:38:43.364Z",
+    "grading_status_cd": "graded",
+    "grading_message": "<p>Graded successfully</p>\n",
+    "score": 2.3995983178792816e-7,
+    "score_secondary": 2.399598317879281e-6,
+    "submission_url": "https://www.aicrowd.com/challenges/arc-white-box-estimation-challenge-2026/submissions/328762"
+  },
+  "field_interpretation": {
+    "score": "official_adjusted_score",
+    "score_secondary": "official_final_layer_mse",
+    "phase2_sampling_reference_adjusted_score": 1.2e-6,
+    "vs_sampling_approx": 5.000836977834426,
+    "displayed_vs_sampling_approx": "5.0x"
+  },
+  "prior_official_best": {
+    "algorithm_id": "ALG018-V000",
+    "submission_id": 328686,
+    "adjusted_score": 2.6931472416436013e-7
+  },
+  "candidate_to_prior_official_adjusted_ratio": 0.8910015318786768,
+  "official_adjusted_relative_reduction": 0.10899846812132324,
+  "local_t108_prediction_to_official_ratio": 1.0213655888436708,
+  "official_to_local_t108_prediction_ratio": 0.9790813380013174,
+  "monitor_disposition": "graded_successfully_in_initial_live_submission",
+  "resubmission_required": false,
+  "candidate_or_package_defect_evidence": false,
+  "final_designation": false
+}

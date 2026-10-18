@@ -1,0 +1,514 @@
+{
+  "task_id": "T124",
+  "algorithm_id": "ALG029-V000",
+  "parent": "ALG028-V000",
+  "status": "COMPLETED_OFFICIAL_IMPROVEMENT",
+  "start_utc": "2026-09-04T23:57:01Z",
+  "estimate_total_minutes": 75,
+  "estimate_range_minutes": [
+    45,
+    90
+  ],
+  "initial_active_engineering_budget_minutes": 60,
+  "reassess_at_active_minutes": 30,
+  "authorization": "Owner: Please begin T124. Includes bounded upload and monitoring.",
+  "grade_wait_per_attempt_minutes": 30,
+  "generic_evaluator_retry_limit": 1,
+  "definition": "experiments/theory/t122/CANDIDATE_A.md",
+  "definition_sha256": "9a064111b1c307c9394f6ede18f59fdef79d25dddc3f042f1c62ae834e4eae22",
+  "novelty": "OURS+PUBLIC, combination: cap-aware anchored trace recalibration with fixed physical Hermite remainder; no scientific tier",
+  "training": {
+    "rows": {
+      "start_inclusive": 0,
+      "end_exclusive": 500
+    },
+    "role": "previously declared Full-F training, permitted for future T124 fitting",
+    "targets_path": "experiments/checkpoint3/t117/F_TARGETS.npz",
+    "targets_read_in_T122": false,
+    "primitive_rows": "experiments/checkpoint3/t118/primitive_rows",
+    "trace_rows": "experiments/checkpoint3/t120/trace_rows",
+    "trace_arm_rows": "experiments/checkpoint3/t120/trace_arm_rows",
+    "manifest_and_preserved_spec_sha256": {
+      "experiments/checkpoint3/t118/F_DENSE_PRIMITIVE_MANIFEST.json": "be262c467d1d8793c5a02f4f055d9d72f45dc7eb1f850e131aa357f4d1a059ce",
+      "experiments/checkpoint3/t120/TRACE_MANIFEST.json": "699a98d05c4d302235060eba5f9226c650e4b4ecb4d0ad1b9dbb958d52086f9d",
+      "experiments/checkpoint3/t120/TRACE_ARM_MANIFEST.json": "959ef35251de492e09a513dca6709d8dd87fe3f358a7c1f57682ab0e5bd34f07",
+      "experiments/checkpoint3/t119/CGMA_SCALAR_SEAL.md": "63a85bbccda447b1fbb01395d830500818390f9d1dce927aefd636b2f2557037",
+      "experiments/checkpoint3/t119/DECISION_FREEZE.json": "5b7b9b92c43eacc339ae08f6fd58b51bebe7f3371864c780f2439588c35a0377",
+      "experiments/submission_policy/t120b/PREUPLOAD_SEAL.json": "b29bae2539cd478b29be3b407a9e0e2ba9f3c60380c40df16d0479d0ed5b1d78",
+      "state/algorithm_specs/ALG028-V000.json": "8374f124169e672682e4fed281f01ffcf46d88ba99f170926a3c2453ca19795d"
+    }
+  },
+  "comparison": {
+    "initial_rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "role": "reused adaptive development evidence; not independent validation",
+    "optional_extension_selection": "ascending SHA256 of UTF-8 T124:<decimal row>, rows750:1000 excluding initial12; first12",
+    "optional_extension_rows": [
+      932,
+      973,
+      851,
+      778,
+      984,
+      806,
+      979,
+      850,
+      933,
+      846,
+      926,
+      858
+    ],
+    "maximum_normal_total_rows": 24,
+    "extension_condition": "one extension only if likely to change decision; disclose repeat look",
+    "scoring": "arithmetic mean terminal MSE times max(.1, actual FLOPs/2**41), each algorithm charged independently",
+    "bootstrap_unit": "whole network paired adjusted difference",
+    "bootstrap_draws": 20000,
+    "bootstrap_seed": 122124,
+    "rough_support_target": 0.9,
+    "lower_adjusted_mean_required": true,
+    "no_minimum_gain_or_two_sided_interval_gate": true,
+    "freeze_predictions_before_comparison_targets": true,
+    "final_blind_block": "untouched"
+  },
+  "fixture": {
+    "row": 0,
+    "role": "early integrated feasibility and numerical replay on a Full-F training input; excluded from the comparison cohort",
+    "fit_timing": "the tiny cached fit can precede this fixture; meter the actual frozen candidate before the paired comparison",
+    "old_parent_numerical_equivalence": "reuse the recorded historical 1e-5 maximum absolute /1e-12 numerical-MSE contract where applicable; do not claim old byte parity",
+    "candidate_score_source": "actual production outputs; geometry and cached training predictions are not qualification"
+  },
+  "fit_law": {
+    "id": "T122-A",
+    "rank": 1,
+    "next_task": "T124",
+    "algorithm_registration": "new material variant to register before implementation/test; no ALG identity created by T122",
+    "definition": "CANDIDATE_A.md",
+    "definition_sha256": "9a064111b1c307c9394f6ede18f59fdef79d25dddc3f042f1c62ae834e4eae22",
+    "parent": "ALG028-V000",
+    "design_columns": 16,
+    "fit": "one cap-aware anchored normalized ridge direction and fixed training-only backtrack",
+    "ridge_ratio": 0.01,
+    "backtrack_steps": [
+      1,
+      0.5,
+      0.25,
+      0.125,
+      0.0625,
+      0.03125,
+      0.015625,
+      0.0078125
+    ],
+    "shape_domain": "abs(alpha)<=6 and reconstructed sigma>0; zero outside",
+    "raw_design_not_residualized": true,
+    "coefficients_unconstrained_in_sign": true,
+    "training_networks": 500,
+    "new_network_propagations_for_training": 0,
+    "comparison_parameter_search": false,
+    "inference_added_flops_conservative_upper_estimate": 1000000,
+    "planning_judgment": {
+      "chance_retained_official_improvement_range": [
+        0.55,
+        0.75
+      ],
+      "conditional_relative_gain_range": [
+        0.04,
+        0.12
+      ],
+      "total_minutes_range": [
+        45,
+        90
+      ],
+      "not_calibrated": true
+    }
+  },
+  "numerical_equivalence": {
+    "maximum_absolute_difference": 1e-05,
+    "numerical_mse": 1e-12,
+    "purpose": "Cached versus production numerical realization; actual production scores decide; current-package replay must be byte exact."
+  },
+  "submission_screen": {
+    "task_id": "T124",
+    "algorithm_id": "ALG029-V000",
+    "evidence_class": "submission-facing production confirmation; reused development panels, not independent scientific validation",
+    "rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "n": 12,
+    "raw_mse": 1.3072899347778126e-06,
+    "adjusted_score": 1.3072899347778128e-07,
+    "parent_raw_mse": 1.3518392250026864e-06,
+    "parent_adjusted_score": 1.3518392250026865e-07,
+    "ratio": 0.9670454227093571,
+    "improvement_percent": 3.2954577290642884,
+    "wins": 10,
+    "bootstrap_probability_of_mean_improvement": 1.0,
+    "bootstrap_mean_change_90pct_interval": [
+      -6.67118197857723e-09,
+      -2.4926515556016143e-09
+    ],
+    "network_ratio_quantiles": {
+      "median": 0.9723385200584485,
+      "p90": 1.0006690195897976,
+      "p95": 1.0034091426556602,
+      "maximum": 1.0056042217286405
+    },
+    "flops": [
+      218985745647,
+      218985745647,
+      218985745647,
+      218985745647,
+      218985745647,
+      218985745647,
+      218985745647,
+      218985745647,
+      218985745647,
+      218985745647,
+      218985745647,
+      218985745647
+    ],
+    "multipliers": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "prediction_seal_sha256": "99b246b92014360333162a2ee20ee189b2c93e8c5b2b0dc3ed0199ba96cd972c",
+    "per_network": [
+      {
+        "row": 750,
+        "candidate_raw_mse": 9.860850382964678e-07,
+        "parent_raw_mse": 1.0169045670608666e-06,
+        "adjusted_ratio": 0.9696928013083117
+      },
+      {
+        "row": 772,
+        "candidate_raw_mse": 1.5774561733629327e-06,
+        "parent_raw_mse": 1.6108175793141258e-06,
+        "adjusted_ratio": 0.97928914708927
+      },
+      {
+        "row": 795,
+        "candidate_raw_mse": 1.077025187654916e-06,
+        "parent_raw_mse": 1.1046590752800508e-06,
+        "adjusted_ratio": 0.9749842388085852
+      },
+      {
+        "row": 817,
+        "candidate_raw_mse": 1.5196723958840565e-06,
+        "parent_raw_mse": 1.5900430267222815e-06,
+        "adjusted_ratio": 0.9557429392440486
+      },
+      {
+        "row": 840,
+        "candidate_raw_mse": 1.5390966426940219e-06,
+        "parent_raw_mse": 1.5564295271510422e-06,
+        "adjusted_ratio": 0.9888636882334485
+      },
+      {
+        "row": 863,
+        "candidate_raw_mse": 1.180220247063978e-06,
+        "parent_raw_mse": 1.2283562695625517e-06,
+        "adjusted_ratio": 0.9608126537134736
+      },
+      {
+        "row": 885,
+        "candidate_raw_mse": 1.279967790894113e-06,
+        "parent_raw_mse": 1.3673548406054567e-06,
+        "adjusted_ratio": 0.9360904374517377
+      },
+      {
+        "row": 908,
+        "candidate_raw_mse": 1.4777442596701127e-06,
+        "parent_raw_mse": 1.475364247995289e-06,
+        "adjusted_ratio": 1.0016131688686762
+      },
+      {
+        "row": 930,
+        "candidate_raw_mse": 1.1357761930903853e-06,
+        "parent_raw_mse": 1.1447375695886447e-06,
+        "adjusted_ratio": 0.9921716760798899
+      },
+      {
+        "row": 953,
+        "candidate_raw_mse": 1.269100801539684e-06,
+        "parent_raw_mse": 1.328244351426961e-06,
+        "adjusted_ratio": 0.9554723874234903
+      },
+      {
+        "row": 976,
+        "candidate_raw_mse": 1.4701762184205117e-06,
+        "parent_raw_mse": 1.630550521208061e-06,
+        "adjusted_ratio": 0.9016440762174426
+      },
+      {
+        "row": 999,
+        "candidate_raw_mse": 1.1751582687625702e-06,
+        "parent_raw_mse": 1.1686091241169066e-06,
+        "adjusted_ratio": 1.0056042217286405
+      }
+    ],
+    "competition_pass": true,
+    "resource_checks_pass": true,
+    "comparison_refit": false,
+    "single_training_fit": true,
+    "scientific_tier_awarded": false
+  },
+  "fit_asset": "experiments/submission_policy/t124/FIT.json",
+  "production_qualification": {
+    "task_id": "T124",
+    "algorithm_id": "ALG029-V000",
+    "sealed_utc": "2026-09-05T00:12:31.574103+00:00",
+    "owner_authorized_upload": true,
+    "archive_path": "experiments/submission_policy/t124/packages/ALG029-V000.tar.gz",
+    "archive_sha256": "c8e6e9286bc5c6e9ad5be8c5bb693e810162e7775bd0e0b69668038afef295cb",
+    "flops": 218985745647,
+    "multiplier": 0.1,
+    "production_score": {
+      "task_id": "T124",
+      "algorithm_id": "ALG029-V000",
+      "evidence_class": "submission-facing production confirmation; reused development panels, not independent scientific validation",
+      "rows": [
+        750,
+        772,
+        795,
+        817,
+        840,
+        863,
+        885,
+        908,
+        930,
+        953,
+        976,
+        999
+      ],
+      "n": 12,
+      "raw_mse": 1.3072899347778126e-06,
+      "adjusted_score": 1.3072899347778128e-07,
+      "parent_raw_mse": 1.3518392250026864e-06,
+      "parent_adjusted_score": 1.3518392250026865e-07,
+      "ratio": 0.9670454227093571,
+      "improvement_percent": 3.2954577290642884,
+      "wins": 10,
+      "bootstrap_probability_of_mean_improvement": 1.0,
+      "bootstrap_mean_change_90pct_interval": [
+        -6.67118197857723e-09,
+        -2.4926515556016143e-09
+      ],
+      "network_ratio_quantiles": {
+        "median": 0.9723385200584485,
+        "p90": 1.0006690195897976,
+        "p95": 1.0034091426556602,
+        "maximum": 1.0056042217286405
+      },
+      "flops": [
+        218985745647,
+        218985745647,
+        218985745647,
+        218985745647,
+        218985745647,
+        218985745647,
+        218985745647,
+        218985745647,
+        218985745647,
+        218985745647,
+        218985745647,
+        218985745647
+      ],
+      "multipliers": [
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1,
+        0.1
+      ],
+      "prediction_seal_sha256": "99b246b92014360333162a2ee20ee189b2c93e8c5b2b0dc3ed0199ba96cd972c",
+      "per_network": [
+        {
+          "row": 750,
+          "candidate_raw_mse": 9.860850382964678e-07,
+          "parent_raw_mse": 1.0169045670608666e-06,
+          "adjusted_ratio": 0.9696928013083117
+        },
+        {
+          "row": 772,
+          "candidate_raw_mse": 1.5774561733629327e-06,
+          "parent_raw_mse": 1.6108175793141258e-06,
+          "adjusted_ratio": 0.97928914708927
+        },
+        {
+          "row": 795,
+          "candidate_raw_mse": 1.077025187654916e-06,
+          "parent_raw_mse": 1.1046590752800508e-06,
+          "adjusted_ratio": 0.9749842388085852
+        },
+        {
+          "row": 817,
+          "candidate_raw_mse": 1.5196723958840565e-06,
+          "parent_raw_mse": 1.5900430267222815e-06,
+          "adjusted_ratio": 0.9557429392440486
+        },
+        {
+          "row": 840,
+          "candidate_raw_mse": 1.5390966426940219e-06,
+          "parent_raw_mse": 1.5564295271510422e-06,
+          "adjusted_ratio": 0.9888636882334485
+        },
+        {
+          "row": 863,
+          "candidate_raw_mse": 1.180220247063978e-06,
+          "parent_raw_mse": 1.2283562695625517e-06,
+          "adjusted_ratio": 0.9608126537134736
+        },
+        {
+          "row": 885,
+          "candidate_raw_mse": 1.279967790894113e-06,
+          "parent_raw_mse": 1.3673548406054567e-06,
+          "adjusted_ratio": 0.9360904374517377
+        },
+        {
+          "row": 908,
+          "candidate_raw_mse": 1.4777442596701127e-06,
+          "parent_raw_mse": 1.475364247995289e-06,
+          "adjusted_ratio": 1.0016131688686762
+        },
+        {
+          "row": 930,
+          "candidate_raw_mse": 1.1357761930903853e-06,
+          "parent_raw_mse": 1.1447375695886447e-06,
+          "adjusted_ratio": 0.9921716760798899
+        },
+        {
+          "row": 953,
+          "candidate_raw_mse": 1.269100801539684e-06,
+          "parent_raw_mse": 1.328244351426961e-06,
+          "adjusted_ratio": 0.9554723874234903
+        },
+        {
+          "row": 976,
+          "candidate_raw_mse": 1.4701762184205117e-06,
+          "parent_raw_mse": 1.630550521208061e-06,
+          "adjusted_ratio": 0.9016440762174426
+        },
+        {
+          "row": 999,
+          "candidate_raw_mse": 1.1751582687625702e-06,
+          "parent_raw_mse": 1.1686091241169066e-06,
+          "adjusted_ratio": 1.0056042217286405
+        }
+      ],
+      "competition_pass": true,
+      "resource_checks_pass": true,
+      "comparison_refit": false,
+      "single_training_fit": true,
+      "scientific_tier_awarded": false
+    },
+    "qualification_pass": true,
+    "coefficient_fit_calls": 1,
+    "coefficient_asset_sha256": "8c8cdc6463f86c5d61fac998d0ce17a39bd033e2bac5c5e3f6182b4bb11311cd",
+    "fit_sha256": "79860478f8357ddf9f89d3aeb3138049fd79da81e86f2dba33ef35e2c83df0fd",
+    "grade_wait_minutes": 30,
+    "generic_unchanged_retry_limit": 1,
+    "scientific_tier_transfer": false,
+    "final_designation": false
+  },
+  "official_result": {
+    "task_id": "T124",
+    "experiment_id": "E114",
+    "algorithm_id": "ALG029-V000",
+    "status": "COMPLETED_OFFICIAL_IMPROVEMENT",
+    "task_checked_off": true,
+    "submission_id": 329806,
+    "official_adjusted_score": 1.367555488513972e-07,
+    "official_final_layer_mse": 1.3675554885139717e-06,
+    "official_vs_sampling_reference": 8.774781060649737,
+    "prior_official_algorithm": "ALG028-V000",
+    "prior_official_submission": 329774,
+    "prior_official_adjusted_score": 1.4229966461698496e-07,
+    "official_ratio_to_prior": 0.9610391508615964,
+    "official_improvement_percent": 3.8960849138403586,
+    "official_best_changed": true,
+    "archive_path": "experiments/submission_policy/t124/packages/ALG029-V000.tar.gz",
+    "archive_sha256": "c8e6e9286bc5c6e9ad5be8c5bb693e810162e7775bd0e0b69668038afef295cb",
+    "local_screen_ratio": 0.9670454227093571,
+    "local_bootstrap_support": 1.0,
+    "screen_networks": 12,
+    "screen_wins": 10,
+    "comparison_role": "reused adaptive development evidence",
+    "training_rows": [
+      0,
+      500
+    ],
+    "training_fit_calls": 1,
+    "training_selected_step": 1.0,
+    "coefficient_asset_sha256": "8c8cdc6463f86c5d61fac998d0ce17a39bd033e2bac5c5e3f6182b4bb11311cd",
+    "comparison_extension_used": false,
+    "actual_flops": 218985745647,
+    "additional_flops_over_parent": 683040,
+    "score_multiplier": 0.1,
+    "scientific_tier_transfer": false,
+    "final_designation": false,
+    "retry_created": false,
+    "operational_failures": "INHERITED_SOURCE_IDENTITY.json",
+    "next_task": "T125",
+    "next_task_started": false,
+    "next_task_recommendation": "One bounded early-feasibility covariance trace attempt, T122-B, on the retained official parent; no refit. Stop early if residual margin cannot be met cheaply.",
+    "timing": {
+      "start_utc": "2026-09-04T23:57:01+00:00",
+      "end_utc": "2026-09-05T00:30:49.974234+00:00",
+      "estimate_total_minutes": 75,
+      "estimate_range_minutes": [
+        45,
+        90
+      ],
+      "initial_active_engineering_budget_minutes": 60,
+      "actual_elapsed_minutes": 33.81623723333333,
+      "estimate_error_minutes": -41.18376276666667,
+      "time_to_upload_minutes": 15.557866666666666,
+      "acceptance_to_finalization_minutes": 18.258370566666667,
+      "allocation_approximate": {
+        "analysis_minutes": 2,
+        "implementation_repair_and_recordkeeping_minutes": 9,
+        "local_execution_and_recovery_wait_minutes": 6,
+        "remaining_grading_wait_minutes": 16.816237233333332,
+        "note": "Approximate mutually exclusive allocation; some recordkeeping overlapped official grading. No engineering budget extension or further candidate test."
+      }
+    }
+  }
+}

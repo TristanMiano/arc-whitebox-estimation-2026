@@ -1,0 +1,18 @@
+[
+  {
+    "submission_id": 328678,
+    "algorithm_id": "ALG018-V000",
+    "task_id": "T105A",
+    "status": "failed",
+    "reason": "Generic evaluator error; the unchanged package later graded as328686.",
+    "source": "experiments/submission_policy/t105a/REPORT.md"
+  },
+  {
+    "submission_id": 329528,
+    "algorithm_id": "ALG024-V000",
+    "task_id": "T117A",
+    "status": "failed",
+    "reason": "Forbidden raw-NumPy constant construction; repaired to charged FlopScope and accepted as329529.",
+    "source": "experiments/submission_policy/t117a/REPORT.md"
+  }
+]

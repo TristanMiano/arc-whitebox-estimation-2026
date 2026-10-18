@@ -1,0 +1,41 @@
+{
+  "task_id": "T120B",
+  "experiment_id": "E111",
+  "algorithm_id": "ALG028-V000",
+  "status": "COMPLETED_OFFICIAL_IMPROVEMENT",
+  "task_checked_off": true,
+  "submission_id": 329774,
+  "official_adjusted_score": 1.4229966461698496e-07,
+  "official_final_layer_mse": 1.4229966461698495e-06,
+  "official_vs_sampling": 8.432908139523242,
+  "prior_official_submission": 329690,
+  "prior_official_adjusted_score": 1.4791658804824692e-07,
+  "official_ratio_to_prior": 0.96202641295762,
+  "official_improvement_percent": 3.7973587042379964,
+  "official_best_changed": true,
+  "archive_path": "experiments/submission_policy/t120b/packages/ALG028-V000.tar.gz",
+  "archive_sha256": "0415448d568e81441919094cfc6f9374aa69e491a388096620ccb4b721c4f878",
+  "local_screen_ratio": 0.9832320763829183,
+  "local_bootstrap_support": 0.9068,
+  "screen_networks": 12,
+  "refit_performed": false,
+  "scientific_tier_transfer": false,
+  "final_designation": false,
+  "retry_created": false,
+  "next_task": "OWNER_TODO_PROTOCOL_REVIEW",
+  "timing": {
+    "start_utc": "2026-09-04T20:13:08Z",
+    "end_utc": "2026-09-04T20:39:32.943093+00:00",
+    "estimate_active_engineering_minutes": 60,
+    "estimate_total_minutes": 75,
+    "actual_elapsed_seconds": 1584.943093,
+    "estimate_error_seconds": -2915.056907,
+    "time_to_upload_seconds": 671.713,
+    "allocation_approximate": {
+      "analysis_minutes": 2,
+      "implementation_debug_and_documentation_minutes": 4.2,
+      "local_execution_wait_minutes": 5,
+      "official_grading_and_concurrent_recordkeeping_minutes": 15.2
+    }
+  }
+}

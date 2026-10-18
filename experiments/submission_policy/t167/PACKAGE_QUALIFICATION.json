@@ -1,0 +1,81 @@
+{
+  "task_id": "T167",
+  "algorithm_id": "ALG052-V000",
+  "archive": "experiments/submission_policy/t167/packages/ALG052-V000.tar.gz",
+  "archive_sha256": "827a2ff81a318eb655013b7766df194b851d0bad4be34669db87d0121066d547",
+  "size_bytes": 43085,
+  "pass_checks": true,
+  "imports": [
+    {
+      "line": 146,
+      "modules": [
+        "__future__"
+      ]
+    },
+    {
+      "line": 149,
+      "modules": [
+        "math"
+      ]
+    },
+    {
+      "line": 151,
+      "modules": [
+        "flopscope"
+      ]
+    },
+    {
+      "line": 152,
+      "modules": [
+        "flopscope.numpy"
+      ]
+    },
+    {
+      "line": 153,
+      "modules": [
+        "whestbench"
+      ]
+    },
+    {
+      "line": 154,
+      "modules": [
+        "whestbench.domain"
+      ]
+    },
+    {
+      "line": 314,
+      "modules": [
+        "os"
+      ]
+    },
+    {
+      "line": 315,
+      "modules": [
+        "gc"
+      ]
+    },
+    {
+      "line": 1837,
+      "modules": [
+        "local_engine"
+      ]
+    },
+    {
+      "line": 1889,
+      "modules": [
+        "pathlib"
+      ]
+    },
+    {
+      "line": 1890,
+      "modules": [
+        "json"
+      ]
+    }
+  ],
+  "manifest_pass": true,
+  "allowed_imports_pass": true,
+  "clean_extraction_pass": true,
+  "numerical_api_note": "Exact research source. JSON/pathlib used only in setup for frozen weights; inference numerics use flopscope.numpy. local_engine only in development __main__.",
+  "targets_accessed": false
+}

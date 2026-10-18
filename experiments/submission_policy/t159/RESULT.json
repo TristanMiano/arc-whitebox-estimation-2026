@@ -1,0 +1,82 @@
+{
+  "task_id": "T159",
+  "experiment_id": "E154",
+  "algorithm_id": "ALG049-V000",
+  "hypothesis_id": "H158-TRACE-WINOGRAD",
+  "status": "COMPLETED_OFFICIAL_IMPROVEMENT",
+  "submission_id": 330887,
+  "submission_ids": [
+    330887
+  ],
+  "submission_attempts": 1,
+  "official_adjusted_score": 5.017859747074435e-09,
+  "official_raw_mse": 2.2309206819670634e-08,
+  "official_predecessor_adjusted_score": 5.419051334510831e-09,
+  "official_ratio": 0.9259664537810453,
+  "official_improvement_percent": 7.403354621895475,
+  "official_best_changed": true,
+  "retained_official_algorithm": "ALG049-V000",
+  "source_hashes": {
+    "README.md": "faa77fdc05dcacbe86fc0bbdc9db6b2b147ad681202e955dc9a9cb45e83f19bb",
+    "LICENSE": "d2c9a83a86ed95c8d279219cd36d5a025c0372dee57d072fe4718850e226e740",
+    "estimator.py": "61375dbead94c8593db5684baa9619abb702f9016cefa937b4984acfd7d69039"
+  },
+  "archive_path": "experiments/submission_policy/t159/packages/ALG049-V000.tar.gz",
+  "archive_sha256": "f61fc6eb9e0525f6d40c8c856a46becb88a360d116d036d36a1e4024512f001e",
+  "local_mean_adjusted_ratio": 0.9255308595392495,
+  "local_mean_raw_ratio": 1.0464854500132736,
+  "local_adjusted_wins": 8,
+  "local_networks": 8,
+  "reused_comparison": true,
+  "new_comparison_calls": 0,
+  "qualification_full_shape_calls": 5,
+  "new_fits": 0,
+  "estimator_formula_changes_from_T158": false,
+  "default_literal_changes": 5,
+  "resource_summary": {
+    "maximum_residual_s": 0.3041107229964837,
+    "maximum_rss_bytes": 7654592512,
+    "maximum_outer_wall_s": 58.709521000999985,
+    "setup_s": 0.022269883000035406,
+    "flops": [
+      538241728384,
+      492474123904,
+      483488924800,
+      480530585472,
+      480530585472
+    ]
+  },
+  "archive_qualified": true,
+  "current_package_replay_tested": true,
+  "final_blind_accessed": false,
+  "subagents": 0,
+  "next_task": "T160",
+  "next_task_started": false,
+  "report": "experiments/submission_policy/t159/REPORT.md",
+  "timing_file": "experiments/submission_policy/t159/TIMING.json",
+  "official_states": [
+    {
+      "id": 330887,
+      "grading_status_cd": "graded",
+      "grading_message": "<p>Graded successfully</p>\n",
+      "score": 5.017859747074435e-09,
+      "score_secondary": 2.2309206819670634e-08,
+      "created_at": "2026-09-13T14:48:47.840Z"
+    }
+  ],
+  "owner_wait_extension": {
+    "task_id": "T159",
+    "owner_directive": "You can also increase the wait to two hours before retrying for this round.",
+    "recorded_utc": "2026-09-13T15:33:47.620945+00:00",
+    "wait_minutes_per_attempt": 120,
+    "applies_to": "This round, including the existing accepted submission and any authorized unchanged generic-error retry.",
+    "unchanged_retry_limit": 1,
+    "submission_id": 330887,
+    "old_deadline_utc": "2026-09-13T15:48:47.840000+00:00",
+    "new_deadline_utc": "2026-09-13T16:48:47.840000+00:00",
+    "acceptance_time_unchanged": true,
+    "archive_unchanged": true,
+    "monitor_restart_note": "The extension helper failed to match the relative-path old monitor. Both monitors then observed a successful grade and exited before metadata completion. Their logs are preserved; the old monitor wrote the final status snapshot. The official attempt record holds the authorized two-hour deadline.",
+    "retry_needed": false
+  }
+}

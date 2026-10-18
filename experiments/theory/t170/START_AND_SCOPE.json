@@ -1,0 +1,40 @@
+{
+  "task_id": "T170",
+  "experiment_id": "E166",
+  "start_utc": "2026-10-11T00:21:08.700057+00:00",
+  "status": "active",
+  "owner_authority": "Okay -- please start T170 with another 4 hour floor.",
+  "minimum_active_research_minutes": 240,
+  "minimum_written_mathematics_minutes": 60,
+  "estimated_active_minutes": [
+    240,
+    300
+  ],
+  "estimated_elapsed_minutes": [
+    255,
+    345
+  ],
+  "suggested_allocation_minutes": {
+    "literature": 30,
+    "derivation": 90,
+    "empirical": 90,
+    "selection": 30
+  },
+  "objective": "Broader empirical recurrence after T169 native fourth-state transfer diagnosis. Seek informative new joint-state observables or a different conditional/distributional recurrence. Preserve a cheap learned-source training reserve while prioritizing a credible larger gain.",
+  "incumbent": {
+    "algorithm_id": "ALG052-V000",
+    "submission_id": 332641,
+    "adjusted_score": 4.285182274373245e-09,
+    "final_layer_mse": 2.0914763076973487e-08,
+    "predecessor": "ALG051-V000_submission_332018",
+    "adjusted_ratio_to_predecessor": 0.9809244167408736,
+    "adjusted_relative_reduction": 0.019075583259126394,
+    "source_origin": "T166 intermediate-supervised neural source adaptation of ALG051/public504aldoV29"
+  },
+  "incumbent_source_sha256": "b094bb97c90e42d91b0552f80ed9f8817922afb99706f761a235cb49f86ae7b1",
+  "git_head_at_start": "72bbbff708d89872d73bbb183c85dc48cf46119c",
+  "no_agents": true,
+  "no_automatic_upload": true,
+  "data_role": "Generated controls and exposed training only; repeated/adaptive use disclosed. Historical frozen and final blind data protected.",
+  "compute_plan": "One heavy process at a time; existing qualified runtimes; 13.25GB research guard; no mandatory large panel."
+}

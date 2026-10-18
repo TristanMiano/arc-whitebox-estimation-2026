@@ -1,0 +1,83 @@
+{
+  "task_id": "T166",
+  "experiment_id": "E162",
+  "status": "completed_empirical_theory_one_nominee_no_upload",
+  "completed_utc": "2026-09-27T08:24:03.473775+00:00",
+  "active_research_minutes": 241.05826330000002,
+  "category_minutes": {
+    "derivation": 135.68958705,
+    "empirical": 59.36410140000002,
+    "literature": 30.261944483333334,
+    "selection": 15.742630366666667
+  },
+  "nominees": [
+    {
+      "name": "P45_intermediate_supervised_source",
+      "path": "experiments/theory/t166/sources/P45_final_source",
+      "source_sha256": "b094bb97c90e42d91b0552f80ed9f8817922afb99706f761a235cb49f86ae7b1",
+      "asset_sha256": "3bb8b66e7d1988ba9984ccf1dae366ba5127449bd0465c6dcd75416c03bb4dce",
+      "status": "research_prototype_ready_for_bounded_attempt_not_registered_or_qualified",
+      "CV_mean_raw_ratio": 0.9720847153825001,
+      "CV_network_wins": 27,
+      "CV_networks": 32,
+      "shipped_asset_training_networks": 32,
+      "full_shape_flop_ratio": 1.000049658134009,
+      "subjective_official_win_probability": [
+        0.8,
+        0.9
+      ],
+      "conditional_adjusted_reduction": [
+        0.01,
+        0.04
+      ]
+    }
+  ],
+  "larger_generated_capacity_mse": {
+    "late256": 5.399735468253763e-07,
+    "late384": 2.3216642803523015e-07,
+    "sparse256": 6.183518519860744e-07,
+    "sparse384": 3.026191963894537e-07,
+    "query_only256": 5.364806410767998e-07,
+    "query_only384": 2.4389819107289524e-07
+  },
+  "larger_lead_status": "Capacity retained; native complete constructor/cost and actual-width score unresolved. Query-only compression differs from failed whole-third replacement.",
+  "incumbent_retained": true,
+  "incumbent_algorithm": "ALG051-V000",
+  "incumbent_submission": 332018,
+  "official_adjusted_score": 4.368514231311302e-09,
+  "incumbent_source_sha256": "db714c48d45653fb1c9bdd9ccd880f6f25c0ab3ad7584f8f13b852571cb44067",
+  "full_shape_calls": 43,
+  "unique_full_shape_rows": 32,
+  "full_shape_flops": 20200047582856,
+  "generated_trajectory_or_response_records": 26,
+  "probe_ids_through": "P54",
+  "literature_task_local_sources": 26,
+  "official_upload_performed": false,
+  "subagents": 0,
+  "blind_access": false,
+  "new_algorithm_registered": false,
+  "next_task": "T167",
+  "next_task_owner_authorized": false,
+  "next_task_started": false,
+  "unresolved_jobs": [],
+  "timing_file": "experiments/theory/t166/TIMING.json",
+  "report": "experiments/theory/t166/REPORT.md",
+  "selection": "experiments/theory/t166/CANDIDATE_SELECTION.md",
+  "evidence_inventory": "experiments/theory/t166/EVIDENCE_INVENTORY.json",
+  "novelty": "Own learned adaptation of public504aldoV29 and ALG050/051; known learned-closure ideas, no academic priority claim.",
+  "larger_lead_forecast": {
+    "subjective_official_win_probability": [
+      0.15,
+      0.25
+    ],
+    "conditional_adjusted_reduction": [
+      0.05,
+      0.2
+    ],
+    "additional_work_hours": [
+      8,
+      16
+    ],
+    "role": "Further development forecast, not dense-prototype score; upper gain requires further cost reduction."
+  }
+}

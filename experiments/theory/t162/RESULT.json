@@ -1,0 +1,61 @@
+{
+  "task_id": "T162",
+  "experiment_id": "E158",
+  "status": "completed_empirical_theory_no_nominee_no_upload",
+  "decision": "Retain ALG050; propose a further empirical recurrence on controlled coherent fourth response. No automatic next task.",
+  "start_utc": "2026-09-20T04:52:51+00:00",
+  "research_end_utc": "2026-09-20T16:22:42.747204+00:00",
+  "active_research_minutes": 240.00072481666666,
+  "nominees": [],
+  "completed_full_shape_calls": 37,
+  "unique_full_shape_rows": [
+    750,
+    772,
+    795,
+    817,
+    976,
+    999
+  ],
+  "metered_full_shape_flops": 19743775566736,
+  "completed_generated_recurrences": 57,
+  "full_shape_source_hashes_started": 19,
+  "new_challenge_target_coefficient_fits": 0,
+  "analytic_query_coefficient_fits": true,
+  "adaptive_development": true,
+  "uploads": 0,
+  "subagents": 0,
+  "final_blind_accessed": false,
+  "official_incumbent": {
+    "algorithm_id": "ALG050-V000",
+    "submission_id": 331607,
+    "adjusted_score": 4.544342423060378e-09,
+    "source_sha256": "40012a17eb43d004ff9f0c49f34c0ee6f15e9330603554fd6c7bdad628ec63fe"
+  },
+  "cheap_fallback": {
+    "probe": "P19",
+    "networks": 6,
+    "raw_ratio": 1.0079788506577354,
+    "adjusted_ratio": 1.0095860050684151,
+    "bootstrap_support": 0.1565,
+    "decision": "park_unchanged"
+  },
+  "main_research_forecast": {
+    "probability_retained_official_improvement": [
+      0.25,
+      0.45
+    ],
+    "development_horizon_hours": [
+      8,
+      16
+    ],
+    "conditional_adjusted_gain": [
+      0.1,
+      0.3
+    ],
+    "subjective_not_calibrated": true
+  },
+  "report": "experiments/theory/t162/REPORT.md",
+  "candidate_inventory": "experiments/theory/t162/CANDIDATE_SELECTION.md",
+  "continuation": "experiments/theory/t162/CONTINUATION.md",
+  "timing": "experiments/theory/t162/TIMING.json"
+}

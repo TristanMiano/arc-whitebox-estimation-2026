@@ -1,0 +1,33 @@
+{
+  "task_id": "T149",
+  "start_utc": "2026-09-11T17:09:00+00:00",
+  "records_snapshot_utc": "2026-09-11T17:29:32.058528+00:00",
+  "elapsed_through_records_minutes": 20.5343088,
+  "exclusive_minutes": {
+    "engineering": 13.879965899999998,
+    "unattended_compute": 6.6543429000000005
+  },
+  "estimated_elapsed_range_minutes": [
+    60,
+    120
+  ],
+  "estimate_error_through_records_minutes": {
+    "versus_lower": -39.465691199999995,
+    "versus_upper": -99.4656912
+  },
+  "initial_active_engineering_budget_minutes": 60,
+  "engineering_extension_used": false,
+  "estimate_is_minimum": false,
+  "explanation": "Complete T148 specification and reusable V29/T151/T152 harness enabled an early coherent implementation. One source passed all probes. The local loss avoided qualification and grading allowances. Useful work overlapping compute counts as engineering; resource-only monitoring is unattended compute.",
+  "method": "Exclusive observed UTC categories; no agents or minimum-time padding.",
+  "verification_end_utc": "2026-09-11T17:30:56.419991+00:00",
+  "elapsed_through_verification_minutes": 21.940333183333333,
+  "exclusive_minutes_through_verification": {
+    "engineering": 15.285990283333334,
+    "unattended_compute": 6.6543429000000005
+  },
+  "estimate_error_through_verification_minutes": {
+    "versus_lower": -38.05966681666666,
+    "versus_upper": -98.05966681666666
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "submission_id": 336778,
+    "start_utc": "2026-10-17T18:03:49+00:00",
+    "end_utc": "2026-10-17T19:24:09+00:00",
+    "session_minutes": 80.33333333333333,
+    "active_work_minutes": 80.33333333333333
+  },
+  {
+    "submission_id": 336785,
+    "start_utc": "2026-10-17T19:24:09+00:00",
+    "end_utc": "2026-10-17T20:31:10+00:00",
+    "session_minutes": 67.01666666666667,
+    "active_work_minutes": 67.01666666666667
+  },
+  {
+    "submission_id": 336809,
+    "start_utc": "2026-10-17T20:31:10+00:00",
+    "end_utc": "2026-10-17T23:00:33.414739+00:00",
+    "session_minutes": 149.39024565,
+    "active_work_minutes": 105.34294888333334
+  }
+]

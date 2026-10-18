@@ -1,0 +1,60 @@
+{
+  "task_id": "T172",
+  "algorithm_id": "ALG055-V000",
+  "probe": "P19_new_trace",
+  "created_utc": "2026-10-17T19:49:30.235534+00:00",
+  "source_directory": "submissions/phase2_alg055_v000",
+  "source_hashes": {
+    "README.md": "7b694b85e8b934862452c72de3afc7fdc80c62a534092b8e462903fb8d5dfbb3",
+    "LICENSE": "17cf7ad008400756c32ef01c6e20d3c33b38e6e51bc16cf0cea664358a3492ec",
+    "nn_asset.json": "cbbdaed0c92bf7386f927333dd729fd2debd012164bbaa591ded6a594eafdf47",
+    "ALG053_LICENSE": "d2c9a83a86ed95c8d279219cd36d5a025c0372dee57d072fe4718850e226e740",
+    "estimator.py": "f27c7118f4fd4dbd803c053f74699ae3f9dd5681ff53d57b55023959668bbda7"
+  },
+  "research_config": {
+    "probe": "P19_new_trace",
+    "question": "Does the newly fitted transported source improve actual P09 scores on outside-F development?",
+    "source_sha256": "f27c7118f4fd4dbd803c053f74699ae3f9dd5681ff53d57b55023959668bbda7",
+    "asset_sha256": "cbbdaed0c92bf7386f927333dd729fd2debd012164bbaa591ded6a594eafdf47",
+    "origin": "P09 + P14 trace24",
+    "rows": [
+      750,
+      976,
+      772,
+      795
+    ],
+    "created_utc": "2026-10-17T19:17:04.066461+00:00",
+    "data_role": "Adaptive public development;32F training, four outsideF development rows"
+  },
+  "comparison_rows": [
+    750,
+    976,
+    772,
+    795,
+    817,
+    840,
+    863,
+    885,
+    908,
+    930,
+    953,
+    999
+  ],
+  "archive_new_rows": [
+    817,
+    840,
+    863,
+    885,
+    908,
+    930,
+    953,
+    999,
+    999
+  ],
+  "data_role": "Previously exposed adaptive public development; all candidate and incumbent observations use FlopScope0.12.3. Reuse exact-source first4 calls and ALG054 12-row archive/source bank, then qualify additional8 and replay from this archive.",
+  "owner_authorized_upload": true,
+  "owner_authority": "Final unrestricted recurrence to achieve best adjusted score while followingARC rules.",
+  "grade_wait_minutes": 60,
+  "status": "FROZEN_PENDING_ARCHIVE_QUALIFICATION",
+  "comparison_incumbent_algorithm": "ALG054-V000"
+}

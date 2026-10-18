@@ -1,0 +1,73 @@
+{
+  "schema_version": "arc-t096a-qualification-v1",
+  "task_id": "T096A",
+  "algorithm_id": "ALG015-V000",
+  "status": "pass",
+  "environment": {
+    "platform": "WSL2_x86_64",
+    "python": "3.10.20",
+    "numpy": "2.2.6",
+    "flopscope": "0.12.0",
+    "whestbench": "0.16.0"
+  },
+  "source": {
+    "path": "submissions/phase2_alg015_v000/estimator.py",
+    "sha256": "4b0f219c144da6be977098ad863f4650dc8ada647999d289a3705d3296f6e53d",
+    "contract_validator": "pass"
+  },
+  "package": {
+    "path": "experiments/submission_policy/t096a/packages/ALG015-V000.tar.gz",
+    "sha256": "9591d5fdcc316e7d7e08aa7c57f2514ad64127e3b3336965690e16f023dc1bda",
+    "size_bytes": 3011,
+    "validator": "pass",
+    "manifest_files": {
+      "estimator.py": "4b0f219c144da6be977098ad863f4650dc8ada647999d289a3705d3296f6e53d",
+      "LICENSE": "832662579fdfd916d03c2d5e15cd53491635b51d807c4db46ae89ffa66c82690"
+    }
+  },
+  "fresh_extraction": {
+    "contract_validator": "pass",
+    "estimator_sha256_matches_source": true,
+    "fixed_seed_prediction_sha256": "f317089e75278d10a5e00c468680b08ec35046df9a43bd9258d725c5bad73e47",
+    "fixed_seed_repeated_byte_identical": true,
+    "flops_used_both_runs": 196459652235,
+    "flops_repeated_identical": true,
+    "maximum_exact_probe_wall_time_s": 0.9107742740000049,
+    "maximum_exact_probe_residual_wall_time_s": 0.014578635999214384
+  },
+  "public_phase2_one_mlp_smoke": {
+    "dataset": "hf://aicrowd/arc-whestbench-public-2026@v2-phase2",
+    "dataset_sha256": "aab61cf11271d20118e2109065c165a931dfacb493849f0d611f7a2d82a03790",
+    "network": "logan-fitzgerald",
+    "local_runner": {
+      "adjusted_score": 2.7821381536341506e-7,
+      "final_layer_mse": 2.7821381536341505e-6,
+      "flops_used": 196459652235,
+      "wall_time_s": 0.8481182079999598,
+      "residual_wall_time_s": 0.014395583004898072,
+      "failures": 0
+    },
+    "subprocess_runner": {
+      "adjusted_score": 2.7821381536341506e-7,
+      "final_layer_mse": 2.7821381536341505e-6,
+      "flops_used": 196459652235,
+      "wall_time_s": 0.9108481560001565,
+      "residual_wall_time_s": 0.03023856700383476,
+      "failures": 0
+    }
+  },
+  "preupload_incidents": [
+    {
+      "class": "packaging_mode",
+      "disposition": "self_repaired_before_upload",
+      "detail": "The first valid single-file package omitted the sibling MIT license. The folder was repackaged, revalidated, freshly extracted, and only the replacement archive hash was uploaded. Estimator bytes were unchanged."
+    },
+    {
+      "class": "qualification_harness",
+      "disposition": "self_repaired_before_candidate_execution",
+      "detail": "A temporary cleanup command was rejected by the command guard before execution; qualification was rerun with a retained explicit temporary directory."
+    }
+  ],
+  "hard_gate": "PASS",
+  "scientific_tier_transfer": false
+}

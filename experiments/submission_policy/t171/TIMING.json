@@ -1,0 +1,34 @@
+{
+  "task_id": "T171",
+  "start_utc": "2026-10-11T16:22:52+00:00",
+  "record_completion_utc": "2026-10-11T17:13:25.247402+00:00",
+  "elapsed_minutes": 50.554123366666666,
+  "estimate_total_range_minutes": [
+    30,
+    120
+  ],
+  "estimate_error_minutes": [
+    20.554123366666666,
+    -69.44587663333334
+  ],
+  "exclusive_category_minutes": {
+    "engineering": 9.914790083333335,
+    "local_wait": 5.56914785,
+    "grader_wait": 35.06882913333334
+  },
+  "official_wait_records": [
+    {
+      "submission_id": 335391,
+      "accepted_utc": "2026-10-11T16:37:03.880Z",
+      "latest_changed_state_observed_utc": "2026-10-11T17:11:58+00:00",
+      "latest_status": "graded",
+      "minutes_to_latest_changed_state": 34.902,
+      "deadline_utc": "2026-10-11T17:37:03.880000+00:00"
+    }
+  ],
+  "new_metered_prediction_minutes": 8.911614761716738,
+  "reused_incumbent_metered_minutes": 7.289406246700067,
+  "initial_active_engineering_budget_minutes": 60,
+  "grade_wait_minutes_per_attempt": 60,
+  "accounting_note": "Exclusive categories count overlapping work once. Metered predictions and acceptance-to-observation times overlap preparation and are not additive. Reused incumbent compute is historical, not new task time. Final verification/commit after this record is not separately timed."
+}

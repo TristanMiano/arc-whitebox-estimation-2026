@@ -1,0 +1,9 @@
+{
+  "start_adjusted": 4.1556172645504615e-09,
+  "end_adjusted": 2.971106406126817e-09,
+  "adjusted_ratio": 0.7149615128110745,
+  "raw_ratio": 0.9661945211338823,
+  "score_over_raw_ratio": 0.7399767822860638,
+  "interpretation": "Exact decomposition of aggregate score ratios. Score/raw is an error-weighted multiplier proxy; it is not the unweighted mean FLOP ratio.",
+  "retained_algorithm": "ALG058-V001"
+}

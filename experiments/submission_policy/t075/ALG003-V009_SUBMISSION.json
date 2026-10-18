@@ -1,0 +1,29 @@
+{
+  "schema_version": "arc-t075-submission-record-v1",
+  "task_id": "T075",
+  "algorithm_id": "ALG003-V009",
+  "novelty": "N0-KNOWN-BASELINE",
+  "artifact_path": "experiments/submission_policy/t074/packages/ALG003-V009.tar.gz",
+  "artifact_sha256": "6ecf8418f621af41e134ec7ea71a319817b11242881ce873de6cdaccee74cb7f",
+  "description": "T075 ALG003-V009 Phase2 N0 fallback 6ecf8418",
+  "challenge_slug": "arc-white-box-estimation-challenge-2026",
+  "api_response": {
+    "id": 328477,
+    "challenge_id": 1174,
+    "challenge_round_id": 1429,
+    "created_at": "2026-08-26T04:35:35.965Z",
+    "grading_status_cd": "graded",
+    "grading_message": "<p>Graded successfully</p>\n",
+    "score": 7.811135410795243e-7,
+    "score_secondary": 3.122393313788052e-6
+  },
+  "field_interpretation": {
+    "score": "official_adjusted_score",
+    "score_secondary": "official_final_layer_mse",
+    "phase2_sampling_reference_adjusted_score": 1.2e-6,
+    "vs_sampling_approx": 1.5362683360239293,
+    "displayed_vs_sampling_approx": "1.5x"
+  },
+  "submission_url": "https://www.aicrowd.com/challenges/arc-white-box-estimation-challenge-2026/submissions/328477",
+  "final_designation": false
+}

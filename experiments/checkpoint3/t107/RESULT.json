@@ -1,0 +1,56 @@
+{
+  "schema_version": "arc-t107-two-hour-theory-v1",
+  "task": "T107",
+  "experiment_id": "E090",
+  "status": "completed_two_hour_theory_T108_frozen",
+  "cycle": "FC007",
+  "owner_override_active_theory_minutes_minimum": 120,
+  "active_written_theory_minutes_minimum_satisfied": true,
+  "active_written_theory_minutes_conservative": 120,
+  "protected_candidate_outcome_opened": false,
+  "algorithm_identity_created": false,
+  "scientific_tier_changed": false,
+  "submission_candidate_changed": false,
+  "current_submission_candidate": "ALG018-V000",
+  "current_official_submission_id": 328686,
+  "selected_decisions": ["H107-O", "H107-I"],
+  "nested_report_only_algorithms": ["H107-N", "H107-J", "H107-F"],
+  "provisional_variant_mapping": {
+    "V000": "H107-O",
+    "V001": "H107-I",
+    "V002": "H107-N",
+    "V003": "H107-J",
+    "V004": "H107-F"
+  },
+  "main_new_reserve": "H107-U",
+  "main_new_reserve_novelty": "N1-NOVEL-COMBINATION_dimension_4",
+  "score_floor_is_not_hard_budget": true,
+  "intermittent_runtime_event": {
+    "event": "one native segmentation fault during already-open H107-O replay",
+    "identical_first_retry_completed": true,
+    "later_runs_normal": true,
+    "owner_action_required": false,
+    "scientific_evidence": false
+  },
+  "next": {
+    "task": "T108",
+    "phase2_rows_zero_based": [76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87],
+    "dataset_revision": "ce926b7d1ced65faa668c01b94a43f8c4f43783d",
+    "evidence_class": "competition_submission_screen_not_rigorous_science",
+    "official_upload_authorized": false
+  },
+  "timing": {
+    "start_pdt": "2026-08-27T16:26:36,718665126-07:00",
+    "estimate_minutes": 140,
+    "estimate_plausible_range_minutes": [130, 180],
+    "theory_floor_reached_pdt": "2026-08-27T19:21:48,870207423-07:00",
+    "theory_minutes": 120,
+    "probe_runtime_web_admin_minutes_before_theory_floor_approximate": 52,
+    "closeout_documentation_state_verification_minutes_approximate": 12.77,
+    "total_categorized_non_theory_minutes_approximate": 64.77,
+    "end_checkoff_pdt": "2026-08-27T19:34:35,085986528-07:00",
+    "wallclock_elapsed_ns": 11278367321402,
+    "wallclock_elapsed": "03:07:58.367321402"
+  },
+  "owner_action_required": false
+}

@@ -1,0 +1,22 @@
+{
+  "task_id": "T173",
+  "experiment_id": "E169",
+  "status": "COMPLETED_DRAFT_READY_FOR_OWNER_REVIEW",
+  "started_utc": "2026-10-18T16:32:59Z",
+  "estimated_minutes": [
+    180,
+    300
+  ],
+  "time_floor_minutes": null,
+  "scope": "Final selection recommendation and complete reviewable writeup draft for submission336809; official nominations and delivery reserved for T174.",
+  "new_inference_runs": 0,
+  "external_mutations": false,
+  "completed_utc": "2026-10-18T16:51:05.117060+00:00",
+  "elapsed_minutes": 18.101951,
+  "active_work_minutes": 18.101951,
+  "passive_wait_minutes": 0,
+  "estimate_error_vs_lower_minutes": -161.89804900000001,
+  "estimate_error_vs_midpoint_minutes": -221.89804900000001,
+  "timing_note": "Single continuous drafting/audit session; brief compilation and dependency waits overlapped other work. No idle grading wait. Final scoped commit/UI opening follows this closure timestamp.",
+  "estimate_note": "Completed substantially below3\u20135hour planning estimate by reusing existing qualification, fit and ablation records; no time floor was requested and no new numerical campaign was necessary."
+}

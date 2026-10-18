@@ -1,0 +1,69 @@
+{
+  "schema_version": "arc-t106-competitive-research-policy-v2",
+  "task": "T106",
+  "experiment_id": "E089",
+  "status": "completed_policy_restructure_T107_next",
+  "policy": "state/competitive_research_policy.json",
+  "policy_sha256": "90c521e6cdc9f98a7e7ca07e79fdf429686c9954788ba682f1d9f5df69e2f6f0",
+  "policy_document": "docs/COMPETITIVE_RESEARCH_LOOP.md",
+  "policy_document_sha256": "0c234495299ebf5a94d982633485ce2e9903c9dc817c778121146c8106a633d6",
+  "prospective_only": true,
+  "protected_candidate_outcome_opened": false,
+  "algorithm_identity_created": false,
+  "scientific_tier_changed": false,
+  "submission_candidate_changed": false,
+  "current_submission_candidate": "ALG018-V000",
+  "changes": {
+    "default_theory_active_wall_minutes_per_fast_cycle": 60,
+    "theory_duration_owner_overridable": true,
+    "agent_may_reduce_theory_duration_without_owner_direction": false,
+    "maximum_candidate_decisions_per_theory_recurrence": 2,
+    "default_combined_exploratory_execution_active_wall_minutes_maximum": 60,
+    "default_theory_fraction_of_discretionary_cycle_time_minimum": 0.5,
+    "ranked_slate_axes": {
+      "competitive_upside_points": 40,
+      "theoretical_support_points": 25,
+      "robustness_points": 15,
+      "academic_novelty_points": 10,
+      "information_per_test_cost_points": 10
+    },
+    "direct_current_phase2_comparison_before_broad_historical_expansion": true,
+    "direct_comparison_is_submission_screen_not_rigorous_science": true,
+    "direct_comparison_minimum_networks": 12,
+    "direct_comparison_incumbent": "ALG018-V000",
+    "direct_adjusted_ratio_lt_1_triggers_bold_succession": true,
+    "direct_adjusted_ratio_gte_1_closes_unchanged_submission_branch": true,
+    "historical_P1_alone_authorizes_full_rigorous": false,
+    "direct_incumbent_win_automatically_authorizes_full_rigorous": false,
+    "submission_package_and_upload_may_precede_rigorous": true,
+    "full_rigorous_deferred_to_final_best_or_official_near_top_candidate": true,
+    "near_top_band_frozen_prospectively_from_then_current_public_leaderboard": true,
+    "noncompetitive_academic_exception_default_minutes_maximum": 30,
+    "noncompetitive_academic_exception_default_networks_maximum": 24,
+    "larger_academic_exception_requires_owner_decision": true
+  },
+  "rc002_correction": {
+    "repeat_low_leverage_pattern_forbidden": true,
+    "alg017_historical_P1_preserved": true,
+    "alg017_unchanged_submission_branch_closed": true,
+    "alg017_unchanged_full_rigorous_reentry_allowed": false,
+    "reason": "faithful Phase2 ALG017-V002 was already noncompetitive before RC002; future score-lane work requires a direct current-shape incumbent win, while full scientific rigor is deferred until late selection"
+  },
+  "next": {
+    "fast_cycle": "FC007",
+    "task": "T107",
+    "task_kind": "owner_overridable_default_60_active_wall_minute_theory_recurrence",
+    "effective_theory_active_wall_minutes_minimum": 60,
+    "owner_may_override_duration": true,
+    "candidate_outcomes_before_T107_freeze_allowed": false
+  },
+  "owner_action_required": false,
+  "timing": {
+    "start_pdt": "2026-08-27T16:07:01,703217028-07:00",
+    "estimate_minutes": 40,
+    "estimate_plausible_range_minutes": [25, 60],
+    "end_checkoff_pdt": "2026-08-27T16:22:59,854327467-07:00",
+    "wallclock_elapsed_ns": 958151110287,
+    "wallclock_elapsed": "00:15:58.151110287"
+  }
+}

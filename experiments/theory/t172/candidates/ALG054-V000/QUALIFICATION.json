@@ -1,0 +1,223 @@
+{
+  "algorithm_id": "ALG054-V000",
+  "probe": "P09_fused_cov",
+  "archive_path": "experiments/theory/t172/candidates/ALG054-V000/ALG054-V000.tar.gz",
+  "archive_sha256": "603e16a2c1d675f4ce0f353990aa59491771b8f712fc287f2020768e93c30d5e",
+  "source_hashes": {
+    "README.md": "9be8ecfaacc841ee47adc74db5c9826f32216d991fc41eea3acd06a0bffd5866",
+    "LICENSE": "17cf7ad008400756c32ef01c6e20d3c33b38e6e51bc16cf0cea664358a3492ec",
+    "ALG053_LICENSE": "d2c9a83a86ed95c8d279219cd36d5a025c0372dee57d072fe4718850e226e740",
+    "estimator.py": "5cde18d5403afe67acd69003b273c92ee44e03900ba28fb354383ace43f095bd"
+  },
+  "records": [
+    {
+      "call": 0,
+      "row": 817,
+      "meter": {
+        "flops": 328626600443,
+        "wall_time_s": 43.04628869999988,
+        "residual_wall_time_s": 0.3752012340009969,
+        "outer_wall_time_s": 43.04635801100039
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "peak_rss_bytes": 5800095744,
+      "setup_s": 0.02332487300009234,
+      "prediction_sha256": "5694493267524829a1d6e1d7cb9014463b07eab041f655a7b4a2042da476671f"
+    },
+    {
+      "call": 1,
+      "row": 840,
+      "meter": {
+        "flops": 344623814815,
+        "wall_time_s": 43.255182805000004,
+        "residual_wall_time_s": 0.3767540880103297,
+        "outer_wall_time_s": 43.255235961999915
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "peak_rss_bytes": 5871939584,
+      "setup_s": 0.02332487300009234,
+      "prediction_sha256": "50177853dbe972f3f44b4bbdc352aaf9a8323b048f1d86d05a08861c2fe9ac1c"
+    },
+    {
+      "call": 2,
+      "row": 863,
+      "meter": {
+        "flops": 333624028107,
+        "wall_time_s": 41.996404686999995,
+        "residual_wall_time_s": 0.3650355389768265,
+        "outer_wall_time_s": 41.996456684999885
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "peak_rss_bytes": 5886205952,
+      "setup_s": 0.02332487300009234,
+      "prediction_sha256": "31ba3f6def88aa4378cb1df8acd1007ae842ff415787f825715d896e37e18b88"
+    },
+    {
+      "call": 3,
+      "row": 885,
+      "meter": {
+        "flops": 346747244115,
+        "wall_time_s": 42.960426297999675,
+        "residual_wall_time_s": 0.3661950430400793,
+        "outer_wall_time_s": 42.96047752300001
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "peak_rss_bytes": 5899112448,
+      "setup_s": 0.02332487300009234,
+      "prediction_sha256": "81e7079dcf528717f94b572036ed8dd08ada06b26df7c9e6497990bb869fd04d"
+    },
+    {
+      "call": 4,
+      "row": 908,
+      "meter": {
+        "flops": 334399027360,
+        "wall_time_s": 42.32010524799989,
+        "residual_wall_time_s": 0.36696179303680765,
+        "outer_wall_time_s": 42.32015848100036
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "peak_rss_bytes": 5931536384,
+      "setup_s": 0.02332487300009234,
+      "prediction_sha256": "3bf86302fab407e2400effe18f50741b52ce47c97991469d864d329a89032213"
+    },
+    {
+      "call": 5,
+      "row": 930,
+      "meter": {
+        "flops": 350707572791,
+        "wall_time_s": 43.31813078799996,
+        "residual_wall_time_s": 0.36924232002638746,
+        "outer_wall_time_s": 43.318187502
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "peak_rss_bytes": 6019391488,
+      "setup_s": 0.02332487300009234,
+      "prediction_sha256": "fcb5bb993ec1f18e776f23d4d7b05ec3032c0cffc54daf17409552068db49e9d"
+    },
+    {
+      "call": 6,
+      "row": 953,
+      "meter": {
+        "flops": 328985978515,
+        "wall_time_s": 41.65154163800025,
+        "residual_wall_time_s": 0.36445448902713906,
+        "outer_wall_time_s": 41.65160781800023
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "peak_rss_bytes": 6032314368,
+      "setup_s": 0.02332487300009234,
+      "prediction_sha256": "ecb1e110df1f7ca423418d9cee9369a2e766ef6baf22d31bc7cb788b42c9f446"
+    },
+    {
+      "call": 7,
+      "row": 999,
+      "meter": {
+        "flops": 341989772969,
+        "wall_time_s": 41.95689569499973,
+        "residual_wall_time_s": 0.3622351569779312,
+        "outer_wall_time_s": 41.956950890999906
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "peak_rss_bytes": 6045188096,
+      "setup_s": 0.02332487300009234,
+      "prediction_sha256": "c040a9af636b6558d341c27eedfe51df01dc053e8a9d4e85ceb476b2179b3d19"
+    },
+    {
+      "call": 8,
+      "row": 999,
+      "meter": {
+        "flops": 341989772969,
+        "wall_time_s": 42.29012598899999,
+        "residual_wall_time_s": 0.36318459301719486,
+        "outer_wall_time_s": 42.29017764199989
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true,
+        "byte_replay": true
+      },
+      "peak_rss_bytes": 6057996288,
+      "setup_s": 0.02332487300009234,
+      "prediction_sha256": "c040a9af636b6558d341c27eedfe51df01dc053e8a9d4e85ceb476b2179b3d19"
+    }
+  ],
+  "imports": [
+    "__future__",
+    "flopscope",
+    "flopscope.numpy",
+    "gc",
+    "local_engine",
+    "math",
+    "os",
+    "re",
+    "whestbench",
+    "whestbench.domain"
+  ],
+  "manifest_pass": true,
+  "clean_archive_pass": true,
+  "fallback_pass": true,
+  "pass_": true,
+  "runtime": "FlopScope0.12.3/WhestBench0.16.2/Python3.12.3",
+  "targets_accessed": false,
+  "utc": "2026-10-17T18:48:20.861163+00:00"
+}

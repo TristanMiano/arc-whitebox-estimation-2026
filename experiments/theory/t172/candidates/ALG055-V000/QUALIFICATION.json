@@ -1,0 +1,226 @@
+{
+  "algorithm_id": "ALG055-V000",
+  "probe": "P19_new_trace",
+  "archive_path": "experiments/theory/t172/candidates/ALG055-V000/ALG055-V000.tar.gz",
+  "archive_sha256": "d8d1b905632e0e5937ed3f61a6ca86b2e4afb9f28366d6a4f32c185f29ebc394",
+  "source_hashes": {
+    "README.md": "7b694b85e8b934862452c72de3afc7fdc80c62a534092b8e462903fb8d5dfbb3",
+    "LICENSE": "17cf7ad008400756c32ef01c6e20d3c33b38e6e51bc16cf0cea664358a3492ec",
+    "nn_asset.json": "cbbdaed0c92bf7386f927333dd729fd2debd012164bbaa591ded6a594eafdf47",
+    "ALG053_LICENSE": "d2c9a83a86ed95c8d279219cd36d5a025c0372dee57d072fe4718850e226e740",
+    "estimator.py": "f27c7118f4fd4dbd803c053f74699ae3f9dd5681ff53d57b55023959668bbda7"
+  },
+  "records": [
+    {
+      "call": 0,
+      "row": 817,
+      "meter": {
+        "flops": 329163121189,
+        "wall_time_s": 43.46089928799938,
+        "residual_wall_time_s": 0.38262514102279965,
+        "outer_wall_time_s": 43.46095487999992
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "peak_rss_bytes": 5809668096,
+      "setup_s": 0.024200186000598478,
+      "prediction_sha256": "e2e386f1102c4fe1b184da0c62886e2b75a7f1690134d58f13ce0f053e1bfa30"
+    },
+    {
+      "call": 1,
+      "row": 840,
+      "meter": {
+        "flops": 345160335561,
+        "wall_time_s": 43.47759021299953,
+        "residual_wall_time_s": 0.3840055088730878,
+        "outer_wall_time_s": 43.47765155799971
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "peak_rss_bytes": 5873664000,
+      "setup_s": 0.024200186000598478,
+      "prediction_sha256": "03a835e2a0510434ba1c8c48355d2df5a6b23f4efddd2fc48e618e26c81d2422"
+    },
+    {
+      "call": 2,
+      "row": 863,
+      "meter": {
+        "flops": 334160548853,
+        "wall_time_s": 41.993068251000295,
+        "residual_wall_time_s": 0.37892592597472685,
+        "outer_wall_time_s": 41.99311953899996
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "peak_rss_bytes": 5873664000,
+      "setup_s": 0.024200186000598478,
+      "prediction_sha256": "443dc1b56a1cf9a4ced72fea3cc906c873d6b2be5a1a565928734951c800664e"
+    },
+    {
+      "call": 3,
+      "row": 885,
+      "meter": {
+        "flops": 347283764861,
+        "wall_time_s": 42.726037647999874,
+        "residual_wall_time_s": 0.3720709919671208,
+        "outer_wall_time_s": 42.72608765699988
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "peak_rss_bytes": 5916512256,
+      "setup_s": 0.024200186000598478,
+      "prediction_sha256": "eb469bc03ca95420c4bb096a9a106476d68d1188a5aeaf2d2b8be8d4da006053"
+    },
+    {
+      "call": 4,
+      "row": 908,
+      "meter": {
+        "flops": 334935548106,
+        "wall_time_s": 42.415074301999994,
+        "residual_wall_time_s": 0.38413133901940455,
+        "outer_wall_time_s": 42.415127639000275
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "peak_rss_bytes": 5930893312,
+      "setup_s": 0.024200186000598478,
+      "prediction_sha256": "2435f065b0cbbbca080afe89017815625975cc3baf20474f0cae6189d46fac5f"
+    },
+    {
+      "call": 5,
+      "row": 930,
+      "meter": {
+        "flops": 351244093537,
+        "wall_time_s": 43.43289033000019,
+        "residual_wall_time_s": 0.3809184290394114,
+        "outer_wall_time_s": 43.432943768999394
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "peak_rss_bytes": 6044856320,
+      "setup_s": 0.024200186000598478,
+      "prediction_sha256": "861547ba0739cc4500f19951b367dc770e8c65f7341cd5255bcb76b8ea8d6529"
+    },
+    {
+      "call": 6,
+      "row": 953,
+      "meter": {
+        "flops": 329522499261,
+        "wall_time_s": 42.04589220300022,
+        "residual_wall_time_s": 0.3788114109665912,
+        "outer_wall_time_s": 42.045951660000355
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "peak_rss_bytes": 6058110976,
+      "setup_s": 0.024200186000598478,
+      "prediction_sha256": "fd5d2735612ac7e21265589a38a2f901e4fd2801742f11abe94bb8078170beec"
+    },
+    {
+      "call": 7,
+      "row": 999,
+      "meter": {
+        "flops": 342526293715,
+        "wall_time_s": 42.599788935000106,
+        "residual_wall_time_s": 0.3756098620433477,
+        "outer_wall_time_s": 42.59984513699965
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "peak_rss_bytes": 6071488512,
+      "setup_s": 0.024200186000598478,
+      "prediction_sha256": "a59a67ee5d5e629d23d9e389a773814651e86aa5913e15e6fb6335413ac1582c"
+    },
+    {
+      "call": 8,
+      "row": 999,
+      "meter": {
+        "flops": 342526293715,
+        "wall_time_s": 42.41979643800005,
+        "residual_wall_time_s": 0.3760990990631399,
+        "outer_wall_time_s": 42.4198497870002
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true,
+        "byte_replay": true
+      },
+      "peak_rss_bytes": 6086955008,
+      "setup_s": 0.024200186000598478,
+      "prediction_sha256": "a59a67ee5d5e629d23d9e389a773814651e86aa5913e15e6fb6335413ac1582c"
+    }
+  ],
+  "imports": [
+    "__future__",
+    "flopscope",
+    "flopscope.numpy",
+    "gc",
+    "json",
+    "local_engine",
+    "math",
+    "os",
+    "pathlib",
+    "re",
+    "whestbench",
+    "whestbench.domain"
+  ],
+  "manifest_pass": true,
+  "clean_archive_pass": true,
+  "fallback_pass": true,
+  "pass_": true,
+  "runtime": "FlopScope0.12.3/WhestBench0.16.2/Python3.12.3",
+  "targets_accessed": false,
+  "utc": "2026-10-17T19:57:44.037176+00:00"
+}

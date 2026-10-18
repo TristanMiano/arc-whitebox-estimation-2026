@@ -1,0 +1,43 @@
+{
+  "task_id": "T168",
+  "experiment_id": "E164",
+  "start_utc": "2026-10-08T04:03:32+00:00",
+  "registered_utc": "2026-10-08T04:05:22.588932+00:00",
+  "user_local_start_date": "2026-10-07",
+  "status": "active_empirical_theory_recurrence",
+  "owner_authority": "Alright -- go ahead with T168 with a 4 hour floor.",
+  "minimum_active_research_minutes": 240,
+  "minimum_written_derivation_minutes": 60,
+  "estimated_elapsed_minutes": [
+    255,
+    315
+  ],
+  "provisional_allocation_minutes": {
+    "derivation": 120,
+    "empirical": 75,
+    "literature": 30,
+    "selection": 15
+  },
+  "incumbent": {
+    "algorithm_id": "ALG052-V000",
+    "submission_id": 332641,
+    "adjusted_score": 4.285182274373245e-09,
+    "final_layer_mse": 2.0914763076973487e-08,
+    "predecessor": "ALG051-V000_submission_332018",
+    "adjusted_ratio_to_predecessor": 0.9809244167408736,
+    "adjusted_relative_reduction": 0.019075583259126394,
+    "source_origin": "T166 intermediate-supervised neural source adaptation of ALG051/public504aldoV29"
+  },
+  "incumbent_source_sha256": "b094bb97c90e42d91b0552f80ed9f8817922afb99706f761a235cb49f86ae7b1",
+  "git_head_at_start": "8456f078d28e00797d0e47d14e97b1550d43a5f6",
+  "objective": "Prioritize T166 source-only third compression for fourth births: preserve the lower state, test a concrete approximate affordable constructor, and measure complete cost early. Explore materially new state information if that constructor is weak. Keep the learned incumbent as comparator; no automatic nearby NN sweep.",
+  "initial_route_budget": "First60\u201390active minutes: derive, measure and capacity-test cheaper birth-only queries using actual source structure. Reassess after concrete feedback; broaden if weak. Task-local planning, not permanent quota.",
+  "data_role": "Existing training F rows, previously exposed development750\u2013999 and generated networks are adaptive exploratory data. Historical freezes and final blind remain protected.",
+  "literature_authorized": true,
+  "no_agents": true,
+  "no_automatic_upload": true,
+  "no_automatic_second_recurrence": true,
+  "zero_nominees_allowed": true,
+  "compute_plan": "One heavy job at a time. Existing reference caches; generated256/384 and small native prototypes before an integrated1024 probe. Explicit RSS guards; no broad training corpus or parameter grid.",
+  "selection_policy": "Balance credible larger upside with cheap reserves. Report test status, subjective official-win/gain ranges, remaining cost and route exhaustion. T167 small gain does not justify automatic local NN tuning."
+}

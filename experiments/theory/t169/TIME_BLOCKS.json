@@ -1,0 +1,639 @@
+{
+  "closed": [
+    {
+      "category": "administration",
+      "route": "orientation",
+      "start_utc": "2026-10-08T21:47:25+00:00",
+      "end_utc": "2026-10-08T21:50:35.153464+00:00",
+      "minutes": 3.1692244,
+      "note": "Read handoff/current proposal and register T169."
+    },
+    {
+      "category": "derivation",
+      "route": "complete_constructor",
+      "start_utc": "2026-10-08T21:50:35.153464+00:00",
+      "note": "Derive complete native fourth update and map dense source terms.",
+      "end_utc": "2026-10-08T21:56:11.506655+00:00",
+      "minutes": 5.605886516666667
+    },
+    {
+      "category": "empirical",
+      "route": "native_implementation",
+      "start_utc": "2026-10-08T21:56:11.506655+00:00",
+      "note": "Build exact source-gauge native constructor and check each assembled part.",
+      "end_utc": "2026-10-08T22:15:33.466719+00:00",
+      "minutes": 19.36600106666667
+    },
+    {
+      "category": "derivation",
+      "route": "deferred_contractions",
+      "start_utc": "2026-10-08T22:15:33.466719+00:00",
+      "note": "Derive exact deferred complete pair operator, especially high-cost target and mixed-third completion.",
+      "end_utc": "2026-10-08T22:15:47.865636+00:00",
+      "minutes": 0.23998195000000003
+    },
+    {
+      "category": "administration",
+      "route": "context_checkpoint",
+      "start_utc": "2026-10-08T22:15:47.865636+00:00",
+      "note": "Save continuation and recover working context; exclude from active-work floor.",
+      "end_utc": "2026-10-08T22:17:02.931879+00:00",
+      "minutes": 1.25110405
+    },
+    {
+      "category": "derivation",
+      "route": "deferred_contractions",
+      "start_utc": "2026-10-08T22:17:02.931879+00:00",
+      "note": "Implement exact deferred pair factors and derive removal of explicit repeated-target bank products. Last verified work boundary; crash gap excluded.",
+      "end_utc": "2026-10-08T22:38:38.197465+00:00",
+      "minutes": 21.587759766666668
+    },
+    {
+      "category": "passive",
+      "route": "interruption",
+      "start_utc": "2026-10-08T22:38:38.197465+00:00",
+      "end_utc": "2026-10-08T23:23:36+00:00",
+      "minutes": 44.96337558333333,
+      "note": "Unaccounted interruption, excluded from active floor."
+    },
+    {
+      "category": "administration",
+      "route": "resume",
+      "start_utc": "2026-10-08T23:23:36+00:00",
+      "note": "Recover saved work and correct interrupted timing.",
+      "end_utc": "2026-10-08T23:26:45.499264+00:00",
+      "minutes": 3.158321066666667
+    },
+    {
+      "category": "empirical",
+      "route": "cross_rank_recovery",
+      "start_utc": "2026-10-08T23:26:45.499264+00:00",
+      "note": "Resume interrupted wider capacity probe and meter low-rank mixed-third correction.",
+      "end_utc": "2026-10-08T23:34:56.650061+00:00",
+      "minutes": 8.185846616666668
+    },
+    {
+      "category": "derivation",
+      "route": "complete_cost_reduction",
+      "start_utc": "2026-10-08T23:34:56.650061+00:00",
+      "note": "Derive reductions of complete small-state constructor and map opportunities for sharing with actual incumbent.",
+      "end_utc": "2026-10-08T23:39:10.865937+00:00",
+      "minutes": 4.236931266666667
+    },
+    {
+      "category": "empirical",
+      "route": "omit_completion",
+      "start_utc": "2026-10-08T23:39:10.865937+00:00",
+      "note": "Implement and test the larger-state endpoint omitting211 correction.",
+      "end_utc": "2026-10-08T23:51:33.642949+00:00",
+      "minutes": 12.379616866666668
+    },
+    {
+      "category": "empirical",
+      "route": "symmetric_complete_constructor",
+      "start_utc": "2026-10-08T23:51:33.642949+00:00",
+      "note": "Optimize retained P09 exactly; P10 nested rank lost capacity.",
+      "end_utc": "2026-10-08T23:59:03.930071+00:00",
+      "minutes": 7.504785366666667
+    },
+    {
+      "category": "administration",
+      "route": "checkpoint",
+      "start_utc": "2026-10-08T23:59:03.930071+00:00",
+      "note": "Save completed probes and continuation before context recovery.",
+      "end_utc": "2026-10-09T00:00:10.710871+00:00",
+      "minutes": 1.1130133333333334
+    },
+    {
+      "category": "derivation",
+      "route": "repeated_observation_interface",
+      "start_utc": "2026-10-09T00:00:10.710871+00:00",
+      "note": "Derive partial third feedback, terminal high mean and actual incumbent mapping; no full port yet.",
+      "end_utc": "2026-10-09T00:03:56.808634+00:00",
+      "minutes": 3.7682960499999996
+    },
+    {
+      "category": "empirical",
+      "route": "actual_interface",
+      "start_utc": "2026-10-09T00:03:56.808634+00:00",
+      "note": "Build a fixed-incumbent lower-state fixture and validate retained high constructor on realistic states.",
+      "end_utc": "2026-10-09T00:22:21.292134+00:00",
+      "minutes": 18.408058333333333
+    },
+    {
+      "category": "administration",
+      "route": "context_recovery",
+      "start_utc": "2026-10-09T00:22:21.292134+00:00",
+      "note": "Context recovery excluded from active floor from last verified boundary.",
+      "end_utc": "2026-10-09T00:25:16.219333+00:00",
+      "minutes": 2.9154533166666665
+    },
+    {
+      "category": "derivation",
+      "route": "compiled_observation_polynomial",
+      "start_utc": "2026-10-09T00:25:16.219333+00:00",
+      "note": "Resume exact shared observation polynomial and native overhead diagnosis",
+      "end_utc": "2026-10-09T00:26:25.321052+00:00",
+      "minutes": 1.1516953166666668
+    },
+    {
+      "category": "empirical",
+      "route": "compiled_observation_polynomial",
+      "start_utc": "2026-10-09T00:26:25.321052+00:00",
+      "note": "Implement and compare shared two-vertex polynomial; meter complete high shadow",
+      "end_utc": "2026-10-09T00:28:29.086694+00:00",
+      "minutes": 2.0627607
+    },
+    {
+      "category": "administration",
+      "route": "checkpoint",
+      "start_utc": "2026-10-09T00:28:29.086694+00:00",
+      "note": "Save P13-P17 and interface findings before further optimization",
+      "end_utc": "2026-10-09T00:29:04.228730+00:00",
+      "minutes": 0.5857005999999999
+    },
+    {
+      "category": "derivation",
+      "route": "no211_exact_runtime",
+      "start_utc": "2026-10-09T00:29:04.228730+00:00",
+      "note": "Derive compressed pair-only carry projection and cache lifetimes",
+      "end_utc": "2026-10-09T00:29:39.498389+00:00",
+      "minutes": 0.5878276499999999
+    },
+    {
+      "category": "empirical",
+      "route": "no211_exact_runtime",
+      "start_utc": "2026-10-09T00:29:39.498389+00:00",
+      "note": "Implement/check unused carry projection removal and packed caching",
+      "end_utc": "2026-10-09T00:32:24.299792+00:00",
+      "minutes": 2.7466900499999998
+    },
+    {
+      "category": "derivation",
+      "route": "native_shared_interface",
+      "start_utc": "2026-10-09T00:32:24.299792+00:00",
+      "note": "Derive exact proxy reuse from already transported newborn A leg and shared Wick values",
+      "end_utc": "2026-10-09T00:33:47.584493+00:00",
+      "minutes": 1.38807835
+    },
+    {
+      "category": "empirical",
+      "route": "native_shared_interface",
+      "start_utc": "2026-10-09T00:33:47.584493+00:00",
+      "note": "Capture and verify actual paid native inputs for shared-interface constructor",
+      "end_utc": "2026-10-09T00:36:28.811139+00:00",
+      "minutes": 2.6871107666666663
+    },
+    {
+      "category": "derivation",
+      "route": "shared_term_program",
+      "start_utc": "2026-10-09T00:36:28.811139+00:00",
+      "note": "Analyze AUG3 versus SIMPLE4 observation mismatch and exact runtime sharing",
+      "end_utc": "2026-10-09T00:38:54.600462+00:00",
+      "minutes": 2.42982205
+    },
+    {
+      "category": "empirical",
+      "route": "integrated_cost_shadow",
+      "start_utc": "2026-10-09T00:38:54.600462+00:00",
+      "note": "Build complete single-call cost observer with shared existing native inputs/workspace",
+      "end_utc": "2026-10-09T00:40:49.125711+00:00",
+      "minutes": 1.90875415
+    },
+    {
+      "category": "empirical",
+      "route": "fused_observation_runtime",
+      "start_utc": "2026-10-09T00:40:49.125711+00:00",
+      "note": "Evaluate exact supported einsum fusion and integrated runtime gap",
+      "end_utc": "2026-10-09T00:42:50.106429+00:00",
+      "minutes": 2.0163453
+    },
+    {
+      "category": "derivation",
+      "route": "packed_birth_fusion",
+      "start_utc": "2026-10-09T00:42:50.106429+00:00",
+      "note": "Derive batched symmetric pair products and polynomial source fusion without altering pair gauge",
+      "end_utc": "2026-10-09T00:44:38.040771+00:00",
+      "minutes": 1.7989057
+    },
+    {
+      "category": "empirical",
+      "route": "packed_birth_fusion",
+      "start_utc": "2026-10-09T00:44:38.040771+00:00",
+      "note": "Implement expanded birth observations and one-pack direct sums; compare exact identities",
+      "end_utc": "2026-10-09T00:51:02.196610+00:00",
+      "minutes": 6.402597316666667
+    },
+    {
+      "category": "derivation",
+      "route": "batched_bank",
+      "start_utc": "2026-10-09T00:51:02.196610+00:00",
+      "note": "Derive shared-query batching and adjoint identity for companion bank",
+      "end_utc": "2026-10-09T00:52:02.032811+00:00",
+      "minutes": 0.9972700166666667
+    },
+    {
+      "category": "empirical",
+      "route": "batched_bank",
+      "start_utc": "2026-10-09T00:52:02.032811+00:00",
+      "note": "Implement batched operator queries and compare exact adjoint/action",
+      "end_utc": "2026-10-09T00:56:05.289478+00:00",
+      "minutes": 4.054277783333333
+    },
+    {
+      "category": "administration",
+      "route": "checkpoint",
+      "start_utc": "2026-10-09T00:56:05.289478+00:00",
+      "note": "Save exact native implementation progress and pending vectorized frontend probe",
+      "end_utc": "2026-10-09T00:56:32.268037+00:00",
+      "minutes": 0.44964265000000003
+    },
+    {
+      "category": "empirical",
+      "route": "integrated_vector_runtime",
+      "start_utc": "2026-10-09T00:56:32.268037+00:00",
+      "note": "Resume after checkpoint; inspect vectorized retry and build self-contained integrated observer",
+      "end_utc": "2026-10-09T01:04:02.889052+00:00",
+      "minutes": 7.51035025
+    },
+    {
+      "category": "derivation",
+      "route": "anchored_carry_completion",
+      "start_utc": "2026-10-09T01:04:02.889052+00:00",
+      "note": "Derive coherent cheap211 carry-only residual as potential margin improvement",
+      "end_utc": "2026-10-09T01:04:55.528495+00:00",
+      "minutes": 0.87732405
+    },
+    {
+      "category": "empirical",
+      "route": "anchored_carry_completion",
+      "start_utc": "2026-10-09T01:04:55.528495+00:00",
+      "note": "Tiny anchored-H identity and generated256 capacity of one selected cheap correction",
+      "end_utc": "2026-10-09T01:05:13.310262+00:00",
+      "minutes": 0.2963627833333333
+    },
+    {
+      "category": "derivation",
+      "route": "port_budget_margin",
+      "start_utc": "2026-10-09T01:05:13.310262+00:00",
+      "note": "Analyze real score break-even, native head transfer and residual tradeoffs during capacity probe",
+      "end_utc": "2026-10-09T01:06:59.645712+00:00",
+      "minutes": 1.7722574999999998
+    },
+    {
+      "category": "empirical",
+      "route": "port_budget_margin",
+      "start_utc": "2026-10-09T01:06:59.645712+00:00",
+      "note": "Meter exact late Strassen trade for first and warm complete native calls",
+      "end_utc": "2026-10-09T01:10:05.057160+00:00",
+      "minutes": 3.0901908000000002
+    },
+    {
+      "category": "empirical",
+      "route": "scalar_proxy_repair",
+      "start_utc": "2026-10-09T01:10:05.057160+00:00",
+      "note": "Evaluate diagonal-only post-third proxy repair and diagnose primary runtime margin; conservatively truncated at last P34 write before interrupted process",
+      "end_utc": "2026-10-09T01:10:39.249031+00:00",
+      "minutes": 0.5698645166666666
+    },
+    {
+      "category": "passive",
+      "route": "interruption_gap_2",
+      "start_utc": "2026-10-09T01:10:39.249031+00:00",
+      "end_utc": "2026-10-09T01:22:05+00:00",
+      "minutes": 11.429182816666668,
+      "note": "Interrupted gap excluded from active floor"
+    },
+    {
+      "category": "administration",
+      "route": "crash_recovery",
+      "start_utc": "2026-10-09T01:22:05+00:00",
+      "note": "Recover context and verify zero-filled artifacts against saved commit",
+      "end_utc": "2026-10-09T01:25:05.701306+00:00",
+      "minutes": 3.011688433333333
+    },
+    {
+      "category": "empirical",
+      "route": "recovery_probes",
+      "start_utc": "2026-10-09T01:25:05.701306+00:00",
+      "note": "Rebuild interrupted native observer and resume scalar-repair probe from intact source",
+      "end_utc": "2026-10-09T01:29:02.766335+00:00",
+      "minutes": 3.951083816666667
+    },
+    {
+      "category": "derivation",
+      "route": "structured_pair_queries",
+      "start_utc": "2026-10-09T01:29:02.766335+00:00",
+      "note": "Derive exact low-rank range-query actions and native feedback-interface semantics while runtime probe runs",
+      "end_utc": "2026-10-09T01:30:58.928017+00:00",
+      "minutes": 1.9360280333333333
+    },
+    {
+      "category": "empirical",
+      "route": "collected_pair_adjoint",
+      "start_utc": "2026-10-09T01:30:58.928017+00:00",
+      "note": "Implement and verify exact adjoint collection to lower complete constructor cost",
+      "end_utc": "2026-10-09T01:34:48.393529+00:00",
+      "minutes": 3.8244252
+    },
+    {
+      "category": "derivation",
+      "route": "pair_gauge_feasibility",
+      "start_utc": "2026-10-09T01:34:48.393529+00:00",
+      "note": "Derive source-gauge transformations preserving the uncompressed tensor and their constructor costs",
+      "end_utc": "2026-10-09T01:38:27.534133+00:00",
+      "minutes": 3.6523434
+    },
+    {
+      "category": "empirical",
+      "route": "gauge_capacity",
+      "start_utc": "2026-10-09T01:38:27.534133+00:00",
+      "note": "Validate and implement the exact-tensor repeated-support gauge alternative",
+      "end_utc": "2026-10-09T01:44:32.320041+00:00",
+      "minutes": 6.079765133333334
+    },
+    {
+      "category": "derivation",
+      "route": "native_feedback_semantics",
+      "start_utc": "2026-10-09T01:44:32.320041+00:00",
+      "note": "Derive lower harmonic regeneration and third-source changes required by real mean/covariance feedback",
+      "end_utc": "2026-10-09T01:49:36.445339+00:00",
+      "minutes": 5.068754966666666
+    },
+    {
+      "category": "empirical",
+      "route": "actual_readout_pilot",
+      "start_utc": "2026-10-09T01:49:36.445339+00:00",
+      "note": "Two exposed F-row native feasibility pilot of already-constructed fixed-lower mean response; no full feedback port",
+      "end_utc": "2026-10-09T01:52:26.463654+00:00",
+      "minutes": 2.8336385833333333
+    },
+    {
+      "category": "administration",
+      "route": "checkpoint",
+      "start_utc": "2026-10-09T01:52:26.463654+00:00",
+      "note": "Save resumed work and crash-safe continuation before first actual target comparison",
+      "end_utc": "2026-10-09T01:52:26.782582+00:00",
+      "minutes": 0.005315466666666667
+    },
+    {
+      "category": "empirical",
+      "route": "actual_readout_pilot",
+      "start_utc": "2026-10-09T01:52:26.782582+00:00",
+      "note": "Resume native feasibility pilot after saving checkpoint",
+      "end_utc": "2026-10-09T01:55:03.970242+00:00",
+      "minutes": 2.619794333333333
+    },
+    {
+      "category": "derivation",
+      "route": "diagonal_trace_completion",
+      "start_utc": "2026-10-09T01:55:03.970242+00:00",
+      "note": "Derive a bounded moment-preserving repair for the measured actual-width rich-state collapse",
+      "end_utc": "2026-10-09T01:56:59.086741+00:00",
+      "minutes": 1.9186083166666668
+    },
+    {
+      "category": "empirical",
+      "route": "diagonal_trace_completion",
+      "start_utc": "2026-10-09T01:56:59.086741+00:00",
+      "note": "Implement one own-target diagonal-trace completion and test exact contraction plus generated capacity",
+      "end_utc": "2026-10-09T02:05:38.964036+00:00",
+      "minutes": 8.664621583333334
+    },
+    {
+      "category": "administration",
+      "route": "recovery",
+      "start_utc": "2026-10-09T02:05:38.964036+00:00",
+      "note": "Resume after context handoff; inspect saved state and active probe.",
+      "end_utc": "2026-10-09T02:06:09.425227+00:00",
+      "minutes": 0.5076865166666666
+    },
+    {
+      "category": "derivation",
+      "route": "joint_tangent",
+      "start_utc": "2026-10-09T02:06:09.425227+00:00",
+      "note": "Derive coupled Gaussian mean/covariance linear response and finite-difference identities.",
+      "end_utc": "2026-10-09T02:08:06.464321+00:00",
+      "minutes": 1.9506515666666668
+    },
+    {
+      "category": "empirical",
+      "route": "joint_tangent",
+      "start_utc": "2026-10-09T02:08:06.464321+00:00",
+      "note": "Implement fixed-source coupled response on existing row0 trajectory; no new labels/cohort.",
+      "end_utc": "2026-10-09T02:13:24.430220+00:00",
+      "minutes": 5.29943165
+    },
+    {
+      "category": "derivation",
+      "route": "observable_preservation",
+      "start_utc": "2026-10-09T02:13:24.430220+00:00",
+      "note": "Analyze response-aware fourth compression and separate native/dense transfer mechanisms.",
+      "end_utc": "2026-10-09T02:18:45.895301+00:00",
+      "minutes": 5.35775135
+    },
+    {
+      "category": "empirical",
+      "route": "lookahead_completion",
+      "start_utc": "2026-10-09T02:18:45.895301+00:00",
+      "note": "Implement and test native-relevant next-layer observation-preserving compression hypothesis.",
+      "end_utc": "2026-10-09T02:26:51.921632+00:00",
+      "minutes": 8.10043885
+    },
+    {
+      "category": "administration",
+      "route": "checkpoint",
+      "start_utc": "2026-10-09T02:26:51.921632+00:00",
+      "note": "Durable progress checkpoint after actual-moment diagnosis and new constructor queries.",
+      "end_utc": "2026-10-09T02:27:53.643715+00:00",
+      "minutes": 1.0287013833333334
+    },
+    {
+      "category": "derivation",
+      "route": "compression_geometry",
+      "start_utc": "2026-10-09T02:27:53.643715+00:00",
+      "note": "Derive rank-projection moment loss and interpret exact uncompressed native observations.",
+      "end_utc": "2026-10-09T02:29:59.362884+00:00",
+      "minutes": 2.0953194833333333
+    },
+    {
+      "category": "empirical",
+      "route": "native_trace_rescue",
+      "start_utc": "2026-10-09T02:29:59.362884+00:00",
+      "note": "Test measured native compression failure with own-trace completion on fixed row0; no full physical feedback port.",
+      "end_utc": "2026-10-09T02:35:57.501846+00:00",
+      "minutes": 5.9689827
+    },
+    {
+      "category": "derivation",
+      "route": "score_geometry",
+      "start_utc": "2026-10-09T02:35:57.501846+00:00",
+      "note": "Derive cost-aware bounds on scalar readout repair and remaining information needed.",
+      "end_utc": "2026-10-09T02:38:01.428193+00:00",
+      "minutes": 2.0654391166666666
+    },
+    {
+      "category": "selection",
+      "route": "feasibility_synthesis",
+      "start_utc": "2026-10-09T02:38:01.428193+00:00",
+      "note": "Compare remaining mechanisms, score-margin bounds, untested ports and next research priorities.",
+      "end_utc": "2026-10-09T02:39:55.198068+00:00",
+      "minutes": 1.8961645833333334
+    },
+    {
+      "category": "empirical",
+      "route": "small_moment_diagnosis",
+      "start_utc": "2026-10-09T02:39:55.198068+00:00",
+      "note": "Resolve whether small generated accuracy gain represents better moments or error cancellation.",
+      "end_utc": "2026-10-09T02:43:17.569545+00:00",
+      "minutes": 3.3728579499999998
+    },
+    {
+      "category": "selection",
+      "route": "candidate_decision",
+      "start_utc": "2026-10-09T02:43:17.569545+00:00",
+      "note": "Synthesize transfer, cost, failure mechanisms and honest forecasts for remaining untested work.",
+      "end_utc": "2026-10-09T02:51:42.219659+00:00",
+      "minutes": 8.410835233333334
+    },
+    {
+      "category": "administration",
+      "route": "recovery",
+      "start_utc": "2026-10-09T02:51:42.219659+00:00",
+      "note": "Resume checkpoint and exclude context recovery",
+      "end_utc": "2026-10-09T02:51:51.836782+00:00",
+      "minutes": 0.16028538333333334
+    },
+    {
+      "category": "derivation",
+      "route": "transfer_diagnosis",
+      "start_utc": "2026-10-09T02:51:51.836782+00:00",
+      "note": "Interpret P54 and derive score-oriented compression versus moment-fidelity requirements",
+      "end_utc": "2026-10-09T02:53:41.185315+00:00",
+      "minutes": 1.82247555
+    },
+    {
+      "category": "empirical",
+      "route": "learned_overlap",
+      "start_utc": "2026-10-09T02:53:41.185315+00:00",
+      "note": "P55 saved-output separation of physical and learned errors; clarify P54 readout prefix",
+      "end_utc": "2026-10-09T02:54:34.708830+00:00",
+      "minutes": 0.8920585833333334
+    },
+    {
+      "category": "derivation",
+      "route": "score_observables",
+      "start_utc": "2026-10-09T02:54:34.708830+00:00",
+      "note": "Derive response-sensitive representation constraints and limits of diagonal-trace repair",
+      "end_utc": "2026-10-09T02:56:43.743545+00:00",
+      "minutes": 2.1505785833333335
+    },
+    {
+      "category": "empirical",
+      "route": "layer_source_diagnosis",
+      "start_utc": "2026-10-09T02:56:43.743545+00:00",
+      "note": "P56 saved layer-label source alignment and downstream cancellation",
+      "end_utc": "2026-10-09T02:57:59.577587+00:00",
+      "minutes": 1.2639007
+    },
+    {
+      "category": "literature",
+      "route": "representation_crosscheck",
+      "start_utc": "2026-10-09T02:57:59.577587+00:00",
+      "note": "Short primary-source check of compression alternatives before final recommendation",
+      "end_utc": "2026-10-09T03:00:03.799312+00:00",
+      "minutes": 2.0703620833333334
+    },
+    {
+      "category": "administration",
+      "route": "checkpoint",
+      "start_utc": "2026-10-09T03:00:03.799312+00:00",
+      "note": "Save completed diagnostics before final research synthesis",
+      "end_utc": "2026-10-09T03:01:05.035293+00:00",
+      "minutes": 1.0205996833333333
+    },
+    {
+      "category": "literature",
+      "route": "representation_crosscheck",
+      "start_utc": "2026-10-09T03:01:05.035293+00:00",
+      "note": "Record primary-source limits and compare them with measured T169 failure",
+      "end_utc": "2026-10-09T03:01:19.449884+00:00",
+      "minutes": 0.24024318333333333
+    },
+    {
+      "category": "selection",
+      "route": "final_decision",
+      "start_utc": "2026-10-09T03:01:19.449884+00:00",
+      "note": "Compare nonlinear-port uncertainty with alternative information and cost mechanisms",
+      "end_utc": "2026-10-09T03:05:59.478024+00:00",
+      "minutes": 4.667135666666667
+    },
+    {
+      "category": "empirical",
+      "route": "source_semantics",
+      "start_utc": "2026-10-09T03:05:59.478024+00:00",
+      "note": "Correct P54/P55 labels after confirming NN is returned only at terminal layer",
+      "end_utc": "2026-10-09T03:07:14.638762+00:00",
+      "minutes": 1.2526789666666667
+    },
+    {
+      "category": "selection",
+      "route": "final_decision",
+      "start_utc": "2026-10-09T03:07:14.638762+00:00",
+      "note": "Close response-span rescue and preserve nonlinear uncertainty in final ranking",
+      "end_utc": "2026-10-09T03:08:31.134933+00:00",
+      "minutes": 1.2749361833333335
+    },
+    {
+      "category": "administration",
+      "route": "final_records",
+      "start_utc": "2026-10-09T03:08:31.134933+00:00",
+      "note": "Final clock check:239.833 research minutes, floor not yet met; brief timing administration excluded.",
+      "end_utc": "2026-10-09T03:08:39.873805+00:00",
+      "minutes": 0.14564786666666668
+    },
+    {
+      "category": "selection",
+      "route": "decision_scope",
+      "start_utc": "2026-10-09T03:08:39.873805+00:00",
+      "note": "Finish scientific interpretation of omitted first-order loops and scope of negative conclusions",
+      "end_utc": "2026-10-09T03:08:52.242318+00:00",
+      "minutes": 0.20614188333333333
+    },
+    {
+      "category": "administration",
+      "route": "final_records",
+      "start_utc": "2026-10-09T03:08:52.242318+00:00",
+      "note": "Research floor complete; finalize task records, preserve incumbent and stop before T170",
+      "end_utc": "2026-10-09T03:11:42.896017+00:00",
+      "minutes": 2.8442283166666664
+    }
+  ],
+  "active": null,
+  "category_adjustments": [
+    {
+      "from": "empirical",
+      "to": "administration",
+      "minutes": 3.0,
+      "note": "Conservative exclusion for context compaction/recovery before 02:05:39 UTC."
+    },
+    {
+      "from": "selection",
+      "to": "administration",
+      "minutes": 3.0,
+      "reason": "Conservatively exclude context compaction and recovery after last P54 work at02:48UTC, before02:51:42 checkpoint."
+    },
+    {
+      "from": "derivation",
+      "to": "empirical",
+      "minutes": 4.0,
+      "reason": "Conservative reclassification of prototype coding mixed into earlier native derivation blocks; research total unchanged."
+    },
+    {
+      "from": "selection",
+      "to": "administration",
+      "minutes": 0.5,
+      "reason": "State/ledger format inspection during final-decision block; exclude routine records preparation."
+    }
+  ]
+}

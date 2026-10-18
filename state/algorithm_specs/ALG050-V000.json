@@ -1,0 +1,100 @@
+{
+  "task_id": "T161",
+  "experiment_id": "E157",
+  "algorithm_id": "ALG050-V000",
+  "hypothesis_id": "H160-INTERFACE-GATE",
+  "name": "Trace-repaired partial nonlinear interface and young-source coordinate packing",
+  "status": "OFFICIAL_PROJECT_BEST",
+  "start_utc": "2026-09-20T02:29:51+00:00",
+  "registered_utc": "2026-09-20T02:33:35.510081+00:00",
+  "git_head_at_start": "7ec28573539b0b59b7c505bd2f95c3554bc930ac",
+  "estimate_total_range_minutes": [
+    45,
+    90
+  ],
+  "initial_active_engineering_budget_minutes": 60,
+  "reassess_at_minutes": 30,
+  "owner_authorized_upload": true,
+  "grade_wait_minutes": 60,
+  "unchanged_generic_error_retry_limit": 1,
+  "fit_calls": 0,
+  "subagents": 0,
+  "variant_change": "T160 exact P25a source: partial nonlinear interface |alpha|<=2.5 padded64, semilinear omitted-row trace repair, young-source prior gate>=.03 from layer5 padded64; keep inherited trace compensation, ranks320/192, Winograd/defaults, fitted tables and diagnostic arithmetic.",
+  "research_source": "experiments/theory/t160/sources/P25a_interface_gate03/estimator.py",
+  "research_source_sha256": "40012a17eb43d004ff9f0c49f34c0ee6f15e9330603554fd6c7bdad628ec63fe",
+  "research_config": {},
+  "comparison": {
+    "evidence": "experiments/theory/t160/SELECTED_EVIDENCE.json",
+    "rows": [
+      750,
+      772,
+      817,
+      885,
+      930,
+      976,
+      795,
+      999
+    ],
+    "data_role": "Adaptive previously exposed development; reused evidence, not independent confirmation.",
+    "mean_adjusted_ratio": 0.9130586811085495,
+    "mean_raw_ratio": 0.9967403854061118,
+    "wins": 8,
+    "subjective_retained_win_probability": [
+      0.85,
+      0.95
+    ],
+    "decision": "Reuse 8/8 adjusted wins,8.69% mean gain; no new score panel."
+  },
+  "qualification": {
+    "rows": [
+      750,
+      976,
+      885,
+      885,
+      885
+    ],
+    "reference": "First two actual archive calls must exactly match T160 P25a predictions and per-position FLOPs. Later calls check natural lifecycle resources; fourth/fifth same-input predictions must be byte-equal.",
+    "determinism": "Natural lifecycle only; no counter manipulation or uncharged full-size warmup.",
+    "generic_fixtures": [
+      [
+        1,
+        1
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        32,
+        6
+      ]
+    ],
+    "historical_width2_limitation": "Inherited public width2 limitation off-contract, not repaired."
+  },
+  "incumbent": {
+    "algorithm_id": "ALG049-V000",
+    "submission_id": 330887,
+    "adjusted_score": 5.017859747074435e-09,
+    "final_layer_mse": 2.2309206819670634e-08,
+    "predecessor": "ALG043-V000_submission_330597",
+    "adjusted_ratio_to_predecessor": 0.9259664537810453,
+    "adjusted_relative_reduction": 0.07403354621895475,
+    "source_origin": "T158 adaptation of 504aldo public V29: trace compensation and Winograd arithmetic"
+  },
+  "runtime": "tmp/t128-runtime312/bin/python",
+  "final_blind_accessed": false,
+  "no_automatic_second_candidate": true,
+  "no_automatic_next_task": true,
+  "novelty": "Our algorithmic and implementation adaptation of public504aldoV29, through ALG049; not pure copy or academic novelty claim.",
+  "timing_note": "Measured from first T161 clock; no task time floor.",
+  "source_hashes": {
+    "README.md": "bb49ed4b151b25c0ed35bc2c55c3438b964c1dfc8c92cb873b906068116cabab",
+    "LICENSE": "d2c9a83a86ed95c8d279219cd36d5a025c0372dee57d072fe4718850e226e740",
+    "estimator.py": "40012a17eb43d004ff9f0c49f34c0ee6f15e9330603554fd6c7bdad628ec63fe"
+  },
+  "package_sha256": "f3e186139f65d0407539bf8518de43a7e4522f5f9e4ac1e46e73212f594ab1bc",
+  "wait_default_amendment": "experiments/submission_policy/t161/OWNER_WAIT_EXTENSION.json",
+  "official_submission_id": 331607,
+  "official_adjusted_score": 4.544342423060378e-09,
+  "result_record": "experiments/submission_policy/t161/RESULT.json"
+}

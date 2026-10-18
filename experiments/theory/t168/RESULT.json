@@ -1,0 +1,81 @@
+{
+  "task_id": "T168",
+  "experiment_id": "E164",
+  "status": "completed_empirical_theory_research_lead_no_submission_nominee",
+  "completed_utc": "2026-10-08T08:31:03.362929+00:00",
+  "active_research_minutes": 241.91006056666666,
+  "category_minutes": {
+    "administration": 25.612344,
+    "derivation": 111.13290301666666,
+    "empirical": 85.01010778333332,
+    "literature": 29.843718883333334,
+    "selection": 15.923330883333335
+  },
+  "submission_nominees": [],
+  "research_nominees": [
+    {
+      "name": "Gate-derived one-family transported query with restricted feedback and approximate repeated target",
+      "source": "experiments/theory/t168/sources/P64_omit_hard_cov_sketch/factor_k4.py",
+      "runner": "experiments/theory/t168/run_gate_star_mean_cov.py",
+      "source_sha256": "a98df1ddd35f8d3087ad0a794d4c20057362550c1ed351bab0810336df325904",
+      "status": "dense_capacity_and_partial_native_components_only",
+      "generated_evidence": [
+        {
+          "probe": "P64_omit_hard_cov_sketch",
+          "width": 256,
+          "final_mse": 7.204053589369515e-07,
+          "aug3_control_mse": 9.15536733e-07,
+          "raw_ratio": 0.7868666902925363,
+          "raw_reduction": 0.2131333097074637,
+          "path": "experiments/theory/t168/small_runs/P64_omit_hard_cov_sketch/RESULT.json"
+        },
+        {
+          "probe": "P65_n384_omit_hard_cov_sketch",
+          "width": 384,
+          "final_mse": 3.1410329559118556e-07,
+          "aug3_control_mse": 4.038809e-07,
+          "raw_ratio": 0.7777126761656358,
+          "raw_reduction": 0.22228732383436423,
+          "path": "experiments/theory/t168/small_runs/P65_n384_omit_hard_cov_sketch/RESULT.json"
+        }
+      ],
+      "subjective_official_win_probability": [
+        0.25,
+        0.4
+      ],
+      "conditional_adjusted_reduction": [
+        0.03,
+        0.15
+      ],
+      "additional_work_hours": [
+        6,
+        12
+      ]
+    }
+  ],
+  "incumbent_retained": true,
+  "incumbent_algorithm": "ALG052-V000",
+  "incumbent_submission": 332641,
+  "official_adjusted_score": 4.285182274373245e-09,
+  "incumbent_source_sha256": "b094bb97c90e42d91b0552f80ed9f8817922afb99706f761a235cb49f86ae7b1",
+  "full_shape_calls": 1,
+  "full_shape_flops": 528219495152,
+  "generated_completed_records": 45,
+  "native_component_records": 19,
+  "probe_ids_through": "P65",
+  "literature_entries": 19,
+  "official_upload_performed": false,
+  "new_algorithm_registered": false,
+  "subagents": 0,
+  "final_blind_accessed": false,
+  "new_target_collection": false,
+  "next_task": "T169",
+  "next_task_started": false,
+  "next_task_owner_authorized": false,
+  "unresolved_jobs": [],
+  "novelty": "Our observation/feedback/target adaptations of public cumulant propagation; standard low-rank and symmetric-packing ingredients; no academic priority claim.",
+  "report": "experiments/theory/t168/REPORT.md",
+  "selection": "experiments/theory/t168/CANDIDATE_SELECTION.md",
+  "timing_file": "experiments/theory/t168/TIMING.json",
+  "evidence_inventory": "experiments/theory/t168/EVIDENCE_INVENTORY.json"
+}

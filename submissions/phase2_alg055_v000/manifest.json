@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "api_version": "2.0",
+  "entrypoint": {
+    "module": "estimator",
+    "class": "Estimator"
+  },
+  "python": {
+    "min_version": "3.12"
+  },
+  "files": [
+    {
+      "name": "ALG053_LICENSE",
+      "sha256": "d2c9a83a86ed95c8d279219cd36d5a025c0372dee57d072fe4718850e226e740"
+    },
+    {
+      "name": "LICENSE",
+      "sha256": "17cf7ad008400756c32ef01c6e20d3c33b38e6e51bc16cf0cea664358a3492ec"
+    },
+    {
+      "name": "README.md",
+      "sha256": "7b694b85e8b934862452c72de3afc7fdc80c62a534092b8e462903fb8d5dfbb3"
+    },
+    {
+      "name": "estimator.py",
+      "sha256": "f27c7118f4fd4dbd803c053f74699ae3f9dd5681ff53d57b55023959668bbda7"
+    },
+    {
+      "name": "nn_asset.json",
+      "sha256": "cbbdaed0c92bf7386f927333dd729fd2debd012164bbaa591ded6a594eafdf47"
+    }
+  ],
+  "created_at_utc": "2026-10-17T19:51:09.742199+00:00",
+  "packager_version": "0.1.0",
+  "whestbench_version": "0.16.2",
+  "flopscope_version": "0.12.3",
+  "python_version": "3.12.3",
+  "numpy_version": "2.2.6"
+}

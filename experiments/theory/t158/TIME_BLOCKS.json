@@ -1,0 +1,341 @@
+{
+  "closed": [
+    {
+      "category": "administration",
+      "start_utc": "2026-09-13T01:40:26+00:00",
+      "end_utc": "2026-09-13T01:42:32.883858+00:00",
+      "minutes": 2.114730966666667,
+      "note": "Task orientation and registration"
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-13T01:42:32.883858+00:00",
+      "note": "Conservative classification of mixed initial mathematics and probe implementation; not credited to written mathematics",
+      "end_utc": "2026-09-13T01:45:29.739509+00:00",
+      "minutes": 2.9475941833333335
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-13T01:45:29.739509+00:00",
+      "note": "Conditional-law decomposition and coherent compression error while P01 runs",
+      "end_utc": "2026-09-13T01:51:10.326623+00:00",
+      "minutes": 5.6764519
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-13T01:51:10.326623+00:00",
+      "note": "Prepare six-network intermediate pilot and shared current-parent control",
+      "end_utc": "2026-09-13T01:51:22.931669+00:00",
+      "minutes": 0.2100841
+    },
+    {
+      "category": "literature",
+      "start_utc": "2026-09-13T01:51:22.931669+00:00",
+      "note": "Adjacent search: conditional Gaussian closures, moment projection and homogeneous observables",
+      "end_utc": "2026-09-13T01:56:25.459914+00:00",
+      "minutes": 5.042137416666667
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-13T01:56:25.459914+00:00",
+      "note": "Radial cumulant deconvolution and mixed fifth/sixth source responses",
+      "end_utc": "2026-09-13T02:00:00.631148+00:00",
+      "minutes": 3.5861872333333333
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-13T02:00:00.631148+00:00",
+      "note": "Six-network pilot analysis and marginal observer for positive-law/higher-cumulant experiments",
+      "end_utc": "2026-09-13T02:02:08.365147+00:00",
+      "minutes": 2.128899983333333
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-13T02:02:08.365147+00:00",
+      "note": "Normal-inverse-Gaussian closure and analytic integration of the inverse-Gaussian auxiliary branch",
+      "end_utc": "2026-09-13T02:05:33.489479+00:00",
+      "minutes": 3.4187388666666667
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-13T02:05:33.489479+00:00",
+      "note": "P06 NIG readout quadrature and P07 fixed homogeneous response-head pilot",
+      "end_utc": "2026-09-13T02:10:16.656473+00:00",
+      "minutes": 4.7194499
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-13T02:10:16.656473+00:00",
+      "note": "Positive-law recurrence moments and compatible mixed cumulants; radial mixed-response algebra",
+      "end_utc": "2026-09-13T02:12:42.901324+00:00",
+      "minutes": 2.4374141833333334
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-13T02:12:42.901324+00:00",
+      "note": "Implement and meter recurrent NIG and missing Gaussian-pair terms",
+      "end_utc": "2026-09-13T02:13:34.458916+00:00",
+      "minutes": 0.8592932
+    },
+    {
+      "category": "literature",
+      "start_utc": "2026-09-13T02:13:34.458916+00:00",
+      "note": "Adjacent conditional quadrature and realizable moment closure; source reading while integrated probes run",
+      "end_utc": "2026-09-13T02:17:53.242027+00:00",
+      "minutes": 4.31305185
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-13T02:17:53.242027+00:00",
+      "note": "Full marginal dressing of mixed cumulants and scope of slice compression; derive concrete next prototypes",
+      "end_utc": "2026-09-13T02:25:05.575303+00:00",
+      "minutes": 7.2055546
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-13T02:25:05.575303+00:00",
+      "note": "P10 numerical tests of stable NIG density and response derivatives",
+      "end_utc": "2026-09-13T02:34:15.498615+00:00",
+      "minutes": 9.165388533333333
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-13T02:34:15.498615+00:00",
+      "note": "Radial mixed-cumulant compatibility, homogeneous Ward identities, and higher Gaussian-tree source alternatives",
+      "end_utc": "2026-09-13T02:41:08.510751+00:00",
+      "minutes": 6.8835356
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-13T02:41:08.510751+00:00",
+      "note": "P13 residual-only native trace implementation and integrated test",
+      "end_utc": "2026-09-13T02:47:18.651565+00:00",
+      "minutes": 6.169013566666666
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-13T02:47:18.651565+00:00",
+      "note": "Full native trace in factor coordinates, residual carrier algebra, and targeted rank follow-up",
+      "end_utc": "2026-09-13T02:54:42.216215+00:00",
+      "minutes": 7.392744166666666
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-13T02:54:42.216215+00:00",
+      "note": "P14 interpretation and six-network residual-compensation pilot",
+      "end_utc": "2026-09-13T02:55:06.444891+00:00",
+      "minutes": 0.40381126666666667
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-13T02:55:06.444891+00:00",
+      "note": "Trace-cup transport and low-rank factor residual alternatives while broader pilot runs",
+      "end_utc": "2026-09-13T02:57:50.967714+00:00",
+      "minutes": 2.7420470499999996
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-13T02:57:50.967714+00:00",
+      "note": "Build a transported-cup residual carrier to isolate covariance-reset error",
+      "end_utc": "2026-09-13T02:58:29.088905+00:00",
+      "minutes": 0.6353531833333333
+    },
+    {
+      "category": "literature",
+      "start_utc": "2026-09-13T02:58:29.088905+00:00",
+      "note": "Adjacent exact Gaussian pair moments and connected cumulant/tree expansions",
+      "end_utc": "2026-09-13T03:05:23.753697+00:00",
+      "minutes": 6.911079866666666
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-13T03:05:23.753697+00:00",
+      "note": "Orthogonal trace residuals, dynamic Gram refresh, and Gaussian fifth-order trees",
+      "end_utc": "2026-09-13T03:14:06.797135+00:00",
+      "minutes": 8.717390633333334
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-13T03:14:06.797135+00:00",
+      "note": "Saved-state higher-Gaussian-pair remainder and fresh native metric prototype",
+      "end_utc": "2026-09-13T03:23:11.195804+00:00",
+      "minutes": 9.07331115
+    },
+    {
+      "category": "literature",
+      "start_utc": "2026-09-13T03:23:11.195804+00:00",
+      "note": "Rational matrix-product algorithms and lower-addition schedules, with current source costing",
+      "end_utc": "2026-09-13T03:30:01.241461+00:00",
+      "minutes": 6.834094283333333
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-13T03:30:01.241461+00:00",
+      "note": "Shared matrix workspace arena for the leaf16 resource bottleneck",
+      "end_utc": "2026-09-13T03:37:37.913200+00:00",
+      "minutes": 7.61119565
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-13T03:37:37.913200+00:00",
+      "note": "Winograd arithmetic identities, stable scaling and source-hub sparsity derivation",
+      "end_utc": "2026-09-13T03:49:07.802162+00:00",
+      "minutes": 11.498149366666667
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-13T03:49:07.802162+00:00",
+      "note": "Trace-tail interpretation, combined pilot and source-summed arithmetic prototype",
+      "end_utc": "2026-09-13T03:54:54.410935+00:00",
+      "minutes": 5.776812883333333
+    },
+    {
+      "category": "literature",
+      "start_utc": "2026-09-13T03:54:54.410935+00:00",
+      "note": "Wider adjacent search: conditional network propagation, multivariate mixtures, low-rank geometry",
+      "end_utc": "2026-09-13T04:04:21.103687+00:00",
+      "minutes": 9.4448792
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-13T04:04:21.103687+00:00",
+      "note": "Radial Gaussian residual operator and finite-depth arithmetic cost/memory recurrences",
+      "end_utc": "2026-09-13T04:17:51.003084+00:00",
+      "minutes": 13.498323283333333
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-13T04:17:51.003084+00:00",
+      "note": "Selective fused resource repair and permutation robustness; no new target-fit family",
+      "end_utc": "2026-09-13T04:26:37.358806+00:00",
+      "minutes": 8.772595366666668
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-13T04:26:37.358806+00:00",
+      "note": "Derive exact cross-hub tensor-action range and trace-compensated objective",
+      "end_utc": "2026-09-13T04:28:59.118288+00:00",
+      "minutes": 2.362658033333333
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-13T04:28:59.118288+00:00",
+      "note": "Build and evaluate direct tensor-action sketches on saved trajectories",
+      "end_utc": "2026-09-13T04:30:24.237653+00:00",
+      "minutes": 1.4186560833333333
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-13T04:30:24.237653+00:00",
+      "note": "Derive exact cross-source Gram and coherent mean auxiliary sector",
+      "end_utc": "2026-09-13T04:32:40.523919+00:00",
+      "minutes": 2.2714377666666667
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-13T04:32:40.523919+00:00",
+      "note": "Exact Gram and coherent mean implementation and saved-state experiment",
+      "end_utc": "2026-09-13T04:35:44.016700+00:00",
+      "minutes": 3.058213016666667
+    },
+    {
+      "category": "literature",
+      "start_utc": "2026-09-13T04:35:44.016700+00:00",
+      "note": "Broader conditional-control and stochastic closure literature; compare actual incumbent regime",
+      "end_utc": "2026-09-13T04:37:52.706225+00:00",
+      "minutes": 2.144825416666667
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-13T04:37:52.706225+00:00",
+      "note": "Derive a two-constraint residual carrier: total trace plus physical-mean directional query",
+      "end_utc": "2026-09-13T04:39:27.374816+00:00",
+      "minutes": 1.5778098500000002
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-13T04:39:27.374816+00:00",
+      "note": "Implement and evaluate two-constraint residual carrier diagnostic",
+      "end_utc": "2026-09-13T04:41:27.258347+00:00",
+      "minutes": 1.99805885
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-13T04:41:27.258347+00:00",
+      "note": "Hybrid residual integration: biased analytic moments, exact polynomial controls, and cost/variance crossover",
+      "end_utc": "2026-09-13T04:44:45.828183+00:00",
+      "minutes": 3.309497266666667
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-13T04:44:45.828183+00:00",
+      "note": "Measure true final remainder variance and exact radial conditioning on four exposed networks",
+      "end_utc": "2026-09-13T04:52:46.631452+00:00",
+      "minutes": 8.013387816666667
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-13T04:52:46.631452+00:00",
+      "note": "Weak-gate transport pruning: cost geometry and compensated discarded tensor",
+      "end_utc": "2026-09-13T04:55:33.574029+00:00",
+      "minutes": 2.7823762833333334
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-13T04:55:33.574029+00:00",
+      "note": "Evaluate weak-gate coordinate transport restriction on actual saved tensors",
+      "end_utc": "2026-09-13T04:59:02.854157+00:00",
+      "minutes": 3.488002133333333
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-13T04:59:02.854157+00:00",
+      "note": "Persistent harmonic fourth-star response reusing native A/P transports; avoid regenerated-core double counting",
+      "end_utc": "2026-09-13T05:02:14.979429+00:00",
+      "minutes": 3.2020878666666666
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-13T05:02:14.979429+00:00",
+      "note": "Implement and meter persistent fourth-star mean-response prototype",
+      "end_utc": "2026-09-13T05:07:18.643635+00:00",
+      "minutes": 5.061070099999999
+    },
+    {
+      "category": "selection",
+      "start_utc": "2026-09-13T05:07:18.643635+00:00",
+      "note": "Compare complete evidence, cost attribution, resource choices, forecasts and remaining untested routes",
+      "end_utc": "2026-09-13T05:30:43.678443+00:00",
+      "minutes": 23.4172468
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-13T05:30:43.678443+00:00",
+      "note": "Resolve the remaining fourth-chain representation and harmonic-trace cost gap before prioritizing that reserve",
+      "end_utc": "2026-09-13T05:34:30.093090+00:00",
+      "minutes": 3.77357745
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-13T05:34:30.093090+00:00",
+      "note": "Test the zero-diagonal correction suggested by the fourth-chain low-rank diagnostic",
+      "end_utc": "2026-09-13T05:35:45.998036+00:00",
+      "minutes": 1.2650824333333333
+    },
+    {
+      "category": "selection",
+      "start_utc": "2026-09-13T05:35:45.998036+00:00",
+      "note": "Prioritize the corrected fourth-chain reserve and consolidate route-level returns and decision sensitivity",
+      "end_utc": "2026-09-13T05:42:38.633782+00:00",
+      "minutes": 6.877262433333333
+    },
+    {
+      "category": "administration",
+      "start_utc": "2026-09-13T05:42:38.633782+00:00",
+      "note": "Research floor met; write completion records and commit scoped evidence",
+      "end_utc": "2026-09-13T05:46:03.148924+00:00",
+      "minutes": 3.4085857
+    }
+  ],
+  "active": null
+}

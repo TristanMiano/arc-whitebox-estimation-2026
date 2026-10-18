@@ -1,0 +1,55 @@
+{
+  "schema_version": "arc-t117a-repaired-qualification-v1",
+  "task_id": "T117A",
+  "experiment_id": "E103",
+  "algorithm_id": "ALG024-V000",
+  "status": "PASS",
+  "hard_gate": "PASS",
+  "environment": {
+    "platform": "Windows_native",
+    "python": "3.10.20",
+    "whestbench": "0.16.0",
+    "flopscope": "0.12.0",
+    "numpy_used_only_by_external_qualification_harness": "2.2.6"
+  },
+  "archive": {
+    "path": "experiments/submission_policy/t117a/packages/ALG024-V000.tar.gz",
+    "sha256": "4353f9cd6d50143bba7591cf158d6fe745afaa7c8a05279b356e0fc7bce42378",
+    "size_bytes": 12811,
+    "manifest_hashes_match_extracted_files": true,
+    "clean_temporary_extraction": true,
+    "whest_validate_package": "PASS",
+    "forbidden_import_static_scan": "PASS"
+  },
+  "estimator": {
+    "path": "submissions/phase2_alg024_v000/estimator.py",
+    "sha256": "d863c644be2bc1e8de3a1ce253d7fb4a1c451aeb1da708b6225f1c84dc7a9aec",
+    "raw_numpy_import": false
+  },
+  "full_shape_fixture": {
+    "global_row": 650,
+    "protected_targets_accessed": false,
+    "output_shape": [16, 1024],
+    "finite": true,
+    "nonnegative": true,
+    "deterministic_byte_replay": true,
+    "prediction_sha256": "68c76c02da2f28740250c35f58aab1c375f71dd6324122b7a665a05f6836815c",
+    "maximum_absolute_difference_from_t117_seal": 0.0,
+    "flops": 219827350427,
+    "flops_replay_equal": true,
+    "score_multiplier": 0.1,
+    "floor_headroom_flops": 74975128,
+    "budget_headroom_flops": 1979195905125,
+    "outer_wall_time_s": [3.9238733000238426, 3.8931734999932814],
+    "residual_wall_time_s": [0.29821340035414323, 0.2919739006611053],
+    "peak_process_working_set_bytes": 4780326912,
+    "under_120_second_wall_cap": true,
+    "under_400_millisecond_residual_cap": true,
+    "under_8_gibibyte_process_memory_cap": true
+  },
+  "qualification_script": {
+    "path": "experiments/submission_policy/t117a/qualify_exact_package.py",
+    "sha256": "0841258b1b85d4c3e3d0ff933141f66f3a705da9694e239ce1360a3afe865d42"
+  },
+  "official_replacement_upload_performed_after_qualification": false
+}

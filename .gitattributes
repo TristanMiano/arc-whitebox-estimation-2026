@@ -1,0 +1,5 @@
+# Preserve exact archived source and evidence bytes on every platform.
+* -text
+*.pdf binary
+*.gz binary
+*.npy binary

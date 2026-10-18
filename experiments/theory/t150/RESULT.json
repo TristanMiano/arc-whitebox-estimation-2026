@@ -1,0 +1,104 @@
+{
+  "task_id": "T150",
+  "experiment_id": "E144",
+  "status": "completed_two_ambitious_nominees_no_candidate_run",
+  "start_utc": "2026-09-11T06:54:13+00:00",
+  "research_end_utc": "2026-09-11T08:07:50.607345+00:00",
+  "record_completion_utc": "2026-09-11T08:12:11.462997+00:00",
+  "report": "experiments/theory/t150/REPORT.md",
+  "timing": "experiments/theory/t150/TIMING.json",
+  "exclusive_active_minutes": {
+    "theory": 60.09606063333333,
+    "selection": 4.476093383333334,
+    "literature": 0
+  },
+  "useful_minutes": 64.57215401666666,
+  "minimums_met": true,
+  "nominees": [
+    {
+      "hypothesis_id": "H150-SCP-A",
+      "status": "specified_not_implemented_not_tested",
+      "disposition": "preferred_next_attempt_proposed_T151",
+      "specification": "experiments/theory/t150/SCP_A_SPEC.md",
+      "specification_sha256": "21ce9e959f8758d772fb8024e459389fafc845c9103b4332df215243eb86ff74",
+      "static_additional_flops_range": [
+        20000000000.0,
+        30000000000.0
+      ],
+      "subjective_probability_retained_official_gain": [
+        0.15,
+        0.3
+      ],
+      "conditional_adjusted_gain_range": [
+        0.15,
+        0.45
+      ],
+      "illustrative_success_probability": 0.2,
+      "illustrative_conditional_mean_gain": 0.3,
+      "illustrative_expected_retained_gain": 0.06
+    },
+    {
+      "hypothesis_id": "H150-HGC6-A",
+      "status": "specified_not_implemented_not_tested",
+      "disposition": "saved_ambitious_alternative_not_automatic",
+      "specification": "experiments/theory/t150/HGC6_A_SPEC.md",
+      "specification_sha256": "fbd40283badbcdce69757175be4a54bcd2de464f020ca875aa4fa0ffe44b126b",
+      "static_additional_flops_range": [
+        6000000000.0,
+        12000000000.0
+      ],
+      "subjective_probability_retained_official_gain": [
+        0.15,
+        0.3
+      ],
+      "conditional_adjusted_gain_range": [
+        0.1,
+        0.4
+      ],
+      "illustrative_success_probability": 0.2,
+      "illustrative_conditional_mean_gain": 0.25,
+      "illustrative_expected_retained_gain": 0.05
+    }
+  ],
+  "forecasts_are_calibrated": false,
+  "forecast_definition": "Bounded implementation plus small local decision and qualified official attempt produces a retained improvement over ALG043-V000. Includes technical failure; distinct from post-screen support. Expected retained gain assigns zero to failure.",
+  "untested_inventory": "experiments/theory/t150/UNTESTED_INVENTORY.md",
+  "t149_status": "not_tested_deferred_by_owner",
+  "new_algorithm_ids": [],
+  "challenge_candidate_executions": 0,
+  "challenge_input_or_target_accesses": 0,
+  "fit_calls": 0,
+  "candidate_parameter_sweeps": 0,
+  "packages": 0,
+  "uploads": 0,
+  "subagents": 0,
+  "generated_algebra_check_records": 3,
+  "generated_scalar_constant_records": 1,
+  "static_cost_scenario_records": 1,
+  "literature": {
+    "new_sources": 0,
+    "new_external_search": false,
+    "note": "Reused prior indexed literature and public-source analysis; no new external-literature block."
+  },
+  "incumbent": {
+    "algorithm_id": "ALG043-V000",
+    "submission_id": 330597,
+    "official_adjusted_score": 5.419051334510831e-09,
+    "official_raw_mse": 2.1327418124883478e-08,
+    "settled_flops": 555383704047
+  },
+  "official_incumbent_unchanged": true,
+  "preserved_identities": "experiments/theory/t150/PRESERVED_IDENTITIES.json",
+  "evidence_limits": [
+    "Neither specified algorithm has been implemented, metered or scored.",
+    "The exact homogeneous target identity does not make the finite propagation exact.",
+    "Single-fourth factorization is complete for the selected tensor; omitted mixed response terms include terms first order in radial coefficients.",
+    "Mean anchoring and public calibration on changed moment trajectories are explicit approximation choices.",
+    "Generated algebra checks do not predict score gains or verify production code."
+  ],
+  "next_task": "T151",
+  "next_task_started": false,
+  "next_task_authorized": false,
+  "next_proposal": "experiments/theory/t150/NEXT_PROPOSAL.json",
+  "verification_end_utc": "2026-09-11T08:13:14.112515+00:00"
+}

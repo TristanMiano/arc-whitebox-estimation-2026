@@ -1,0 +1,75 @@
+{
+  "task_id": "T120A",
+  "experiment_id": "E110",
+  "status": "BLOCKED_OPERATIONAL_AWAITING_OWNER_SCOPE_DECISION",
+  "task_checked_off": false,
+  "owner_authorized_original_task": true,
+  "owner_authorized_changed_identity": false,
+  "algorithm_id": "ALG027-V000",
+  "archive_path": "experiments/submission_policy/t120a/packages/ALG027-V000-UNQUALIFIED.tar.gz",
+  "archive_sha256": "9c52ef88fedf69206e9fc64cc1874f2b36702bb4ffb9662faf955fc5e0dc94c1",
+  "official_upload_performed": false,
+  "official_grade": "NOT_RUN",
+  "new_scientific_tier_awarded": false,
+  "frozen_coefficients_unchanged": true,
+  "protected_target_accessed": false,
+  "integrated_production_attempt_flops": 245269647291,
+  "integrated_production_attempt_multiplier": 0.11153572235843967,
+  "t120_composed_cost_claim_valid": false,
+  "frozen_point_one_floor_pass": false,
+  "floor_excess_flops": 25367321735.799988,
+  "sealed_r3_byte_parity": false,
+  "sealed_r3_changed_coordinates": 49,
+  "sealed_r3_max_abs_difference": 2.384185791015625e-07,
+  "sealed_r3_numerical_mse_difference": 1.5730145236146552e-16,
+  "clean_extraction_all_required_checks_pass": false,
+  "clean_extraction_residual_seconds": {
+    "1": [
+      0.40701602706212725,
+      0.3982797758162633
+    ],
+    "2": [
+      0.39996963011071784,
+      0.4024583989776147
+    ],
+    "3": [
+      0.39690489116765093,
+      0.4093536779982969
+    ]
+  },
+  "direct_source_residual_seconds": [
+    0.39777135105396155,
+    0.3942686769114516
+  ],
+  "fallback_parity": "PASS",
+  "static_coefficients_imports": "PASS",
+  "whest_contract": "PASS",
+  "archive_manifest": "PASS",
+  "primary_blocker_class": "OPERATIONALLY_BLOCKED",
+  "strict_scientific_gate_sole_blocker": false,
+  "conditional_cost_only_projection": {
+    "not_a_new_score_or_grade": true,
+    "assumption": "Historical frozen R3 predictions are reproduced at the measured production attempt cost",
+    "adjusted_score": 1.4317655552220347e-07,
+    "ratio_to_alg026": 0.9589215820442126,
+    "relative_reduction": 0.04107841795578737
+  },
+  "next_task": "T120A",
+  "next_scientific_task": "T121_after_T120A_or_explicit_owner_deferral",
+  "continuation_condition": "Owner direction to prospectively qualify a separately identified production realization using corrected cost and explicit numerical equivalence, with fixed coefficients and hard resource gates; otherwise retain exact requirements and report unresolved blocker.",
+  "timing": {
+    "start_utc": "2026-09-04T19:16:20Z",
+    "estimate_minutes": 150,
+    "audit_pause_utc": "2026-09-04T19:43:05Z",
+    "elapsed_to_audit_pause_seconds": 1605,
+    "elapsed_to_audit_pause": "00:26:45",
+    "task_end_checkoff_utc": null,
+    "estimate_error_at_completion": null,
+    "approximate_allocation_minutes_at_audit_pause": {
+      "analysis_theory": 6,
+      "code_debug_documentation": 14,
+      "execution_wait": 6.75
+    }
+  },
+  "report": "experiments/submission_policy/t120a/REPORT.md"
+}

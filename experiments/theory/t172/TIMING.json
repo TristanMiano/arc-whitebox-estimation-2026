@@ -1,0 +1,25 @@
+{
+  "task_id": "T172",
+  "start_utc": "2026-10-17T18:03:49+00:00",
+  "record_completion_utc": "2026-10-17T23:00:33.414739+00:00",
+  "elapsed_minutes": 296.74024565,
+  "active_work_minutes": 252.69294888333334,
+  "active_work_floor_minutes": 240,
+  "exclusive_category_minutes": {
+    "research": 247.5013968,
+    "passive": 44.04725545,
+    "engineering": 4.394525933333334,
+    "records": 0.79702615
+  },
+  "estimate_total_range_minutes": [
+    270,
+    360
+  ],
+  "estimate_error_minutes": [
+    26.74024565000002,
+    -63.25975434999998
+  ],
+  "new_native_metered_wall_minutes": 122.08180085644985,
+  "research_capture_metered_wall_minutes": 45.159613992800054,
+  "accounting_note": "Research category includes derivation, literature/code review, experiment implementation/interpretation, package work and record preparation under the owner waiver. It is not exclusive thinking time. Explicit passive waits and interruptions are excluded. Numerical work and earlier grader monitoring overlapped research and are not added to elapsed time. Final commit/verification follows this timestamp."
+}

@@ -1,0 +1,32 @@
+{
+  "task_id": "T149",
+  "checks": {
+    "frozen_source": true,
+    "spec_preserved": true,
+    "incumbent_source_preserved": true,
+    "state_preserved_current_submission_candidate": true,
+    "state_preserved_official_best_algorithm": true,
+    "state_preserved_official_best_submission": true,
+    "state_preserved_t150_theory_recurrence": true,
+    "state_preserved_t151_scp_attempt": true,
+    "state_preserved_t152_hgc_attempt": true,
+    "current_task_complete": true,
+    "next_not_started": true,
+    "t149_deferral_superseded": true,
+    "SOURCE_CONTRACTION_CHECK": true,
+    "GEOMETRY_CONFINEMENT_CHECK": true,
+    "MARGINAL_FALLBACK_CHECK": true,
+    "STATIC_AUDIT": true,
+    "integrated-probe-001": true,
+    "screen-sealed": true,
+    "score_and_decision": true,
+    "no_package_upload": true,
+    "one_event_row": true,
+    "python_syntax": true,
+    "shell_syntax": true,
+    "task_links": true
+  },
+  "broken_links": [],
+  "pass": true,
+  "candidate_executions_repeated": 0
+}

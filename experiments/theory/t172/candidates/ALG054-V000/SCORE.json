@@ -1,0 +1,140 @@
+{
+  "algorithm_id": "ALG054-V000",
+  "n": 12,
+  "mean_raw": 2.0500283021216947e-08,
+  "mean_adjusted": 3.1545307378446525e-09,
+  "historical_incumbent_adjusted": 4.33558405482372e-09,
+  "ratio": 0.7275907231771827,
+  "wins": 12,
+  "bootstrap_support": 1.0,
+  "bootstrap_90pct_ratio": [
+    0.7081474914811826,
+    0.7469391141425743
+  ],
+  "matched4_ratio_to_incumbent": 0.7052049852202997,
+  "matched4_ratio_to_public_base": 0.9647622813167874,
+  "max_residual": 0.3780469610230739,
+  "runtime_caveat": "12-row incumbent costs/predictions are historical0.12.0; new candidate0.12.3. Four-row paired reference is matched0.12.3. Candidate observations span two recorded lifecycles; the public base preallocates its runtime, so no extra first-call cost is assumed. Adaptive exposed development; bootstrap is descriptive, not a private-suite probability.",
+  "records": [
+    {
+      "row": 750,
+      "raw": 2.002042354131849e-08,
+      "adjusted": 3.1821876179611407e-09,
+      "incumbent_raw": 2.0974030176036518e-08,
+      "incumbent_adjusted": 4.72653987214009e-09,
+      "flops": 349528298489,
+      "residual": 0.3780469610230739,
+      "ratio": 0.6732594464542843
+    },
+    {
+      "row": 976,
+      "raw": 1.7834250596103218e-08,
+      "adjusted": 2.6954444550661096e-09,
+      "incumbent_raw": 1.9645885781726637e-08,
+      "incumbent_adjusted": 4.093055711639222e-09,
+      "flops": 332357393365,
+      "residual": 0.36776387100871943,
+      "ratio": 0.6585408665220964
+    },
+    {
+      "row": 772,
+      "raw": 1.9489109023301395e-08,
+      "adjusted": 3.038447043764693e-09,
+      "incumbent_raw": 1.925145536042091e-08,
+      "incumbent_adjusted": 3.963829481764376e-09,
+      "flops": 342838438741,
+      "residual": 0.3654182049915562,
+      "ratio": 0.7665433282998396
+    },
+    {
+      "row": 795,
+      "raw": 2.3651416579166968e-08,
+      "adjusted": 3.5229756153029203e-09,
+      "incumbent_raw": 2.3756427688130312e-08,
+      "incumbent_adjusted": 4.8271092363937e-09,
+      "flops": 327553543394,
+      "residual": 0.36351154899102767,
+      "ratio": 0.729831342688841
+    },
+    {
+      "row": 817,
+      "raw": 1.89776205044905e-08,
+      "adjusted": 2.836055005394921e-09,
+      "incumbent_raw": 1.8212905454049363e-08,
+      "incumbent_adjusted": 3.6958797740013277e-09,
+      "flops": 328626600443,
+      "residual": 0.3752012340009969,
+      "ratio": 0.7673558608007638
+    },
+    {
+      "row": 840,
+      "raw": 2.8723611610711603e-08,
+      "adjusted": 4.501471543584494e-09,
+      "incumbent_raw": 2.8838037792601712e-08,
+      "incumbent_adjusted": 5.967006791217143e-09,
+      "flops": 344623814815,
+      "residual": 0.3767540880103297,
+      "ratio": 0.7543935680130656
+    },
+    {
+      "row": 863,
+      "raw": 1.609312331137156e-08,
+      "adjusted": 2.4415624575169397e-09,
+      "incumbent_raw": 1.6052820574571334e-08,
+      "incumbent_adjusted": 3.2766594659328266e-09,
+      "flops": 333624028107,
+      "residual": 0.3650355389768265,
+      "ratio": 0.7451376876058298
+    },
+    {
+      "row": 885,
+      "raw": 1.8112833063602468e-08,
+      "adjusted": 2.8560748196101523e-09,
+      "incumbent_raw": 1.7720559925051764e-08,
+      "incumbent_adjusted": 3.662765155823069e-09,
+      "flops": 346747244115,
+      "residual": 0.3661950430400793,
+      "ratio": 0.7797591977933832
+    },
+    {
+      "row": 908,
+      "raw": 2.2347740978748674e-08,
+      "adjusted": 3.3983555326752915e-09,
+      "incumbent_raw": 2.4635910992896723e-08,
+      "incumbent_adjusted": 5.01671266256877e-09,
+      "flops": 334399027360,
+      "residual": 0.36696179303680765,
+      "ratio": 0.6774068521068514
+    },
+    {
+      "row": 930,
+      "raw": 1.8633497866475717e-08,
+      "adjusted": 2.971732469340157e-09,
+      "incumbent_raw": 2.0061622519163384e-08,
+      "incumbent_adjusted": 4.151845579193286e-09,
+      "flops": 350707572791,
+      "residual": 0.36924232002638746,
+      "ratio": 0.7157618010247799
+    },
+    {
+      "row": 953,
+      "raw": 2.3735706248418412e-08,
+      "adjusted": 3.55099225356777e-09,
+      "incumbent_raw": 2.4594487477561813e-08,
+      "incumbent_adjusted": 4.990028973478363e-09,
+      "flops": 328985978515,
+      "residual": 0.36445448902713906,
+      "ratio": 0.7116175622308072
+    },
+    {
+      "row": 999,
+      "raw": 1.8384062930894362e-08,
+      "adjusted": 2.85907004035124e-09,
+      "incumbent_raw": 1.7842912571260577e-08,
+      "incumbent_adjusted": 3.6555759537324576e-09,
+      "flops": 341989772969,
+      "residual": 0.3622351569779312,
+      "ratio": 0.7821120601890489
+    }
+  ]
+}

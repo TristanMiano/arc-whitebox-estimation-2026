@@ -1,0 +1,20 @@
+[
+  {
+    "category": "engineering",
+    "start": "2026-09-11T16:41:02+00:00",
+    "note": "Read scoped state/specification, implement one fixed candidate and run focused checks.",
+    "end": "2026-09-11T16:54:31.118437+00:00"
+  },
+  {
+    "category": "unattended_compute",
+    "start": "2026-09-11T16:54:31.118437+00:00",
+    "note": "Screen running; only resource/completion monitoring, no target access before all outputs are sealed.",
+    "end": "2026-09-11T17:01:12.044107+00:00"
+  },
+  {
+    "category": "engineering",
+    "start": "2026-09-11T17:01:12.044107+00:00",
+    "note": "Score the fully sealed comparison, make the task decision and finish scoped records/verification.",
+    "end": "2026-09-11T17:07:06.275104+00:00"
+  }
+]

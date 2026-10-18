@@ -1,0 +1,31 @@
+{
+  "task_id": "T128A",
+  "experiment_id": "E119",
+  "status": "COMPLETED_STRATEGY_AND_EFFORT_AUDIT",
+  "report": "docs/RESEARCH_STRATEGY_MAP.md",
+  "task_table": "experiments/protocol/t128a/TASK_AUDIT.csv",
+  "data": "experiments/protocol/t128a/STRATEGY_DATA.json",
+  "visual_source": "experiments/protocol/t128a/research-approach-tree.html",
+  "counts": {
+    "total_tasks": 116,
+    "complete_tasks": 115,
+    "timed_tasks": 80,
+    "partial_timed_tasks": 2,
+    "recorded_session_hours": 59.24183847053334,
+    "active_theory_hours_explicit_subset": 16.017117833333334
+  },
+  "recommendation": "Keep the lean submission loop; prioritize a structural alternative in the next recurrence while allowing one cheap incumbent improvement. No automatic T128 parameter sweep; no new protocol gate.",
+  "theory_T129_started": false,
+  "candidate_executed": false,
+  "new_fit_or_target_access": false,
+  "official_upload": false,
+  "incumbent_unchanged": "ALG031-V000 / 329989",
+  "timing": {
+    "start_utc": "2026-09-06T02:35:38+00:00",
+    "end_checkoff_utc": "2026-09-06T02:59:03.347378+00:00",
+    "estimate_total_minutes": 35,
+    "actual_elapsed_minutes": 23.4224563,
+    "estimate_error_minutes": -11.5775437,
+    "definition": "Task to record checkoff; final integrity verification, scoped staging/commit and chat delivery follow."
+  }
+}

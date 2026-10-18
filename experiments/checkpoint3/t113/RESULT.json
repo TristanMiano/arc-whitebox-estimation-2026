@@ -1,0 +1,69 @@
+{
+  "schema_version": "arc-t113-fc010-theory-result-v1",
+  "task_id": "T113",
+  "experiment_id": "E098",
+  "status": "completed_theory_freeze_T114_then_T115",
+  "cycle": "FC010",
+  "owner_override_active_theory_minutes": 180,
+  "active_theory_minutes_satisfied": true,
+  "active_theory_elapsed_ns": 10810592844496,
+  "active_theory_elapsed": "03:00:10.592844496",
+  "theory_word_count_before_freeze_note": 44028,
+  "source_ledger_word_count": 1776,
+  "protected_target_opened": false,
+  "candidate_code_executed": false,
+  "algorithm_identity_created": false,
+  "scientific_tier_changed": false,
+  "submission_candidate_changed": false,
+  "official_submission_changed": false,
+  "current_incumbent": "ALG019-V000_submission_328762",
+  "selected_decisions": [
+    {
+      "task": "T114",
+      "hypothesis": "H113-L_LPITF",
+      "name": "full-chain independent-truth fusion",
+      "provenance": "OURS+PUBLIC",
+      "academic_novelty": "N1-NOVEL-COMBINATION_dimension_4",
+      "prior_beats_incumbent": 0.48
+    },
+    {
+      "task": "T115",
+      "hypothesis": "H113-N_replicate_held_audit_carriers",
+      "name": "DALT primary with NASES and NAAR fallbacks",
+      "provenance": "OURS+PUBLIC",
+      "academic_novelty": "N1-NOVEL-COMBINATION_dimension_4_primary",
+      "primary_prior_beats_incumbent": 0.47
+    }
+  ],
+  "dependence_aware_prior_any_fc010_successor": 0.64,
+  "competition_screen": {
+    "point_expected_adjusted_score_below_incumbent": true,
+    "network_bootstrap_probability_win_strictly_greater_than": 0.5,
+    "confidence_intervals_are_diagnostic_not_veto": true,
+    "rigorous_science_deferred": true
+  },
+  "next_task": "T114",
+  "timing": {
+    "original_start_pdt": "2026-08-28T20:12:06,118329621-07:00",
+    "estimate_minutes": 210,
+    "first_active_segment_elapsed_ns": 4126438288861,
+    "first_active_segment_elapsed": "01:08:46.438288861",
+    "resume_start_pdt": "2026-08-30T21:53:14,028705388-07:00",
+    "theory_freeze_pdt": "2026-08-30T23:44:55,879616360-07:00",
+    "active_theory_elapsed_ns": 10810592844496,
+    "active_theory_elapsed": "03:00:10.592844496",
+    "end_checkoff_pdt": "2026-08-30T23:55:00,737826726-07:00",
+    "total_active_wallclock_elapsed_ns": 11415451054862,
+    "total_active_wallclock_elapsed": "03:10:15.451054862",
+    "estimate_difference_ns": 1184548945138,
+    "estimate_difference": "00:19:44.548945138_earlier_than_estimated"
+  },
+  "task_checked_off": true,
+  "owner_action_required": false,
+  "evidence": [
+    "experiments/checkpoint3/t113/THEORY_LEDGER.md",
+    "experiments/checkpoint3/t113/RANKED_SLATE.md",
+    "experiments/checkpoint3/t113/SOURCES.md",
+    "experiments/checkpoint3/t113/REPORT.md"
+  ]
+}

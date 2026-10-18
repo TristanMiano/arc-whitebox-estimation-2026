@@ -1,0 +1,49 @@
+{
+  "task_id": "T136",
+  "experiment_id": "E129",
+  "status": "RUNNING_LITERATURE_AND_THEORY",
+  "start_utc": "2026-09-06T22:40:01+00:00",
+  "registered_utc": "2026-09-06T22:41:07.709711+00:00",
+  "minimum_useful_task_minutes": 120,
+  "minimum_active_theory_minutes": 80,
+  "baseline_allocation_minutes": {
+    "literature": 20,
+    "active_theory": 80,
+    "selection_and_handoff": 20
+  },
+  "estimate_total_minutes": 150,
+  "estimate_is_not_ceiling": true,
+  "hard_ceiling_minutes": null,
+  "owner_priority": "Preserve cheap candidates, but prioritize a plausible larger score reduction when both are available; balance upside, success probability and remaining work. No minimum submission-gain gate.",
+  "incumbent": {
+    "algorithm_id": "ALG037-V000",
+    "submission_id": 330101,
+    "adjusted_score": 1.285804677308988e-07,
+    "final_layer_mse": 1.2858046773089883e-06,
+    "vs_sampling_approx": 9.332677203441463,
+    "predecessor": "ALG036-V000_submission_330097",
+    "adjusted_ratio_to_predecessor": 0.9694193806762685,
+    "adjusted_relative_reduction": 0.03058061932373146
+  },
+  "initial_focus": [
+    "Cheap Gaussian baseline successors",
+    "Output-aware compression"
+  ],
+  "internet_authorized": true,
+  "subagents_planned": 0,
+  "allowed_work": [
+    "Focused primary literature and public source inspection",
+    "Written equations, error and fully charged cost derivations",
+    "Small synthetic mathematical checks using generated inputs",
+    "Read existing source and sealed result metadata without challenge target arrays",
+    "One or two ranked candidate specifications, or a reason to nominate none"
+  ],
+  "not_in_this_task": [
+    "New full challenge candidate execution or fitting",
+    "Opening challenge targets or final blind data",
+    "Official submission"
+  ],
+  "cheap_candidate_policy": "Record a cheap candidate without stopping the recurrence if a credible larger-gain thread is visible.",
+  "timing_method": "Log explicit research intervals and deduct orientation/record/tool overhead; idle waits count as zero. Theory and literature overlap only when explicitly labeled, never double-counted. At least120 useful total and80 active theory required.",
+  "git_head_at_start": "1051b19af2ec95138b2f95b8cf80e559975b5040"
+}

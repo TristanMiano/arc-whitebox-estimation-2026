@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "api_version": "2.0",
+  "entrypoint": {
+    "module": "estimator",
+    "class": "Estimator"
+  },
+  "python": {
+    "min_version": "3.12"
+  },
+  "files": [
+    {
+      "name": "LICENSE",
+      "sha256": "e3e4daa4b31b6f2b409ecab8610b223bc5ce5c917f0a633fd9f66dbf9e7f6c5f"
+    },
+    {
+      "name": "PUBLIC_FAST_LICENSE",
+      "sha256": "8951bf59cbe4e79527fecd49bc816f4d13f40c7631a3cbd37d2bd930e40b4616"
+    },
+    {
+      "name": "README.md",
+      "sha256": "7c7ada5cd28e2185b8934cd5e6123ef6912282f37a94b6590415f10ebe7facf6"
+    },
+    {
+      "name": "absolute_coefficients.py",
+      "sha256": "dfc1336b9e9bd308645c196b23c2235123a3af9ca0587512535737196252f477"
+    },
+    {
+      "name": "base_family.py",
+      "sha256": "74879a41f02313096a02b58684f9fa795af94b0827763aad045b4225606efec6"
+    },
+    {
+      "name": "candidate_family.py",
+      "sha256": "92c56fb973f2ad84bc65c40f0d9db5f5c8eb0c812e47fb8968bbeb9b1e6feba3"
+    },
+    {
+      "name": "coefficients.py",
+      "sha256": "8c8cdc6463f86c5d61fac998d0ce17a39bd033e2bac5c5e3f6182b4bb11311cd"
+    },
+    {
+      "name": "estimator.py",
+      "sha256": "7256b5b28e262c091472c4777c48bc72619d8b43d47f0f027c1eecfc2772b23d"
+    },
+    {
+      "name": "fast_kernel.py",
+      "sha256": "6e9c40b5652554d30e5100603006b8e1b44d84082e259332435a006a75352a70"
+    },
+    {
+      "name": "parity_coefficients.py",
+      "sha256": "1ab6ab86aba80ccb181b4693d258c7b25a03235de673f018d1cff04eafb3e7e6"
+    },
+    {
+      "name": "public_release/public_fast_reference.py",
+      "sha256": "b5418459c4c0cce62129027affb15170cc5aca477ff0af6c5590d718bc9947ed"
+    },
+    {
+      "name": "r1p_family.py",
+      "sha256": "43ef3686fc21300861758372ad8a5fcf9268daf33e5690d32a3a2db829429b10"
+    },
+    {
+      "name": "response_family.py",
+      "sha256": "ed4e3680addbcc9d160fe0aad11556b020f56664bd7a89729d6971ea1e154d3b"
+    }
+  ],
+  "created_at_utc": "2026-09-06T21:28:25.957005+00:00",
+  "packager_version": "0.1.0",
+  "whestbench_version": "0.16.0",
+  "flopscope_version": "0.12.0",
+  "python_version": "3.12.3",
+  "numpy_version": "2.2.6"
+}

@@ -1,0 +1,31 @@
+{
+  "task_id": "T158",
+  "start_utc": "2026-09-13T01:40:26+00:00",
+  "research_end_utc": "2026-09-13T05:42:38.633782+00:00",
+  "end_utc": "2026-09-13T05:46:03.148924+00:00",
+  "elapsed_minutes": 245.61914873333333,
+  "exclusive_minutes": {
+    "derivation": 92.33598140000001,
+    "empirical": 82.7752734,
+    "literature": 34.69006803333333,
+    "selection": 30.294509233333333,
+    "administration": 5.523316666666667,
+    "passive": 0.0
+  },
+  "active_research_minutes": 240.09583206666667,
+  "minimum_active_minutes": 240,
+  "minimum_written_derivation_minutes": 60,
+  "all_floors_pass": true,
+  "estimated_elapsed_range_minutes": [
+    260,
+    320
+  ],
+  "estimate_error_minutes": [
+    -14.380851266666667,
+    -74.38085126666667
+  ],
+  "estimate_error_from_midpoint_minutes": -44.38085126666667,
+  "summed_prediction_minutes": 52.344810850699716,
+  "method": "Observed exclusive categories; overlap counted once. Administration and passive time excluded from research. Small interleaved checks may occur inside a predominantly derivation/selection block. No per-route stopwatch or agent time.",
+  "final_verification_git_commit_and_delivery_after_end_excluded": true
+}

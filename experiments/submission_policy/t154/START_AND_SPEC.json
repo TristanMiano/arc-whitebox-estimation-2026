@@ -1,0 +1,73 @@
+{
+  "task_id": "T154",
+  "experiment_id": "E148",
+  "algorithm_id": "ALG047-V000",
+  "hypothesis_id": "H148-FAR-CT",
+  "name": "Far-repeated covariance-third source completion on V29",
+  "status": "registered_before_execution",
+  "start_utc": "2026-09-11T17:33:45+00:00",
+  "registered_utc": "2026-09-11T17:35:01.733383+00:00",
+  "git_head_at_start": "b0f5c14e012aa3fdccec66e6ee9f415dd94b4885",
+  "estimate_total_range_minutes": [
+    25,
+    90
+  ],
+  "initial_active_engineering_budget_minutes": 60,
+  "reassess_at_minutes": 30,
+  "finite_engineering_extension_minutes": 30,
+  "owner_authorized_upload": true,
+  "grade_wait_minutes": 30,
+  "unchanged_generic_error_retry_limit": 1,
+  "fit_calls": 0,
+  "subagents": 0,
+  "mathematical_specification": "experiments/theory/t148/FAR_CT_SPEC.md",
+  "mathematical_specification_sha256": "eefc5aea3666464375946ba8f7212cca374ebac7151f3d1da73202cc112b7e4a",
+  "implementation_handoff": "experiments/theory/t148/IMPLEMENTATION_HANDOFF.md",
+  "variant_change": "Add only F(Xf,P,A diag(e)) to the suite path, including literal birth repeated repair and fused source contractions. Keep physical hub CT and TT terms, public coefficients, ranks and compression unchanged. No automatic second candidate. Then perform the separately owner-requested diagnosis of recent algorithm failures.",
+  "numerical_contract": "Fixed FAR_CT_SPEC.md; suite-only change, unchanged generic fallback, first/settled arithmetic lifecycle and public settings.",
+  "comparison": {
+    "initial_rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "extension_rows": [
+      761,
+      783,
+      806,
+      829,
+      851,
+      874,
+      896,
+      919,
+      941,
+      964,
+      987,
+      994
+    ],
+    "extension_is_automatic": false,
+    "data_role": "Reused development rows; freeze all predictions before targets; reuse T147 incumbent predictions and each actual call cost. No training or final-blind access.",
+    "bootstrap_seed": 154001,
+    "decision": "A lower adjusted mean with roughly0.90 whole-network bootstrap support, interpreted as a screening diagnostic. No minimum effect size or added scientific gate."
+  },
+  "incumbent": {
+    "algorithm_id": "ALG043-V000",
+    "submission_id": 330597,
+    "official_adjusted_score": 5.419051334510831e-09,
+    "source_sha256": "86d9ca9b28e6fe2b6c74750a0b6ae4bba4c14f742ddc3f5f56bc7fb4ec9d8e27",
+    "paired_evidence": "experiments/submission_policy/t147/attempts/screen-sealed"
+  },
+  "runtime": "tmp/t128-runtime312/bin/python",
+  "final_blind_block": "untouched",
+  "no_automatic_second_candidate": true,
+  "following_authorized_task": "T155 targeted diagnosis of T151/T152/T149/T154 failures and repair possibilities"
+}

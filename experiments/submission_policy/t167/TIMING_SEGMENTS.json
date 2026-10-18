@@ -1,0 +1,61 @@
+{
+  "closed": [
+    {
+      "category": "engineering",
+      "start_utc": "2026-09-27T13:30:13+00:00",
+      "note": "Orientation, fixed implementation and execution preparation; overlaps counted once.",
+      "end_utc": "2026-09-27T13:36:27.015291+00:00",
+      "minutes": 6.2335881833333335
+    },
+    {
+      "category": "engineering",
+      "start_utc": "2026-09-27T13:36:27.015291+00:00",
+      "note": "Prepare final score/seal/monitoring records while the fixed native panel executes.",
+      "end_utc": "2026-09-27T13:40:26.289784+00:00",
+      "minutes": 3.987908216666667
+    },
+    {
+      "category": "local_wait",
+      "start_utc": "2026-09-27T13:40:26.289784+00:00",
+      "note": "Fixed actual candidate/comparator calls continue; no scoring or tuning while waiting.",
+      "end_utc": "2026-09-27T13:50:26.997052+00:00",
+      "minutes": 10.0117878
+    },
+    {
+      "category": "engineering",
+      "start_utc": "2026-09-27T13:50:26.997052+00:00",
+      "note": "Score the sealed fixed panel and make the bounded submission decision.",
+      "end_utc": "2026-09-27T13:58:11.194691+00:00",
+      "minutes": 7.736627316666667
+    },
+    {
+      "category": "local_wait",
+      "start_utc": "2026-09-27T13:58:11.194691+00:00",
+      "note": "One fixed extension runs unattended; source unchanged, final24 decision pending.",
+      "end_utc": "2026-09-27T14:10:10.541442+00:00",
+      "minutes": 11.989112516666667
+    },
+    {
+      "category": "engineering",
+      "start_utc": "2026-09-27T14:10:10.541442+00:00",
+      "note": "Score sealed24-network fixed comparison, make final local decision, and record outcome.",
+      "end_utc": "2026-09-27T14:10:58.620314+00:00",
+      "minutes": 0.8013145333333332
+    },
+    {
+      "category": "grader_wait",
+      "start_utc": "2026-09-27T14:10:58.620314+00:00",
+      "note": "Submission332641 accepted at14:10:22Z; one-hour allowance, monitor existing job.",
+      "end_utc": "2026-09-27T14:43:07.547387+00:00",
+      "minutes": 32.14878455
+    },
+    {
+      "category": "engineering",
+      "start_utc": "2026-09-27T14:43:07.547387+00:00",
+      "note": "Official submission332641 graded successfully; record ALG052 as best, synchronize task handoff and verify.",
+      "end_utc": "2026-09-27T14:43:54.404605+00:00",
+      "minutes": 0.7809536333333333
+    }
+  ],
+  "active": null
+}

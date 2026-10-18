@@ -1,0 +1,75 @@
+{
+  "closed": [
+    {
+      "category": "engineering",
+      "start_utc": "2026-10-11T16:22:52+00:00",
+      "note": "Orientation, fixed implementation and execution preparation; overlaps counted once.",
+      "end_utc": "2026-10-11T16:25:28.248087+00:00",
+      "minutes": 2.6041347833333335
+    },
+    {
+      "category": "engineering",
+      "start_utc": "2026-10-11T16:25:28.248087+00:00",
+      "note": "Registration, exact source freeze and reused paired-bank qualification preparation.",
+      "end_utc": "2026-10-11T16:28:49.724885+00:00",
+      "minutes": 3.3579466333333334
+    },
+    {
+      "category": "local_wait",
+      "start_utc": "2026-10-11T16:28:49.724885+00:00",
+      "note": "Frozen archive comparison running; no targets read until full prediction seal.",
+      "end_utc": "2026-10-11T16:31:31.770184+00:00",
+      "minutes": 2.7007549833333333
+    },
+    {
+      "category": "engineering",
+      "start_utc": "2026-10-11T16:31:31.770184+00:00",
+      "note": "Review qualification progress and prepare result/official-monitor records.",
+      "end_utc": "2026-10-11T16:34:08.695499+00:00",
+      "minutes": 2.615421916666667
+    },
+    {
+      "category": "local_wait",
+      "start_utc": "2026-10-11T16:34:08.695499+00:00",
+      "note": "Result and upload scripts prepared; waiting for remaining frozen candidate predictions and settled replay.",
+      "end_utc": "2026-10-11T16:37:00.799071+00:00",
+      "minutes": 2.868392866666667
+    },
+    {
+      "category": "engineering",
+      "start_utc": "2026-10-11T16:37:00.799071+00:00",
+      "note": "Interpret supported12-network result and seal the exact passing archive for authorized upload.",
+      "end_utc": "2026-10-11T16:37:41.355873+00:00",
+      "minutes": 0.6759467
+    },
+    {
+      "category": "grader_wait",
+      "start_utc": "2026-10-11T16:37:41.355873+00:00",
+      "note": "Submission335391 accepted; bounded60-minute monitor running.",
+      "end_utc": "2026-10-11T16:58:50.320868+00:00",
+      "minutes": 21.149416583333334
+    },
+    {
+      "category": "engineering",
+      "start_utc": "2026-10-11T16:58:50.320868+00:00",
+      "note": "Add the eventual official outcome to the research-route handoff.",
+      "end_utc": "2026-10-11T16:59:08.955157+00:00",
+      "minutes": 0.31057148333333334
+    },
+    {
+      "category": "grader_wait",
+      "start_utc": "2026-10-11T16:59:08.955157+00:00",
+      "note": "Route handoff prepared; return to monitoring submission335391.",
+      "end_utc": "2026-10-11T17:13:04.119910+00:00",
+      "minutes": 13.91941255
+    },
+    {
+      "category": "engineering",
+      "start_utc": "2026-10-11T17:13:04.119910+00:00",
+      "note": "Submission335391 graded successfully; record official improvement and finalize T171.",
+      "end_utc": "2026-10-11T17:13:25.166024+00:00",
+      "minutes": 0.35076856666666667
+    }
+  ],
+  "active": null
+}

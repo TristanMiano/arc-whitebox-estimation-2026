@@ -1,0 +1,25 @@
+{
+  "task_id": "T140",
+  "start_utc": "2026-09-08T18:49:14Z",
+  "decision_utc": "2026-09-08T19:03:54Z",
+  "record_completion_utc": "2026-09-08T19:06:44.020826+00:00",
+  "elapsed_minutes": 17.5003471,
+  "estimate_total_range_minutes": [
+    100,
+    130
+  ],
+  "error_to_lower_estimate_minutes": -82.4996529,
+  "error_to_upper_estimate_minutes": -112.4996529,
+  "metered_prediction_minutes": 5.477360472816629,
+  "official_wait_minutes": 0,
+  "explicit_idle_wait_minutes": 2.1666666666666665,
+  "approximate_active_engineering_minutes": 14.500347099999999,
+  "approximate_unattended_execution_and_io_wait_minutes": 3,
+  "allocation_method": "Elapsed and prediction meters measured; active/wait split is a rough elapsed allocation. Prediction time overlaps active work, so is not additive. Explicit idle sleeps are included in the approximate3-minute wait allocation. No active-time floor;30-minute reassessment not reached.",
+  "budget_extension": false,
+  "estimate_explanation": "Inherited harness and implementation passed immediately; clear negative screen eliminated packaging and official waiting. Initial100\u2013130-minute estimate was conservative.",
+  "final_verification_utc": "2026-09-08T19:08:42.853925+00:00",
+  "elapsed_through_commit_preparation_minutes": 19.480898749999998,
+  "final_error_to_lower_estimate_minutes": -80.51910125,
+  "final_error_to_upper_estimate_minutes": -110.51910125
+}

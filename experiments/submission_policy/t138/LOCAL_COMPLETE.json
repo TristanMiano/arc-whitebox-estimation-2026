@@ -1,0 +1,10 @@
+{
+  "recorded_utc": "2026-09-07T03:49:39.299385+00:00",
+  "elapsed_minutes": 21.938323083333334,
+  "source_frozen": true,
+  "comparison_pass": true,
+  "package_pass": true,
+  "archive_sha256": "b5cad63ef997dc0ead3dd17587b56340580119de8d460f95bcd5e9a9e5f6f367",
+  "engineering_extension_used": false,
+  "next_step": "bounded official monitoring"
+}

@@ -1,0 +1,65 @@
+{
+  "task_id": "T142",
+  "experiment_id": "E137",
+  "algorithm_id": "ALG040-V000",
+  "name": "Q4D coordinate fourth trace and marginal state",
+  "status": "registered_before_execution",
+  "start_utc": "2026-09-08T19:39:41Z",
+  "registered_utc": "2026-09-08T19:41:54.764139+00:00",
+  "estimate_total_range_minutes": [
+    45,
+    75
+  ],
+  "initial_active_engineering_budget_minutes": 60,
+  "reassess_at_minutes": 30,
+  "owner_authorized_upload": true,
+  "grade_wait_minutes": 30,
+  "unchanged_generic_error_retry_limit": 1,
+  "fit_calls": 0,
+  "subagents": 0,
+  "mathematical_handoff": "experiments/theory/t139/Q4D_MATHEMATICAL_HANDOFF.md",
+  "mathematical_parent": "ALG038-V001",
+  "implementation_parent": "ALG038-V001",
+  "variant_change": "Keep all persistent paired third sources and ephemeral E. Replace fourth scalar h by trace[i]=sum_j kappa4[i,i,j,j] and marginal4[i]=kappa4[i,i,i,i]. Project using the fixed trace/marginal constraint formula, transport l,U,V, and feed all existing analytic response terms.",
+  "coefficients": "For n>2: g=t-m4; sumK=3*sum(g)/(n-1); K=(6*g-sumK)/(n-2); r=m4-K. Fixed algebra, no fitted assets or random probes.",
+  "small_shape_rule": "n=1: K=0,r=m4. n=2: K_i=1.5*sum(t-m4),r=m4-K, the equal split of the uniquely constrained mixed quartic coefficient. Existing counted direct products when the fast kernel is ineligible.",
+  "numerical_contract": "Trace/marginal state and analytic responses float64. K,r explicitly castfloat32 before large products and final products; final marginal reductions float64. Reuse full third history and depth4 kernel. Current package deterministic replay, not incumbent equivalence for changed formula.",
+  "comparison": {
+    "initial_rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "data_role": "same reused development networks; seal predictions before targets; saved ALG038-V001 comparator",
+    "bootstrap_seed": 142001,
+    "decision": "lower actual adjusted arithmetic mean with approximately.90 whole-network bootstrap support; clear loss stops; optional one decision-relevant extension to24 under protocol"
+  },
+  "incumbent": {
+    "algorithm_id": "ALG038-V001",
+    "submission_id": 330153,
+    "official_adjusted_score": 1.4667675875416682e-08,
+    "flops": 756892228334,
+    "multiplier": 0.3441947357414392
+  },
+  "runtime": "tmp/t128-runtime312/bin/python",
+  "final_blind_block": "untouched",
+  "no_automatic_second_candidate": true,
+  "parent_source_hashes": {
+    "README.md": "1673744c82e41b141d2bf6d8ece3ec9e6063939f6ee55c22f4b2ae9d0f97987b",
+    "LICENSE": "e3e4daa4b31b6f2b409ecab8610b223bc5ce5c917f0a633fd9f66dbf9e7f6c5f",
+    "fast_kernel.py": "76cf01635b68cee1d0bee51228e64bff49ccfe81b91154a2ca3d991487d46c6c",
+    "moments.py": "1023af54259c5d743c40455384e809435d36d9be2b70d5cff0bb58cc93fabe8a",
+    "PUBLIC_FAST_LICENSE": "8951bf59cbe4e79527fecd49bc816f4d13f40c7631a3cbd37d2bd930e40b4616",
+    "estimator.py": "17134d55511c3b4cb62eb0748cab5d864bfa9451755fc6bd90d5825ca087bff2",
+    "public_release/public_fast_reference.py": "b5418459c4c0cce62129027affb15170cc5aca477ff0af6c5590d718bc9947ed"
+  }
+}

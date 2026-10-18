@@ -1,0 +1,38 @@
+{
+  "schema_version": "arc-t118a-preupload-seal-v1",
+  "task_id": "T118A",
+  "status": "COMPLETED_EXACT_ARCHIVE_OFFICIALLY_GRADED",
+  "algorithm_id": "ALG026-V000",
+  "archive": "experiments/submission_policy/t118a/packages/ALG026-V000.tar.gz",
+  "archive_sha256": "a1d66a380afd79e99411ac0ad564c6eba3cdb9939b5a1effb0b41f9d3a84eb9c",
+  "expected_flops": 218819123305,
+  "expected_score_multiplier": 0.1,
+  "sealed_h_prediction_parity": "BYTE_EXACT_ON_GLOBAL_ROW_850",
+  "t118_local_qualification": "experiments/checkpoint3/t118/PACKAGE_QUALIFICATION.json",
+  "t118_local_qualification_sha256": "4d2c396e3666b0fde9493a8de300f37bec194585c7b896db11d731fb0117280c",
+  "windows_native_hard_gate": {
+    "status": "PLATFORM_RESIDUAL_CAP_FAIL",
+    "qualification": "experiments/submission_policy/t118a/WINDOWS_NATIVE_QUALIFICATION.json",
+    "qualification_sha256": "49c63451bb2302f1cc337fc1a5b6ce5c207a7c13d7ea551a26bf8da14b4aa6b7",
+    "residual_wall_time_s": [0.8656890970887616, 0.8460937007330358],
+    "all_other_checks_passed": true
+  },
+  "current_evaluator_version_linux_gate": {
+    "status": "PASS",
+    "platform": "linux",
+    "whestbench": "0.16.0",
+    "flopscope": "0.12.0",
+    "qualification": "experiments/submission_policy/t118a/LINUX_CURRENT_QUALIFICATION.json",
+    "qualification_sha256": "49518cafa397651114c59b1430fa4595e30c9f7f4371ecf350cccc2eaeb80411",
+    "residual_wall_time_s": [0.3661287628528953, 0.35653407999052433],
+    "exact_h_prediction_parity": true
+  },
+  "upload_authorized_by_insertion_alone": false,
+  "owner_instruction_to_execute_t118a_authorizes_upload": true,
+  "official_upload_performed": true,
+  "official_submission_id": 329690,
+  "official_grading_status": "graded",
+  "official_adjusted_score": 1.4791658804824692e-7,
+  "hedge_algorithm_id": "ALG025-V000",
+  "hedge_archive_sha256": "886711213c6ab48d721a5a58fb218be56a7bc0a6f787380a801c5d24d0ecc53d"
+}

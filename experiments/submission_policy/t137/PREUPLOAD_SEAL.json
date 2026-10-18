@@ -1,0 +1,178 @@
+{
+  "task_id": "T137",
+  "algorithm_id": "ALG038-V000",
+  "sealed_utc": "2026-09-07T01:52:51.729108+00:00",
+  "archive_path": "experiments/submission_policy/t137/packages/ALG038-V000.tar.gz",
+  "archive_sha256": "e83da8bbea78b45be296edaea50a31083079bfdb497442b276ec9b2a31cd5745",
+  "qualification_pass": true,
+  "production_score": {
+    "task_id": "T137",
+    "algorithm_id": "ALG038-V000",
+    "evidence_class": "submission-facing production confirmation; reused development panels, not independent scientific validation",
+    "rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "n": 12,
+    "raw_mse": 4.5307229340590526e-08,
+    "adjusted_score": 1.8466982056501396e-08,
+    "parent_raw_mse": 1.2085918228825454e-06,
+    "parent_adjusted_score": 1.2085918228825453e-07,
+    "ratio": 0.15279750952192298,
+    "improvement_percent": 84.7202490478077,
+    "wins": 12,
+    "bootstrap_probability_of_mean_improvement": 1.0,
+    "bootstrap_mean_change_90pct_interval": [
+      -1.1056548336980395e-07,
+      -9.410218947701756e-08
+    ],
+    "network_ratio_quantiles": {
+      "median": 0.1555840828978237,
+      "p90": 0.18269374584164022,
+      "p95": 0.1902641729297401,
+      "maximum": 0.19808394758986392
+    },
+    "flops": [
+      896310006000,
+      896310006000,
+      896310006000,
+      896310006000,
+      896310006000,
+      896310006000,
+      896310006000,
+      896310006000,
+      896310006000,
+      896310006000,
+      896310006000,
+      896310006000
+    ],
+    "multipliers": [
+      0.40759460080153076,
+      0.40759460080153076,
+      0.40759460080153076,
+      0.40759460080153076,
+      0.40759460080153076,
+      0.40759460080153076,
+      0.40759460080153076,
+      0.40759460080153076,
+      0.40759460080153076,
+      0.40759460080153076,
+      0.40759460080153076,
+      0.40759460080153076
+    ],
+    "prediction_seal_sha256": "23ba0c98529646f3e6db1786d5e9fd5738bb483f34f984276131a0cc5c783727",
+    "per_network": [
+      {
+        "row": 750,
+        "candidate_raw_mse": 3.881416945407599e-08,
+        "parent_raw_mse": 9.190352741339924e-07,
+        "adjusted_ratio": 0.17214187909147108
+      },
+      {
+        "row": 772,
+        "candidate_raw_mse": 4.3946960620959903e-08,
+        "parent_raw_mse": 1.474520625856968e-06,
+        "adjusted_ratio": 0.12148045647262652
+      },
+      {
+        "row": 795,
+        "candidate_raw_mse": 4.948351982045106e-08,
+        "parent_raw_mse": 1.01821554713924e-06,
+        "adjusted_ratio": 0.19808394758986392
+      },
+      {
+        "row": 817,
+        "candidate_raw_mse": 4.6090945738474715e-08,
+        "parent_raw_mse": 1.3956550672540931e-06,
+        "adjusted_ratio": 0.13460647311516805
+      },
+      {
+        "row": 840,
+        "candidate_raw_mse": 5.804956232937103e-08,
+        "parent_raw_mse": 1.4018160291036898e-06,
+        "adjusted_ratio": 0.16878597257496067
+      },
+      {
+        "row": 863,
+        "candidate_raw_mse": 4.321523730645146e-08,
+        "parent_raw_mse": 1.0547419393500425e-06,
+        "adjusted_ratio": 0.16700101457348757
+      },
+      {
+        "row": 885,
+        "candidate_raw_mse": 3.740768302355183e-08,
+        "parent_raw_mse": 1.2177234832317859e-06,
+        "adjusted_ratio": 0.12521044259103448
+      },
+      {
+        "row": 908,
+        "candidate_raw_mse": 5.2214541769057494e-08,
+        "parent_raw_mse": 1.3792318947907075e-06,
+        "adjusted_ratio": 0.1543059248323383
+      },
+      {
+        "row": 930,
+        "candidate_raw_mse": 4.655143964744902e-08,
+        "parent_raw_mse": 1.031952473599251e-06,
+        "adjusted_ratio": 0.1838661754805479
+      },
+      {
+        "row": 953,
+        "candidate_raw_mse": 4.2525917811120494e-08,
+        "parent_raw_mse": 1.1928839193083196e-06,
+        "adjusted_ratio": 0.14530612923337002
+      },
+      {
+        "row": 976,
+        "candidate_raw_mse": 4.479781242325411e-08,
+        "parent_raw_mse": 1.3626523151260957e-06,
+        "adjusted_ratio": 0.13399857226051426
+      },
+      {
+        "row": 999,
+        "candidate_raw_mse": 4.058896214286913e-08,
+        "parent_raw_mse": 1.0546733056963582e-06,
+        "adjusted_ratio": 0.15686224096330909
+      }
+    ],
+    "competition_pass": true,
+    "resource_checks_pass": true,
+    "comparison_refit": false,
+    "single_training_fit": false,
+    "scientific_tier_awarded": false,
+    "interim_look": {
+      "n": 5,
+      "reason": "operationally truncated diagnostic",
+      "record": "INCOMPLETE_SCORE.json"
+    },
+    "coefficient_fit_calls": 0
+  },
+  "source_hashes": {
+    "README.md": "cc46388e92aa720cfb232b8d085e903ebefa0ca7e7b05a3df2b3d86c4b57e140",
+    "LICENSE": "e3e4daa4b31b6f2b409ecab8610b223bc5ce5c917f0a633fd9f66dbf9e7f6c5f",
+    "fast_kernel.py": "4968175bf368bebb85920b9d74f37cd882f96c685988d1705e945fc52229c6f9",
+    "moments.py": "1023af54259c5d743c40455384e809435d36d9be2b70d5cff0bb58cc93fabe8a",
+    "PUBLIC_FAST_LICENSE": "8951bf59cbe4e79527fecd49bc816f4d13f40c7631a3cbd37d2bd930e40b4616",
+    "estimator.py": "42cf57561a399013941144de237114e7d85bb2095f329bebcb485cd8b92a5c1d",
+    "public_release/public_fast_reference.py": "b5418459c4c0cce62129027affb15170cc5aca477ff0af6c5590d718bc9947ed"
+  },
+  "owner_authorized_upload": true,
+  "flops": 896310006000,
+  "multiplier": 0.40759460080153076,
+  "fit_calls": 0,
+  "grade_wait_minutes": 30,
+  "generic_unchanged_retry_limit": 1,
+  "prior_operational_failures": "Preserved five native fullshape crashes before final source refactor, plus first workspace shape error. Split source passed generated reproduction, exact fixture, seven remaining screen rows and clean archive replay; root cause unproved.",
+  "interim_look_disclosed": true,
+  "final_designation": false
+}

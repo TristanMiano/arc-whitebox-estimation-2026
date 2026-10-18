@@ -1,0 +1,16 @@
+{
+  "task_id": "T159A",
+  "experiment_id": "E155",
+  "start_utc": "2026-09-13T15:43:10+00:00",
+  "estimated_elapsed_range_minutes": [
+    20,
+    30
+  ],
+  "scope": "Audit all available recorded task time between officially improving submissions through T159. Separate recorded session time, explicit active research, missing intervals and overlapping agents. No new algorithm, research recurrence, experiment or submission.",
+  "owner_reported_current_rank": 12,
+  "owner_reported_rank_gain_T159": 5,
+  "owner_reported_leader_adjusted_score": 2.5e-09,
+  "rank_evidence": "Owner observation in this conversation; not independently checked.",
+  "next_T160_started": false,
+  "owner_scope_addition": "Mark every successful algorithm by degree of copying versus local modification, using saved source/provenance records."
+}

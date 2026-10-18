@@ -1,0 +1,61 @@
+{
+  "task_id": "T157",
+  "experiment_id": "E152",
+  "algorithm_id": "ALG048-V000",
+  "hypothesis_id": "H153-NFC128",
+  "status": "completed_exploratory_raw_and_adjusted_loss_no_upload",
+  "decision": "Close unchanged NFC128 competitive attempt; retain ALG043-V000. Propose T158; do not start it.",
+  "source_hashes": {
+    "nfc_response.npy": "d6a0b99021d7b79c42b5da250e9e2022bb6969e976e566769b9929157f19d642",
+    "README.md": "9dfdadfe4fef72f86bc340890a8f6fde040ba387f8a6f6bd8f5be884a7b6b947",
+    "nfc_mean.npy": "e9475fafc62cefcf17a9d464c1ac36fb9921edfef60e7978c963f78a5b8470fa",
+    "LICENSE": "d2c9a83a86ed95c8d279219cd36d5a025c0372dee57d072fe4718850e226e740",
+    "estimator.py": "cef30a8da11b9ccf3b415c3cf28b77c994fb6700191f0eb06788b7a33900bb4a"
+  },
+  "data_role": "Small exploratory pair on repeatedly exposed development rows; no fresh validation or calibrated success-probability claim",
+  "networks": 2,
+  "completed_full_shape_calls": 2,
+  "mean_raw": 2.9400955337449722e-08,
+  "parent_mean_raw": 2.151485849680091e-08,
+  "mean_adjusted": 7.0408365115106905e-09,
+  "parent_mean_adjusted": 5.611462575386828e-09,
+  "mean_raw_ratio": 1.366541887404066,
+  "mean_adjusted_ratio": 1.2547239542135462,
+  "adjusted_wins": 0,
+  "per_network_adjusted_ratios": [
+    1.2699830807045822,
+    1.2370946270737146
+  ],
+  "steady_flops": 511507691993,
+  "parent_steady_flops": 558473140719,
+  "steady_cost_ratio": 0.9159038361889081,
+  "total_complete_call_flops": 1051569969074,
+  "resource_pass_all_calls": true,
+  "maximum_residual_s": 0.25248991999933423,
+  "maximum_peak_rss_bytes": 5724925952,
+  "generated_algebra_checks": 17,
+  "generic_fallback_fixtures": 3,
+  "code_or_api_repairs": 0,
+  "new_target_fits": 0,
+  "parameter_sweep": false,
+  "subagents": 0,
+  "uploads": 0,
+  "archive_qualified": false,
+  "current_package_replay_tested": false,
+  "official_incumbent": {
+    "algorithm_id": "ALG043-V000",
+    "submission_id": 330597,
+    "adjusted_score": 5.419051334510831e-09
+  },
+  "historical_evidence_unchanged": true,
+  "final_blind_accessed": false,
+  "next_task": "T158",
+  "next_task_started": false,
+  "limitations": [
+    "Only two repeatedly exposed exploratory networks; this is a large local rejection, not a private-suite grade or calibrated posterior.",
+    "Generated algebra and generic fallback checks do not prove every aspect of the suite integration. No concrete implementation error was found.",
+    "Saved-state geometry success versus integrated failure remains confounded by the combined sketch, range selection, nested projection and recurrence feedback.",
+    "No full archive qualification, larger comparison or current-package exact replay was needed for this rejected source."
+  ],
+  "timing_file": "experiments/submission_policy/t157/TIMING.json"
+}

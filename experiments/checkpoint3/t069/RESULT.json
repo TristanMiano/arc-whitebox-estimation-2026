@@ -1,0 +1,159 @@
+{
+  "schema_version": "arc-t069-rc001-adjudication-v1",
+  "task": "T069",
+  "experiment_id_execution": "E070",
+  "experiment_id_adjudication": "E071",
+  "cycle_id": "RC001",
+  "status": "completed_negative_no_R1_no_P2_return_checkpoint3B",
+  "candidate_id": "ALG014-V000",
+  "mechanism_control_id": "ALG014-V002",
+  "incumbent_id": "ALG003-V008",
+  "evidence_bindings": {
+    "t067_cycle_seal_sha256": "cfcf3ce3568ecf4ac1d320065f96dcaf99f60e773507d6be97677e4c029f56da",
+    "t068_result_sha256": "56bf26f07848cd5c533d61cbf9d99e7aa74a45e32542356b12eab9dbcd1fb0ea",
+    "t068_mde_seal_sha256": "0210f40bc33aa593b48cf8bb16f8c12b59e7111d7f52a028fab46ac7faec37f7",
+    "t068_determinism_sha256": "a8d848ce250d8fccff1537e490b470bde63a1ae63cea8a269906ce6a60a2a95d",
+    "t068_t064_completion_sha256": "d475e0dc30f61660daf0ad4d28723616ce309cd19fb5da95c6f208338bc2c7a7"
+  },
+  "evidence_completeness": {
+    "blocks": 3,
+    "routes": 72,
+    "missing_routes": 0,
+    "operational_failures_in_admitted_run": 0,
+    "nonfinite_predictions": 0,
+    "t064_complete_verified": true,
+    "mde_sealed_before_scores": true,
+    "same_build_and_cross_build_replay": "PASS",
+    "comparator_substitution": false
+  },
+  "r1_mechanism_confirmed": {
+    "status": "NOT_AWARDED",
+    "block_adjusted_score_ratio_strict_lt_1": {
+      "observations": [
+        0.62539020741250306,
+        0.51484426037081388,
+        0.45411684570089783
+      ],
+      "favorable_margins": [
+        0.37460979258749694,
+        0.48515573962918612,
+        0.54588315429910217
+      ],
+      "status": "PASS"
+    },
+    "pooled_adjusted_score_ratio_strict_lt_1": {
+      "observation": 0.53329043266815779,
+      "favorable_margin": 0.46670956733184221,
+      "status": "PASS"
+    },
+    "bootstrap_upper_0_975_strict_lt_1": {
+      "observation": 0.70717955172879843,
+      "favorable_margin": 0.29282044827120157,
+      "status": "PASS"
+    },
+    "mean_benefit_strict_gt_pair_mde": {
+      "benefit": 3.9061086550360782e-7,
+      "pair_mde": 6.2759369907088802e-8,
+      "favorable_margin": 3.2785149559651902e-7,
+      "status": "PASS"
+    },
+    "pooled_p95_ratio_strict_lt_2_5": {
+      "observation": 2.5218039447113165,
+      "adverse_margin": 0.021803944711316525,
+      "status": "FAIL-STRICT-GATE"
+    },
+    "maximum_ratio_strict_lt_4": {
+      "observation": 7.5104229873760406,
+      "adverse_margin": 3.5104229873760406,
+      "worst_global_route": 27,
+      "worst_route_id": "rc001-b2-003",
+      "status": "FAIL-STRICT-GATE"
+    },
+    "identity_invariants_budget_reproducibility_mechanism_ablation": "PASS",
+    "primary_blocker_class": "STRICT_GATE_LIMITED_TAIL_INSTABILITY",
+    "strict_gate_was_sole_blocker": true,
+    "mean_mechanism_evidence_direction": "STRONG_POSITIVE",
+    "plain_language_reason": "The collective frame strongly wins on arithmetic means and adjusted inference, but the prospectively frozen breadth and catastrophic-tail requirements are conjunctive and both fail."
+  },
+  "p2_competitive": {
+    "status": "NOT_AWARDED",
+    "requires_r1": {
+      "observation": "R1_NOT_AWARDED",
+      "status": "FAIL-SEQUENTIAL"
+    },
+    "block_adjusted_score_ratio_lte_1_05": {
+      "observations": [
+        1.4950936516301987,
+        0.8120556972692532,
+        0.87445029599415869
+      ],
+      "b1_adverse_margin": 0.44509365163019865,
+      "status": "FAIL-SCIENTIFIC"
+    },
+    "pooled_adjusted_score_ratio_strict_lt_1": {
+      "observation": 0.99346122550655314,
+      "favorable_margin": 0.0065387744934468639,
+      "status": "PASS"
+    },
+    "bootstrap_upper_0_975_strict_lt_1": {
+      "observation": 1.3600654951159969,
+      "adverse_margin": 0.36006549511599695,
+      "status": "FAIL-SCIENTIFIC"
+    },
+    "mean_benefit_strict_gt_pair_mde": {
+      "benefit": 2.9376959655713568e-9,
+      "pair_mde": 7.0557810586575201e-8,
+      "adverse_margin": 6.7620114621003842e-8,
+      "status": "FAIL-SCIENTIFIC"
+    },
+    "pooled_p95_ratio_strict_lt_2_5": {
+      "observation": 3.8341594315717038,
+      "adverse_margin": 1.3341594315717038,
+      "status": "FAIL-SCIENTIFIC"
+    },
+    "maximum_ratio_strict_lt_4": {
+      "observation": 9.9983101885880821,
+      "adverse_margin": 5.9983101885880821,
+      "status": "FAIL-SCIENTIFIC"
+    },
+    "minimum_reserve_flops_gte_11000000000": {
+      "observation": 24649051819,
+      "favorable_margin": 13649051819,
+      "status": "PASS"
+    },
+    "primary_blocker_class": "SCIENTIFIC_NONCOMPETITIVENESS_AND_R1_PREREQUISITE",
+    "strict_gate_was_sole_blocker": false,
+    "plain_language_reason": "The adjusted pooled point estimate is approximately tied, but one entire block, uncertainty, target-noise resolution, and both tails rule out native-stage competitiveness."
+  },
+  "surprise_assessment": {
+    "calibrated_rc001_prior_was_frozen": false,
+    "r1_result": "MODERATELY_SURPRISING_TAIL_FAILURE",
+    "r1_reason": "Fast evidence made a large mean mechanism benefit expected and had maximum 2.312252; a rigorous maximum 7.510423 and p95 just above 2.5 were worse than expected.",
+    "p2_result": "NOT_SURPRISING",
+    "p2_reason": "The fast incumbent comparison established promise, not uniform or high-confidence superiority; rigorous adjusted-score parity with large heterogeneity is compatible with that prior evidence.",
+    "surprise_bits": null
+  },
+  "routing": {
+    "rc001_slate_frozen_negative": true,
+    "rc001_blocks_consumed_historical": true,
+    "unchanged_alg014_v000_may_reenter_rigorous_cycle": false,
+    "alg014_v000_p1_preserved": true,
+    "current_submission_candidate": "ALG014-V000",
+    "submission_candidate_changed": false,
+    "checkpoint_3c_deliverable_met": false,
+    "return_to_checkpoint": "3B",
+    "next_fast_cycle": "FC005",
+    "next_task": "T095",
+    "later_conditional_tasks": ["T096", "T097", "T098", "T099", "T100", "T101"]
+  },
+  "owner_action_required": false,
+  "immediate_high_impact_unlock": "Agent executes T095: a rejection-informed novelty recurrence that explicitly targets tail-safe breadth and incumbent competitiveness, then begins FC005. The owner need not change or waive RC001 gates.",
+  "timing": {
+    "start": "2026-08-25T19:53:52,505319010-07:00",
+    "estimate_minutes": 30,
+    "plausible_range_minutes": [20, 50],
+    "end_check_off": "2026-08-25T20:07:38,932917296-07:00",
+    "elapsed": "00:13:46.433218234",
+    "elapsed_nanoseconds": 826433218234
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "preserved_identity_matches": {
+    "experiments/theory/t148/RESULT.json": true,
+    "experiments/theory/t148/NEXT_PROPOSAL.json": true,
+    "experiments/theory/t148/CMF2_SPEC.md": true,
+    "experiments/theory/t148/FAR_CT_SPEC.md": true,
+    "submissions/phase2_alg043_v000/estimator.py": true
+  },
+  "t148_tracked_diff_empty": true,
+  "json_files_parsed": 11,
+  "generated_python_files_parsed": 6,
+  "local_markdown_link_targets_checked": 21,
+  "missing_local_targets": [],
+  "existing_algebra_records_pass": true,
+  "stable_radial_constants_record_pass": true,
+  "live_state_consistent": true,
+  "unrelated_live_state_fields_preserved": true,
+  "single_E144_event": true,
+  "git_diff_check_pass": true,
+  "task_id": "T150",
+  "verification_utc": "2026-09-11T08:13:14.112515+00:00",
+  "scope": "Preservation and research-record checks only. Existing generated algebra results inspected, not rerun. No estimator execution or challenge access.",
+  "passed": true
+}

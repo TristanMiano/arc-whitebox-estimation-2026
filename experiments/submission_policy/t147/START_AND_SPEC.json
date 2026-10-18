@@ -1,0 +1,58 @@
+{
+  "task_id": "T147",
+  "experiment_id": "E142",
+  "algorithm_id": "ALG043-V000",
+  "name": "Unchanged 504aldo public V29",
+  "status": "registered_before_execution",
+  "start_utc": "2026-09-11T01:33:49Z",
+  "registered_utc": "2026-09-11T01:37:37.739957+00:00",
+  "git_head_at_start": "f1d494f88de4882d0bc549ccf4d1fd81fb5713e9",
+  "estimate_total_range_minutes": [
+    45,
+    90
+  ],
+  "initial_active_engineering_budget_minutes": 60,
+  "reassess_at_minutes": 30,
+  "owner_authorized_upload": true,
+  "grade_wait_minutes": 30,
+  "unchanged_generic_error_retry_limit": 1,
+  "fit_calls": 0,
+  "subagents": 0,
+  "source_commit": "18c17e2d7a9aeacd399cfc2c6b571e4e16dbfb45",
+  "source_url": "https://github.com/504aldo/whest-p2-cumulant-k3/blob/18c17e2d7a9aeacd399cfc2c6b571e4e16dbfb45/estimators/estimator_v29.py",
+  "source_sha256": "86d9ca9b28e6fe2b6c74750a0b6ae4bba4c14f742ddc3f5f56bc7fb4ec9d8e27",
+  "license": "MIT, 504aldo 2026",
+  "mathematical_handoff": "experiments/theory/t146/CANDIDATE_SELECTION.md",
+  "variant_change": "None relative to published V29: retain all source bytes, defaults, author-fit tables, shape riders, age/rank settings and counted multiplication schedules. No JSP/HGC combination or tuning.",
+  "numerical_contract": "First predict uses published depth4 schedule, subsequent calls depth5. Probe row0 three times to measure cold and steady behavior; verify second/third equality and fresh-package lifecycle replay. Screen runs a fresh estimator sequentially on 12 rows with per-call measured FLOPs. No uncharged full-shape warmup or private counter edits.",
+  "comparison": {
+    "initial_rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "data_role": "Reused development networks, candidate outputs sealed before targets; saved JSP comparator from T144.",
+    "bootstrap_seed": 147001,
+    "decision": "Lower actual adjusted arithmetic mean and approximately90% whole-network bootstrap support. Clear loss ends attempt; at most one decision-relevant extension to24, no automatic extension."
+  },
+  "incumbent": {
+    "algorithm_id": "ALG041-V000",
+    "submission_id": 330392,
+    "official_adjusted_score": 1.1833081571784114e-08,
+    "flops": 757303958254,
+    "multiplier": 0.3443819688318399
+  },
+  "runtime": "tmp/t128-runtime312/bin/python",
+  "final_blind_block": "untouched",
+  "no_automatic_second_candidate": true,
+  "source_environment": "Only named source configuration switches cleared before import to preserve published defaults; never archive full environment."
+}

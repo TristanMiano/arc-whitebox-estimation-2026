@@ -1,0 +1,104 @@
+{
+  "task_id": "T159",
+  "experiment_id": "E154",
+  "algorithm_id": "ALG049-V000",
+  "hypothesis_id": "H158-TRACE-WINOGRAD",
+  "name": "Trace-compensated native history with Winograd arithmetic",
+  "status": "OFFICIAL_PROJECT_BEST",
+  "start_utc": "2026-09-13T14:40:44+00:00",
+  "registered_utc": "2026-09-13T14:42:20.205690+00:00",
+  "git_head_at_start": "f4675700b92bef69d4b2eb1d53a2cd34cc558304",
+  "estimate_total_range_minutes": [
+    45,
+    90
+  ],
+  "initial_active_engineering_budget_minutes": 60,
+  "reassess_at_minutes": 30,
+  "owner_authorized_upload": true,
+  "grade_wait_minutes": 30,
+  "unchanged_generic_error_retry_limit": 1,
+  "fit_calls": 0,
+  "subagents": 0,
+  "variant_change": "T158 P26 coupled native basis, principal lost-trace covariance cup, ranks320/192, shared-arena15-addition Winograd depth6/min16. Shipping change only encodes the four tested environment defaults, including the nested covariance-depth fallback. Keep diagnostic arithmetic and all other behavior.",
+  "research_source": "experiments/theory/t158/sources/P26_trace_winograd_pilot/estimator.py",
+  "research_source_sha256": "d61aaea1101c915ec15e53e3e6adfa5cc7450b27f16f524e001638ba35f112e7",
+  "research_config": {
+    "V21_R_OLD": "320",
+    "V24_R_OLD2": "192",
+    "V26_STRASSEN": "6",
+    "V26_STRASSEN_MIN": "16"
+  },
+  "comparison": {
+    "evidence": "experiments/theory/t158/SELECTED_EVIDENCE.json",
+    "rows": [
+      750,
+      772,
+      817,
+      885,
+      930,
+      976,
+      795,
+      999
+    ],
+    "data_role": "Adaptive previously exposed development evidence reused explicitly; not a fresh confirmation set.",
+    "mean_adjusted_ratio": 0.9255308595392495,
+    "mean_raw_ratio": 1.0464854500132736,
+    "wins": 8,
+    "subjective_retained_win_probability": [
+      0.85,
+      0.95
+    ],
+    "descriptive_bootstrap_support": 1.0,
+    "decision": "Existing consistent integrated pilot supports submission after affected package checks; no repeated full screen."
+  },
+  "qualification": {
+    "rows": [
+      750,
+      772,
+      817,
+      885,
+      885
+    ],
+    "reference": "T158 P26 first four calls; exact prediction and per-position FLOP agreement required for the default-only packaging change.",
+    "determinism": "Fourth/fifth calls on885 must be byte-equal; numerical warm mode begins earlier but arena accounting settles at call4.",
+    "generic_fixtures": [
+      [
+        1,
+        1
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        32,
+        6
+      ]
+    ],
+    "historical_width2_limitation": "Inherited public generic width2 limitation remains off-contract; no unrelated fix."
+  },
+  "incumbent": {
+    "algorithm_id": "ALG043-V000",
+    "submission_id": 330597,
+    "adjusted_score": 5.419051334510831e-09,
+    "final_layer_mse": 2.1327418124883478e-08,
+    "predecessor": "ALG041-V000_submission_330392",
+    "adjusted_ratio_to_predecessor": 0.45795774343620804,
+    "adjusted_relative_reduction": 0.5420422565637919,
+    "source_origin": "unchanged 504aldo public V29"
+  },
+  "runtime": "tmp/t128-runtime312/bin/python",
+  "final_blind_accessed": false,
+  "no_automatic_second_candidate": true,
+  "no_automatic_next_task": true,
+  "timing_note": "Starts at first recorded UTC after preliminary orientation, which was not separately timed; no task time floor.",
+  "source_hashes": {
+    "README.md": "faa77fdc05dcacbe86fc0bbdc9db6b2b147ad681202e955dc9a9cb45e83f19bb",
+    "LICENSE": "d2c9a83a86ed95c8d279219cd36d5a025c0372dee57d072fe4718850e226e740",
+    "estimator.py": "61375dbead94c8593db5684baa9619abb702f9016cefa937b4984acfd7d69039"
+  },
+  "package_sha256": "f61fc6eb9e0525f6d40c8c856a46becb88a360d116d036d36a1e4024512f001e",
+  "official_submission_id": 330887,
+  "official_adjusted_score": 5.017859747074435e-09,
+  "result_record": "experiments/submission_policy/t159/RESULT.json"
+}

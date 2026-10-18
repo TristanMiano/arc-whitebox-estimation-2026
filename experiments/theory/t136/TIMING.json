@@ -1,0 +1,72 @@
+{
+  "task_id": "T136",
+  "start_utc": "2026-09-06T22:40:01+00:00",
+  "minimum_useful_minutes": 120,
+  "minimum_active_theory_minutes": 80,
+  "method": "Elapsed intervals are observed UTC wall clock. Mixed initial orientation/search is conservatively credited; later active phases logged prospectively. No idle or overlapping credit. Category estimates are not second-accurate telemetry.",
+  "intervals": [
+    {
+      "start_utc": "2026-09-06T22:40:01+00:00",
+      "end_utc": "2026-09-06T22:55:40.118606+00:00",
+      "kind": "initial_orientation_and_literature",
+      "useful_literature_minutes": 10.0,
+      "active_theory_minutes": 0,
+      "other_useful_minutes": 0,
+      "note": "Conservative 10-minute literature credit only; registration, orientation, compaction and preliminary derivations excluded from useful/theory floors."
+    },
+    {
+      "start_utc": "2026-09-06T22:55:40.118606+00:00",
+      "kind": "active_theory",
+      "focus": "Balanced compression, finite-bank risk, exact first-layer controls, output-sensitive response rank; primary-source lookups used only to resolve derivation dependencies.",
+      "end_utc": "2026-09-06T23:56:21.788755+00:00",
+      "active_theory_minutes": 57.0,
+      "useful_literature_minutes": 2.0,
+      "other_useful_minutes": 0,
+      "note": "Observed continuous research interval. Conservative active credit for written derivations and small mathematical checks; two minutes of primary-source refresh separated; remaining elapsed time uncredited for messages/tools/record overhead."
+    },
+    {
+      "start_utc": "2026-09-06T23:56:21.788755+00:00",
+      "kind": "active_theory",
+      "focus": "Challenge the compressed-source full-history K3 route: source distortion, complete cost, numerical safeguards and a bounded implementation decision.",
+      "end_utc": "2026-09-07T00:27:19.602517+00:00",
+      "active_theory_minutes": 23.0,
+      "useful_literature_minutes": 0,
+      "other_useful_minutes": 0,
+      "note": "Conservative credit for source compression, nonlinear transmission, tail identities, rectangular costs and repeated-matrix refinement; approximately five minutes of compaction plus remaining administrative/message overhead excluded."
+    },
+    {
+      "start_utc": "2026-09-07T00:27:19.602517+00:00",
+      "kind": "focused_literature_confirmation",
+      "focus": "Confirm public cumulant method scope and compression-source attribution before selection; no broad new search.",
+      "end_utc": "2026-09-07T00:37:12.769073+00:00",
+      "useful_literature_minutes": 4.5,
+      "active_theory_minutes": 3.0,
+      "other_useful_minutes": 0,
+      "note": "Mixed source confirmation and selection-changing derivation. Source status and theorem assumptions checked; full repeated source reparameterized and analytic pair table derived. Remaining record/message overhead excluded."
+    },
+    {
+      "start_utc": "2026-09-07T00:37:12.769073+00:00",
+      "kind": "selection_and_handoff",
+      "focus": "Final source attribution, executable equation handoff, cost and candidate decision, scoped route/state/event records and verification.",
+      "end_utc": "2026-09-07T00:58:48.142755+00:00",
+      "active_theory_minutes": 0,
+      "useful_literature_minutes": 0,
+      "other_useful_minutes": 20.589561366666665,
+      "note": "Useful candidate selection, mathematical implementation handoff, source attribution, scoped state/event records and review. One additional minute conservatively excluded for messages/tool overhead; no idle credit."
+    }
+  ],
+  "end_checkoff_utc": "2026-09-07T00:58:48.142755+00:00",
+  "totals": {
+    "active_theory_minutes": 83.0,
+    "useful_literature_minutes": 16.5,
+    "other_useful_minutes": 20.589561366666665
+  },
+  "useful_total_minutes": 120.08956136666666,
+  "elapsed_minutes": 138.78571258333335,
+  "excluded_elapsed_minutes": 18.696151216666692,
+  "estimate_total_minutes": 150,
+  "estimate_error_minutes": -11.21428741666665,
+  "floors_met": true,
+  "idle_wait_minutes": 0,
+  "category_precision": "Conservative activity estimates within observed UTC intervals, not second-accurate telemetry."
+}

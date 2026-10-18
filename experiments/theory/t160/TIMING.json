@@ -1,0 +1,31 @@
+{
+  "task_id": "T160",
+  "start_utc": "2026-09-19T22:21:05+00:00",
+  "research_end_utc": "2026-09-20T02:24:03.682654+00:00",
+  "end_utc": "2026-09-20T02:26:59.789780+00:00",
+  "elapsed_minutes": 245.913163,
+  "exclusive_minutes": {
+    "derivation": 101.36585931666666,
+    "empirical": 93.69710755,
+    "literature": 31.967560666666664,
+    "selection": 13.191280266666666,
+    "administration": 5.6913552,
+    "passive": 0.0
+  },
+  "active_research_minutes": 240.2218078,
+  "minimum_active_minutes": 240,
+  "minimum_written_derivation_minutes": 60,
+  "all_floors_pass": true,
+  "estimated_elapsed_range_minutes": [
+    260,
+    320
+  ],
+  "estimate_error_minutes": [
+    -14.086837000000003,
+    -74.086837
+  ],
+  "estimate_error_from_midpoint_minutes": -44.086837,
+  "summed_prediction_minutes": 59.752556615633345,
+  "method": "Observed exclusive predominant categories. Concurrent compute counted once. Administration/passive waits excluded. No per-route stopwatch or agents. A premature closeout switch at239.824min was corrected and its10sec counted as administration; research resumed before final closure.",
+  "final_verification_git_commit_and_delivery_after_end_excluded": true
+}

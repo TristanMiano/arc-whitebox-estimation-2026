@@ -1,0 +1,106 @@
+{
+  "task_id": "T125",
+  "algorithm_id": "ALG030-V000",
+  "parent": "ALG029-V000",
+  "status": "REGISTERED_BEFORE_IMPLEMENTATION_OR_TEST",
+  "start_utc": "2026-09-05T22:02:55Z",
+  "estimate_total_minutes": 45,
+  "estimate_range_minutes": [
+    30,
+    60
+  ],
+  "active_engineering_budget_minutes": 60,
+  "early_feasibility_minutes": 15,
+  "reassess_active_minutes": 30,
+  "authorization": "Owner: Okay, please start T125. Includes bounded qualified upload and monitoring.",
+  "grade_wait_minutes": 30,
+  "generic_unchanged_retry_limit": 1,
+  "definition": "experiments/theory/t122/CANDIDATE_B.md",
+  "definition_sha256": "4592db80cf4895873fc2356b80cda6baaf69414846562f898734ddfbfa50e823",
+  "parent_official_submission": 329806,
+  "parent_official_adjusted_score": 1.367555488513972e-07,
+  "parent_flops": 218985745647,
+  "parent_archive_sha256": "c8e6e9286bc5c6e9ad5be8c5bb693e810162e7775bd0e0b69668038afef295cb",
+  "parent_source_sha256": {
+    "response_family.py": "3e2c4fdfb377d1670653864187177b73622aa3b581505e53a7567e737bafb32e",
+    "base_family.py": "74879a41f02313096a02b58684f9fa795af94b0827763aad045b4225606efec6",
+    "README.md": "45a06fa62bb7c2e0dbd87262082adcbc2619cc86cb8e6591f4fb4b1384d2047c",
+    "coefficients.py": "8c8cdc6463f86c5d61fac998d0ce17a39bd033e2bac5c5e3f6182b4bb11311cd",
+    "LICENSE": "e3e4daa4b31b6f2b409ecab8610b223bc5ce5c917f0a633fd9f66dbf9e7f6c5f",
+    "fast_kernel.py": "5094519f9f91f2343a60d0ace19c51d7c4572659a1ff9ac103a59b5adcdd9d33",
+    ".whestignore": "862263fa1f46c20f0d1e4dac5ffcc75abd55c08211b2c3864c5f8764b9d87793",
+    "PUBLIC_FAST_LICENSE": "8951bf59cbe4e79527fecd49bc816f4d13f40c7631a3cbd37d2bd930e40b4616",
+    "candidate_family.py": "6729615c3d7d92b5e14a600411cb9f8e339b75fbcaaa337654f7fd363636cfe0",
+    "r1p_family.py": "c73473095d993782b4611075fd8872eb5a93be8154456bf29d790aed2210136c",
+    "estimator.py": "bb77279bdd05c5276dbc4a55bddc3070bb08deb277238905c031f54ff0d544fe",
+    "public_release/public_fast_reference.py": "b5418459c4c0cce62129027affb15170cc5aca477ff0af6c5590d718bc9947ed"
+  },
+  "semantic_delta": "Replace raw Euclidean trace by fixed five-action source-standardized physical covariance completion; rebase complete ALG029 composition with unchanged coefficients.",
+  "novelty": "OURS+PUBLIC combination, T122-B covariance trace; no scientific tier",
+  "training_or_refit": false,
+  "comparison": {
+    "initial_rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "role": "reused adaptive development evidence; not independent validation",
+    "optional_extension_selection": "Use the same twelve predeclared extension rows from T122; reuse is disclosed, no outcome-driven selection.",
+    "optional_extension_rows": [
+      932,
+      973,
+      851,
+      778,
+      984,
+      806,
+      979,
+      850,
+      933,
+      846,
+      926,
+      858
+    ],
+    "maximum_normal_total_rows": 24,
+    "extension_condition": "one extension only if likely to change decision; disclose repeat look",
+    "scoring": "arithmetic mean terminal MSE times max(.1, actual FLOPs/2**41), each algorithm charged independently",
+    "bootstrap_unit": "whole network paired adjusted difference",
+    "bootstrap_draws": 20000,
+    "bootstrap_seed": 125030,
+    "rough_support_target": 0.9,
+    "lower_adjusted_mean_required": true,
+    "no_minimum_gain_or_two_sided_interval_gate": true,
+    "freeze_predictions_before_comparison_targets": true,
+    "final_blind_block": "untouched"
+  },
+  "fixture": {
+    "row": 0,
+    "role": "target-free early integrated feasibility and current replay",
+    "synthetic_implementation_check": "Small source cloud versus explicit covariance polynomial and direct raw physical trace, no challenge targets"
+  },
+  "numerical_equivalence": {
+    "parent_max_absolute": 1e-05,
+    "parent_numerical_mse": 1e-12,
+    "current_candidate_replay": "byte exact",
+    "source_formula_reference_tolerance": "1e-9 max absolute synthetic gamma, float64"
+  },
+  "planning_prior": {
+    "chance_retained_official_gain_range": [
+      0.25,
+      0.45
+    ],
+    "conditional_gain_range": [
+      0.01,
+      0.08
+    ],
+    "not_calibrated": true
+  }
+}

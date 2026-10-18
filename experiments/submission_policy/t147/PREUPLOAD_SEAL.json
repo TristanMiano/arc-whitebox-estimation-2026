@@ -1,0 +1,166 @@
+{
+  "task_id": "T147",
+  "algorithm_id": "ALG043-V000",
+  "sealed_utc": "2026-09-11T01:54:51.349315+00:00",
+  "owner_authorized_upload": true,
+  "qualification_pass": true,
+  "archive_path": "experiments/submission_policy/t147/packages/ALG043-V000.tar.gz",
+  "archive_sha256": "fdf4b3bf4f0cf0a0cabeefb42fca39985123a0ad636eb750ad7bafa963a7717f",
+  "source_hashes": {
+    "README.md": "4c4a838a9859233cc760d77934ca930bbb8c63dcf97951cbd2abdc722b18d198",
+    "LICENSE": "d2c9a83a86ed95c8d279219cd36d5a025c0372dee57d072fe4718850e226e740",
+    "estimator.py": "86d9ca9b28e6fe2b6c74750a0b6ae4bba4c14f742ddc3f5f56bc7fb4ec9d8e27"
+  },
+  "production_score": {
+    "task_id": "T147",
+    "algorithm_id": "ALG043-V000",
+    "evidence_class": "submission-facing production confirmation; reused development panels, not independent scientific validation",
+    "rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "n": 12,
+    "raw_mse": 2.217453110854965e-08,
+    "adjusted_score": 5.630093027096555e-09,
+    "parent_raw_mse": 3.5571504994737735e-08,
+    "parent_adjusted_score": 1.2250184924399406e-08,
+    "ratio": 0.45959249283517106,
+    "improvement_percent": 54.04075071648289,
+    "wins": 12,
+    "bootstrap_probability_of_mean_improvement": 1.0,
+    "bootstrap_mean_change_90pct_interval": [
+      -7.144658561722497e-09,
+      -6.09027508989613e-09
+    ],
+    "network_ratio_quantiles": {
+      "median": 0.44953781729601816,
+      "p90": 0.5477622552929532,
+      "p95": 0.5606137157685438,
+      "maximum": 0.573825981696363
+    },
+    "flops": [
+      587262754287,
+      558473140719,
+      555383704047,
+      555383704047,
+      555383704047,
+      555383704047,
+      555383704047,
+      555383704047,
+      555383704047,
+      555383704047,
+      555383704047,
+      555383704047
+    ],
+    "multipliers": [
+      0.26705618178630175,
+      0.25396418128320875,
+      0.25255926814088525,
+      0.25255926814088525,
+      0.25255926814088525,
+      0.25255926814088525,
+      0.25255926814088525,
+      0.25255926814088525,
+      0.25255926814088525,
+      0.25255926814088525,
+      0.25255926814088525,
+      0.25255926814088525
+    ],
+    "prediction_seal_sha256": "35a5c353e15919cf2d885d2f88099ec7f4c9a51ffceb1e0a31a24ba432fe0adb",
+    "per_network": [
+      {
+        "row": 750,
+        "candidate_raw_mse": 2.2521781218515483e-08,
+        "parent_raw_mse": 3.043580253977273e-08,
+        "adjusted_ratio": 0.573825981696363
+      },
+      {
+        "row": 772,
+        "candidate_raw_mse": 2.13677479962168e-08,
+        "parent_raw_mse": 3.523171433971647e-08,
+        "adjusted_ratio": 0.44725689169208216
+      },
+      {
+        "row": 795,
+        "candidate_raw_mse": 2.3662927910761435e-08,
+        "parent_raw_mse": 3.7587479484511e-08,
+        "adjusted_ratio": 0.46168757021546747
+      },
+      {
+        "row": 817,
+        "candidate_raw_mse": 1.9185068185054423e-08,
+        "parent_raw_mse": 3.5381219272493065e-08,
+        "adjusted_ratio": 0.3976614189329387
+      },
+      {
+        "row": 840,
+        "candidate_raw_mse": 3.1223521657598064e-08,
+        "parent_raw_mse": 4.3254323369370996e-08,
+        "adjusted_ratio": 0.52938943284476
+      },
+      {
+        "row": 863,
+        "candidate_raw_mse": 1.8686695990750142e-08,
+        "parent_raw_mse": 3.3303864143584666e-08,
+        "adjusted_ratio": 0.4114914347945486
+      },
+      {
+        "row": 885,
+        "candidate_raw_mse": 1.802454903899093e-08,
+        "parent_raw_mse": 3.026981538459744e-08,
+        "adjusted_ratio": 0.43669431824502875
+      },
+      {
+        "row": 908,
+        "candidate_raw_mse": 2.473720127194403e-08,
+        "parent_raw_mse": 4.0152188877495887e-08,
+        "adjusted_ratio": 0.45181874289995416
+      },
+      {
+        "row": 930,
+        "candidate_raw_mse": 2.1734950202676753e-08,
+        "parent_raw_mse": 3.6638551302399266e-08,
+        "adjusted_ratio": 0.4350540962626684
+      },
+      {
+        "row": 953,
+        "candidate_raw_mse": 2.4761374758606634e-08,
+        "parent_raw_mse": 3.302858868340796e-08,
+        "adjusted_ratio": 0.549803680009419
+      },
+      {
+        "row": 976,
+        "candidate_raw_mse": 2.050116965299102e-08,
+        "parent_raw_mse": 4.03155280685558e-08,
+        "adjusted_ratio": 0.37293160705732503
+      },
+      {
+        "row": 999,
+        "candidate_raw_mse": 1.9687385418490114e-08,
+        "parent_raw_mse": 3.1258984470947517e-08,
+        "adjusted_ratio": 0.46188736756667875
+      }
+    ],
+    "competition_pass": true,
+    "resource_checks_pass": true,
+    "comparison_refit": false,
+    "single_training_fit": false,
+    "scientific_tier_awarded": false,
+    "interim_look": null,
+    "coefficient_fit_calls": 0
+  },
+  "grade_wait_minutes": 30,
+  "unchanged_generic_error_retry_limit": 1,
+  "fit_calls": 0,
+  "source_change_from_public": false
+}

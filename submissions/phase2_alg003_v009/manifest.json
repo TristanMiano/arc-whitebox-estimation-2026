@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "api_version": "2.0",
+  "entrypoint": {
+    "module": "estimator",
+    "class": "Estimator"
+  },
+  "python": {
+    "min_version": "3.10"
+  },
+  "files": [
+    {
+      "name": "estimator.py",
+      "sha256": "e8c521bf3c7b4ec05f7b17423c02786618fa2b4a1cef33aff296b28a909fc758"
+    },
+    {
+      "name": "LICENSE",
+      "sha256": "832662579fdfd916d03c2d5e15cd53491635b51d807c4db46ae89ffa66c82690"
+    },
+    {
+      "name": "sobol_sphere_bank_i8.npy",
+      "sha256": "9520cca74536f772d9cc25cf94be1f4f16accada088ee209c288c40df513e3ef"
+    }
+  ],
+  "created_at_utc": "2026-08-26T04:14:57.052457+00:00",
+  "packager_version": "0.1.0",
+  "whestbench_version": "0.16.0",
+  "flopscope_version": "0.12.0",
+  "python_version": "3.10.20",
+  "numpy_version": "2.2.6"
+}

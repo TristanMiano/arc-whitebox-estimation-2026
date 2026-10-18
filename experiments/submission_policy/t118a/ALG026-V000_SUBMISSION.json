@@ -1,0 +1,48 @@
+{
+  "schema_version": "arc-t118a-submission-record-v1",
+  "task_id": "T118A",
+  "experiment_id": "E106",
+  "algorithm_id": "ALG026-V000",
+  "hypothesis_id": "H116-B_DFFH_AS",
+  "novelty": "N1-NOVEL-COMBINATION_dimension_4",
+  "owner_authorization": "Okay -- thank you. Please work on T118A.",
+  "challenge_slug": "arc-white-box-estimation-challenge-2026",
+  "artifact_path": "experiments/submission_policy/t118a/packages/ALG026-V000.tar.gz",
+  "artifact_sha256": "a1d66a380afd79e99411ac0ad564c6eba3cdb9939b5a1effb0b41f9d3a84eb9c",
+  "artifact_changed_after_t118": false,
+  "submission": {
+    "id": 329690,
+    "challenge_id": 1174,
+    "challenge_round_id": 1429,
+    "created_at_utc": "2026-09-04T04:42:36.859Z",
+    "grading_status_cd": "graded",
+    "grading_message": "Graded successfully",
+    "score": 1.4791658804824692e-7,
+    "score_secondary": 1.4791658804824692e-6,
+    "submission_url": "https://www.aicrowd.com/challenges/arc-white-box-estimation-challenge-2026/submissions/329690"
+  },
+  "official_result": {
+    "adjusted_score": 1.4791658804824692e-7,
+    "final_layer_mse": 1.4791658804824692e-6,
+    "phase2_sampling_reference_adjusted_score": 1.2e-6,
+    "vs_sampling_approx": 8.112680368266663,
+    "prior_official_best": "ALG024-V000_submission_329529",
+    "candidate_to_prior_official_adjusted_ratio": 0.8622948388839112,
+    "official_adjusted_relative_reduction": 0.13770516111608877,
+    "official_to_local_t118_h_ratio": 0.9711102637993415
+  },
+  "qualification": {
+    "current_linux_evaluator_stack": "PASS_whestbench_0.16.0_flopscope_0.12.0",
+    "linux_residual_wall_time_s": [0.3661287628528953, 0.35653407999052433],
+    "windows_native_status": "PLATFORM_RESIDUAL_CAP_FAIL_ALL_OTHER_CHECKS_PASS",
+    "windows_residual_wall_time_s": [0.8656890970887616, 0.8460937007330358],
+    "archive_static_validation": "PASS_whestbench_0.16.0",
+    "prediction_changed": false,
+    "exact_flops": 218819123305,
+    "score_multiplier": 0.1
+  },
+  "monitor_disposition": "single_exact_archive_submission_graded_before_owner_15_minute_cutoff_no_retry",
+  "scientific_tier_transfer": false,
+  "final_designation": false,
+  "protected_v_d_or_h_target_access": false
+}

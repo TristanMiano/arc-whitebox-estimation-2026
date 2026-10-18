@@ -1,0 +1,39 @@
+{
+  "task_id": "T148",
+  "status": "ACTIVE",
+  "start_utc": "2026-09-11T02:53:53+00:00",
+  "registration_utc": "2026-09-11T02:57:58.306597+00:00",
+  "owner_authorization": "Okay, let's start T148.",
+  "minimum_minutes": {
+    "theory": 120,
+    "literature": 30,
+    "selection": 30
+  },
+  "minimum_useful_minutes": 180,
+  "estimated_elapsed_minutes": [
+    180,
+    220
+  ],
+  "estimate_is_hard_ceiling": false,
+  "objective": "Focused literature/theory recurrence on the stronger V29 baseline. First identify which joint-source and fourth-response terms its published equations already contain; then derive one coherent omitted response without double counting. Prioritize a cheap paired-fourth or conditional-source correction native to V29, keeping response-equivalent homogeneous state as a larger-upside reserve. Re-rank HGC using the actual cost hurdle; do not automatically port JSP, E1 or Q4D or sweep existing ranks/coefficients. Proposed floors: 120 minutes written derivation, 30 focused adjacent literature, 30 candidate selection; estimate 180\u2013220 elapsed minutes, with productive continuation allowed. A cheap candidate may be saved while a credible larger-gain thread is developed. No new task, candidate execution or agents start automatically.",
+  "scope": [
+    "Focused primary-source literature on named response gaps",
+    "Written mathematics and small generated checks without challenge inputs or targets",
+    "Zero to two costed nominees and updated route assessment"
+  ],
+  "excluded": [
+    "Challenge candidate execution or target access",
+    "Fitting or rank/coefficient sweeps",
+    "Packaging or submission",
+    "Subagents"
+  ],
+  "incumbent": {
+    "algorithm_id": "ALG043-V000",
+    "submission_id": 330597,
+    "official_adjusted_score": 5.419051334510831e-09,
+    "official_raw_mse": 2.1327418124883478e-08,
+    "settled_flops": 555383704047
+  },
+  "git_head_at_start": "3e8586f3e3120a6aa91551c181c8ee5cedfccbf6",
+  "timing_method": "Exclusive actual UTC categories; intake, context recovery, records and idle time excluded from research floors."
+}

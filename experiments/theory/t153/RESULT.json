@@ -1,0 +1,144 @@
+{
+  "task_id": "T153",
+  "experiment_id": "E151",
+  "status": "completed_interleaved_recurrence_one_untested_nominee",
+  "incumbent_algorithm": "ALG043-V000",
+  "incumbent_submission": 330597,
+  "incumbent_official_adjusted_score": 5.419051334510831e-09,
+  "nominees": [
+    "H153-NFC128"
+  ],
+  "nominee_integrated": false,
+  "nominee_spec": "experiments/theory/t153/NFC128_SPEC.md",
+  "next_task": "T157",
+  "next_task_started": false,
+  "submission_count": 0,
+  "agents_used": 0,
+  "new_target_fits": 0,
+  "probe_ids": 28,
+  "completed_full_shape_calls": 30,
+  "completed_run_configurations": 17,
+  "completed_nonparent_configurations": 12,
+  "nonparent_count_includes_two_experimental_controls": true,
+  "total_metered_flops": 15701844480840,
+  "summed_metered_prediction_seconds": 794.9114873119993,
+  "full_shape_rows": [
+    750,
+    976
+  ],
+  "data_role": "Repeatedly exposed exploratory development; late geometry uses saved row750 only; no fresh validation confidence.",
+  "all_completed_calls_finite": true,
+  "resource_violations": [
+    {
+      "run": "P11_joint_core_range4",
+      "row": 750,
+      "residual_s": 0.5194876530003967
+    },
+    {
+      "run": "P11_joint_core_range4",
+      "row": 976,
+      "residual_s": 0.5228346940020856
+    }
+  ],
+  "retained_failed_attempts": [
+    "P05 first version: immutable-array augmented assignment exception",
+    "Historical-parent exact-byte replay assertion: current numerical drift preserved",
+    "P11 finite scored output but residual-time limit exceeded"
+  ],
+  "all_tested_adjusted_ratios_above_one": true,
+  "comparisons": [
+    {
+      "name": "P01_core_transverse",
+      "raw_ratio": 0.9994288681251857,
+      "adjusted_ratio": 1.0029763879626077,
+      "record": "experiments/theory/t153/P01_CURRENT_BASELINE_ANALYSIS.json"
+    },
+    {
+      "name": "P05b_directional_joint_core",
+      "raw_ratio": 0.9981866013096208,
+      "adjusted_ratio": 1.0040021785554942,
+      "record": "experiments/theory/t153/runs/P05b_directional_joint_core/CURRENT_CONTROL_ANALYSIS.json"
+    },
+    {
+      "name": "P07_slice_trace1",
+      "raw_ratio": 6.40916196975397,
+      "adjusted_ratio": 4.688434068428301,
+      "record": "experiments/theory/t153/runs/P07_slice_trace1/CURRENT_CONTROL_ANALYSIS.json"
+    },
+    {
+      "name": "P09_protected_curvature",
+      "raw_ratio": 39.03169061153251,
+      "adjusted_ratio": 20.033409107620347,
+      "record": "experiments/theory/t153/runs/P09_protected_curvature/CURRENT_CONTROL_ANALYSIS.json"
+    },
+    {
+      "name": "P09_protected_mean",
+      "raw_ratio": 37.297857832837266,
+      "adjusted_ratio": 19.161035288951094,
+      "record": "experiments/theory/t153/runs/P09_protected_mean/CURRENT_CONTROL_ANALYSIS.json"
+    },
+    {
+      "name": "P11_joint_core_range4",
+      "raw_ratio": 0.9942324775789808,
+      "adjusted_ratio": 1.0280590817640536,
+      "record": "experiments/theory/t153/runs/P11_joint_core_range4/CURRENT_CONTROL_ANALYSIS.json"
+    },
+    {
+      "name": "P13_hgc_signed",
+      "raw_ratio": 1.1040069817705498,
+      "adjusted_ratio": 1.1176591530263102,
+      "record": "experiments/theory/t153/runs/P13_hgc_signed/CURRENT_CONTROL_ANALYSIS.json"
+    },
+    {
+      "name": "P13_hgc_zero_control",
+      "raw_ratio": 1.1040069817705498,
+      "adjusted_ratio": 1.1176591530263102,
+      "record": "experiments/theory/t153/runs/P13_hgc_zero_control/CURRENT_CONTROL_ANALYSIS.json"
+    },
+    {
+      "name": "P15_coupled_trace_256_128",
+      "raw_ratio": 1.3555285137015405,
+      "adjusted_ratio": 1.133216013617552,
+      "record": "experiments/theory/t153/runs/P15_coupled_trace_256_128/CURRENT_CONTROL_ANALYSIS.json"
+    },
+    {
+      "name": "P15_parent_256_128",
+      "raw_ratio": 1.4083114015542573,
+      "adjusted_ratio": 1.17534114716139,
+      "record": "experiments/theory/t153/runs/P15_parent_256_128/CURRENT_CONTROL_ANALYSIS.json"
+    },
+    {
+      "name": "P19_coupled_trace_320_192",
+      "raw_ratio": 1.096807363947928,
+      "adjusted_ratio": 1.0117144070800212,
+      "record": "experiments/theory/t153/runs/P19_coupled_trace_320_192/CURRENT_CONTROL_ANALYSIS.json"
+    },
+    {
+      "name": "P24_fourth_tree",
+      "raw_ratio": 1.008655236871175,
+      "adjusted_ratio": 1.2366546971578665,
+      "record": "experiments/theory/t153/runs/P24_fourth_tree/CURRENT_CONTROL_ANALYSIS.json"
+    }
+  ],
+  "literature_active_minutes": 30.36210631666667,
+  "new_literature_index_entries": [
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128
+  ],
+  "research_minutes": 249.29891633333332,
+  "timing": "experiments/theory/t153/TIMING.json"
+}

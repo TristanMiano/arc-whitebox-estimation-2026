@@ -1,0 +1,38 @@
+{
+  "task_id": "T146",
+  "status": "ACTIVE",
+  "start_utc": "2026-09-10T21:46:28+00:00",
+  "registration_utc": "2026-09-10T21:50:23.633477+00:00",
+  "owner_authorization": "Okay, please start T146; approved active TODO scope.",
+  "minimum_minutes": {
+    "theory": 120,
+    "literature": 30,
+    "selection": 30
+  },
+  "minimum_useful_minutes": 180,
+  "estimated_elapsed_minutes": [
+    180,
+    220
+  ],
+  "estimate_is_hard_ceiling": false,
+  "objective": "Better official submissions from more justified completion or coherent missing joint responses; develop credible larger gains while preserving cheap fallbacks.",
+  "scope": [
+    "Focused primary-source search on named gaps, reusing T143",
+    "Written equations, counterexamples and small generated mathematical checks",
+    "Select zero to two costed candidate handoffs; update route status and next task"
+  ],
+  "excluded": [
+    "Challenge prediction or target access",
+    "Candidate fitting, age/rank/coefficient sweeps",
+    "Production qualification, packaging or upload",
+    "Subagents"
+  ],
+  "incumbent": {
+    "algorithm_id": "ALG041-V000",
+    "submission_id": 330392,
+    "official_adjusted_score": 1.1833081571784114e-08,
+    "local_flops": 757303958254
+  },
+  "git_head_at_start": "8d8744c4658e91022c8e3cec40e6a02969b6fd59",
+  "timing_method": "Exclusive observed UTC categories. Intake, records and interruptions excluded. No idle padding or double credit."
+}

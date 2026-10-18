@@ -1,0 +1,32 @@
+[
+  {
+    "start": "2026-09-11T06:59:34.278104+00:00",
+    "category": "theory",
+    "note": "Derive a concrete finite homogeneous-conversion candidate on V29, prioritizing larger response changes over metric fine corrections.",
+    "end": "2026-09-11T07:59:40.041742+00:00"
+  },
+  {
+    "start": "2026-09-11T07:59:40.041742+00:00",
+    "category": "selection",
+    "note": "Compare the two specified ambitious algorithms with preserved untested candidates, audit old-parent status, and record subjective forecasts.",
+    "end": "2026-09-11T08:02:49+00:00"
+  },
+  {
+    "start": "2026-09-11T08:02:49+00:00",
+    "end": "2026-09-11T08:06:31+00:00",
+    "category": "overhead",
+    "note": "Context consolidation and recovery, conservatively excluded from selection credit."
+  },
+  {
+    "start": "2026-09-11T08:06:31+00:00",
+    "category": "selection",
+    "note": "Finalize prospective choice, inventory status and practical implementation budget.",
+    "end": "2026-09-11T08:07:50.607345+00:00"
+  },
+  {
+    "start": "2026-09-11T08:07:50.607345+00:00",
+    "category": "overhead",
+    "note": "Selection complete: prefer SCP-A; save HGC6-A and all older options. Finish report, state, preservation checks and scoped commit.",
+    "end": "2026-09-11T08:12:11.462997+00:00"
+  }
+]

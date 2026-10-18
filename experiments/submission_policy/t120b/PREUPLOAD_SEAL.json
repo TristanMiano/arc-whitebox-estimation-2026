@@ -1,0 +1,158 @@
+{
+  "task_id": "T120B",
+  "algorithm_id": "ALG028-V000",
+  "sealed_utc": "2026-09-04T20:24:17Z",
+  "owner_authorized_upload": true,
+  "archive_path": "experiments/submission_policy/t120b/packages/ALG028-V000.tar.gz",
+  "archive_sha256": "0415448d568e81441919094cfc6f9374aa69e491a388096620ccb4b721c4f878",
+  "flops": 218985062607,
+  "multiplier": 0.1,
+  "production_score": {
+    "task_id": "T120B",
+    "algorithm_id": "ALG028-V000",
+    "evidence_class": "submission-facing production confirmation; reused development panels, not independent scientific validation",
+    "rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "n": 12,
+    "raw_mse": 1.3518392250026864e-06,
+    "adjusted_score": 1.3518392250026865e-07,
+    "parent_adjusted_score": 1.3748933313646438e-07,
+    "ratio": 0.9832320763829183,
+    "improvement_percent": 1.6767923617081681,
+    "wins": 7,
+    "bootstrap_probability_of_mean_improvement": 0.9068,
+    "bootstrap_mean_change_90pct_interval": [
+      -5.240333212393975e-09,
+      5.473454714472786e-10
+    ],
+    "network_ratio_quantiles": {
+      "median": 0.986699902019968,
+      "p90": 1.0391982365151426,
+      "p95": 1.043221648889229,
+      "maximum": 1.0478917651812232
+    },
+    "flops": [
+      218985062607,
+      218985062607,
+      218985062607,
+      218985062607,
+      218985062607,
+      218985062607,
+      218985062607,
+      218985062607,
+      218985062607,
+      218985062607,
+      218985062607,
+      218985062607
+    ],
+    "multipliers": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "prediction_seal_sha256": "61cd76aa3a94e2a0ca535358acd562dbcb049697d4a70aedaa714eef157fb2f7",
+    "per_network": [
+      {
+        "row": 750,
+        "candidate_raw_mse": 1.0169045670608666e-06,
+        "parent_raw_mse": 9.949346363809942e-07,
+        "adjusted_ratio": 1.0220817829398186
+      },
+      {
+        "row": 772,
+        "candidate_raw_mse": 1.6108175793141258e-06,
+        "parent_raw_mse": 1.617527845953291e-06,
+        "adjusted_ratio": 0.9958515294460292
+      },
+      {
+        "row": 795,
+        "candidate_raw_mse": 1.1046590752800508e-06,
+        "parent_raw_mse": 1.101923874016362e-06,
+        "adjusted_ratio": 1.0024822052849436
+      },
+      {
+        "row": 817,
+        "candidate_raw_mse": 1.5900430267222815e-06,
+        "parent_raw_mse": 1.6694019325315897e-06,
+        "adjusted_ratio": 0.9524626728513707
+      },
+      {
+        "row": 840,
+        "candidate_raw_mse": 1.5564295271510422e-06,
+        "parent_raw_mse": 1.4974298266619379e-06,
+        "adjusted_ratio": 1.0394006446503246
+      },
+      {
+        "row": 863,
+        "candidate_raw_mse": 1.2283562695625517e-06,
+        "parent_raw_mse": 1.2565683981927494e-06,
+        "adjusted_ratio": 0.9775482745939068
+      },
+      {
+        "row": 885,
+        "candidate_raw_mse": 1.3673548406054567e-06,
+        "parent_raw_mse": 1.4199060503900713e-06,
+        "adjusted_ratio": 0.9629896571183862
+      },
+      {
+        "row": 908,
+        "candidate_raw_mse": 1.475364247995289e-06,
+        "parent_raw_mse": 1.5299237406586838e-06,
+        "adjusted_ratio": 0.9643384234040939
+      },
+      {
+        "row": 930,
+        "candidate_raw_mse": 1.1447375695886447e-06,
+        "parent_raw_mse": 1.0924196635810695e-06,
+        "adjusted_ratio": 1.0478917651812232
+      },
+      {
+        "row": 953,
+        "candidate_raw_mse": 1.328244351426961e-06,
+        "parent_raw_mse": 1.4175917836600332e-06,
+        "adjusted_ratio": 0.9369723828376113
+      },
+      {
+        "row": 976,
+        "candidate_raw_mse": 1.630550521208061e-06,
+        "parent_raw_mse": 1.77458795824028e-06,
+        "adjusted_ratio": 0.9188333064228332
+      },
+      {
+        "row": 999,
+        "candidate_raw_mse": 1.1686091241169066e-06,
+        "parent_raw_mse": 1.126504266108661e-06,
+        "adjusted_ratio": 1.0373765632985044
+      }
+    ],
+    "competition_pass": true,
+    "resource_checks_pass": true,
+    "no_refit": true,
+    "scientific_tier_awarded": false
+  },
+  "qualification_pass": true,
+  "scientific_rigor_required": false,
+  "final_designation": false,
+  "coefficient_fit_performed": false
+}

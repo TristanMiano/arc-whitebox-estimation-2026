@@ -1,0 +1,210 @@
+{
+  "task_id": "T130",
+  "experiment_id": "E123",
+  "algorithm_id": "ALG033-V000",
+  "parent": "ALG031-V000",
+  "status": "COMPLETED_LOCAL_NEGATIVE",
+  "task_checked_off": true,
+  "production_score": {
+    "task_id": "T130",
+    "algorithm_id": "ALG033-V000",
+    "evidence_class": "submission-facing production confirmation; reused development panels, not independent scientific validation",
+    "rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "n": 12,
+    "raw_mse": 1.3022859772271156e-06,
+    "adjusted_score": 1.3022859772271155e-07,
+    "parent_raw_mse": 1.2887078848617875e-06,
+    "parent_adjusted_score": 1.2887078848617877e-07,
+    "ratio": 1.0105362064784635,
+    "improvement_percent": -1.053620647846354,
+    "wins": 4,
+    "bootstrap_probability_of_mean_improvement": 0.30525,
+    "bootstrap_mean_change_90pct_interval": [
+      -3.4103410048767355e-09,
+      5.961299313459028e-09
+    ],
+    "network_ratio_quantiles": {
+      "median": 1.0243861877473726,
+      "p90": 1.0740659003258453,
+      "p95": 1.094467602662471,
+      "maximum": 1.1192604669491273
+    },
+    "flops": [
+      216450782331,
+      216450782331,
+      216450782331,
+      216450782331,
+      216450782331,
+      216450782331,
+      216450782331,
+      216450782331,
+      216450782331,
+      216450782331,
+      216450782331,
+      216450782331
+    ],
+    "multipliers": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "prediction_seal_sha256": "9eaa5b3930bc70fd0ccaf42fc86bf3cc116e8e171b96dd1cf502a0fc7e8af05f",
+    "per_network": [
+      {
+        "row": 750,
+        "candidate_raw_mse": 8.94968211521791e-07,
+        "parent_raw_mse": 9.613061065240224e-07,
+        "adjusted_ratio": 0.9309919134477344
+      },
+      {
+        "row": 772,
+        "candidate_raw_mse": 1.6459775627308934e-06,
+        "parent_raw_mse": 1.5461194687571316e-06,
+        "adjusted_ratio": 1.0645862729185047
+      },
+      {
+        "row": 795,
+        "candidate_raw_mse": 1.0728752184994081e-06,
+        "parent_raw_mse": 1.052547895496706e-06,
+        "adjusted_ratio": 1.0193124921817545
+      },
+      {
+        "row": 817,
+        "candidate_raw_mse": 1.6296348456103373e-06,
+        "parent_raw_mse": 1.5187420477252175e-06,
+        "adjusted_ratio": 1.0730162163161385
+      },
+      {
+        "row": 840,
+        "candidate_raw_mse": 1.450642352489469e-06,
+        "parent_raw_mse": 1.4814747029963948e-06,
+        "adjusted_ratio": 0.9791880681833007
+      },
+      {
+        "row": 863,
+        "candidate_raw_mse": 9.716426645255817e-07,
+        "parent_raw_mse": 1.1654032456858427e-06,
+        "adjusted_ratio": 0.8337394529511265
+      },
+      {
+        "row": 885,
+        "candidate_raw_mse": 1.3125999489323433e-06,
+        "parent_raw_mse": 1.3067314313521238e-06,
+        "adjusted_ratio": 1.0044909898387822
+      },
+      {
+        "row": 908,
+        "candidate_raw_mse": 1.555477925313206e-06,
+        "parent_raw_mse": 1.4480573637585296e-06,
+        "adjusted_ratio": 1.0741825318824794
+      },
+      {
+        "row": 930,
+        "candidate_raw_mse": 1.1236141714859745e-06,
+        "parent_raw_mse": 1.0807644242027992e-06,
+        "adjusted_ratio": 1.039647629329382
+      },
+      {
+        "row": 953,
+        "candidate_raw_mse": 1.4472329155323216e-06,
+        "parent_raw_mse": 1.293026027692356e-06,
+        "adjusted_ratio": 1.1192604669491273
+      },
+      {
+        "row": 976,
+        "candidate_raw_mse": 1.373735462964141e-06,
+        "parent_raw_mse": 1.4941730714030715e-06,
+        "adjusted_ratio": 0.9193951418721283
+      },
+      {
+        "row": 999,
+        "candidate_raw_mse": 1.1490304471199203e-06,
+        "parent_raw_mse": 1.1161488327472557e-06,
+        "adjusted_ratio": 1.0294598833129904
+      }
+    ],
+    "competition_pass": false,
+    "resource_checks_pass": true,
+    "comparison_refit": false,
+    "new_fit": false,
+    "scientific_tier_awarded": false
+  },
+  "comparison_networks": 12,
+  "comparison_extension": false,
+  "fit_calls": 0,
+  "count_search": false,
+  "exact_flops": 216450782331,
+  "saved_flops_vs_incumbent": 2535282848,
+  "discount_floor_headroom": 3451543224.200012,
+  "multiplier": 0.1,
+  "residual_range_s": [
+    0.30110531800801255,
+    0.3139956370080199
+  ],
+  "prediction_wall_range_s": [
+    18.33009359499988,
+    19.03250471199999
+  ],
+  "peak_rss_bytes": 4817371136,
+  "max_setup_s": 0.002469476999976905,
+  "repairs": {
+    "probe001": "Incomplete unsupported indexed array assignment; replaced by permitted copyto before any prediction or target access.",
+    "probe002": "Complete output reference passes; standalone partial diagnostic tolerance misses and residual .411985s fails. Preserved as FAIL.",
+    "probe003": "Unchanged bytes and cost; residual .397563s passes narrowly.",
+    "probe004": "Cached workspace views preserve bytes/cost, residual .311658s. All12 comparison rows then pass first attempt.",
+    "numerical_review": "NUMERICAL_REVIEW.json; accept original complete-output tolerance, disclose standalone partial tolerance miss; no target-based repair."
+  },
+  "comparison_retries": 0,
+  "candidate_archive_created": false,
+  "archive_qualified": false,
+  "submission_attempts": 0,
+  "official_best_changed": false,
+  "retained_official_algorithm": "ALG031-V000",
+  "retained_official_submission_id": 329989,
+  "retained_official_adjusted_score": 1.3618567538742354e-07,
+  "scientific_tier_awarded": false,
+  "final_blind_block": "untouched",
+  "next_task": "T131",
+  "next_task_started": false,
+  "next_action": "FC4S remains worth one bounded attempt on official ALG031, with its original1536 child and the direct initial Gram. Its mechanism is distinct from increasing sample count. No PF count search or refit. R4IF8-P remains a reserve.",
+  "planning_prior": 0.35,
+  "surprise_assessment": "No retained win is unsurprising under the subjective35% prior; no calibrated inference is claimed.",
+  "timing": {
+    "start_utc": "2026-09-06T18:49:45+00:00",
+    "end_checkoff_utc": "2026-09-06T19:09:49.905340+00:00",
+    "estimate_total_minutes": 75,
+    "actual_elapsed_minutes": 20.081755666666666,
+    "estimate_error_minutes": -54.918244333333334,
+    "initial_active_engineering_budget_minutes": 60,
+    "engineering_budget_extension": false,
+    "reassessment_at30_needed": false,
+    "bounded_runtime_repair_minutes_allowed_within_original_budget": 15,
+    "completed_metered_prediction_calls": 16,
+    "completed_metered_prediction_minutes": 4.939228706616662,
+    "explicit_unattended_wait_minutes": 1.3333333333333333,
+    "grader_wait_minutes": 0,
+    "allocation_note": "Approximately ten minutes implementation/source review, five minutes completed metered prediction work, and the remainder input loading, analysis and records; some overlap. One incomplete prediction is additional. Final record verification and scoped commit follow checkoff."
+  }
+}

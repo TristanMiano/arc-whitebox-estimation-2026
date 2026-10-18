@@ -1,0 +1,48 @@
+{
+  "task_id": "T166",
+  "experiment_id": "E162",
+  "start_utc": "2026-09-27T04:04:17+00:00",
+  "registered_utc": "2026-09-27T04:05:23.589505+00:00",
+  "status": "active_empirical_theory_recurrence",
+  "owner_authority": "Alright. You may start another 4-hour research recurrence.",
+  "minimum_active_research_minutes": 240,
+  "minimum_written_derivation_minutes": 60,
+  "estimated_elapsed_minutes": [
+    255,
+    315
+  ],
+  "provisional_allocation_minutes": {
+    "derivation": 100,
+    "empirical": 95,
+    "literature": 30,
+    "selection": 15
+  },
+  "initial_route_budget": "Bound the initial native-source cost investigation to roughly35\u201345active minutes; broaden thereafter unless a genuinely changed, strong lead justifies more. This is task planning, not a permanent protocol quota.",
+  "incumbent_algorithm": "ALG051-V000",
+  "incumbent_submission": 332018,
+  "official_adjusted_score": 4.368514231311302e-09,
+  "incumbent_source_sha256": "db714c48d45653fb1c9bdd9ccd880f6f25c0ab3ad7584f8f13b852571cb44067",
+  "git_head_at_start": "8b7589701b1306b5da71bebb0ed55195cc9cf3e6",
+  "data_role": "Existing F training, previously exposed public development and generated networks are adaptive exploratory data. Historical freezes/final blind untouched.",
+  "exploratory_rows": [
+    750,
+    772,
+    795,
+    817,
+    840,
+    863,
+    885,
+    908,
+    930,
+    953,
+    976,
+    999
+  ],
+  "literature_authorized": true,
+  "no_agents": true,
+  "no_automatic_upload": true,
+  "no_automatic_second_recurrence": true,
+  "zero_nominees_allowed": true,
+  "compute_plan": "Reuse immutable controls; small capacity tests and early complete/component bills; one heavy job at a time under explicit research memory guard. No expanding corpus or grid by accumulation.",
+  "research_selection_policy": "Develop credible larger gain mechanisms; keep any supported smaller fallback without letting it consume the recurrence. Report success probabilities, gain ranges, tested/unbuilt status and diminishing-return estimates."
+}

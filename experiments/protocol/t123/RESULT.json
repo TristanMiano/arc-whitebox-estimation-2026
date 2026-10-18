@@ -1,0 +1,37 @@
+{
+  "task_id": "T123",
+  "experiment_id": "E112",
+  "status": "COMPLETED_POLICY_RESTRUCTURE",
+  "task_checked_off": true,
+  "policy_version": "arc-submission-focused-policy-v2",
+  "next_task": "T122",
+  "parked_tasks": [
+    "T120A",
+    "T121"
+  ],
+  "candidate_runs": 0,
+  "protected_targets_accessed": false,
+  "uploads": 0,
+  "official_best_changed": false,
+  "scientific_tier_changed": false,
+  "theory_task_started": false,
+  "validation": [
+    "verify_restructuring.py",
+    "T120B verify_evidence.py",
+    "scripts/status.py",
+    "git diff --check"
+  ],
+  "timing": {
+    "start_utc": "2026-09-04T20:44:15Z",
+    "estimate_minutes": 20,
+    "end_utc": "2026-09-04T20:57:53.512110+00:00",
+    "actual_elapsed_seconds": 818.51211,
+    "estimate_error_seconds": -381.48789,
+    "allocation_approximate_minutes": {
+      "analysis_review": 4.1,
+      "editing_and_documentation": 8.9,
+      "static_checks": 0.7,
+      "scientific_execution_or_grader_wait": 0
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "family": "trace24",
+  "fold": null,
+  "training_rows": [
+    0,
+    16,
+    32,
+    48,
+    64,
+    80,
+    97,
+    113,
+    129,
+    145,
+    161,
+    177,
+    193,
+    209,
+    225,
+    241,
+    258,
+    274,
+    290,
+    306,
+    322,
+    338,
+    354,
+    370,
+    386,
+    402,
+    419,
+    435,
+    451,
+    467,
+    483,
+    499
+  ],
+  "test_rows": [],
+  "steps": 1000,
+  "seconds": 4.289536952972412,
+  "asset_sha256": "cbbdaed0c92bf7386f927333dd729fd2debd012164bbaa591ded6a594eafdf47",
+  "curves": [
+    {
+      "family": "trace24",
+      "fold": null,
+      "step": 250,
+      "training_batch_loss": 0.9794946908950806,
+      "seconds": 1.1406879425048828
+    },
+    {
+      "family": "trace24",
+      "fold": null,
+      "step": 500,
+      "training_batch_loss": 0.9776400327682495,
+      "seconds": 2.143526315689087
+    },
+    {
+      "family": "trace24",
+      "fold": null,
+      "step": 750,
+      "training_batch_loss": 0.9701831340789795,
+      "seconds": 3.0916080474853516
+    },
+    {
+      "family": "trace24",
+      "fold": null,
+      "step": 1000,
+      "training_batch_loss": 0.9725785255432129,
+      "seconds": 4.064726829528809
+    }
+  ],
+  "terminal_ratio_on_test": 0.9613593324120063
+}

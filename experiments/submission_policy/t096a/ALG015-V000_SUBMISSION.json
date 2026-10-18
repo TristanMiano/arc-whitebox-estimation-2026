@@ -1,0 +1,30 @@
+{
+  "schema_version": "arc-t096a-submission-record-v1",
+  "task_id": "T096A",
+  "algorithm_id": "ALG015-V000",
+  "novelty": "N1-NOVEL-COMBINATION",
+  "artifact_path": "experiments/submission_policy/t096a/packages/ALG015-V000.tar.gz",
+  "artifact_sha256": "9591d5fdcc316e7d7e08aa7c57f2514ad64127e3b3336965690e16f023dc1bda",
+  "description": "ALG015-V000 T096 qualified submission candidate",
+  "challenge_slug": "arc-white-box-estimation-challenge-2026",
+  "owner_authorization": "Why don't you go ahead and submit ALG015-V000 before we go on to T097.",
+  "api_response": {
+    "id": 328500,
+    "challenge_id": 1174,
+    "challenge_round_id": 1429,
+    "created_at": "2026-08-26T07:13:37.457Z",
+    "grading_status_cd": "graded",
+    "grading_message": "<p>Graded successfully</p>\n",
+    "score": 2.8435381750568926e-7,
+    "score_secondary": 2.8435381750568923e-6
+  },
+  "field_interpretation": {
+    "score": "official_adjusted_score",
+    "score_secondary": "official_final_layer_mse",
+    "phase2_sampling_reference_adjusted_score": 1.2e-6,
+    "vs_sampling_approx": 4.2200945657288065,
+    "displayed_vs_sampling_approx": "4.2x"
+  },
+  "submission_url": "https://www.aicrowd.com/challenges/arc-white-box-estimation-challenge-2026/submissions/328500",
+  "final_designation": false
+}

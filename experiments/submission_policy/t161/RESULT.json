@@ -1,0 +1,89 @@
+{
+  "task_id": "T161",
+  "experiment_id": "E157",
+  "algorithm_id": "ALG050-V000",
+  "hypothesis_id": "H160-INTERFACE-GATE",
+  "status": "COMPLETED_OFFICIAL_IMPROVEMENT",
+  "submission_id": 331607,
+  "submission_ids": [
+    331607
+  ],
+  "submission_attempts": 1,
+  "official_adjusted_score": 4.544342423060378e-09,
+  "official_raw_mse": 2.21947214029683e-08,
+  "official_predecessor_adjusted_score": 5.017859747074435e-09,
+  "official_ratio": 0.9056336071788113,
+  "official_improvement_percent": 9.436639282118875,
+  "official_best_changed": true,
+  "retained_official_algorithm": "ALG050-V000",
+  "source_hashes": {
+    "README.md": "bb49ed4b151b25c0ed35bc2c55c3438b964c1dfc8c92cb873b906068116cabab",
+    "LICENSE": "d2c9a83a86ed95c8d279219cd36d5a025c0372dee57d072fe4718850e226e740",
+    "estimator.py": "40012a17eb43d004ff9f0c49f34c0ee6f15e9330603554fd6c7bdad628ec63fe"
+  },
+  "archive_path": "experiments/submission_policy/t161/packages/ALG050-V000.tar.gz",
+  "archive_sha256": "f3e186139f65d0407539bf8518de43a7e4522f5f9e4ac1e46e73212f594ab1bc",
+  "local_mean_adjusted_ratio": 0.9130586811085495,
+  "local_mean_raw_ratio": 0.9967403854061118,
+  "local_adjusted_wins": 8,
+  "local_networks": 8,
+  "reused_comparison": true,
+  "new_comparison_calls": 0,
+  "qualification_full_shape_calls": 5,
+  "new_fits": 0,
+  "estimator_source_byte_identical_to_T160": true,
+  "novelty": "Our algorithmic and implementation adaptation of public504aldoV29, through ALG049; not pure copy or academic novelty claim.",
+  "resource_summary": {
+    "maximum_residual_s": 0.3063286530505138,
+    "maximum_rss_bytes": 6600003584,
+    "maximum_outer_wall_s": 39.48592995800027,
+    "setup_s": 0.02248648600107117,
+    "flops": [
+      491690232816,
+      454283992784,
+      452485716912,
+      450406000448,
+      450406000448
+    ]
+  },
+  "archive_qualified": true,
+  "current_package_replay_tested": true,
+  "final_blind_accessed": false,
+  "subagents": 0,
+  "next_task": "T162",
+  "next_task_started": false,
+  "report": "experiments/submission_policy/t161/REPORT.md",
+  "timing_file": "experiments/submission_policy/t161/TIMING.json",
+  "official_states": [
+    {
+      "id": 331607,
+      "grading_status_cd": "graded",
+      "grading_message": "<p>Graded successfully</p>\n",
+      "score": 4.544342423060378e-09,
+      "score_secondary": 2.21947214029683e-08,
+      "created_at": "2026-09-20T02:38:52.104Z"
+    }
+  ],
+  "local_packaging_repairs": [
+    "Create missing package output directory.",
+    "Use folder mode to include license/README; preserve rejected file-only archive."
+  ],
+  "algorithm_repairs": 0,
+  "owner_wait_amendment": {
+    "task_id": "T161",
+    "owner_directive": "You can wait for up to an hour for each submission attempt before retrying (and please make this the new default, instead of 30 min)",
+    "recorded_utc": "2026-09-20T02:44:10.430866+00:00",
+    "wait_minutes_per_attempt": 60,
+    "previous_default_minutes": 30,
+    "applies_to": "Current submission331607, any authorized retry, and future submission attempts until owner revises.",
+    "standing_default": true,
+    "unchanged_retry_limit": 1,
+    "submission_id": 331607,
+    "old_deadline_utc": "2026-09-20T03:08:52.104000+00:00",
+    "new_deadline_utc": "2026-09-20T03:38:52.104000+00:00",
+    "acceptance_time_unchanged": true,
+    "archive_unchanged": true,
+    "original_start_spec_and_preupload_seal_preserved": true,
+    "old_monitor_process_stopped": 42477
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "task_id": "T147",
+  "start_utc": "2026-09-11T01:33:49Z",
+  "score_decision_utc": "2026-09-11T01:51:15.635896+00:00",
+  "accepted_utc": "2026-09-11T01:55:05.162Z",
+  "official_terminal_observed_utc": "2026-09-11T02:38:01Z",
+  "record_completion_utc": "2026-09-11T02:38:09.926331+00:00",
+  "elapsed_minutes": 64.34877218333334,
+  "estimate_total_range_minutes": [
+    45,
+    90
+  ],
+  "error_to_lower_estimate_minutes": 19.348772183333338,
+  "error_to_upper_estimate_minutes": -25.651227816666662,
+  "elapsed_through_upload_minutes": 21.269366666666667,
+  "official_wait_until_observed_minutes": 42.93063333333334,
+  "metered_prediction_minutes": 10.461059185583327,
+  "initial_active_engineering_budget_minutes": 60,
+  "engineering_budget_extended": false,
+  "time_accounting_note": "Measured elapsed milestones, grading wait and prediction meters. Compute/wait overlap other work; durations are not additive. No exact exclusive active-time claim.",
+  "owner_wait_minutes_per_attempt": 60,
+  "verification_completed_utc": "2026-09-11T02:40:46.283533+00:00",
+  "elapsed_through_verification_minutes": 66.95472554999999
+}

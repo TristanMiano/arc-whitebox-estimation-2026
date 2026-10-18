@@ -1,0 +1,37 @@
+{
+  "task_id": "T153",
+  "utc": "2026-09-12T16:07:35.946373+00:00",
+  "checks": [
+    "18 frozen exploratory source hashes",
+    "All task JSON parses",
+    "All task Python sources parse",
+    "30 finite full-shape recorded calls",
+    "Published incumbent unchanged",
+    "T157 proposed and not active",
+    "Default research floors unchanged",
+    "All five final probe processes completed"
+  ],
+  "resource_summary": {
+    "flops_cap": 2199023255552,
+    "residual_seconds_strict_cap": 0.4,
+    "prediction_wall_seconds_strict_cap": 120,
+    "setup_seconds_strict_cap": 5,
+    "memory_bytes_strict_cap": 8589934592,
+    "max_flops": 716804017662,
+    "max_prediction_wall_s": 35.95467587800067,
+    "max_setup_s": 0.028542986000047676,
+    "max_peak_rss_bytes": 5974315008,
+    "residual_failures": [
+      {
+        "row": 976,
+        "residual_s": 0.5228346940020856
+      },
+      {
+        "row": 750,
+        "residual_s": 0.5194876530003967
+      }
+    ]
+  },
+  "qualification_note": "These are preserved exploratory calls, not qualification of the unimplemented NFC128 nominee.",
+  "git_diff_check": "Tracked documents passed. Full staged check reports only three trailing blank-line warnings in frozen P05/P09 sources; retained verbatim to preserve executed source hashes. All other staged paths pass."
+}

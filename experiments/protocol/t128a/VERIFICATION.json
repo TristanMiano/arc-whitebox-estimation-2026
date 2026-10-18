@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "checks": {
+    "116_unique_started_items": true,
+    "known_timing_80_missing_36_partial_2": true,
+    "family_and_activity_totals_match": true,
+    "no_group_or_unstarted_tasks_counted": true,
+    "csv_matches_json_rows": true,
+    "document_local_links_resolve": true,
+    "official_incumbent_unchanged": true,
+    "queued_T129_not_started": true,
+    "visual_mirror_identical": true,
+    "visual_family_labels_match_data": true,
+    "no_candidate_sources_in_git_diff": true,
+    "final_queue_consistent": true,
+    "final_incumbent_unchanged": true,
+    "one_audit_event": true,
+    "final_tracked_diff_only_docs_and_records": true
+  },
+  "missing_links": [],
+  "visual_verification": "Balanced fragment markup; 15 native details/summary controls; no JavaScript or network dependency; no browser rendering check claimed.",
+  "scope": "Artifact and record consistency only; no numerical candidate tests."
+}

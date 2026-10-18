@@ -1,0 +1,57 @@
+{
+  "task_id": "T163",
+  "experiment_id": "E159",
+  "start_utc": "2026-09-23T02:45:29+00:00",
+  "registered_utc": "2026-09-23T02:50:26.242708+00:00",
+  "status": "completed_one_nominee_no_upload",
+  "git_head_at_start": "9888ede36f64aa55e6dcfe67391457a7605aa43c",
+  "owner_authority": "Alright. You may begin another four-hour research recurrence phase.",
+  "minimum_active_research_minutes": 240,
+  "minimum_written_derivation_minutes": 60,
+  "provisional_allocation_minutes": {
+    "derivation": 90,
+    "empirical": 105,
+    "literature": 30,
+    "selection": 15
+  },
+  "allocation_note": "Total240 active and default60 written mathematics bind; other categories flex with evidence. Administration/passive waits excluded; overlapping compute counted once. No manufactured win, probe quota or duration padding.",
+  "estimated_elapsed_minutes": [
+    255,
+    315
+  ],
+  "incumbent_algorithm": "ALG050-V000",
+  "incumbent_submission": 331607,
+  "official_adjusted_score": 4.544342423060378e-09,
+  "incumbent_source_sha256": "40012a17eb43d004ff9f0c49f34c0ee6f15e9330603554fd6c7bdad628ec63fe",
+  "initial_routes": [
+    "Affordable coherent fourth residual with explicit native overlap and early full-width metering",
+    "Distinct function-level or conditional Gaussian capacity route",
+    "Retain cheap NIG/current-head reserves only if time and evidence justify"
+  ],
+  "initial_compute_plan": "Build and meter an integrated partial fourth residual early. Start 1-2 reused development rows per mechanism, expanding useful signals. No probe quota; track cumulative cost. Avoid heavy augmented fourth research runs.",
+  "exploratory_rows": [
+    750,
+    772,
+    795,
+    817,
+    840,
+    863,
+    885,
+    908,
+    930,
+    953,
+    976,
+    999
+  ],
+  "data_role": "Previously exposed public development only, adaptive reuse declared. Preserve historical freezes and final blind. Reuse incumbent sources/predictions/qualified harness.",
+  "literature_authorized": true,
+  "no_agents": true,
+  "no_automatic_upload": true,
+  "no_automatic_second_recurrence": true,
+  "zero_nominees_allowed": true,
+  "continuation_requirement": "If no ready candidate, record narrowed hypotheses, runnable next probes, observed failures and remaining unknowns so the next authorized round can continue without restarting.",
+  "research_selection_policy": "Keep a cheap fallback when found; continue a credible larger-gain thread. Research priors may be low. Only integrated evidence supports a high submission forecast.",
+  "timing_context": "T162 completed 240 active minutes without a nominee. This is a new authorized round, not continued accounting from T162.",
+  "research_end_utc": "2026-09-23T06:52:33.210776+00:00",
+  "report": "experiments/theory/t163/REPORT.md"
+}

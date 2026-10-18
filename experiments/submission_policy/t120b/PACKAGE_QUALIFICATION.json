@@ -1,0 +1,18 @@
+{
+  "task_id": "T120B",
+  "algorithm_id": "ALG028-V000",
+  "archive": "experiments/submission_policy/t120b/packages/ALG028-V000.tar.gz",
+  "archive_sha256": "0415448d568e81441919094cfc6f9374aa69e491a388096620ccb4b721c4f878",
+  "size_bytes": 28030,
+  "checks": {
+    "archive_manifest": true,
+    "allowed_imports": true,
+    "resource_and_numerical_checks": true,
+    "deterministic_current_source_identity": true,
+    "exact_integrated_cost": true
+  },
+  "pass": true,
+  "raw_import_findings": [],
+  "package_replay": "attempts/package-001/RESULT.json",
+  "targets_accessed": false
+}

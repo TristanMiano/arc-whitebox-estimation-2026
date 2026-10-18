@@ -1,0 +1,689 @@
+[
+  {
+    "algorithm_id": "ALG003-V009",
+    "submission_id": 328477,
+    "task_id": "T075",
+    "event": 74,
+    "adjusted_score": 7.811135410795243e-07,
+    "source": "experiments/submission_policy/t075/RESULT.json",
+    "raw_mse": 3.122393313788052e-06,
+    "archive": "packages/ALG003-V009.tar.gz",
+    "archive_sha256": "6ecf8418f621af41e134ec7ea71a319817b11242881ce873de6cdaccee74cb7f",
+    "source_directory": "submissions/phase2_alg003_v009",
+    "runtime": {
+      "python_version": "3.10.20",
+      "whestbench_version": "0.16.0",
+      "flopscope_version": "0.12.0",
+      "numpy_version": "2.2.6"
+    },
+    "provenance": {
+      "algorithm_id": "ALG003-V009",
+      "short_label": "Known baseline",
+      "provenance_class": "Known method implemented for this challenge",
+      "local_change": "Standard Sobol sampling, stored point bank, radial normalization and current-shape/API translation. Local implementation/packaging; no new estimator principle claimed.",
+      "sources": [
+        "state/algorithm_specs/ALG003-V009.json"
+      ],
+      "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+    },
+    "writeup": "writeups/ALG003-V009.md"
+  },
+  {
+    "algorithm_id": "ALG014-V003",
+    "submission_id": 328479,
+    "task_id": "T075",
+    "event": 74,
+    "adjusted_score": 6.607199502584784e-07,
+    "source": "experiments/submission_policy/t075/RESULT.json",
+    "raw_mse": 2.509378157355968e-06,
+    "archive": "packages/ALG014-V003.tar.gz",
+    "archive_sha256": "f69e0762d637ca2f253316e6bb5e18b39403ba3d2d7776a3c1c028977e67cce9",
+    "source_directory": "submissions/phase2_alg014_v003",
+    "runtime": {
+      "python_version": "3.10.20",
+      "whestbench_version": "0.16.0",
+      "flopscope_version": "0.12.0",
+      "numpy_version": "2.2.6"
+    },
+    "provenance": {
+      "algorithm_id": "ALG014-V003",
+      "short_label": "Local sampling combination",
+      "provenance_class": "Project combination of published ingredients",
+      "local_change": "Haar-Stiefel/QR frames, antipodal pairing, mean-chi radius, exact first layer and budget-sized frame schedule. Established tools combined and implemented here; not an unchanged public challenge submission.",
+      "sources": [
+        "state/algorithm_specs/ALG014-V003.json",
+        "submissions/phase2_alg014_v003/README.md"
+      ],
+      "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+    },
+    "writeup": "writeups/ALG014-V003.md"
+  },
+  {
+    "algorithm_id": "ALG015-V000",
+    "submission_id": 328500,
+    "task_id": "T096A",
+    "event": 78,
+    "adjusted_score": 2.8435381750568926e-07,
+    "source": "experiments/submission_policy/t096a/RESULT.json",
+    "raw_mse": 2.8435381750568923e-06,
+    "archive": "packages/ALG015-V000.tar.gz",
+    "archive_sha256": "9591d5fdcc316e7d7e08aa7c57f2514ad64127e3b3336965690e16f023dc1bda",
+    "source_directory": "submissions/phase2_alg015_v000",
+    "runtime": {
+      "python_version": "3.10.20",
+      "whestbench_version": "0.16.0",
+      "flopscope_version": "0.12.0",
+      "numpy_version": "2.2.6"
+    },
+    "provenance": {
+      "algorithm_id": "ALG015-V000",
+      "short_label": "Local closure/sample blend",
+      "provenance_class": "Project combination of published ingredients",
+      "local_change": "One Haar frame blended 0.25/0.75 with the bundled full-covariance closure. The project contribution is the concrete cost-aware composition; shrinkage and Gaussian closure are known.",
+      "sources": [
+        "state/algorithm_specs/ALG015-V000.json",
+        "submissions/phase2_alg015_v000/README.md"
+      ],
+      "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+    },
+    "writeup": "writeups/ALG015-V000.md"
+  },
+  {
+    "algorithm_id": "ALG018-V000",
+    "submission_id": 328686,
+    "task_id": "T105A",
+    "event": 85,
+    "adjusted_score": 2.6931472416436013e-07,
+    "source": "experiments/submission_policy/t105a/RESULT.json",
+    "raw_mse": 2.693147241643601e-06,
+    "archive": "packages/ALG018-V000.tar.gz",
+    "archive_sha256": "7dff1ba505a85e237fdfc0e7b5ab114bcb2df30910195b9129c27e6cdeff02d9",
+    "source_directory": "submissions/phase2_alg018_v000",
+    "runtime": {
+      "python_version": "3.10.20",
+      "whestbench_version": "0.16.0",
+      "flopscope_version": "0.12.0",
+      "numpy_version": "2.2.6"
+    },
+    "provenance": {
+      "algorithm_id": "ALG018-V000",
+      "short_label": "Local closure/fusion changes",
+      "provenance_class": "Project combination of published ingredients",
+      "local_change": "Order-12 Price/Hermite closure plus an independent partial-Haar arm and fixed fusion weights. A locally developed allocation and combination of known tools.",
+      "sources": [
+        "state/algorithm_specs/ALG018-V000.json",
+        "submissions/phase2_alg018_v000/README.md"
+      ],
+      "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+    },
+    "writeup": "writeups/ALG018-V000.md"
+  },
+  {
+    "algorithm_id": "ALG019-V000",
+    "submission_id": 328762,
+    "task_id": "T108A",
+    "event": 92,
+    "adjusted_score": 2.3995983178792816e-07,
+    "source": "experiments/submission_policy/t108a/RESULT.json",
+    "raw_mse": 2.399598317879281e-06,
+    "archive": "packages/ALG019-V000.tar.gz",
+    "archive_sha256": "cf95929aaf2f76b35f0c5374339943ffbcceeaf0a7617b0d6ff56ccc3887bb7a",
+    "source_directory": "submissions/phase2_alg019_v000",
+    "runtime": {
+      "python_version": "3.10.20",
+      "whestbench_version": "0.16.0",
+      "flopscope_version": "0.12.0",
+      "numpy_version": "2.2.6"
+    },
+    "provenance": {
+      "algorithm_id": "ALG019-V000",
+      "short_label": "Local skew/fusion mechanism",
+      "provenance_class": "Local structural derivative",
+      "local_change": "Harmonic-shrunk terminal skew/Edgeworth correction, alpha-stratified fusion and nested partial extension. The source registry calls this OURS, while its sampling and closure lineage uses established ingredients.",
+      "sources": [
+        "state/algorithm_specs/ALG019-V000.json"
+      ],
+      "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+    },
+    "writeup": "writeups/ALG019-V000.md"
+  },
+  {
+    "algorithm_id": "ALG024-V000",
+    "submission_id": 329529,
+    "task_id": "T117A",
+    "event": 103,
+    "adjusted_score": 1.7153829685412346e-07,
+    "source": "experiments/submission_policy/t117a/RESULT.json",
+    "raw_mse": 1.7153829685412347e-06,
+    "archive": "packages/ALG024-V000.tar.gz",
+    "archive_sha256": "4353f9cd6d50143bba7591cf158d6fe745afaa7c8a05279b356e0fc7bce42378",
+    "source_directory": "submissions/phase2_alg024_v000",
+    "runtime": {
+      "python_version": "3.10.20",
+      "whestbench_version": "0.16.0",
+      "flopscope_version": "0.12.0",
+      "numpy_version": "2.2.6"
+    },
+    "provenance": {
+      "algorithm_id": "ALG024-V000",
+      "short_label": "Local fitted observer",
+      "provenance_class": "Local features and calibration on inherited machinery",
+      "local_change": "A 12-feature analytic-synthesis observer, locally fitted coefficients, correction cap and output projection over ALG019. Public/known numerical ingredients remain inherited.",
+      "sources": [
+        "state/algorithm_specs/ALG024-V000.json",
+        "submissions/phase2_alg024_v000/README.md"
+      ],
+      "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+    },
+    "writeup": "writeups/ALG024-V000.md"
+  },
+  {
+    "algorithm_id": "ALG026-V000",
+    "submission_id": 329690,
+    "task_id": "T118A",
+    "event": 106,
+    "adjusted_score": 1.4791658804824692e-07,
+    "source": "experiments/submission_policy/t118a/RESULT.json",
+    "raw_mse": 1.4791658804824692e-06,
+    "archive": "packages/ALG026-V000.tar.gz",
+    "archive_sha256": "a1d66a380afd79e99411ac0ad564c6eba3cdb9939b5a1effb0b41f9d3a84eb9c",
+    "source_directory": "submissions/phase2_alg026_v000",
+    "runtime": {
+      "python_version": "3.10.20",
+      "whestbench_version": "0.14.0",
+      "flopscope_version": "0.10.0",
+      "numpy_version": "2.2.6"
+    },
+    "provenance": {
+      "algorithm_id": "ALG026-V000",
+      "short_label": "Local composition + public kernel",
+      "provenance_class": "Local structural and compute derivative",
+      "local_change": "Combines a public MIT fast multiplication kernel with an independent child frame, cross-frame harmonic reliability and the fitted analytic observer. Substantive local composition; multiplication algorithm is public.",
+      "sources": [
+        "state/algorithm_specs/ALG026-V000.json",
+        "submissions/phase2_alg026_v000/README.md"
+      ],
+      "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+    },
+    "writeup": "writeups/ALG026-V000.md"
+  },
+  {
+    "algorithm_id": "ALG028-V000",
+    "submission_id": 329774,
+    "task_id": "T120B",
+    "event": 111,
+    "adjusted_score": 1.4229966461698496e-07,
+    "source": "experiments/submission_policy/t120b/RESULT.json",
+    "raw_mse": 1.4229966461698495e-06,
+    "archive": "packages/ALG028-V000.tar.gz",
+    "archive_sha256": "0415448d568e81441919094cfc6f9374aa69e491a388096620ccb4b721c4f878",
+    "source_directory": "submissions/phase2_alg028_v000",
+    "runtime": {
+      "python_version": "3.10.20",
+      "whestbench_version": "0.16.0",
+      "flopscope_version": "0.12.0",
+      "numpy_version": "2.2.6"
+    },
+    "provenance": {
+      "algorithm_id": "ALG028-V000",
+      "short_label": "Local trace correction",
+      "provenance_class": "Local mathematical derivative",
+      "local_change": "Replaces the terminal harmonic-skew correction with a radial-law-corrected physical third-cumulant trace projection; retains the existing observer coefficients. A local mathematical adaptation, not a new fit.",
+      "sources": [
+        "state/algorithm_specs/ALG028-V000.json",
+        "experiments/submission_policy/t120b/REPORT.md"
+      ],
+      "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+    },
+    "writeup": "writeups/ALG028-V000.md"
+  },
+  {
+    "algorithm_id": "ALG029-V000",
+    "submission_id": 329806,
+    "task_id": "T124",
+    "event": 114,
+    "adjusted_score": 1.367555488513972e-07,
+    "source": "experiments/submission_policy/t124/RESULT.json",
+    "raw_mse": 1.3675554885139717e-06,
+    "archive": "packages/ALG029-V000.tar.gz",
+    "archive_sha256": "c8e6e9286bc5c6e9ad5be8c5bb693e810162e7775bd0e0b69668038afef295cb",
+    "source_directory": "submissions/phase2_alg029_v000",
+    "runtime": {
+      "python_version": "3.10.20",
+      "whestbench_version": "0.16.0",
+      "flopscope_version": "0.12.0",
+      "numpy_version": "2.2.6"
+    },
+    "provenance": {
+      "algorithm_id": "ALG029-V000",
+      "short_label": "Local response recalibration",
+      "provenance_class": "Local feature/fit derivative",
+      "local_change": "Cap-aware anchored physical-response recalibration with a fixed Hermite remainder, followed by a local coefficient fit. Incremental response/calibration work on ALG028.",
+      "sources": [
+        "state/algorithm_specs/ALG029-V000.json",
+        "experiments/submission_policy/t124/REPORT.md"
+      ],
+      "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+    },
+    "writeup": "writeups/ALG029-V000.md"
+  },
+  {
+    "algorithm_id": "ALG031-V000",
+    "submission_id": 329989,
+    "task_id": "T127",
+    "event": 117,
+    "adjusted_score": 1.3618567538742354e-07,
+    "source": "experiments/submission_policy/t127/RESULT.json",
+    "raw_mse": 1.3618567538742354e-06,
+    "archive": "packages/ALG031-V000.tar.gz",
+    "archive_sha256": "b40b309a9fa3a353fa3f8d9163fa8bd1566299af87e3338558cefb8607c0f247",
+    "source_directory": "submissions/phase2_alg031_v000",
+    "runtime": {
+      "python_version": "3.10.20",
+      "whestbench_version": "0.16.0",
+      "flopscope_version": "0.12.0",
+      "numpy_version": "2.2.6"
+    },
+    "provenance": {
+      "algorithm_id": "ALG031-V000",
+      "short_label": "Local parity features + fit",
+      "provenance_class": "Local feature/fit derivative",
+      "local_change": "Parity-split physical response features and a fitted correction on ALG029. A local extension and recalibration of the inherited estimator.",
+      "sources": [
+        "state/algorithm_specs/ALG031-V000.json",
+        "experiments/submission_policy/t127/REPORT.md"
+      ],
+      "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+    },
+    "writeup": "writeups/ALG031-V000.md"
+  },
+  {
+    "algorithm_id": "ALG036-V000",
+    "submission_id": 330097,
+    "task_id": "T134",
+    "event": 127,
+    "adjusted_score": 1.3263657638162841e-07,
+    "source": "experiments/submission_policy/t134/RESULT.json",
+    "raw_mse": 1.326365763816284e-06,
+    "archive": "packages/ALG036-V000.tar.gz",
+    "archive_sha256": "0fdfa15c36c94def66692f8b8003b837d954b3c8189e1596b79d1607befcbb25",
+    "source_directory": "submissions/phase2_alg036_v000",
+    "runtime": {
+      "python_version": "3.12.3",
+      "whestbench_version": "0.16.0",
+      "flopscope_version": "0.12.0",
+      "numpy_version": "2.2.6"
+    },
+    "provenance": {
+      "algorithm_id": "ALG036-V000",
+      "short_label": "Adapted public features + fit",
+      "provenance_class": "Specific public-method feature transfer",
+      "local_change": "Transfers the five absolute-state calibration features from venture_agent_ai public work into our own ALG031 state, with our coefficients fitted locally. Neither a wholly local feature invention nor a copied complete estimator.",
+      "sources": [
+        "state/algorithm_specs/ALG036-V000.json",
+        "experiments/submission_policy/t134/REPORT.md"
+      ],
+      "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+    },
+    "writeup": "writeups/ALG036-V000.md"
+  },
+  {
+    "algorithm_id": "ALG037-V000",
+    "submission_id": 330101,
+    "task_id": "T135",
+    "event": 128,
+    "adjusted_score": 1.285804677308988e-07,
+    "source": "experiments/submission_policy/t135/RESULT.json",
+    "raw_mse": 1.2858046773089883e-06,
+    "archive": "packages/ALG037-V000.tar.gz",
+    "archive_sha256": "5d6ddf7461fe7322c592bddfd420c8e5e5068797a47f34bd7f005e61e74748d5",
+    "source_directory": "submissions/phase2_alg037_v000",
+    "runtime": {
+      "python_version": "3.12.3",
+      "whestbench_version": "0.16.0",
+      "flopscope_version": "0.12.0",
+      "numpy_version": "2.2.6"
+    },
+    "provenance": {
+      "algorithm_id": "ALG037-V000",
+      "short_label": "Local refit only",
+      "provenance_class": "Calibration-only change from predecessor",
+      "local_change": "One joint regularized refit of the existing 27 correction columns. No new feature vocabulary, sampling rule or recurrence; inherits the local/public mixture of ALG036.",
+      "sources": [
+        "state/algorithm_specs/ALG037-V000.json",
+        "experiments/submission_policy/t135/REPORT.md"
+      ],
+      "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+    },
+    "writeup": "writeups/ALG037-V000.md"
+  },
+  {
+    "algorithm_id": "ALG038-V000",
+    "submission_id": 330141,
+    "task_id": "T137",
+    "event": 130,
+    "adjusted_score": 1.7369283609807433e-08,
+    "source": "experiments/submission_policy/t137/RESULT.json",
+    "raw_mse": 4.2613318385065216e-08,
+    "archive": "packages/ALG038-V000.tar.gz",
+    "archive_sha256": "e83da8bbea78b45be296edaea50a31083079bfdb497442b276ec9b2a31cd5745",
+    "source_directory": "submissions/phase2_alg038_v000",
+    "runtime": {
+      "python_version": "3.12.3",
+      "whestbench_version": "0.16.0",
+      "flopscope_version": "0.12.0",
+      "numpy_version": "2.2.6"
+    },
+    "provenance": {
+      "algorithm_id": "ALG038-V000",
+      "short_label": "Adapted public cumulant method",
+      "provenance_class": "Substantial mathematical adaptation of published method",
+      "local_change": "Public joint-cumulant framework rebuilt as our paired compressed full-history recurrence, with repeated-index completion, radial fourth scalar and signed mean/covariance response. Reuses public fast multiplication. No local fit; not an exact implementation of the full published method.",
+      "sources": [
+        "experiments/theory/t136/REPORT.md",
+        "experiments/theory/t136/CANDIDATE_A.md",
+        "submissions/phase2_alg038_v000/README.md"
+      ],
+      "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+    },
+    "writeup": "writeups/ALG038-V000.md"
+  },
+  {
+    "algorithm_id": "ALG038-V001",
+    "submission_id": 330153,
+    "task_id": "T138",
+    "event": 132,
+    "adjusted_score": 1.4667675875416682e-08,
+    "source": "experiments/submission_policy/t138/RESULT.json",
+    "raw_mse": 4.261352437140431e-08,
+    "archive": "packages/ALG038-V001.tar.gz",
+    "archive_sha256": "b5cad63ef997dc0ead3dd17587b56340580119de8d460f95bcd5e9a9e5f6f367",
+    "source_directory": "submissions/phase2_alg038_v001",
+    "runtime": {
+      "python_version": "3.12.3",
+      "whestbench_version": "0.16.0",
+      "flopscope_version": "0.12.0",
+      "numpy_version": "2.2.6"
+    },
+    "provenance": {
+      "algorithm_id": "ALG038-V001",
+      "short_label": "Local arithmetic changes only",
+      "provenance_class": "Compute-only change from adapted public-method parent",
+      "local_change": "Retains ALG038-V000 state and recurrence; uses final marginal contractions and a four-level multiplication schedule. The fresh contribution is lower cost, not a new statistical mechanism.",
+      "sources": [
+        "state/algorithm_specs/ALG038-V001.json",
+        "experiments/submission_policy/t138/REPORT.md"
+      ],
+      "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+    },
+    "writeup": "writeups/ALG038-V001.md"
+  },
+  {
+    "algorithm_id": "ALG041-V000",
+    "submission_id": 330392,
+    "task_id": "T144",
+    "event": 139,
+    "adjusted_score": 1.1833081571784114e-08,
+    "source": "experiments/submission_policy/t144/RESULT.json",
+    "raw_mse": 3.4359578897635856e-08,
+    "archive": "packages/ALG041-V000.tar.gz",
+    "archive_sha256": "25de10fad808b8f66b11bcd363841c34a6daf518f24c040ea589aa174c98ad70",
+    "source_directory": "submissions/phase2_alg041_v000",
+    "runtime": {
+      "python_version": "3.12.3",
+      "whestbench_version": "0.16.0",
+      "flopscope_version": "0.12.0",
+      "numpy_version": "2.2.6"
+    },
+    "provenance": {
+      "algorithm_id": "ALG041-V000",
+      "short_label": "Local joint-source correction",
+      "provenance_class": "Local mathematical derivative of adapted public framework",
+      "local_change": "Adds the locally derived/implemented JSP fresh-source joint response to ALG038-V001 and recomputes repeated-entry completion. No local fit. Related cumulant-response ideas are published; this record does not establish academic priority.",
+      "sources": [
+        "state/algorithm_specs/ALG041-V000.json",
+        "experiments/submission_policy/t144/REPORT.md",
+        "experiments/theory/t143/JSP_MATHEMATICAL_HANDOFF.md"
+      ],
+      "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+    },
+    "writeup": "writeups/ALG041-V000.md"
+  },
+  {
+    "algorithm_id": "ALG043-V000",
+    "submission_id": 330597,
+    "task_id": "T147",
+    "event": 142,
+    "adjusted_score": 5.419051334510831e-09,
+    "source": "experiments/submission_policy/t147/RESULT.json",
+    "raw_mse": 2.1327418124883478e-08,
+    "archive": "packages/ALG043-V000.tar.gz",
+    "archive_sha256": "fdf4b3bf4f0cf0a0cabeefb42fca39985123a0ad636eb750ad7bafa963a7717f",
+    "source_directory": "submissions/phase2_alg043_v000",
+    "runtime": {
+      "python_version": "3.12.3",
+      "whestbench_version": "0.16.0",
+      "flopscope_version": "0.12.0",
+      "numpy_version": "2.2.6"
+    },
+    "provenance": {
+      "algorithm_id": "ALG043-V000",
+      "short_label": "Unchanged public copy",
+      "provenance_class": "Unmodified public estimator source",
+      "local_change": "504aldo public V29 at commit18c17e2d7a9aeacd399cfc2c6b571e4e16dbfb45, numerical source byte-identical. Published terms, fitted tables, defaults and schedules unchanged. Only packaging, qualification and harness work were ours.",
+      "sources": [
+        "state/algorithm_specs/ALG043-V000.json",
+        "experiments/submission_policy/t147/REPORT.md",
+        "experiments/submission_policy/t147/ATTRIBUTION.md"
+      ],
+      "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+    },
+    "writeup": "writeups/ALG043-V000.md"
+  },
+  {
+    "algorithm_id": "ALG049-V000",
+    "submission_id": 330887,
+    "task_id": "T159",
+    "event": 154,
+    "adjusted_score": 5.017859747074435e-09,
+    "source": "experiments/submission_policy/t159/RESULT.json",
+    "raw_mse": 2.2309206819670634e-08,
+    "archive": "packages/ALG049-V000.tar.gz",
+    "archive_sha256": "f61fc6eb9e0525f6d40c8c856a46becb88a360d116d036d36a1e4024512f001e",
+    "source_directory": "submissions/phase2_alg049_v000",
+    "runtime": {
+      "python_version": "3.12.3",
+      "whestbench_version": "0.16.0",
+      "flopscope_version": "0.12.0",
+      "numpy_version": "2.2.6"
+    },
+    "provenance": {
+      "algorithm_id": "ALG049-V000",
+      "short_label": "Modified public V29",
+      "provenance_class": "Local mathematical and compute adaptations of public code",
+      "local_change": "Starts from public V29 and adds the coupled native history basis, covariance-cup compensation for lost third-tensor trace, ranks320/192 and Winograd/shared-arena arithmetic. Inherits V29 calibration and core machinery; no new fit. The Winograd algorithm itself is established.",
+      "sources": [
+        "state/algorithm_specs/ALG049-V000.json",
+        "submissions/phase2_alg049_v000/README.md",
+        "experiments/submission_policy/t159/REPORT.md"
+      ],
+      "academic_novelty": "Not established by this audit; labels describe recorded implementation/method provenance, not a priority claim."
+    },
+    "writeup": "writeups/ALG049-V000.md"
+  },
+  {
+    "algorithm_id": "ALG050-V000",
+    "submission_id": 331607,
+    "task_id": "T161",
+    "event": 157,
+    "adjusted_score": 4.544342423060378e-09,
+    "source": "experiments/submission_policy/t161/RESULT.json",
+    "raw_mse": 2.21947214029683e-08,
+    "archive": "packages/ALG050-V000.tar.gz",
+    "archive_sha256": "f3e186139f65d0407539bf8518de43a7e4522f5f9e4ac1e46e73212f594ab1bc",
+    "source_directory": "submissions/phase2_alg050_v000",
+    "runtime": {
+      "python_version": "3.12.3",
+      "whestbench_version": "0.16.0",
+      "flopscope_version": "0.12.0",
+      "numpy_version": "2.2.6"
+    },
+    "provenance": {
+      "algorithm_id": "ALG050-V000",
+      "short_label": "Modified public V29; arithmetic/selection adaptation",
+      "local_change": "Prune the nonlinear interface using |alpha| <= 2.5, repair omitted-row trace, and gate young sources from layer 5. Keeps inherited fitted tables; no new target-coefficient fit.",
+      "academic_novelty": "Not established; this is an implementation/provenance assessment, not a priority claim."
+    },
+    "writeup": "writeups/ALG050-V000.md"
+  },
+  {
+    "algorithm_id": "ALG051-V000",
+    "submission_id": 332018,
+    "task_id": "T164",
+    "event": 160,
+    "adjusted_score": 4.368514231311302e-09,
+    "source": "experiments/submission_policy/t164/RESULT.json",
+    "raw_mse": 2.1323075287682514e-08,
+    "archive": "packages/ALG051-V000.tar.gz",
+    "archive_sha256": "3b46441c39a7e2dc8b2d8344cdea410bf23aa023a7dcbfdc7b4c0a841c45e26f",
+    "source_directory": "submissions/phase2_alg051_v000",
+    "runtime": {
+      "python_version": "3.12.3",
+      "whestbench_version": "0.16.0",
+      "flopscope_version": "0.12.0",
+      "numpy_version": "2.2.6"
+    },
+    "provenance": {
+      "algorithm_id": "ALG051-V000",
+      "short_label": "Modified public V29; supervised response fit",
+      "local_change": "Add 124 fitted coefficients predicting propagated mean residuals from marginal and pair fields. The physical recurrence is inherited from ALG050; public-training supervision is explicit.",
+      "academic_novelty": "Not established; this is an implementation/provenance assessment, not a priority claim."
+    },
+    "writeup": "writeups/ALG051-V000.md"
+  },
+  {
+    "algorithm_id": "ALG052-V000",
+    "submission_id": 332641,
+    "task_id": "T167",
+    "event": 163,
+    "adjusted_score": 4.285182274373245e-09,
+    "source": "experiments/submission_policy/t167/RESULT.json",
+    "raw_mse": 2.0914763076973487e-08,
+    "archive": "packages/ALG052-V000.tar.gz",
+    "archive_sha256": "827a2ff81a318eb655013b7766df194b851d0bad4be34669db87d0121066d547",
+    "source_directory": "submissions/phase2_alg052_v000",
+    "runtime": {
+      "python_version": "3.12.3",
+      "whestbench_version": "0.16.0",
+      "flopscope_version": "0.12.0",
+      "numpy_version": "2.2.6"
+    },
+    "provenance": {
+      "algorithm_id": "ALG052-V000",
+      "short_label": "Modified public V29; learned local source",
+      "local_change": "Learn local mean innovations from intermediate-layer supervision and propagate a separate response vector. Small neural source and combined objective are project additions; learned closure is an established idea.",
+      "academic_novelty": "Not established; this is an implementation/provenance assessment, not a priority claim."
+    },
+    "writeup": "writeups/ALG052-V000.md"
+  },
+  {
+    "algorithm_id": "ALG053-V000",
+    "submission_id": 335391,
+    "task_id": "T171",
+    "event": 167,
+    "adjusted_score": 4.1556172645504615e-09,
+    "source": "experiments/submission_policy/t171/RESULT.json",
+    "raw_mse": 2.0127173101514018e-08,
+    "archive": "packages/ALG053-V000.tar.gz",
+    "archive_sha256": "13f9dd52e24fde2987d16b004cd66d6049b31a3b2cb630a53c9652826c2ccc4e",
+    "source_directory": "submissions/phase2_alg053_v000",
+    "runtime": {
+      "python_version": "3.12.3",
+      "whestbench_version": "0.16.0",
+      "flopscope_version": "0.12.0",
+      "numpy_version": "2.2.6"
+    },
+    "provenance": {
+      "algorithm_id": "ALG053-V000",
+      "short_label": "Modified public V29; fitted physical covariance recurrence",
+      "local_change": "Add a 32-field covariance-defect dictionary with 96 fitted coefficients in three depth bins. Unlike a terminal calibration, this changes the physical covariance trajectory and later means.",
+      "academic_novelty": "Not established; this is an implementation/provenance assessment, not a priority claim."
+    },
+    "writeup": "writeups/ALG053-V000.md"
+  },
+  {
+    "algorithm_id": "ALG054-V000",
+    "submission_id": 336778,
+    "task_id": "T172",
+    "event": 168,
+    "adjusted_score": 3.0332910471237746e-09,
+    "source": "experiments/theory/t172/candidates/ALG054-V000/OFFICIAL_RESULT.json",
+    "raw_mse": 1.9893760558886697e-08,
+    "archive": "packages/ALG054-V000.tar.gz",
+    "archive_sha256": "603e16a2c1d675f4ce0f353990aa59491771b8f712fc287f2020768e93c30d5e",
+    "source_directory": "submissions/phase2_alg054_v000",
+    "runtime": {
+      "python_version": "3.12.3",
+      "whestbench_version": "0.16.2",
+      "flopscope_version": "0.12.3",
+      "numpy_version": "2.2.6"
+    },
+    "provenance": {
+      "algorithm_id": "ALG054-V000",
+      "short_label": "Modified public e30_a; covariance correction and fused arithmetic",
+      "local_change": "Port the T170 covariance dictionary to LordProcciuto\u2019s lower-cost e30_a engine and fuse low-rank contractions. The public engine supplied most of the historical improvement. Its existing fitted mean table remains.",
+      "academic_novelty": "Not established; this is an implementation/provenance assessment, not a priority claim."
+    },
+    "writeup": "writeups/ALG054-V000.md"
+  },
+  {
+    "algorithm_id": "ALG055-V000",
+    "submission_id": 336785,
+    "task_id": "T172",
+    "event": 168,
+    "adjusted_score": 2.982822327838572e-09,
+    "source": "experiments/theory/t172/candidates/ALG055-V000/OFFICIAL_RESULT.json",
+    "raw_mse": 1.9530869579398312e-08,
+    "archive": "packages/ALG055-V000.tar.gz",
+    "archive_sha256": "d8d1b905632e0e5937ed3f61a6ca86b2e4afb9f28366d6a4f32c185f29ebc394",
+    "source_directory": "submissions/phase2_alg055_v000",
+    "runtime": {
+      "python_version": "3.12.3",
+      "whestbench_version": "0.16.2",
+      "flopscope_version": "0.12.3",
+      "numpy_version": "2.2.6"
+    },
+    "provenance": {
+      "algorithm_id": "ALG055-V000",
+      "short_label": "Modified public e30_a; learned trace-informed source",
+      "local_change": "Add a 24-input, 32-hidden-unit, four-head tanh source trained on 32 public networks. Transport its innovations through a separate Gaussian mean-response recurrence and add the response to the final prediction.",
+      "academic_novelty": "Not established; this is an implementation/provenance assessment, not a priority claim."
+    },
+    "writeup": "writeups/ALG055-V000.md"
+  },
+  {
+    "algorithm_id": "ALG058-V001",
+    "submission_id": 336809,
+    "task_id": "T172",
+    "event": 168,
+    "adjusted_score": 2.971106406126817e-09,
+    "source": "experiments/theory/t172/candidates/ALG058-V001/OFFICIAL_RESULT.json",
+    "raw_mse": 1.9446764376596092e-08,
+    "archive": "packages/ALG058-V001.tar.gz",
+    "archive_sha256": "2c28711f6d44709182886eb6e1535503af415ecd97721b46868b39f2ff0660db",
+    "source_directory": "submissions/phase2_alg058_v001",
+    "runtime": {
+      "python_version": "3.12.3",
+      "whestbench_version": "0.16.2",
+      "flopscope_version": "0.12.3",
+      "numpy_version": "2.2.6"
+    },
+    "provenance": {
+      "algorithm_id": "ALG058-V001",
+      "short_label": "Modified public e30_a; fixed average of learned sources",
+      "local_change": "Average ALG055\u2019s trace source with a 48-input context source trained on 64 public networks. A 72-coordinate/64-hidden-unit batch preserves both normalizers and clipping rules; the mixture weight is fixed at one half.",
+      "academic_novelty": "Not established; this is an implementation/provenance assessment, not a priority claim."
+    },
+    "writeup": "writeups/ALG058-V001.md"
+  }
+]

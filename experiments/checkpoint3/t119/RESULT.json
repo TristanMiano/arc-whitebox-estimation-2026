@@ -1,0 +1,59 @@
+{
+  "schema_version": "arc-t119-result-v1",
+  "task": "T119",
+  "experiment_id": "E107",
+  "status": "completed_two_hour_theory_two_fc012_decisions_frozen",
+  "incumbent": "ALG026-V000",
+  "incumbent_submission_id": 329690,
+  "protected_candidate_outcome_opened": false,
+  "algorithm_id_created": false,
+  "scientific_tier_changed": false,
+  "submission_candidate_changed": false,
+  "package_created": false,
+  "upload_performed": false,
+  "owner_active_theory_minutes_minimum": 120,
+  "active_theory_floor_satisfied": true,
+  "selected_decisions": [
+    {
+      "task": "T120",
+      "hypothesis": "COA-R",
+      "role": "highest_probability_of_any_adjusted_score_win",
+      "any_win_prior": 0.42,
+      "adjusted_le_1e_7_prior": 0.03,
+      "expected_retained_score_improvement": 4.8252947e-9
+    },
+    {
+      "task": "T121",
+      "hypothesis": "CGMA",
+      "role": "highest_expected_retained_score_and_radical_tail",
+      "any_win_prior_against_ALG026": 0.19,
+      "adjusted_le_1e_7_prior_against_ALG026": 0.065,
+      "expected_retained_score_improvement": 6.6542947e-9
+    }
+  ],
+  "portfolio_probability_at_least_one_ALG026_win": 0.5186,
+  "parked_reserves": ["RCERC", "KCAS", "RLCE"],
+  "next_task": "T120",
+  "conditional_queue": ["T120", "T120A_if_point_win", "T121", "T121A_if_point_win", "T122"],
+  "timing": {
+    "start_pdt": "2026-09-03T22:32:11,781408185-07:00",
+    "estimate_seconds": 9900,
+    "end_checkoff_pdt": "2026-09-04T00:37:19,261891804-07:00",
+    "elapsed_ns": 7507480483619,
+    "estimate_difference_ns": 2392519516381,
+    "estimate_difference": "00:39:52.519516381_earlier_than_point_estimate"
+  },
+  "work_allocation": {
+    "active_written_theory_minutes_minimum": 120,
+    "candidate_code_minutes": 0,
+    "candidate_program_wait_minutes": 0,
+    "remainder": "durable_state_integration_validation_and_short_shell_source_checks"
+  },
+  "authority": {
+    "ledger": "experiments/checkpoint3/t119/THEORY_LEDGER.md",
+    "ranked_slate": "experiments/checkpoint3/t119/RANKED_SLATE.md",
+    "decision_freeze": "experiments/checkpoint3/t119/DECISION_FREEZE.json",
+    "surprise_freeze": "experiments/checkpoint3/t119/SURPRISE_FREEZE.json",
+    "cgma_scalar_seal": "experiments/checkpoint3/t119/CGMA_SCALAR_SEAL.md"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "start_utc": "2026-09-07T03:27:43Z",
+  "end_checkoff_utc": "2026-09-07T04:21:09.351407+00:00",
+  "actual_elapsed_minutes": 53.439190116666666,
+  "estimate_total_minutes": 75,
+  "estimate_total_range_minutes": [
+    60,
+    90
+  ],
+  "estimate_error_minutes": -21.560809883333334,
+  "elapsed_through_upload_minutes": 21.34733333333333,
+  "grader_wait_minutes": 31.011423218250275,
+  "recorded_metered_prediction_minutes": 11.710596908016548,
+  "initial_active_engineering_budget_minutes": 60,
+  "engineering_extension_used": false,
+  "note": "Prediction time is included in elapsed time. First harness-error prediction is additional and retained in its log. Grader waiting overlaps recordkeeping.",
+  "end_verification_utc": "2026-09-07T04:24:17.059306+00:00",
+  "elapsed_through_verification_minutes": 56.5676551,
+  "estimate_error_through_verification_minutes": -18.432344899999997
+}

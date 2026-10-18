@@ -1,0 +1,16 @@
+{
+  "tasks": 151,
+  "timed_tasks": 115,
+  "missing_task_times": 36,
+  "partial_task_times": 2,
+  "recorded_session_hours": 100.70252200164444,
+  "recorded_active_research_hours": 41.80828729805556,
+  "recorded_active_mathematics_hours": 32.54579199166667,
+  "overlapping_agent_person_hours": 4.7485188152777775,
+  "successful_submissions": 17,
+  "milestone_time_groups": 16,
+  "early_pre_numbered_events_without_session_times": 7,
+  "additional_untimed_followup": "E120: visualization repair; excluded from duration and not counted as a second T128A task",
+  "boundaries": "Recorded task completion event sequence; all intervening started tasks included, including failures, operations, policy and reviews. Milestone task closure included. This is not calendar subtraction or causal attribution.",
+  "current_audit_excluded": true
+}

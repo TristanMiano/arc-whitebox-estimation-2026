@@ -1,0 +1,112 @@
+{
+  "schema_version": "arc-t091a-final-result-v1",
+  "task": "T091A",
+  "experiment_id": "E065",
+  "candidate_id": "ALG014-V000",
+  "mechanism_control_id": "ALG014-V002",
+  "policy_id": "FFSP003",
+  "status": "P1-promising",
+  "timing": {
+    "start": "2026-08-23T14:13:02-07:00",
+    "estimate_minutes": 45,
+    "end_check_off": "2026-08-23T14:51:33-07:00",
+    "elapsed": "00:38:31",
+    "elapsed_seconds": 2311
+  },
+  "identity_transfer": {
+    "prior_t091_role": "mechanism_control",
+    "prospective_t091a_role": "screenable_candidate",
+    "behavior_sha256": "be76085f04597ca2244317bd5c4e9a2d460eab737b8a628011d289c98bf3e2b5",
+    "prior_behavior_sha256": "be76085f04597ca2244317bd5c4e9a2d460eab737b8a628011d289c98bf3e2b5",
+    "behavior_exact_match": true,
+    "executed_f1_candidate_equals_archived_t091_equal_arm": true,
+    "retroactive_p1_claimed": false
+  },
+  "academic_novelty": {
+    "source": "OURS+PUBLIC",
+    "label": "N1-NOVEL-COMBINATION",
+    "novelty_dimension": 2,
+    "closest_collision": "block orthogonal Monte Carlo",
+    "exact_project_collision_found": false,
+    "n2_claimed": false
+  },
+  "m1": {
+    "source": "lawful T091 Windows-native equal-weight arm transferred after exact behavior binding",
+    "candidate_to_iid_work_ratio": 0.44459758368022423,
+    "wins": 12,
+    "networks": 12,
+    "status": "pass"
+  },
+  "registration": {
+    "registered_before_f0": true,
+    "candidate_modeled_flops": 247350948181,
+    "mechanism_control_modeled_flops": 247347893760,
+    "compute_delta_fraction": 0.00001234853160039199,
+    "candidate_reserve_flops": 24649051819,
+    "status": "pass"
+  },
+  "funnel": {
+    "f0": "pass",
+    "f1_determinism": "byte_exact_2_of_2",
+    "f1_source_transfer": "exact_2_of_2",
+    "f2_candidate_to_mechanism_ratio": 0.91464561713682735,
+    "f2_maximum_paired_ratio": 3.4325131048937876,
+    "f3a_candidate_to_mechanism_ratio": 0.51534790613442527,
+    "f3b_candidate_to_mechanism_ratio": 0.59384822659926539,
+    "pooled_f3_candidate_to_mechanism_ratio": 0.5469328057720082,
+    "pooled_f3_bootstrap_upper90_ratio": 0.67831193113152544,
+    "maximum_f3_paired_ratio": 2.3122517137258969,
+    "pooled_f3_wins": 24,
+    "pooled_f3_networks": 32,
+    "pooled_f3_candidate_to_incumbent_ratio": 0.86419847374425063,
+    "candidate_mean_raw_final_mse": 4.2546357187622401E-7,
+    "mechanism_mean_raw_final_mse": 7.7791791112421078E-7,
+    "incumbent_mean_raw_final_mse": 4.6382252816987663E-7,
+    "candidate_mean_adjusted_score_proxy": 3.8690741882374644E-7,
+    "mechanism_mean_adjusted_score_proxy": 7.0741307659835444E-7,
+    "incumbent_mean_adjusted_score_proxy": 4.4770666759849793E-7,
+    "paired_ratio_quantiles": {
+      "median": 0.6147837097574399,
+      "p75": 0.95555330542140282,
+      "p90": 1.5429609892900453,
+      "p95": 1.6532417693352175,
+      "maximum": 2.3122517137258964
+    },
+    "p1_promising": true
+  },
+  "build_incident": {
+    "initial_wrapper_defect": "preprocessor main-name collision fixed before registration",
+    "exact_clang_frontend_crashes_after_fix": 3,
+    "fault_stage": "unused inherited embedded-reference parsing before estimator execution",
+    "self_service_repair": "excluded unused inherited caches at compile time without changing estimator arithmetic",
+    "repaired_clang_build": "pass",
+    "gcc_route_reproduction": "byte_exact",
+    "scientific_output_affected": false,
+    "owner_action_required": false
+  },
+  "promotion_audit": {
+    "current_tier": "P1-promising",
+    "highest_supported_tier": "P1-promising",
+    "next_tier_considered": "R1-mechanism-confirmed after the required additional mechanism-distinct attempts",
+    "primary_blocker_class": "PROMOTED",
+    "strict_gate_was_sole_blocker": false,
+    "all_p1_gates_passed": true,
+    "plain_language": "Collective equal-weight Haar-Stiefel balancing cut pooled fresh-lane adjusted error by 45.31% relative to equal-work iid while passing every FFSP003 uncertainty, tail, integrity, compute, and determinism gate.",
+    "immediate_high_impact_unlock": "Agent: execute H090-A/T092 as the first required post-P1 mechanism-distinct attempt, then select and finish one further distinct attempt before freezing the rigorous singleton or broader slate."
+  },
+  "prior_calibration": {
+    "frozen_outcome_category": "P1_promising",
+    "frozen_outcome_probability": 0.80,
+    "surprise_bits": 0.3219280948873623,
+    "surprise_label": "expected"
+  },
+  "submission_candidate": {
+    "algorithm_id": "ALG014-V000",
+    "status": "remains_current_best_project_submission_candidate",
+    "new_same_cohort_predecessor_comparison_available": false,
+    "official_score_claimed": false,
+    "submission_package_ready": false
+  },
+  "next_task": "T092",
+  "owner_action_required": false
+}

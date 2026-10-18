@@ -1,0 +1,15 @@
+{
+  "probe": "P19_new_trace",
+  "question": "Does the newly fitted transported source improve actual P09 scores on outside-F development?",
+  "source_sha256": "f27c7118f4fd4dbd803c053f74699ae3f9dd5681ff53d57b55023959668bbda7",
+  "asset_sha256": "cbbdaed0c92bf7386f927333dd729fd2debd012164bbaa591ded6a594eafdf47",
+  "origin": "P09 + P14 trace24",
+  "rows": [
+    750,
+    976,
+    772,
+    795
+  ],
+  "created_utc": "2026-10-17T19:17:04.066461+00:00",
+  "data_role": "Adaptive public development;32F training, four outsideF development rows"
+}

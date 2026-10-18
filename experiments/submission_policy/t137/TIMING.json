@@ -1,0 +1,17 @@
+{
+  "start_utc": "2026-09-07T01:07:11+00:00",
+  "end_checkoff_utc": "2026-09-07T02:18:18.490512+00:00",
+  "actual_elapsed_minutes": 71.12484186666667,
+  "estimate_total_minutes": 100,
+  "estimate_total_range_minutes": [
+    75,
+    120
+  ],
+  "estimate_error_minutes": -28.87515813333333,
+  "local_elapsed_minutes_including_upload": 45.846266666666665,
+  "completed_metered_prediction_minutes": 9.391900573183497,
+  "grader_wait_minutes": 22.632408344745635,
+  "initial_active_engineering_budget_minutes": 60,
+  "engineering_budget_extension": false,
+  "note": "Local implementation through upload completed within45.85 elapsed minutes. Subsequent recordkeeping overlaps grader wait. Metered prediction time overlaps local work; categories are not additive and failed-call/input-loading times are additional."
+}

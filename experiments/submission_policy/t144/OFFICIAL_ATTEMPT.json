@@ -1,0 +1,15 @@
+{
+  "submission_id": 330392,
+  "created_at": "2026-09-09T01:06:02.638Z",
+  "recorded_utc": "2026-09-09T01:06:03.017925+00:00",
+  "deadline_utc": "2026-09-09T02:06:02.638000+00:00",
+  "attempt": 1,
+  "archive_sha256": "25de10fad808b8f66b11bcd363841c34a6daf518f24c040ea589aa174c98ad70",
+  "status": "GRADED",
+  "retry_created": false,
+  "status_file": "SUBMISSION_330392_STATUS.json",
+  "original_deadline_utc": "2026-09-09T01:36:02.638000+00:00",
+  "owner_wait_extension": "OWNER_WAIT_EXTENSION.json",
+  "wait_minutes": 60,
+  "completed_observed_utc": "2026-09-09T01:33:09Z"
+}

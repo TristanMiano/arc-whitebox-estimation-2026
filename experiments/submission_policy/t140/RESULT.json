@@ -1,0 +1,225 @@
+{
+  "task_id": "T140",
+  "experiment_id": "E135",
+  "algorithm_id": "ALG039-V000",
+  "status": "COMPLETED_LOCAL_REJECT_NO_UPLOAD",
+  "report": "experiments/submission_policy/t140/REPORT.md",
+  "source_freeze": "experiments/submission_policy/t140/SOURCE_FREEZE.json",
+  "score": {
+    "task_id": "T140",
+    "algorithm_id": "ALG039-V000",
+    "evidence_class": "submission-facing production confirmation; reused development panels, not independent scientific validation",
+    "rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "n": 12,
+    "raw_mse": 3.741436166569246e-07,
+    "adjusted_score": 7.19308832781944e-08,
+    "parent_raw_mse": 4.5309500866514844e-08,
+    "parent_adjusted_score": 1.5595291677326586e-08,
+    "ratio": 4.612346134107388,
+    "improvement_percent": -361.2346134107388,
+    "wins": 0,
+    "bootstrap_probability_of_mean_improvement": 0.0,
+    "bootstrap_mean_change_90pct_interval": [
+      5.3838709481709146e-08,
+      5.899533543061914e-08
+    ],
+    "network_ratio_quantiles": {
+      "median": 4.762033877887003,
+      "p90": 5.157169205470531,
+      "p95": 5.216546805918487,
+      "maximum": 5.260540757404534
+    },
+    "flops": [
+      422772641518,
+      422772641518,
+      422772641518,
+      422772641518,
+      422772641518,
+      422772641518,
+      422772641518,
+      422772641518,
+      422772641518,
+      422772641518,
+      422772641518,
+      422772641518
+    ],
+    "multipliers": [
+      0.19225473875758325,
+      0.19225473875758325,
+      0.19225473875758325,
+      0.19225473875758325,
+      0.19225473875758325,
+      0.19225473875758325,
+      0.19225473875758325,
+      0.19225473875758325,
+      0.19225473875758325,
+      0.19225473875758325,
+      0.19225473875758325,
+      0.19225473875758325
+    ],
+    "prediction_seal_sha256": "e69c7d4ecdd27dc1ec15a6f2868c7bff625d6e8808c10f6cb0d33c930c0c936c",
+    "per_network": [
+      {
+        "row": 750,
+        "candidate_raw_mse": 3.2974499335816094e-07,
+        "parent_raw_mse": 3.8793625684691605e-08,
+        "adjusted_ratio": 4.747780896609542
+      },
+      {
+        "row": 772,
+        "candidate_raw_mse": 4.0737462055698505e-07,
+        "parent_raw_mse": 4.3922877254435005e-08,
+        "adjusted_ratio": 5.18055175470263
+      },
+      {
+        "row": 795,
+        "candidate_raw_mse": 3.8071456987756735e-07,
+        "parent_raw_mse": 4.950768159938803e-08,
+        "adjusted_ratio": 4.295361674341435
+      },
+      {
+        "row": 817,
+        "candidate_raw_mse": 4.080042621223288e-07,
+        "parent_raw_mse": 4.607015261500804e-08,
+        "adjusted_ratio": 4.946726262381646
+      },
+      {
+        "row": 840,
+        "candidate_raw_mse": 4.533314756014678e-07,
+        "parent_raw_mse": 5.806688216618281e-08,
+        "adjusted_ratio": 4.360740021542172
+      },
+      {
+        "row": 863,
+        "candidate_raw_mse": 3.803608064152106e-07,
+        "parent_raw_mse": 4.322507930039158e-08,
+        "adjusted_ratio": 4.9151048900908325
+      },
+      {
+        "row": 885,
+        "candidate_raw_mse": 3.5227096925823667e-07,
+        "parent_raw_mse": 3.7404107289631236e-08,
+        "adjusted_ratio": 5.260540757404534
+      },
+      {
+        "row": 908,
+        "candidate_raw_mse": 3.511380453123724e-07,
+        "parent_raw_mse": 5.223600752456325e-08,
+        "adjusted_ratio": 3.75474753562715
+      },
+      {
+        "row": 930,
+        "candidate_raw_mse": 3.3658290351979215e-07,
+        "parent_raw_mse": 4.657171323182797e-08,
+        "adjusted_ratio": 4.036850511939586
+      },
+      {
+        "row": 953,
+        "candidate_raw_mse": 3.6351647642387344e-07,
+        "parent_raw_mse": 4.251150961446593e-08,
+        "adjusted_ratio": 4.776286859164465
+      },
+      {
+        "row": 976,
+        "candidate_raw_mse": 3.679623980995281e-07,
+        "parent_raw_mse": 4.481477262689011e-08,
+        "adjusted_ratio": 4.586221994250078
+      },
+      {
+        "row": 999,
+        "candidate_raw_mse": 3.5872187933757107e-07,
+        "parent_raw_mse": 4.058960149070256e-08,
+        "adjusted_ratio": 4.936463250198737
+      }
+    ],
+    "competition_pass": false,
+    "resource_checks_pass": true,
+    "comparison_refit": false,
+    "single_training_fit": false,
+    "scientific_tier_awarded": false,
+    "interim_look": null,
+    "coefficient_fit_calls": 0
+  },
+  "resources": {
+    "completed_prediction_calls": 13,
+    "completed_rows": 13,
+    "flops": [
+      422772641518
+    ],
+    "prediction_wall_range_s": [
+      24.747327577999386,
+      25.86962663599843
+    ],
+    "prediction_wall_total_minutes": 5.477360472816629,
+    "residual_range_s": [
+      0.3369294781714416,
+      0.36156415214645676
+    ],
+    "peak_rss_bytes": 5196578816,
+    "setup_max_s": 0.03682200799994462,
+    "all_resource_checks_pass": true
+  },
+  "timing": {
+    "task_id": "T140",
+    "start_utc": "2026-09-08T18:49:14Z",
+    "decision_utc": "2026-09-08T19:03:54Z",
+    "record_completion_utc": "2026-09-08T19:06:44.020826+00:00",
+    "elapsed_minutes": 17.5003471,
+    "estimate_total_range_minutes": [
+      100,
+      130
+    ],
+    "error_to_lower_estimate_minutes": -82.4996529,
+    "error_to_upper_estimate_minutes": -112.4996529,
+    "metered_prediction_minutes": 5.477360472816629,
+    "official_wait_minutes": 0,
+    "explicit_idle_wait_minutes": 2.1666666666666665,
+    "approximate_active_engineering_minutes": 14.500347099999999,
+    "approximate_unattended_execution_and_io_wait_minutes": 3,
+    "allocation_method": "Elapsed and prediction meters measured; active/wait split is a rough elapsed allocation. Prediction time overlaps active work, so is not additive. Explicit idle sleeps are included in the approximate3-minute wait allocation. No active-time floor;30-minute reassessment not reached.",
+    "budget_extension": false,
+    "estimate_explanation": "Inherited harness and implementation passed immediately; clear negative screen eliminated packaging and official waiting. Initial100\u2013130-minute estimate was conservative.",
+    "final_verification_utc": "2026-09-08T19:08:42.853925+00:00",
+    "elapsed_through_commit_preparation_minutes": 19.480898749999998,
+    "final_error_to_lower_estimate_minutes": -80.51910125,
+    "final_error_to_upper_estimate_minutes": -110.51910125
+  },
+  "core_checks_pass": true,
+  "production_repairs": 0,
+  "production_calls": 13,
+  "comparison_looks": 1,
+  "fit_calls": 0,
+  "rank_or_seed_sweep": false,
+  "comparison_extension": false,
+  "final_blind_accessed": false,
+  "uploads": 0,
+  "archive_created": false,
+  "subagents": 0,
+  "official_best_changed": false,
+  "retained_incumbent": {
+    "algorithm_id": "ALG038-V001",
+    "submission_id": 330153,
+    "adjusted_score": 1.4667675875416682e-08,
+    "final_layer_mse": 4.261352437140431e-08,
+    "vs_sampling_approx": 81.81255232202287,
+    "predecessor": "ALG038-V000_submission_330141",
+    "adjusted_ratio_to_predecessor": 0.8444606124765383,
+    "adjusted_relative_reduction": 0.15553938752346175
+  },
+  "next_task": "T141",
+  "next_task_started": false,
+  "next_task_scope": "Compression-only rank64/recent2 fallback, preserving ephemeral E; separately registered and metered;45\u201375 elapsed estimate including possible grader wait."
+}

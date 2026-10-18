@@ -1,0 +1,12 @@
+{
+  "submission_id": 335391,
+  "created_at": "2026-10-11T16:37:03.880Z",
+  "recorded_utc": "2026-10-11T16:37:04.177711+00:00",
+  "deadline_utc": "2026-10-11T17:37:03.880000+00:00",
+  "attempt": 1,
+  "owner_wait_minutes": 60,
+  "archive_sha256": "13f9dd52e24fde2987d16b004cd66d6049b31a3b2cb630a53c9652826c2ccc4e",
+  "status": "GRADED",
+  "status_file": "SUBMISSION_335391_STATUS.json",
+  "last_recorded_utc": "2026-10-11T17:13:25.247402+00:00"
+}

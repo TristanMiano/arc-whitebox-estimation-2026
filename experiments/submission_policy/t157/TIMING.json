@@ -1,0 +1,24 @@
+{
+  "task_id": "T157",
+  "start_utc": "2026-09-13T01:07:28+00:00",
+  "end_utc": "2026-09-13T01:25:46.511660+00:00",
+  "measured_elapsed_minutes": 18.308527666666667,
+  "estimated_elapsed_range_minutes": [
+    150,
+    240
+  ],
+  "estimate_error_minutes": [
+    -131.69147233333334,
+    -221.69147233333334
+  ],
+  "minimum_duration_minutes": null,
+  "measurement_note": "Measured from the first recorded UTC after preliminary orientation; the preceding initial file reads were not independently timed. No minimum duration applies to this bounded implementation task.",
+  "prediction_wall_seconds": 57.54037275400003,
+  "prediction_wait_overlaps_other_work": true,
+  "grader_wait_seconds": 0,
+  "early_stop_reason": "Two consistent large adjusted losses after the first fixed implementation; no repair, larger screen, archive qualification or grading needed. The estimate was a planning range, not a floor.",
+  "component_active_times": "Not independently tracked; do not infer an active-hours breakdown from elapsed time.",
+  "git_commit_and_delivery_after_end_excluded": true,
+  "initial_result_closeout_utc": "2026-09-13T01:23:47.723548+00:00",
+  "measurement_end_note": "Includes final source/record verification; git commit and delivery after this timestamp are excluded."
+}

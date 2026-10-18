@@ -1,0 +1,58 @@
+{
+  "schema_version": "algorithm-spec-v1",
+  "algorithm_id": "ALG014-V003",
+  "identity_status": "complete",
+  "source": "OURS+PUBLIC",
+  "academic_novelty": "N1-NOVEL-COMBINATION",
+  "research_tier": "U0-unclassified",
+  "role": "phase2_submission_novel_candidate",
+  "candidate_task_id": "T074",
+  "parent_algorithm_id": "ALG014-V000",
+  "mechanism_family": "equal_weight_haar_stiefel_antithetic_frame",
+  "semantic_delta": "translate the Phase 1 parent to width 1024/depth 16 with four grader-seeded 2048-row flopscope Gaussian-QR frames and 8192 positive pairs",
+  "behavior": {
+    "width": 1024,
+    "depth": 16,
+    "frame_rows": 2048,
+    "frame_columns": 1024,
+    "frame_blocks": 4,
+    "positive_pairs": 8192,
+    "frame_generation": "flopscope_float32_Gaussian_stacked_reduced_QR_seeded_by_mlp.seed",
+    "row_direction": "Q_row_div_sqrt_row_leverage_times_mean_chi_1024",
+    "row_weight": "1_over_8192",
+    "radius": "exact_mean_chi_1024",
+    "antithetic": true,
+    "exact_first_layer": true,
+    "dtype": "network_activations_Q_and_reductions_float32",
+    "fallback": "finite_zero_for_validator_budget_else_diagonal_Gaussian_moment_propagation"
+  },
+  "compute_projection": {
+    "measured_flops": 578986643120,
+    "hard_budget_flops": 2199023255552,
+    "reserve_flops": 1620036612432,
+    "reserve_fraction": 0.7367073578425334,
+    "within_contract_minimum_reserve": true,
+    "projection_kind": "WhestBench_0.16_flopscope_0.12_windows_native_measured"
+  },
+  "implementation": {
+    "submission_estimator_path": "submissions/phase2_alg014_v003/estimator.py",
+    "submission_estimator_sha256": "1bf911e56a9be429d53b3f6318636e98768cfa440a0dca9477a4cbab65691803",
+    "package_path": "experiments/submission_policy/t074/packages/ALG014-V003.tar.gz",
+    "package_sha256": "f69e0762d637ca2f253316e6bb5e18b39403ba3d2d7776a3c1c028977e67cce9",
+    "license": "MIT",
+    "scientific_tier_transfer": false
+  },
+  "f0": {
+    "mathematical_contract": "pass",
+    "intended_operation_plan": "pass",
+    "hard_budget_and_reserve": "pass",
+    "supported_operations": "pass",
+    "asset_size": "pass",
+    "leakage_risk": "pass",
+    "bias_claim": "pass"
+  },
+  "duplicate_fingerprint_fields": ["mechanism_family", "behavior"],
+  "duplicate_fingerprint_sha256": "35a664c1a8edf37193be08e72637e5cd30273bb0336050169eee58207b674b2e",
+  "identity_hash_definition": "sha256_canonical_json_before_identity_fields",
+  "identity_hash_sha256": "fc9d976b19e96a8d0e190aaa12386dc7f2f070e553a87fa3d17c21fcf358c40d"
+}

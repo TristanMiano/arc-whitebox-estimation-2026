@@ -1,0 +1,76 @@
+{
+  "task_id": "T151",
+  "experiment_id": "E145",
+  "algorithm_id": "ALG044-V000",
+  "hypothesis_id": "H150-SCP-A",
+  "name": "Fixed-radius cumulant propagation with physical mean anchor",
+  "status": "registered_before_execution",
+  "start_utc": "2026-09-11T16:12:45+00:00",
+  "registered_utc": "2026-09-11T16:14:32.249548+00:00",
+  "git_head_at_start": "79ddec0ce8cbba2bd6420c333b72105ba575e897",
+  "estimate_total_range_minutes": [
+    120,
+    180
+  ],
+  "initial_active_engineering_budget_minutes": 90,
+  "reassess_at_minutes": [
+    30,
+    60
+  ],
+  "finite_engineering_extension_minutes": 30,
+  "owner_authorized_upload": true,
+  "grade_wait_minutes": 30,
+  "unchanged_generic_error_retry_limit": 1,
+  "fit_calls": 0,
+  "subagents": 0,
+  "mathematical_specification": "experiments/theory/t150/SCP_A_SPEC.md",
+  "mathematical_specification_sha256": "21ce9e959f8758d772fb8024e459389fafc845c9103b4332df215243eb86ff74",
+  "implementation_handoff": "experiments/theory/t150/IMPLEMENTATION_HANDOFF.md",
+  "variant_change": "Register one new variant before execution. Implement the fixed SCP-A finite angular propagation, radial initial source, physical calibration conversion and marginal mean anchor on ALG043-V000. Preserve the published calibration coefficients, ranks, compression objective, age gates and arithmetic settings. Meter the actual full-shape Python/Whest path after a coherent implementation; use one small paired adjusted-score decision and qualified upload if supported. Do not substitute a partial-source candidate, sweep settings or automatically switch to CMF2.",
+  "numerical_contract": "Public first/settled multiplication lifecycle and published calibration/ranks fixed. SCP applies only to1024x16; unchanged off-shape path. Coherent complete-source implementation; numerical/resource repair may change realization under recorded hashes, never a new scored formula silently.",
+  "comparison": {
+    "initial_rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "extension_rows": [
+      761,
+      783,
+      806,
+      829,
+      851,
+      874,
+      896,
+      919,
+      941,
+      964,
+      987,
+      994
+    ],
+    "extension_is_automatic": false,
+    "data_role": "Reused development rows; freeze all predictions before targets; reuse T147 incumbent predictions and each actual call cost. No training or final-blind access.",
+    "bootstrap_seed": 151001,
+    "decision": "A lower adjusted mean with roughly0.90 whole-network bootstrap support, interpreted as a screening diagnostic. No minimum effect size or added scientific gate."
+  },
+  "incumbent": {
+    "algorithm_id": "ALG043-V000",
+    "submission_id": 330597,
+    "official_adjusted_score": 5.419051334510831e-09,
+    "source_sha256": "86d9ca9b28e6fe2b6c74750a0b6ae4bba4c14f742ddc3f5f56bc7fb4ec9d8e27",
+    "paired_evidence": "experiments/submission_policy/t147/attempts/screen-sealed"
+  },
+  "runtime": "tmp/t128-runtime312/bin/python",
+  "final_blind_block": "untouched",
+  "no_automatic_second_candidate": true,
+  "preserved_deferred_task": "T149 not tested and deferred"
+}

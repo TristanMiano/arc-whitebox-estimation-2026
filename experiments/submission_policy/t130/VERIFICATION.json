@@ -1,0 +1,33 @@
+{
+  "task_id": "T130",
+  "checked_utc": "2026-09-06T19:11:53.343887+00:00",
+  "pass": true,
+  "checks": {
+    "registered_before_predictions": true,
+    "current_source_frozen": true,
+    "incumbent_unchanged": true,
+    "comparison_source_frozen": true,
+    "predictions_sealed": true,
+    "prescribed_rows": true,
+    "row_evidence_sealed": true,
+    "negative_decision": true,
+    "no_fit_extension_upload": true,
+    "source_audit": true,
+    "fallback": true,
+    "validate": true,
+    "component_failure_preserved": true,
+    "original_complete_output_tolerance": true,
+    "runtime_repair_bytes": true,
+    "production_resources": true,
+    "output_shapes": true,
+    "finite_outputs": true,
+    "score_means": true,
+    "live_state": true,
+    "task_checkoff": true,
+    "canonical_spec": true,
+    "one_event": true,
+    "diff_whitespace": true
+  },
+  "new_prediction_runs": 0,
+  "new_target_access": false
+}

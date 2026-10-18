@@ -1,0 +1,224 @@
+{
+  "task_id": "T154",
+  "experiment_id": "E148",
+  "algorithm_id": "ALG047-V000",
+  "status": "completed_local_competitive_loss_no_upload",
+  "start_utc": "2026-09-11T17:33:45+00:00",
+  "end_utc": "2026-09-11T17:45:33.346264+00:00",
+  "report": "experiments/submission_policy/t154/REPORT.md",
+  "local_score": {
+    "task_id": "T154",
+    "algorithm_id": "ALG047-V000",
+    "evidence_class": "submission-facing production confirmation; reused development panels, not independent scientific validation",
+    "rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "n": 12,
+    "raw_mse": 2.232761631303729e-08,
+    "adjusted_score": 5.6699335731088215e-09,
+    "parent_raw_mse": 2.217453110854965e-08,
+    "parent_adjusted_score": 5.630093027096555e-09,
+    "ratio": 1.0070763566108982,
+    "improvement_percent": -0.7076356610898227,
+    "wins": 3,
+    "bootstrap_probability_of_mean_improvement": 5e-05,
+    "bootstrap_mean_change_90pct_interval": [
+      1.8842015992353898e-11,
+      6.201625415479538e-11
+    ],
+    "network_ratio_quantiles": {
+      "median": 1.0046155719521768,
+      "p90": 1.02040281062052,
+      "p95": 1.0226063812225583,
+      "maximum": 1.0243994069997737
+    },
+    "flops": [
+      587350970863,
+      558561357295,
+      555471920623,
+      555471920623,
+      555471920623,
+      555471920623,
+      555471920623,
+      555471920623,
+      555471920623,
+      555471920623,
+      555471920623,
+      555471920623
+    ],
+    "multipliers": [
+      0.267096298040542,
+      0.254004297537449,
+      0.2525993843951255,
+      0.2525993843951255,
+      0.2525993843951255,
+      0.2525993843951255,
+      0.2525993843951255,
+      0.2525993843951255,
+      0.2525993843951255,
+      0.2525993843951255,
+      0.2525993843951255,
+      0.2525993843951255
+    ],
+    "parent_flops": [
+      587262754287,
+      558473140719,
+      555383704047,
+      555383704047,
+      555383704047,
+      555383704047,
+      555383704047,
+      555383704047,
+      555383704047,
+      555383704047,
+      555383704047,
+      555383704047
+    ],
+    "parent_multipliers": [
+      0.26705618178630175,
+      0.25396418128320875,
+      0.25255926814088525,
+      0.25255926814088525,
+      0.25255926814088525,
+      0.25255926814088525,
+      0.25255926814088525,
+      0.25255926814088525,
+      0.25255926814088525,
+      0.25255926814088525,
+      0.25255926814088525,
+      0.25255926814088525
+    ],
+    "prediction_seal_sha256": "e530d891367d60cd697de74ec8f5ab94068794e020762b4aba4eb8cc4395392f",
+    "per_network": [
+      {
+        "row": 750,
+        "candidate_raw_mse": 2.274618405256876e-08,
+        "parent_raw_mse": 2.2521781218515483e-08,
+        "adjusted_ratio": 1.010115527044353
+      },
+      {
+        "row": 772,
+        "candidate_raw_mse": 2.1458823481269953e-08,
+        "parent_raw_mse": 2.13677479962168e-08,
+        "adjusted_ratio": 1.0044209210500132
+      },
+      {
+        "row": 795,
+        "candidate_raw_mse": 2.4159309625768785e-08,
+        "parent_raw_mse": 2.3662927910761435e-08,
+        "adjusted_ratio": 1.0211393601321093
+      },
+      {
+        "row": 817,
+        "candidate_raw_mse": 1.944623190509878e-08,
+        "parent_raw_mse": 1.9185068185054423e-08,
+        "adjusted_ratio": 1.0137738650162167
+      },
+      {
+        "row": 840,
+        "candidate_raw_mse": 3.149653452052927e-08,
+        "parent_raw_mse": 3.1223521657598064e-08,
+        "adjusted_ratio": 1.0089040481438902
+      },
+      {
+        "row": 863,
+        "candidate_raw_mse": 1.8623970681107474e-08,
+        "parent_raw_mse": 1.8686695990750142e-08,
+        "adjusted_ratio": 0.9968016230726193
+      },
+      {
+        "row": 885,
+        "candidate_raw_mse": 1.8461404956416187e-08,
+        "parent_raw_mse": 1.802454903899093e-08,
+        "adjusted_ratio": 1.0243994069997737
+      },
+      {
+        "row": 908,
+        "candidate_raw_mse": 2.4721791164533927e-08,
+        "parent_raw_mse": 2.473720127194403e-08,
+        "adjusted_ratio": 0.9995357872777634
+      },
+      {
+        "row": 930,
+        "candidate_raw_mse": 2.1786295480897932e-08,
+        "parent_raw_mse": 2.1734950202676753e-08,
+        "adjusted_ratio": 1.0025215512556418
+      },
+      {
+        "row": 953,
+        "candidate_raw_mse": 2.4876531126771875e-08,
+        "parent_raw_mse": 2.4761374758606634e-08,
+        "adjusted_ratio": 1.0048102228543403
+      },
+      {
+        "row": 976,
+        "candidate_raw_mse": 2.05454322855871e-08,
+        "parent_raw_mse": 2.050116965299102e-08,
+        "adjusted_ratio": 1.0023182115323785
+      },
+      {
+        "row": 999,
+        "candidate_raw_mse": 1.960888647589745e-08,
+        "parent_raw_mse": 1.9687385418490114e-08,
+        "adjusted_ratio": 0.9961709345531616
+      }
+    ],
+    "competition_pass": false,
+    "resource_checks_pass": true,
+    "comparison_refit": false,
+    "single_training_fit": false,
+    "scientific_tier_awarded": false,
+    "interim_look": null,
+    "coefficient_fit_calls": 0
+  },
+  "resources": {
+    "checked_full_shape_calls": 15,
+    "all_resource_checks_pass": true,
+    "flops_lifecycle": [
+      587350970863,
+      558561357295,
+      555471920623
+    ],
+    "settled_flops": 555471920623,
+    "extra_settled_flops": 88216576,
+    "compute_increase_percent": 0.015883897089019605,
+    "max_residual_s": 0.2230540849868703,
+    "max_wall_s": 36.34229987599974,
+    "max_setup_s": 0.024447785000120348,
+    "peak_rss_bytes": 5878636544
+  },
+  "source_hashes": {
+    "README.md": "9a11b0faca29b1f17d423bafe8d1fa47c1bf872c3f6df48c3c50515c8b2a2e41",
+    "LICENSE": "d2c9a83a86ed95c8d279219cd36d5a025c0372dee57d072fe4718850e226e740",
+    "estimator.py": "f6ab29a028540f4715f4732c864defb73aa879d3405ef2f4022a03b47b74ce50"
+  },
+  "new_estimator_calls": 15,
+  "fit_calls": 0,
+  "candidate_formula_repairs": 0,
+  "candidate_numerical_realizations": 1,
+  "parameter_sweeps": 0,
+  "uploads": 0,
+  "comparison_extension_used": false,
+  "subagents": 0,
+  "official_incumbent_unchanged": true,
+  "incumbent": {
+    "algorithm_id": "ALG043-V000",
+    "submission_id": 330597,
+    "official_adjusted_score": 5.419051334510831e-09,
+    "source_sha256": "86d9ca9b28e6fe2b6c74750a0b6ae4bba4c14f742ddc3f5f56bc7fb4ec9d8e27",
+    "paired_evidence": "experiments/submission_policy/t147/attempts/screen-sealed"
+  },
+  "next_task": "T155",
+  "next_task_authorized": true
+}

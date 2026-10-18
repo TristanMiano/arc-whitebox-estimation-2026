@@ -1,0 +1,17 @@
+{
+  "algorithm_id": "ALG058-V001",
+  "submission_id": 336809,
+  "status": "OFFICIAL_IMPROVEMENT",
+  "adjusted_score": 2.971106406126817e-09,
+  "raw_mse": 1.9446764376596092e-08,
+  "predecessor_algorithm": "ALG055-V000",
+  "predecessor_submission_id": 336785,
+  "predecessor_adjusted": 2.982822327838572e-09,
+  "adjusted_ratio": 0.9960722026242023,
+  "relative_reduction": 0.003927797375797737,
+  "archive_sha256": "2c28711f6d44709182886eb6e1535503af415ecd97721b46868b39f2ff0660db",
+  "observed_utc": "2026-10-17T22:59:41Z",
+  "recorded_utc": "2026-10-17T23:00:04.229850+00:00",
+  "recurrence_still_active": true,
+  "final_nomination": false
+}

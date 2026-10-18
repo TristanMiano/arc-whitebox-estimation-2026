@@ -1,0 +1,32 @@
+{
+  "task_id": "T150",
+  "start_utc": "2026-09-11T06:54:13+00:00",
+  "research_end_utc": "2026-09-11T08:07:50.607345+00:00",
+  "records_end_utc": "2026-09-11T08:12:11.462997+00:00",
+  "elapsed_through_records_minutes": 77.97438328333332,
+  "estimated_elapsed_minutes": 90,
+  "estimate_error_through_records_minutes": -12.025616716666676,
+  "exclusive_minutes": {
+    "theory": 60.09606063333333,
+    "selection": 4.476093383333334,
+    "overhead": 8.0475942
+  },
+  "initial_intake_minutes_excluded": 5.354635066666666,
+  "useful_minutes": 64.57215401666666,
+  "minimum_minutes": {
+    "theory": 60
+  },
+  "minimums_met": true,
+  "context_recovery_exclusion": {
+    "start": "2026-09-11T08:02:49+00:00",
+    "end": "2026-09-11T08:06:31+00:00",
+    "minutes": 3.7
+  },
+  "method": "Actual exclusive UTC blocks. Intake, context consolidation/recovery and records excluded from active research. No idle waits or agents.",
+  "per_route_minutes_recorded": false,
+  "subagents": 0,
+  "note": "START_AND_SCOPE active status is historical; RESULT and current state record completion.",
+  "verification_end_utc": "2026-09-11T08:13:14.112515+00:00",
+  "elapsed_through_verification_minutes": 79.01854191666666,
+  "estimate_error_through_verification_minutes": -10.981458083333337
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": "arc-t105a-preupload-seal-v1",
+  "task_id": "T105A",
+  "experiment_id": "E085",
+  "algorithm_id": "ALG018-V000",
+  "challenge_slug": "arc-white-box-estimation-challenge-2026",
+  "description": "ALG018-V000 T104 efficient Hermite headroom candidate",
+  "artifact_path": "experiments/submission_policy/t105a/packages/ALG018-V000.tar.gz",
+  "artifact_sha256": "7dff1ba505a85e237fdfc0e7b5ab114bcb2df30910195b9129c27e6cdeff02d9",
+  "artifact_size_bytes": 3583,
+  "qualification": "PASS",
+  "owner_authorization": "Okay. Yes, please submit ALG018-V000 (and do whatever tasks need to be done for that happen) -- then we'll move on to T099 etc.",
+  "credentials_configured": true,
+  "credential_material_recorded": false,
+  "upload_count_authorized": 1,
+  "watch_to_terminal": true,
+  "final_designation_authorized": false,
+  "scientific_tier_transfer": false,
+  "next_scientific_task_after_terminal_grade": "T099"
+}

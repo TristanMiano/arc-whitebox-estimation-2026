@@ -1,0 +1,68 @@
+{
+  "schema_version": "algorithm-spec-v1",
+  "algorithm_id": "ALG018-V000",
+  "identity_status": "complete",
+  "source": "OURS+PUBLIC",
+  "academic_novelty": "N1-NOVEL-COMBINATION",
+  "novelty_dimension": 3,
+  "research_tier": "M1-mechanism-signal-current-shape",
+  "role": "current_local_Phase2_submission_candidate_not_officially_submitted",
+  "candidate_task_id": "T104",
+  "parent_hypothesis_id": "H098-A",
+  "mechanism_family": "order12_Hermite_closure_plus_partial_Haar_score_floor_headroom",
+  "semantic_fingerprint_sha256": "e9b6ab2c99f941eb838b21bc98fabe54364b51b009372be42db728d453b6f111",
+  "behavior": {
+    "width": 1024,
+    "depth": 16,
+    "frame_rows": 2048,
+    "frame_sampling": "mean_chi_radius_leverage_normalized_Haar_Stiefel_antithetic",
+    "closure": "order12_density_weighted_Price_Hermite_full_covariance_with_abs_alpha_gt_12_zero_guard",
+    "closure_weight": 0.75,
+    "partial_rows": 288,
+    "partial_sampling": "independent_reduced_QR_partial_Haar_antithetic",
+    "partial_stream_xor": "0x5EED98A1",
+    "partial_within_stochastic_weight": "1/17",
+    "exact_first_layer": true
+  },
+  "compute": {
+    "measured_flops": 216711677067,
+    "hard_budget_flops": 2199023255552,
+    "score_floor_flops": 219902325555.2,
+    "score_floor_headroom_flops": 3190648488.200012,
+    "score_multiplier": 0.1,
+    "within_hard_budget": true,
+    "within_score_floor": true,
+    "Windows_native_fixed_seed_prediction_and_flop_reproducible": true
+  },
+  "implementation": {
+    "submission_estimator_path": "submissions/phase2_alg018_v000/estimator.py",
+    "submission_estimator_sha256": "7c1228792721deae9d99bcb9accbd0445bc4bbb1fd33d0e637d260c2e3c7eee0",
+    "contract_validator": "pass",
+    "package_validator": "pass_transient_archive",
+    "exact_cost_evidence": "experiments/checkpoint3/t104/EXACT_COST_RESULT.json",
+    "current_shape_evidence": "experiments/checkpoint3/t104/CURRENT_SHAPE_RESULT.json",
+    "later_independent_machine_reproduction_required": true,
+    "official_upload_performed": false
+  },
+  "current_shape_disposition": {
+    "candidate_to_nested_control_adjusted_ratio": 0.9715506846728461,
+    "candidate_to_nested_control_wins": 9,
+    "candidate_to_nested_control_maximum": 1.0425993984885047,
+    "current_shape_M1": "AWARDED",
+    "candidate_to_ALG015_V000_adjusted_ratio": 0.9426157478824314,
+    "candidate_to_ALG015_V000_wins": 11,
+    "candidate_to_ALG015_V000_maximum": 1.0040550219676834,
+    "submission_succession": true,
+    "submission_candidate": "ALG018-V000",
+    "historical_P1": "NOT-RUN"
+  },
+  "f0": {
+    "mathematical_contract": "pass",
+    "target_independence": "pass",
+    "hard_budget": "pass",
+    "supported_operations": "pass",
+    "finite_fixed_shape": "pass",
+    "determinism": "pass",
+    "fallback": "pass"
+  }
+}

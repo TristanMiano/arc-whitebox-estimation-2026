@@ -1,0 +1,239 @@
+{
+  "task_id": "T149",
+  "experiment_id": "E147",
+  "algorithm_id": "ALG046-V000",
+  "hypothesis_id": "H148-CMF2",
+  "status": "completed_raw_and_adjusted_loss_no_upload",
+  "start_utc": "2026-09-11T17:09:00+00:00",
+  "record_completion_utc": "2026-09-11T17:29:32.058528+00:00",
+  "report": "experiments/submission_policy/t149/REPORT.md",
+  "timing": "experiments/submission_policy/t149/TIMING.json",
+  "local_score": {
+    "task_id": "T149",
+    "algorithm_id": "ALG046-V000",
+    "evidence_class": "submission-facing production confirmation; reused development panels, not independent scientific validation",
+    "rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "n": 12,
+    "raw_mse": 2.2251466837577265e-08,
+    "adjusted_score": 5.690578408763488e-09,
+    "parent_raw_mse": 2.217453110854965e-08,
+    "parent_adjusted_score": 5.630093027096555e-09,
+    "ratio": 1.0107432295302812,
+    "improvement_percent": -1.0743229530281173,
+    "wins": 6,
+    "bootstrap_probability_of_mean_improvement": 0.09155,
+    "bootstrap_mean_change_90pct_interval": [
+      -1.1362656973128394e-11,
+      1.4223030679095167e-10
+    ],
+    "network_ratio_quantiles": {
+      "median": 0.9991514242845191,
+      "p90": 1.0441402877720678,
+      "p95": 1.0636636190306306,
+      "maximum": 1.0867595509428396
+    },
+    "flops": [
+      591361109693,
+      562561928637,
+      559472491965,
+      559472491965,
+      559472491965,
+      559472491965,
+      559472491965,
+      559472491965,
+      559472491965,
+      559472491965,
+      559472491965,
+      559472491965
+    ],
+    "multipliers": [
+      0.26891989805017147,
+      0.2558235467572558,
+      0.25441863361493233,
+      0.25441863361493233,
+      0.25441863361493233,
+      0.25441863361493233,
+      0.25441863361493233,
+      0.25441863361493233,
+      0.25441863361493233,
+      0.25441863361493233,
+      0.25441863361493233,
+      0.25441863361493233
+    ],
+    "parent_flops": [
+      587262754287,
+      558473140719,
+      555383704047,
+      555383704047,
+      555383704047,
+      555383704047,
+      555383704047,
+      555383704047,
+      555383704047,
+      555383704047,
+      555383704047,
+      555383704047
+    ],
+    "parent_multipliers": [
+      0.26705618178630175,
+      0.25396418128320875,
+      0.25255926814088525,
+      0.25255926814088525,
+      0.25255926814088525,
+      0.25255926814088525,
+      0.25255926814088525,
+      0.25255926814088525,
+      0.25255926814088525,
+      0.25255926814088525,
+      0.25255926814088525,
+      0.25255926814088525
+    ],
+    "prediction_seal_sha256": "08e2c07314e0996437b829730868b20e72fae2e9a081f2c1a4b9a9153608905b",
+    "per_network": [
+      {
+        "row": 750,
+        "candidate_raw_mse": 2.22518794872348e-08,
+        "parent_raw_mse": 2.2521781218515483e-08,
+        "adjusted_ratio": 0.9949110774925057
+      },
+      {
+        "row": 772,
+        "candidate_raw_mse": 2.1358652502976983e-08,
+        "parent_raw_mse": 2.13677479962168e-08,
+        "adjusted_ratio": 1.0068925879446853
+      },
+      {
+        "row": 795,
+        "candidate_raw_mse": 2.3433538628461427e-08,
+        "parent_raw_mse": 2.3662927910761435e-08,
+        "adjusted_ratio": 0.9975966908603457
+      },
+      {
+        "row": 817,
+        "candidate_raw_mse": 1.8799552602415744e-08,
+        "parent_raw_mse": 1.9185068185054423e-08,
+        "adjusted_ratio": 0.9871195933755463
+      },
+      {
+        "row": 840,
+        "candidate_raw_mse": 3.0527148495907774e-08,
+        "parent_raw_mse": 3.1223521657598064e-08,
+        "adjusted_ratio": 0.9848950614359594
+      },
+      {
+        "row": 863,
+        "candidate_raw_mse": 1.889736071913989e-08,
+        "parent_raw_mse": 1.8686695990750142e-08,
+        "adjusted_ratio": 1.0187186062514713
+      },
+      {
+        "row": 885,
+        "candidate_raw_mse": 1.7736837134263417e-08,
+        "parent_raw_mse": 1.802454903899093e-08,
+        "adjusted_ratio": 0.9912823553060224
+      },
+      {
+        "row": 908,
+        "candidate_raw_mse": 2.425071919729818e-08,
+        "parent_raw_mse": 2.473720127194403e-08,
+        "adjusted_ratio": 0.9875513014419937
+      },
+      {
+        "row": 930,
+        "candidate_raw_mse": 2.2406792456225898e-08,
+        "parent_raw_mse": 2.1734950202676753e-08,
+        "adjusted_ratio": 1.0385003505258141
+      },
+      {
+        "row": 953,
+        "candidate_raw_mse": 2.56808014068434e-08,
+        "parent_raw_mse": 2.4761374758606634e-08,
+        "adjusted_ratio": 1.0447669474660959
+      },
+      {
+        "row": 976,
+        "candidate_raw_mse": 2.211701435207495e-08,
+        "parent_raw_mse": 2.050116965299102e-08,
+        "adjusted_ratio": 1.0867595509428396
+      },
+      {
+        "row": 999,
+        "candidate_raw_mse": 1.9557305068084696e-08,
+        "parent_raw_mse": 1.9687385418490114e-08,
+        "adjusted_ratio": 1.0007061577086924
+      }
+    ],
+    "competition_pass": false,
+    "resource_checks_pass": true,
+    "comparison_refit": false,
+    "single_training_fit": false,
+    "scientific_tier_awarded": false,
+    "interim_look": null,
+    "coefficient_fit_calls": 0
+  },
+  "resources": {
+    "task_id": "T149",
+    "checked_full_shape_calls": 15,
+    "all_resource_checks_pass": true,
+    "flops_lifecycle": [
+      591361109693,
+      562561928637,
+      559472491965
+    ],
+    "settled_flops": 559472491965,
+    "extra_settled_flops": 4088787918,
+    "compute_increase_percent": 0.7362095589419804,
+    "max_residual_s": 0.2623021000354129,
+    "min_residual_s": 0.23863116391021322,
+    "max_wall_s": 38.31416732800062,
+    "max_setup_s": 0.023651079000046593,
+    "peak_rss_bytes": 5935292416,
+    "raw_ratio": 1.0034695538160874,
+    "raw_loss_percent": 0.34695538160873785,
+    "raw_wins": 8
+  },
+  "candidate_source_hashes": {
+    "README.md": "0d2c9f42509138139d5cd3b11ad84673b05a319fdea14b906c7bda67d82b610c",
+    "LICENSE": "d2c9a83a86ed95c8d279219cd36d5a025c0372dee57d072fe4718850e226e740",
+    "estimator.py": "76ab1d1035a69db89d0a8178b78c2dab3850cdd78d36a6887a27d3280652a1e2"
+  },
+  "candidate_formula_repairs": 0,
+  "candidate_numerical_realizations": 1,
+  "fit_calls": 0,
+  "candidate_parameter_sweeps": 0,
+  "comparison_extension_used": false,
+  "packages": 0,
+  "uploads": 0,
+  "subagents": 0,
+  "new_estimator_calls": 15,
+  "incumbent": {
+    "algorithm_id": "ALG043-V000",
+    "submission_id": 330597,
+    "official_adjusted_score": 5.419051334510831e-09,
+    "source_sha256": "86d9ca9b28e6fe2b6c74750a0b6ae4bba4c14f742ddc3f5f56bc7fb4ec9d8e27",
+    "paired_evidence": "experiments/submission_policy/t147/attempts/screen-sealed"
+  },
+  "official_incumbent_unchanged": true,
+  "t149_status": "tested_local_competitive_loss",
+  "previous_deferral_superseded_by_owner_selection": true,
+  "next_task": "T153",
+  "next_task_started": false,
+  "next_task_authorized": false,
+  "next_proposal": "experiments/submission_policy/t149/NEXT_PROPOSAL.json",
+  "verification_end_utc": "2026-09-11T17:30:56.419991+00:00",
+  "elapsed_through_verification_minutes": 21.940333183333333,
+  "active_engineering_minutes": 15.285990283333334
+}

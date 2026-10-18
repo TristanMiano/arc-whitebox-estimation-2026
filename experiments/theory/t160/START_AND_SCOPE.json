@@ -1,0 +1,55 @@
+{
+  "task_id": "T160",
+  "experiment_id": "E156",
+  "start_utc": "2026-09-19T22:21:05+00:00",
+  "registered_utc": "2026-09-19T22:22:43.697247+00:00",
+  "status": "active_empirical_theory_recurrence",
+  "git_head_at_start": "df2c0d4aec77cc77a9d700595c27f55964d4fcd3",
+  "owner_authority": "Owner requests another theory recurrence with around a four-hour floor, maintaining substantive interleaved empirical work; no strong nominee is a valid outcome and should leave a repeatable continuation.",
+  "minimum_active_research_minutes": 240,
+  "minimum_written_derivation_minutes": 60,
+  "provisional_allocation_minutes": {
+    "derivation": 100,
+    "empirical": 90,
+    "literature": 30,
+    "selection": 20
+  },
+  "allocation_note": "Total240 active and default60 written mathematics bind; other categories flex with evidence. Administration/passive waits excluded; overlapping compute counted once. No manufactured win, probe quota or duration padding.",
+  "estimated_elapsed_minutes": [
+    260,
+    320
+  ],
+  "incumbent_algorithm": "ALG049-V000",
+  "incumbent_submission": 330887,
+  "official_adjusted_score": 5.017859747074435e-09,
+  "incumbent_source_sha256": "61375dbead94c8593db5684baa9619abb702f9016cefa937b4984acfd7d69039",
+  "initial_routes": [
+    "R14 persistent fourth chain/star with affordable trace removal and coupled nonlinear response",
+    "R08/R13 compatible conditional joint state or a finite observable response state",
+    "Source-response/trajectory diagnosis to select a materially larger accuracy opportunity"
+  ],
+  "initial_compute_plan": "Start with saved states and generated identities, then1\u20132 integrated networks per distinct mechanism. Expand useful signals to4\u20136 reused development networks as warranted. Reassess cumulative learning/cost around24 full-shape calls; initial40\u201360 call planning range, not a cap or quota.",
+  "exploratory_rows": [
+    750,
+    772,
+    795,
+    817,
+    840,
+    863,
+    885,
+    908,
+    930,
+    953,
+    976,
+    999
+  ],
+  "data_role": "Previously exposed public development only, adaptive reuse declared. Preserve historical freezes and final blind. Reuse incumbent sources/predictions/qualified harness.",
+  "literature_authorized": true,
+  "no_agents": true,
+  "no_automatic_upload": true,
+  "no_automatic_second_recurrence": true,
+  "zero_nominees_allowed": true,
+  "continuation_requirement": "If no ready candidate, record narrowed hypotheses, runnable next probes, observed failures and remaining unknowns so the next authorized round can continue without restarting.",
+  "research_selection_policy": "Keep a cheap fallback when found; continue a credible larger-gain thread. Research priors may be low. Only integrated evidence supports a high submission forecast.",
+  "timing_context": "T159A reports16.45 recorded session-hours between the last wins, of which12.26 were explicitly active research. Prior work may take multiple rounds to pay off."
+}

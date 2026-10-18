@@ -1,0 +1,76 @@
+{
+  "task_id": "T172",
+  "algorithm_id": "ALG058-V001",
+  "probe": "P82_anchor_merged",
+  "created_utc": "2026-10-17T22:17:00.639319+00:00",
+  "source_directory": "submissions/phase2_alg058_v001",
+  "source_hashes": {
+    "README.md": "09b332389c335f2131a3456d35454bdb513c18d33707af9f9da19723b72ca4ff",
+    "LICENSE": "17cf7ad008400756c32ef01c6e20d3c33b38e6e51bc16cf0cea664358a3492ec",
+    "nn_asset.json": "bd824f7c1a7e4d1392e0b8507931e973237eb3ca02cabc9a07b66970d2c8e856",
+    "ALG053_LICENSE": "d2c9a83a86ed95c8d279219cd36d5a025c0372dee57d072fe4718850e226e740",
+    "estimator.py": "6c295943161d1365afa042948770e451091d6fe16706ee7728505ece62b4ab44"
+  },
+  "research_config": {
+    "probe": "P82_anchor_merged",
+    "question": "Can a single batched source evaluation restore residual-time margin for the unchanged equal mean-source average?",
+    "source_sha256": "6c295943161d1365afa042948770e451091d6fe16706ee7728505ece62b4ab44",
+    "asset_sha256": "bd824f7c1a7e4d1392e0b8507931e973237eb3ca02cabc9a07b66970d2c8e856",
+    "training_networks": 64,
+    "secondary_training_networks": 32,
+    "paired_source": {
+      "primary": "P75 context48 trained64",
+      "secondary": "ALG055/P19 trace24 trained32",
+      "weights": [
+        0.5,
+        0.5
+      ]
+    },
+    "merged_normalizers": true,
+    "float32_merge_max_abs": 7.152557373046875e-07,
+    "origin": "P19 physical path; fixed equal source average with72 normalized coordinates and64 hidden units. Duplicated local coordinates preserve the different normalizers and clipping exactly before rounding.",
+    "created_utc": "2026-10-17T22:17:00.611164+00:00",
+    "rows": [
+      750,
+      976,
+      772,
+      795
+    ],
+    "data_role": "Adaptive exposed development; no new fitting. ALG058-V000 residual-cap miss preserved separately."
+  },
+  "comparison_rows": [
+    750,
+    976,
+    772,
+    795,
+    817,
+    840,
+    863,
+    885,
+    908,
+    930,
+    953,
+    999
+  ],
+  "archive_new_rows": [
+    817,
+    840,
+    863,
+    885,
+    908,
+    930,
+    953,
+    999,
+    999
+  ],
+  "data_role": "Previously exposed adaptive public development; all candidate and incumbent observations use FlopScope0.12.3. Reuse exact-source first4 calls and ALG055-V000 12-row archive/source bank, then qualify additional8 and replay from this archive.",
+  "owner_authorized_upload": true,
+  "owner_authority": "Final unrestricted recurrence to achieve best adjusted score while followingARC rules.",
+  "grade_wait_minutes": 60,
+  "status": "OFFICIAL_IMPROVEMENT",
+  "comparison_incumbent_algorithm": "ALG055-V000",
+  "documentation_clarification_utc": "2026-10-17T22:17:46.196506+00:00",
+  "official_submission_id": 336809,
+  "official_adjusted_score": 2.971106406126817e-09,
+  "result_path": "experiments/theory/t172/candidates/ALG058-V001/OFFICIAL_RESULT.json"
+}

@@ -1,0 +1,33 @@
+{
+  "task_id": "T152",
+  "start_utc": "2026-09-11T16:41:02+00:00",
+  "records_snapshot_utc": "2026-09-11T17:05:21.252499+00:00",
+  "elapsed_through_records_minutes": 24.320874983333333,
+  "exclusive_minutes": {
+    "engineering": 17.63878048333333,
+    "unattended_compute": 6.682094500000001
+  },
+  "estimated_elapsed_range_minutes": [
+    60,
+    120
+  ],
+  "estimate_error_through_records_minutes": {
+    "versus_lower": -35.67912501666667,
+    "versus_upper": -95.67912501666666
+  },
+  "initial_active_engineering_budget_minutes": 60,
+  "engineering_extension_used": false,
+  "estimate_is_minimum": false,
+  "explanation": "The fixed specification and T151 primitives/harness made implementation quick. One unchanged candidate passed the early probe. A decisive loss avoided comparison extension, packaging, grading and retry allowances. Useful engineering overlapping compute is engineering; resource-only monitoring is unattended compute.",
+  "method": "Exclusive observed UTC categories; no minimum-time padding and no agents.",
+  "verification_end_utc": "2026-09-11T17:07:06.275104+00:00",
+  "elapsed_through_verification_minutes": 26.071251733333334,
+  "exclusive_minutes_through_verification": {
+    "engineering": 19.389157233333332,
+    "unattended_compute": 6.682094500000001
+  },
+  "estimate_error_through_verification_minutes": {
+    "versus_lower": -33.928748266666666,
+    "versus_upper": -93.92874826666667
+  }
+}

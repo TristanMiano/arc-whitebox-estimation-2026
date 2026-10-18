@@ -1,0 +1,20 @@
+{
+  "task": "T157",
+  "identities_and_live_records_pass": true,
+  "source_imports": [
+    "__future__",
+    "flopscope",
+    "flopscope.numpy",
+    "gc",
+    "local_engine",
+    "math",
+    "os",
+    "pathlib",
+    "whestbench",
+    "whestbench.domain"
+  ],
+  "numerical_audit": "New numerical source uses fnp/flops exclusively. pathlib is used only for static submission assets; math.sqrt acts only on literal .1. Existing os named environment controls and gc lifecycle preserved. local_engine remains inside the existing development __main__ guard.",
+  "checks_reused": "T153 current P03 controls and qualified runtime; original incumbent source untouched.",
+  "not_claimed": "No archive qualification, larger screening cohort or current-package deterministic replay.",
+  "scoped_data": "Static input-independent designs and public-input predictions only; no input weights or target arrays included."
+}

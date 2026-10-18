@@ -1,0 +1,219 @@
+{
+  "task_id": "T134",
+  "experiment_id": "E127",
+  "algorithm_id": "ALG036-V000",
+  "parent": "ALG031-V000",
+  "status": "COMPLETED_OFFICIAL_IMPROVEMENT",
+  "task_checked_off": true,
+  "production_score": {
+    "task_id": "T134",
+    "algorithm_id": "ALG036-V000",
+    "evidence_class": "submission-facing production confirmation; reused development panels, not independent scientific validation",
+    "rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "n": 12,
+    "raw_mse": 1.2503115344167585e-06,
+    "adjusted_score": 1.2503115344167583e-07,
+    "parent_raw_mse": 1.2887078848617875e-06,
+    "parent_adjusted_score": 1.2887078848617877e-07,
+    "ratio": 0.9702055439436166,
+    "improvement_percent": 2.9794456056383423,
+    "wins": 11,
+    "bootstrap_probability_of_mean_improvement": 1.0,
+    "bootstrap_mean_change_90pct_interval": [
+      -5.339783894084151e-09,
+      -2.357585020743736e-09
+    ],
+    "network_ratio_quantiles": {
+      "median": 0.9711041346755143,
+      "p90": 0.9989285126918283,
+      "p95": 1.0016983792676235,
+      "maximum": 1.004321948814825
+    },
+    "flops": [
+      218987691813,
+      218987691813,
+      218987691813,
+      218987691813,
+      218987691813,
+      218987691813,
+      218987691813,
+      218987691813,
+      218987691813,
+      218987691813,
+      218987691813,
+      218987691813
+    ],
+    "multipliers": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "prediction_seal_sha256": "fc55c6fdce84d21cbfd4aa9ec69818a5c90ec9536ddd6c326d663b6bdbbc3f34",
+    "per_network": [
+      {
+        "row": 750,
+        "candidate_raw_mse": 9.45466765127888e-07,
+        "parent_raw_mse": 9.613061065240224e-07,
+        "adjusted_ratio": 0.9835231033188714
+      },
+      {
+        "row": 772,
+        "candidate_raw_mse": 1.5000489434848406e-06,
+        "parent_raw_mse": 1.5461194687571316e-06,
+        "adjusted_ratio": 0.9702024803365776
+      },
+      {
+        "row": 795,
+        "candidate_raw_mse": 1.0230826476377754e-06,
+        "parent_raw_mse": 1.052547895496706e-06,
+        "adjusted_ratio": 0.9720057890144509
+      },
+      {
+        "row": 817,
+        "candidate_raw_mse": 1.4496762034972505e-06,
+        "parent_raw_mse": 1.5187420477252175e-06,
+        "adjusted_ratio": 0.9545243088966857
+      },
+      {
+        "row": 840,
+        "candidate_raw_mse": 1.4808107391682387e-06,
+        "parent_raw_mse": 1.4814747029963948e-06,
+        "adjusted_ratio": 0.9995518223653679
+      },
+      {
+        "row": 863,
+        "candidate_raw_mse": 1.087064191958678e-06,
+        "parent_raw_mse": 1.1654032456858427e-06,
+        "adjusted_ratio": 0.9327794443535619
+      },
+      {
+        "row": 885,
+        "candidate_raw_mse": 1.2949348103170173e-06,
+        "parent_raw_mse": 1.3067314313521238e-06,
+        "adjusted_ratio": 0.9909724211478558
+      },
+      {
+        "row": 908,
+        "candidate_raw_mse": 1.398709601631555e-06,
+        "parent_raw_mse": 1.4480573637585296e-06,
+        "adjusted_ratio": 0.9659214038324494
+      },
+      {
+        "row": 930,
+        "candidate_raw_mse": 1.0854354327250873e-06,
+        "parent_raw_mse": 1.0807644242027992e-06,
+        "adjusted_ratio": 1.004321948814825
+      },
+      {
+        "row": 953,
+        "candidate_raw_mse": 1.225332074751522e-06,
+        "parent_raw_mse": 1.293026027692356e-06,
+        "adjusted_ratio": 0.9476468752437671
+      },
+      {
+        "row": 976,
+        "candidate_raw_mse": 1.4044854665433643e-06,
+        "parent_raw_mse": 1.4941730714030715e-06,
+        "adjusted_ratio": 0.9399750895152407
+      },
+      {
+        "row": 999,
+        "candidate_raw_mse": 1.1086915361578847e-06,
+        "parent_raw_mse": 1.1161488327472557e-06,
+        "adjusted_ratio": 0.9933187256299719
+      }
+    ],
+    "competition_pass": true,
+    "resource_checks_pass": true,
+    "comparison_refit": false,
+    "single_training_fit": true,
+    "scientific_tier_awarded": false
+  },
+  "training_rows": 32,
+  "fit_calls": 1,
+  "new_coefficients": [
+    -0.0004192398052785608,
+    7.995031271408047e-05,
+    -2.799146938256936e-05,
+    -0.009626244115040865,
+    0.0002789094629530628
+  ],
+  "training_improvement_percent": 4.33248621620338,
+  "comparison_networks": 12,
+  "comparison_extension": false,
+  "comparison_refit": false,
+  "exact_flops": 218987691813,
+  "net_added_flops": 1626634,
+  "multiplier": 0.1,
+  "residual_range_s": [
+    0.2050109939136746,
+    0.23092769795221102
+  ],
+  "prediction_wall_range_s": [
+    14.556109193999873,
+    15.851663044000816
+  ],
+  "peak_rss_bytes": 4822306816,
+  "max_setup_s": 0.0021186350004427368,
+  "production_execution_failures": 0,
+  "production_retries": 0,
+  "archive_created": true,
+  "archive_qualified": true,
+  "archive_path": "experiments/submission_policy/t134/packages/ALG036-V000.tar.gz",
+  "archive_sha256": "0fdfa15c36c94def66692f8b8003b837d954b3c8189e1596b79d1607befcbb25",
+  "submission_attempts": 1,
+  "submission_id": 330097,
+  "official_grading_status": "graded",
+  "official_adjusted_score": 1.3263657638162841e-07,
+  "official_final_layer_mse": 1.326365763816284e-06,
+  "official_predecessor_adjusted_score": 1.3618567538742354e-07,
+  "official_ratio": 0.9739392634673317,
+  "official_improvement_percent": 2.606073653266827,
+  "official_best_changed": true,
+  "retained_official_algorithm": "ALG036-V000",
+  "retained_official_submission_id": 330097,
+  "retained_official_adjusted_score": 1.3263657638162841e-07,
+  "scientific_tier_awarded": false,
+  "final_blind_block": "untouched",
+  "next_task": null,
+  "next_action": "Stop for owner selection of the next task. Preserve the cheaper public baseline and L132-C compression reserve; no automatic fit or recurrence.",
+  "timing": {
+    "start_utc": "2026-09-06T21:05:31+00:00",
+    "end_checkoff_utc": "2026-09-06T21:44:06.401168+00:00",
+    "estimate_total_minutes": 50,
+    "actual_elapsed_minutes": 38.59001946666667,
+    "estimate_error_minutes": -11.409980533333332,
+    "initial_active_engineering_budget_minutes": 60,
+    "engineering_budget_extension": false,
+    "completed_metered_prediction_calls": 46,
+    "completed_metered_prediction_minutes": 11.721621614866612,
+    "grader_wait_minutes": 14.63049609263738,
+    "allocation_note": "One32-row fit;33 training/fixture predictions,12 comparison predictions and one clean archive replay. Input loading and recordkeeping are additional to metered time and overlap some analysis. Grader wait is measured separately and overlaps final record preparation. No additional fit, comparison extension or retry; verification/commit follow checkoff.",
+    "final_record_utc": "2026-09-06T21:45:28.236315+00:00",
+    "elapsed_through_verification_minutes": 39.95393858333333,
+    "estimate_error_through_verification_minutes": -10.046061416666667,
+    "post_checkoff_recordkeeping_minutes": 1.3639191166666649
+  }
+}

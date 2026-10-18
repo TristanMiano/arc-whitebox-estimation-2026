@@ -1,0 +1,95 @@
+{
+  "schema_version": "arc-t119a-result-v1",
+  "task": "T119A",
+  "experiment_id": "E108",
+  "status": "completed_target_free_rvrc_scientific_and_competition_negative",
+  "hypothesis": "RVRC_radially_reaimed_cross_source_variance_recalibration",
+  "incumbent": "ALG026-V000",
+  "protected_challenge_target_opened": false,
+  "independent_development_a_b_audits_used_after_prediction_seal": true,
+  "algorithm_id_created": false,
+  "scientific_tier_changed": false,
+  "submission_candidate_changed": false,
+  "package_created": false,
+  "upload_performed": false,
+  "invariants": {
+    "all_pass": true,
+    "instrumented_parent_array_equal": true,
+    "k0_parent_array_equal_all_100": true,
+    "source_swap_max_abs": 0.0,
+    "final_weight_homogeneity_relative_rms": 0.0,
+    "output_permutation_max_abs": 3.5762786865234375e-6,
+    "all_finite": true,
+    "all_nonnegative": true
+  },
+  "mechanism": {
+    "coherent": true,
+    "k_mean": 0.2881450920984819,
+    "k_median": 0.2863841387335756,
+    "k_range": [0.03888213200864899, 0.48927675659140984],
+    "positive_source_agreement_networks": 100,
+    "median_within_source_to_cross_source_noise_ratio": 2.173121653548625,
+    "external_iid_noise_ratio_reported_not_used": 0.24489795918367346
+  },
+  "primary_result": {
+    "parent_cross_risk": 1.607235529770946e-6,
+    "rvrc_cross_risk": 1.6239854175277428e-6,
+    "change": 1.674988775679702e-8,
+    "reduction_fraction": -0.010421551444413257,
+    "network_improvements": 35,
+    "network_total": 100,
+    "bootstrap_probability_mean_change_below_zero": 2.0e-5,
+    "bootstrap_change_interval_90": [9.840323124647868e-9, 2.3652974149622787e-8],
+    "external_4pct_diagnostic_pass": false,
+    "external_4pct_is_not_a_submission_ban": true
+  },
+  "controls": {
+    "unshrunk_reduction_fraction": -0.15991590901379737,
+    "radial_omission_reduction_fraction": -0.009387107187165622,
+    "matched_random_reduction_fraction": -0.24657995309473257,
+    "source_shuffled_reduction_fraction": -50.418783764082434,
+    "source_swap_equals_primary": true
+  },
+  "nonselectable_srr_lead": {
+    "scope": "closure_only_attribution_not_full_ALG026_candidate",
+    "reduction_fraction": 0.03915947579430468,
+    "network_improvements": 90,
+    "bootstrap_probability_mean_change_below_zero": 1.0,
+    "disposition": "preserve_as_high_priority_T122_input_without_rescuing_RVRC_or_inserting_T119B"
+  },
+  "surprise": {
+    "coherent_mechanism_prior": 0.55,
+    "coherent_mechanism_observed": true,
+    "coherent_mechanism_surprise_bits": 0.862496476250065,
+    "eventual_point_win_prior": 0.38,
+    "target_free_point_favorable_observed": false,
+    "loss_event_probability": 0.62,
+    "loss_surprise_bits": 0.6896598793878495,
+    "interpretation": "unfavorable_and_unsurprising"
+  },
+  "decision": {
+    "rvrc_exact_spelling_closed": true,
+    "insert_T119B": false,
+    "next_task": "T120",
+    "incumbent_retained": "ALG026-V000_submission_329690"
+  },
+  "timing": {
+    "start_pdt": "2026-09-04T08:40:09,307855605-07:00",
+    "estimate_seconds": 4500,
+    "end_checkoff_pdt": "2026-09-04T09:48:30,860325964-07:00",
+    "elapsed_ns": 4101552470359,
+    "estimate_difference_ns": 398447529641,
+    "estimate_difference": "00:06:38.447529641_earlier_than_point_estimate"
+  },
+  "work_allocation_approximate_minutes": {
+    "protocol_theory_and_formula_audit": 7,
+    "implementation_repair_verification_documentation": 13,
+    "program_execution_and_monitoring": 49
+  },
+  "evidence": {
+    "preanalysis": "experiments/checkpoint3/t119a/PREANALYSIS.md",
+    "cache_manifest": "experiments/checkpoint3/t119a/CACHE_MANIFEST.json",
+    "screen": "experiments/checkpoint3/t119a/TARGET_FREE_SCREEN.json",
+    "report": "experiments/checkpoint3/t119a/REPORT.md"
+  }
+}

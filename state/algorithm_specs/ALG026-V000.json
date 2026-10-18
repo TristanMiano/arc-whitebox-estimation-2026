@@ -1,0 +1,81 @@
+{
+  "schema_version": "arc-algorithm-spec-v1",
+  "algorithm_id": "ALG026-V000",
+  "task_id": "T118",
+  "experiment_id": "E105",
+  "family": "H116-B_DFFH_AS",
+  "name": "exact_fast_independent_frame_harmonic_observer_composition",
+  "provenance": "OURS+PUBLIC",
+  "academic_novelty": "N1-NOVEL-COMBINATION",
+  "novelty_dimension": 4,
+  "parent": "ALG024-V000",
+  "implementation": "submissions/phase2_alg026_v000/estimator.py",
+  "implementation_sha256": "d31e4a6484e716ca8a42c6ed022153155cccdf84f027521c5d826390946c74c8",
+  "production_rule": {
+    "main_positive_rows": 2048,
+    "independent_child_positive_rows": 1536,
+    "exact_fast_depth": 5,
+    "child_seed_xor": "0xD118C411",
+    "scalar_pool_gamma": 0.021207293228815507,
+    "observer_feature_count": 12,
+    "observer_ridge_lambda": 0.001,
+    "fit_rows": [0, 500],
+    "validation_rows": [750, 850],
+    "holdout_rows": [850, 1000],
+    "correction_cap_fraction": 0.25,
+    "full_output_nonnegative_clamp": true
+  },
+  "protected_results": {
+    "v_d": {
+      "networks": 100,
+      "adjusted_score": 1.447994541241321e-7,
+      "incumbent_adjusted_score": 1.6583560179520897e-7,
+      "raw_ratio_to_ALG024": 0.8731505934590902,
+      "wins": 86,
+      "bootstrap_probability_win": 1.0,
+      "bootstrap_adjusted_change_interval_90": [-2.4094371067283734e-8, -1.7978714625756637e-8]
+    },
+    "h": {
+      "networks": 150,
+      "adjusted_score": 1.5231698558054847e-7,
+      "incumbent_adjusted_score": 1.7652681465474336e-7,
+      "raw_ratio_to_ALG024": 0.8628546653292011,
+      "wins": 138,
+      "bootstrap_probability_win": 1.0,
+      "bootstrap_adjusted_change_interval_90": [-2.67719773440424e-8, -2.1678907218044133e-8]
+    }
+  },
+  "exact_flops": 218819123305,
+  "score_multiplier": 0.1,
+  "empirical_status": "LOCAL_AND_OFFICIAL_COMPETITION_SUCCESSOR_H_RECONFIRMED",
+  "current_shape_m1": "AWARDED",
+  "historical_p1": "NOT_RUN",
+  "rigorous_science": "DEFERRED_BY_COMPETITIVE_POLICY",
+  "submission_candidate": true,
+  "package_created": true,
+  "package_path": "experiments/submission_policy/t118a/packages/ALG026-V000.tar.gz",
+  "package_sha256": "a1d66a380afd79e99411ac0ad564c6eba3cdb9939b5a1effb0b41f9d3a84eb9c",
+  "contract_validation": "PASS_CURRENT_LINUX_WHest_0_16_FLOPSCOPE_0_12_CLEAN_EXTRACTION_EXACT_REPLAY",
+  "package_validation": "PASS_WHest_0_16_STATIC_AND_CURRENT_LINUX_HARD_GATE",
+  "windows_native_validation": "FAIL_RESIDUAL_CAP_ONLY_0.8657S_0.8461S_ALL_OTHER_CHECKS_PASS",
+  "upload_performed": true,
+  "official_submission": {
+    "task_id": "T118A",
+    "experiment_id": "E106",
+    "submission_id": 329690,
+    "grading_status": "graded",
+    "adjusted_score": 1.4791658804824692e-7,
+    "final_layer_mse": 1.4791658804824692e-6,
+    "vs_sampling_approx": 8.112680368266663,
+    "prior_official_best": "ALG024-V000_submission_329529",
+    "adjusted_ratio_to_prior_official": 0.8622948388839112,
+    "adjusted_relative_reduction": 0.13770516111608877,
+    "scientific_tier_transfer": false,
+    "final_designation": false
+  },
+  "next_task": "T119",
+  "evidence": [
+    "experiments/checkpoint3/t118/REPORT.md",
+    "experiments/submission_policy/t118a/REPORT.md"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "task_id": "T137A",
+  "experiment_id": "E131",
+  "status": "COMPLETED_EXISTING_EVIDENCE_POSTMORTEM",
+  "report": "experiments/analysis/t137a/REPORT.md",
+  "start_utc": "2026-09-07T02:30:01Z",
+  "end_utc": "2026-09-07T02:42:31.266370+00:00",
+  "elapsed_minutes": 12.5044395,
+  "estimate_elapsed_minutes": 25,
+  "estimate_error_minutes": -12.4955605,
+  "estimate_note": "25-minute total estimate recorded after initial source review, before the new descriptive calculation. No minimum duration was requested.",
+  "new_estimator_runs": 0,
+  "new_fits": 0,
+  "new_submissions": 0,
+  "subagents": 0,
+  "comparison_rows_reused": 12,
+  "official_best_unchanged": "ALG038-V000 / 330141",
+  "leaderboard_rank": {
+    "value": 32,
+    "places_gained": 44,
+    "source": "Owner report in task request; not independently verified"
+  },
+  "findings": {
+    "official_raw_gain_factor": 30.17377491445555,
+    "official_adjusted_gain_factor": 7.402750200837116,
+    "local_neuron_raw_error_win_fraction": 0.8202311197916666,
+    "old_network_offset_mse_share": 0.011988770612756043,
+    "within_network_centered_mse_ratio": 0.03765905203210575,
+    "component_ablation_performed": false
+  },
+  "next_task": null,
+  "next_action": "Await owner selection. Prioritize cheaper representations or a specific leading omitted correction of the successful joint-cumulant recurrence. Use only decision-relevant component diagnostics; re-rank A2LR against ALG038.",
+  "analysis_source_sha256": "9510fe64fbf8d1ac03806b7442b130181cd6beeebe566a77111f1209cd777909",
+  "analysis_result_sha256": "8de3695645fd4ccad13595883e78b0dd5eaa6f403b3915c9b552f88b6d5dce25"
+}

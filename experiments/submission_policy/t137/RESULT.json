@@ -1,0 +1,242 @@
+{
+  "task_id": "T137",
+  "experiment_id": "E130",
+  "algorithm_id": "ALG038-V000",
+  "name": "CSK3-R",
+  "status": "COMPLETED_OFFICIAL_IMPROVEMENT",
+  "task_checked_off": true,
+  "production_score": {
+    "task_id": "T137",
+    "algorithm_id": "ALG038-V000",
+    "evidence_class": "submission-facing production confirmation; reused development panels, not independent scientific validation",
+    "rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "n": 12,
+    "raw_mse": 4.5307229340590526e-08,
+    "adjusted_score": 1.8466982056501396e-08,
+    "parent_raw_mse": 1.2085918228825454e-06,
+    "parent_adjusted_score": 1.2085918228825453e-07,
+    "ratio": 0.15279750952192298,
+    "improvement_percent": 84.7202490478077,
+    "wins": 12,
+    "bootstrap_probability_of_mean_improvement": 1.0,
+    "bootstrap_mean_change_90pct_interval": [
+      -1.1056548336980395e-07,
+      -9.410218947701756e-08
+    ],
+    "network_ratio_quantiles": {
+      "median": 0.1555840828978237,
+      "p90": 0.18269374584164022,
+      "p95": 0.1902641729297401,
+      "maximum": 0.19808394758986392
+    },
+    "flops": [
+      896310006000,
+      896310006000,
+      896310006000,
+      896310006000,
+      896310006000,
+      896310006000,
+      896310006000,
+      896310006000,
+      896310006000,
+      896310006000,
+      896310006000,
+      896310006000
+    ],
+    "multipliers": [
+      0.40759460080153076,
+      0.40759460080153076,
+      0.40759460080153076,
+      0.40759460080153076,
+      0.40759460080153076,
+      0.40759460080153076,
+      0.40759460080153076,
+      0.40759460080153076,
+      0.40759460080153076,
+      0.40759460080153076,
+      0.40759460080153076,
+      0.40759460080153076
+    ],
+    "prediction_seal_sha256": "23ba0c98529646f3e6db1786d5e9fd5738bb483f34f984276131a0cc5c783727",
+    "per_network": [
+      {
+        "row": 750,
+        "candidate_raw_mse": 3.881416945407599e-08,
+        "parent_raw_mse": 9.190352741339924e-07,
+        "adjusted_ratio": 0.17214187909147108
+      },
+      {
+        "row": 772,
+        "candidate_raw_mse": 4.3946960620959903e-08,
+        "parent_raw_mse": 1.474520625856968e-06,
+        "adjusted_ratio": 0.12148045647262652
+      },
+      {
+        "row": 795,
+        "candidate_raw_mse": 4.948351982045106e-08,
+        "parent_raw_mse": 1.01821554713924e-06,
+        "adjusted_ratio": 0.19808394758986392
+      },
+      {
+        "row": 817,
+        "candidate_raw_mse": 4.6090945738474715e-08,
+        "parent_raw_mse": 1.3956550672540931e-06,
+        "adjusted_ratio": 0.13460647311516805
+      },
+      {
+        "row": 840,
+        "candidate_raw_mse": 5.804956232937103e-08,
+        "parent_raw_mse": 1.4018160291036898e-06,
+        "adjusted_ratio": 0.16878597257496067
+      },
+      {
+        "row": 863,
+        "candidate_raw_mse": 4.321523730645146e-08,
+        "parent_raw_mse": 1.0547419393500425e-06,
+        "adjusted_ratio": 0.16700101457348757
+      },
+      {
+        "row": 885,
+        "candidate_raw_mse": 3.740768302355183e-08,
+        "parent_raw_mse": 1.2177234832317859e-06,
+        "adjusted_ratio": 0.12521044259103448
+      },
+      {
+        "row": 908,
+        "candidate_raw_mse": 5.2214541769057494e-08,
+        "parent_raw_mse": 1.3792318947907075e-06,
+        "adjusted_ratio": 0.1543059248323383
+      },
+      {
+        "row": 930,
+        "candidate_raw_mse": 4.655143964744902e-08,
+        "parent_raw_mse": 1.031952473599251e-06,
+        "adjusted_ratio": 0.1838661754805479
+      },
+      {
+        "row": 953,
+        "candidate_raw_mse": 4.2525917811120494e-08,
+        "parent_raw_mse": 1.1928839193083196e-06,
+        "adjusted_ratio": 0.14530612923337002
+      },
+      {
+        "row": 976,
+        "candidate_raw_mse": 4.479781242325411e-08,
+        "parent_raw_mse": 1.3626523151260957e-06,
+        "adjusted_ratio": 0.13399857226051426
+      },
+      {
+        "row": 999,
+        "candidate_raw_mse": 4.058896214286913e-08,
+        "parent_raw_mse": 1.0546733056963582e-06,
+        "adjusted_ratio": 0.15686224096330909
+      }
+    ],
+    "competition_pass": true,
+    "resource_checks_pass": true,
+    "comparison_refit": false,
+    "single_training_fit": false,
+    "scientific_tier_awarded": false,
+    "interim_look": {
+      "n": 5,
+      "reason": "operationally truncated diagnostic",
+      "record": "INCOMPLETE_SCORE.json"
+    },
+    "coefficient_fit_calls": 0
+  },
+  "formula": "Unfit Gaussian linear response with persistent paired third factors, exact modeled repeated-index completion and a radial fourth cumulant. Final T136 section22 source.",
+  "fit_calls": 0,
+  "comparison_networks": 12,
+  "comparison_extension": false,
+  "interim_look": {
+    "n": 5,
+    "reason": "Four pre-repair comparison crashes, including exhausted retry at row863; diagnostic justified further repair. No coefficient or equation changes.",
+    "record": "INCOMPLETE_SCORE.json"
+  },
+  "exact_flops": 896310006000,
+  "projected_flops": 904625538816,
+  "multiplier": 0.40759460080153076,
+  "prediction_wall_range_s": [
+    32.24046286700104,
+    34.06608758999937
+  ],
+  "residual_range_s": [
+    0.3022615710578975,
+    0.3680941648854059
+  ],
+  "peak_rss_bytes": 6025084928,
+  "completed_metered_fullshape_prediction_calls": 17,
+  "fullshape_native_crashes_before_final_refactor": 5,
+  "initial_workspace_shape_failure": 1,
+  "equivalent_source_repair": "SOURCE_REPAIR_RESULT.json",
+  "final_source_local_fullshape_failures": 0,
+  "generated_crash_reproductions": "Original and explicit-operator marginal-only versions failed; split positive-tail helper passed64 calls. Basic arithmetic and CDF/power probes passed. Root cause unproved.",
+  "runtime": "Original qualified CPython3.12.3 / NumPy2.2.6 / FlopScope0.12.0 / WhestBench0.16.0; isolated3.12.13 check failed and was not adopted. No accounting changes.",
+  "package": {
+    "task_id": "T137",
+    "algorithm_id": "ALG038-V000",
+    "archive": "experiments/submission_policy/t137/packages/ALG038-V000.tar.gz",
+    "archive_sha256": "e83da8bbea78b45be296edaea50a31083079bfdb497442b276ec9b2a31cd5745",
+    "size_bytes": 18221,
+    "checks": {
+      "archive_manifest": true,
+      "allowed_imports": true,
+      "resource_and_numerical_checks": true,
+      "moment_translation": true,
+      "source_repair_parity": true,
+      "deterministic_current_source_identity": true,
+      "exact_integrated_cost": true
+    },
+    "pass": true,
+    "raw_import_findings": [],
+    "package_replay": "attempts/package-001/RESULT.json",
+    "targets_accessed": false
+  },
+  "submission_attempts": 1,
+  "submission_id": 330141,
+  "official_grading_status": "graded",
+  "official_adjusted_score": 1.7369283609807433e-08,
+  "official_final_layer_mse": 4.2613318385065216e-08,
+  "official_predecessor_adjusted_score": 1.285804677308988e-07,
+  "official_ratio": 0.1350849309877994,
+  "official_improvement_percent": 86.49150690122006,
+  "official_best_changed": true,
+  "retained_official_algorithm": "ALG038-V000",
+  "retained_official_submission_id": 330141,
+  "retained_official_adjusted_score": 1.7369283609807433e-08,
+  "final_blind_accessed": false,
+  "scientific_tier_awarded": false,
+  "subagents": 0,
+  "next_task": null,
+  "next_action": "Await owner selection. Recommend a focused recurrence on cheaper representations of the successful joint-cumulant state and its leading omitted correction. Keep removal of unused final-layer contractions and deeper equivalent matrix kernels as a cheap implementation option, while prioritizing a credible larger improvement. Re-rank A2LR as a reserve; do not run it automatically.",
+  "timing": {
+    "start_utc": "2026-09-07T01:07:11+00:00",
+    "end_checkoff_utc": "2026-09-07T02:18:18.490512+00:00",
+    "actual_elapsed_minutes": 71.12484186666667,
+    "estimate_total_minutes": 100,
+    "estimate_total_range_minutes": [
+      75,
+      120
+    ],
+    "estimate_error_minutes": -28.87515813333333,
+    "local_elapsed_minutes_including_upload": 45.846266666666665,
+    "completed_metered_prediction_minutes": 9.391900573183497,
+    "grader_wait_minutes": 22.632408344745635,
+    "initial_active_engineering_budget_minutes": 60,
+    "engineering_budget_extension": false,
+    "note": "Local implementation through upload completed within45.85 elapsed minutes. Subsequent recordkeeping overlaps grader wait. Metered prediction time overlaps local work; categories are not additive and failed-call/input-loading times are additional."
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "task_id": "T148",
+  "experiment_id": "E143",
+  "status": "completed_two_nominees_no_candidate_run",
+  "start_utc": "2026-09-11T02:53:53+00:00",
+  "research_end_utc": "2026-09-11T06:43:48.271261+00:00",
+  "record_completion_utc": "2026-09-11T06:47:38.967118+00:00",
+  "report": "experiments/theory/t148/REPORT.md",
+  "timing": "experiments/theory/t148/TIMING.json",
+  "exclusive_active_minutes": {
+    "theory": 121.18613153333334,
+    "literature": 30.09973336666667,
+    "selection": 30.1413132
+  },
+  "useful_minutes": 181.4271781,
+  "minimums_met": true,
+  "nominees": [
+    {
+      "hypothesis_id": "H148-CMF2",
+      "priority": 1,
+      "disposition": "first_bounded_attempt_proposed",
+      "specification": "experiments/theory/t148/CMF2_SPEC.md",
+      "static_extra_flops": [
+        2000000000.0,
+        5000000000.0
+      ],
+      "subjective_probability_useful_official_gain": [
+        0.25,
+        0.45
+      ],
+      "conditional_adjusted_gain_range": [
+        0.02,
+        0.15
+      ],
+      "specification_sha256": "6ce5f7910e1865a27145c5b4f8f3933193bd1d395524e653774a12a4d98e16ee"
+    },
+    {
+      "hypothesis_id": "H148-FAR-CT",
+      "priority": 2,
+      "disposition": "optional_fallback_not_automatic",
+      "specification": "experiments/theory/t148/FAR_CT_SPEC.md",
+      "subjective_probability_useful_official_gain": [
+        0.2,
+        0.35
+      ],
+      "conditional_adjusted_gain_range": [
+        0.01,
+        0.05
+      ],
+      "specification_sha256": "eefc5aea3666464375946ba8f7212cca374ebac7151f3d1da73202cc112b7e4a"
+    }
+  ],
+  "forecasts_are_calibrated": false,
+  "new_algorithm_ids": [],
+  "challenge_candidate_executions": 0,
+  "challenge_input_or_target_accesses": 0,
+  "fit_calls": 0,
+  "candidate_parameter_sweeps": 0,
+  "packages": 0,
+  "uploads": 0,
+  "subagents": 0,
+  "generated_check_records": 15,
+  "literature": {
+    "local_new_labels": 16,
+    "newly_indexed_unique_sources": 15,
+    "duplicate_alias": {
+      "L110": "L38"
+    },
+    "notes": "experiments/theory/t148/LITERATURE_NOTES.md",
+    "reading_depth": "selected substantive sections and targeted paper/source revisits; no full-paper count claim"
+  },
+  "incumbent": {
+    "algorithm_id": "ALG043-V000",
+    "submission_id": 330597,
+    "official_adjusted_score": 5.419051334510831e-09,
+    "official_raw_mse": 2.1327418124883478e-08,
+    "settled_flops": 555383704047
+  },
+  "official_incumbent_unchanged": true,
+  "source_identity_record": "experiments/theory/t148/SOURCE_IDENTITIES.json",
+  "larger_reserves": [
+    "native_HGC_fifth_sixth_finite_program",
+    "joint_conditional_core_and_metric",
+    "fourth_core_vector_queries",
+    "whole_matrix_spectral_metric",
+    "positive_cone_observable_state"
+  ],
+  "evidence_limits": [
+    "No final-score evidence or actual candidate resource meter.",
+    "Earlier geometry tests use an unconditioned-radius coefficient; final norm conditioning has separate cubature evidence.",
+    "Canonical source extraction has a written common-transport proof; no final production implementation was tested.",
+    "Public exact-metric small-effect comment lowers upside; no V29 width1024 paired values inspected.",
+    "L110 duplicates existing L38 and is not counted as a newly indexed source."
+  ],
+  "next_task": "T149",
+  "next_task_started": false,
+  "next_task_authorized": false,
+  "next_proposal": "experiments/theory/t148/NEXT_PROPOSAL.json",
+  "verification_end_utc": "2026-09-11T06:49:09.986237+00:00"
+}

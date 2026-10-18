@@ -1,0 +1,80 @@
+{
+  "algorithm_id": "ALG026-V000",
+  "archive": {
+    "clean_temporary_extraction": true,
+    "manifest_hashes_match": true,
+    "members": [
+      "LICENSE",
+      "PUBLIC_FAST_LICENSE",
+      "README.md",
+      "base_family.py",
+      "candidate_family.py",
+      "estimator.py",
+      "fast_kernel.py",
+      "manifest.json",
+      "public_release/public_fast_reference.py",
+      "response_family.py"
+    ],
+    "path": "experiments/submission_policy/t118a/packages/ALG026-V000.tar.gz",
+    "sha256": "a1d66a380afd79e99411ac0ad564c6eba3cdb9939b5a1effb0b41f9d3a84eb9c",
+    "size_bytes": 26647
+  },
+  "checks": {
+    "below_120s_wall_cap": true,
+    "below_400ms_residual_cap": true,
+    "below_8GiB_process_memory_cap": true,
+    "deterministic_byte_replay": true,
+    "exact_expected_flops": true,
+    "expected_archive_sha256": true,
+    "finite": true,
+    "flops_replay_equal": true,
+    "manifest_hashes_match": true,
+    "no_forbidden_raw_import": true,
+    "nonnegative": true,
+    "on_point_one_floor": true,
+    "sealed_numerical_parity": true,
+    "shape_16x1024": true
+  },
+  "environment": {
+    "flopscope": "0.12.0",
+    "manifest_flopscope": "0.10.0",
+    "manifest_whestbench": "0.14.0",
+    "platform": "linux",
+    "python": "3.10.20",
+    "whestbench": "0.16.0"
+  },
+  "fixture": {
+    "deterministic_byte_replay": true,
+    "finite": true,
+    "first_meter": {
+      "flops": 218819123305,
+      "outer_wall_time_s": 15.171577110999351,
+      "residual_wall_time_s": 0.3661287628528953,
+      "wall_time_s": 15.171548688998882
+    },
+    "floor_headroom_flops": 1083202250,
+    "global_row": 850,
+    "maximum_absolute_difference_from_h_seal": 0.0,
+    "mse_difference_from_h_seal": 0.0,
+    "nonnegative": true,
+    "peak_process_rss_bytes": 4824915968,
+    "prediction_sha256": "7c9cff11eccde1d7a7dbe7d798264859f8a239c5af82ccd301628f0ef50821e3",
+    "score_multiplier": 0.1,
+    "sealed_final_sha256": "9e2a5d1649c7695e4d2fcec9b2e4da3edee826cdb12cf55bc1176af13a90483e",
+    "second_meter": {
+      "flops": 218819123305,
+      "outer_wall_time_s": 15.173960846999762,
+      "residual_wall_time_s": 0.35653407999052433,
+      "wall_time_s": 15.173933105999822
+    },
+    "shape": [
+      16,
+      1024
+    ]
+  },
+  "forbidden_raw_import_findings": [],
+  "protected_target_accessed": false,
+  "schema_version": "arc-t118a-package-qualification-v1",
+  "status": "PASS",
+  "task_id": "T118A"
+}

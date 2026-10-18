@@ -1,0 +1,60 @@
+{
+  "schema_version": "arc-t117a-submission-record-v1",
+  "task_id": "T117A",
+  "experiment_id": "E103",
+  "algorithm_id": "ALG024-V000",
+  "hypothesis_id": "H116-A",
+  "novelty": "N1-NOVEL-COMBINATION_dimension_4",
+  "owner_authorization": "Okay, please do T117A now.",
+  "challenge_slug": "arc-white-box-estimation-challenge-2026",
+  "attempts": [
+    {
+      "id": 329528,
+      "artifact_path": "experiments/checkpoint3/t117/packages/ALG024-V000.tar.gz",
+      "artifact_sha256": "aa55acb9c2af9c9041a60c04390c30a3b34e32d78fa0fa6bced40101fe444ba2",
+      "created_at_utc": "2026-09-02T20:56:12.707Z",
+      "grading_status_cd": "failed",
+      "grading_message": "Submission rejected: estimator.py imports numpy, which Phase 2 does not permit.",
+      "score": null,
+      "score_secondary": null,
+      "failure_class": "PACKAGE_COMPLIANCE_DEFECT",
+      "candidate_or_algorithm_evidence": false,
+      "submission_url": "https://www.aicrowd.com/challenges/arc-white-box-estimation-challenge-2026/submissions/329528"
+    },
+    {
+      "id": 329529,
+      "artifact_path": "experiments/submission_policy/t117a/packages/ALG024-V000.tar.gz",
+      "artifact_sha256": "4353f9cd6d50143bba7591cf158d6fe745afaa7c8a05279b356e0fc7bce42378",
+      "created_at_utc": "2026-09-02T20:59:54.607Z",
+      "grading_status_cd": "graded",
+      "grading_message": "Graded successfully",
+      "score": 1.7153829685412346e-7,
+      "score_secondary": 1.7153829685412347e-6,
+      "submission_url": "https://www.aicrowd.com/challenges/arc-white-box-estimation-challenge-2026/submissions/329529"
+    }
+  ],
+  "semantic_repair": {
+    "detail": "Removed the prohibited raw NumPy import used only to materialize twelve constants; the pure-Python tuple is converted with metered flopscope.numpy.",
+    "maximum_absolute_prediction_difference": 0.0,
+    "flop_delta": 24,
+    "score_multiplier_changed": false,
+    "algorithm_identity_changed": false,
+    "evidence": "experiments/submission_policy/t117a/REPAIR_SEAL.json"
+  },
+  "official_result": {
+    "submission_id": 329529,
+    "adjusted_score": 1.7153829685412346e-7,
+    "final_layer_mse": 1.7153829685412347e-6,
+    "phase2_sampling_reference_adjusted_score": 1.2e-6,
+    "vs_sampling_approx": 6.99552241107117,
+    "prior_official_best": "ALG019-V000_submission_328762",
+    "candidate_to_prior_official_adjusted_ratio": 0.7148625483523662,
+    "official_adjusted_relative_reduction": 0.2851374516476338,
+    "official_to_local_t117_prediction_ratio": 0.9744123201438855
+  },
+  "monitor_disposition": "attempt_1_compliance_rejection_attempt_2_semantically_exact_repair_graded_successfully",
+  "resubmission_required": false,
+  "scientific_tier_transfer": false,
+  "final_designation": false,
+  "protected_v_d_or_h_target_access": false
+}

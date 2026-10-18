@@ -1,0 +1,61 @@
+{
+  "schema_version": "algorithm-spec-v1",
+  "algorithm_id": "ALG003-V009",
+  "identity_status": "complete",
+  "source": "OURS",
+  "academic_novelty": "N0-KNOWN-BASELINE",
+  "research_tier": "U0-unclassified",
+  "role": "phase2_submission_fallback",
+  "candidate_task_id": "T074",
+  "parent_algorithm_id": "ALG003-V008",
+  "mechanism_family": "routed_spherical_antithetic_scrambled_sobol",
+  "semantic_delta": "translate the Phase 1 parent to width 1024/depth 16 using one 8192-row int8 Sobol bank, runtime row renormalization, and the current Python/flopscope contract",
+  "behavior": {
+    "width": 1024,
+    "depth": 16,
+    "positive_points": 8192,
+    "effective_antithetic_trajectories": 16384,
+    "point_asset_path": "submissions/phase2_alg003_v009/sobol_sphere_bank_i8.npy",
+    "point_asset_sha256": "9520cca74536f772d9cc25cf94be1f4f16accada088ee209c288c40df513e3ef",
+    "point_asset_shape": [8192, 1024],
+    "point_asset_dtype": "int8",
+    "point_quantization_scale": 20.0,
+    "runtime_point_dtype": "float32",
+    "weight_dtype": "float32",
+    "bank_route": "single_offline_scrambled_Sobol_bank_seed_2026082501",
+    "reflection_route": "flopscope_PCG64_seeded_by_mlp.seed_uniform_sign_per_coordinate",
+    "radial_rule": "restore_quantized_rows_then_exactly_renormalize_to_mean_chi_1024",
+    "antithetic": true,
+    "first_layer_rule": "exact_Gaussian_ReLU_expectation",
+    "fallback": "finite_zero_for_validator_budget_else_diagonal_Gaussian_moment_propagation"
+  },
+  "compute_projection": {
+    "measured_flops": 550101888000,
+    "hard_budget_flops": 2199023255552,
+    "reserve_flops": 1648921367552,
+    "reserve_fraction": 0.7498426237143576,
+    "within_contract_minimum_reserve": true,
+    "projection_kind": "WhestBench_0.16_flopscope_0.12_windows_native_measured"
+  },
+  "implementation": {
+    "submission_estimator_path": "submissions/phase2_alg003_v009/estimator.py",
+    "submission_estimator_sha256": "e8c521bf3c7b4ec05f7b17423c02786618fa2b4a1cef33aff296b28a909fc758",
+    "package_path": "experiments/submission_policy/t074/packages/ALG003-V009.tar.gz",
+    "package_sha256": "6ecf8418f621af41e134ec7ea71a319817b11242881ce873de6cdaccee74cb7f",
+    "license": "MIT",
+    "scientific_tier_transfer": false
+  },
+  "f0": {
+    "mathematical_contract": "pass",
+    "intended_operation_plan": "pass",
+    "hard_budget_and_reserve": "pass",
+    "supported_operations": "pass",
+    "asset_size": "pass",
+    "leakage_risk": "pass",
+    "bias_claim": "pass"
+  },
+  "duplicate_fingerprint_fields": ["mechanism_family", "behavior"],
+  "duplicate_fingerprint_sha256": "6dc352cb78d2432738d24b5a0616735abb18effe1c11fb8605608efb84e0eda1",
+  "identity_hash_definition": "sha256_canonical_json_before_identity_fields",
+  "identity_hash_sha256": "3c125d811f4f75b18c3dc9c777e5c1f9a55cdbc858ea5d750d0a00766043772a"
+}

@@ -1,0 +1,15 @@
+{
+  "verified_utc": "2026-09-09T00:44:35.320081+00:00",
+  "json_files_parsed": 21,
+  "task_python_sources_parse": true,
+  "candidate_handoff_hashes_match": true,
+  "all_three_time_floors_met": true,
+  "one_E138_event": true,
+  "live_state_T144_proposed_only": true,
+  "incumbent_unchanged": true,
+  "local_markdown_links_checked": true,
+  "no_timing_placeholders": true,
+  "no_tracked_estimator_changes": true,
+  "scope": "Record/source syntax and internal consistency only. Existing mathematics not rerun; no challenge or production execution.",
+  "elapsed_through_verification_minutes": 251.18866801666667
+}

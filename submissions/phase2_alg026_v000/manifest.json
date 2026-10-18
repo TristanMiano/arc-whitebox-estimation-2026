@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "api_version": "2.0",
+  "entrypoint": {
+    "module": "estimator",
+    "class": "Estimator"
+  },
+  "python": {
+    "min_version": "3.10"
+  },
+  "files": [
+    {
+      "name": "LICENSE",
+      "sha256": "e3e4daa4b31b6f2b409ecab8610b223bc5ce5c917f0a633fd9f66dbf9e7f6c5f"
+    },
+    {
+      "name": "PUBLIC_FAST_LICENSE",
+      "sha256": "8951bf59cbe4e79527fecd49bc816f4d13f40c7631a3cbd37d2bd930e40b4616"
+    },
+    {
+      "name": "README.md",
+      "sha256": "47b16e05150342110600ddaf198f4c914e484aeb2c7d1f57467e9c70c58ab535"
+    },
+    {
+      "name": "base_family.py",
+      "sha256": "74879a41f02313096a02b58684f9fa795af94b0827763aad045b4225606efec6"
+    },
+    {
+      "name": "candidate_family.py",
+      "sha256": "6729615c3d7d92b5e14a600411cb9f8e339b75fbcaaa337654f7fd363636cfe0"
+    },
+    {
+      "name": "estimator.py",
+      "sha256": "d31e4a6484e716ca8a42c6ed022153155cccdf84f027521c5d826390946c74c8"
+    },
+    {
+      "name": "fast_kernel.py",
+      "sha256": "5094519f9f91f2343a60d0ace19c51d7c4572659a1ff9ac103a59b5adcdd9d33"
+    },
+    {
+      "name": "public_release/public_fast_reference.py",
+      "sha256": "b5418459c4c0cce62129027affb15170cc5aca477ff0af6c5590d718bc9947ed"
+    },
+    {
+      "name": "response_family.py",
+      "sha256": "3e2c4fdfb377d1670653864187177b73622aa3b581505e53a7567e737bafb32e"
+    }
+  ],
+  "created_at_utc": "2026-09-04T04:13:14.404632+00:00",
+  "packager_version": "0.1.0",
+  "whestbench_version": "0.14.0",
+  "flopscope_version": "0.10.0",
+  "python_version": "3.10.20",
+  "numpy_version": "2.2.6"
+}

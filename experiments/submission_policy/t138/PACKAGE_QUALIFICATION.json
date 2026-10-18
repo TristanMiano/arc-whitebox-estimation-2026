@@ -1,0 +1,21 @@
+{
+  "task_id": "T138",
+  "algorithm_id": "ALG038-V001",
+  "archive": "experiments/submission_policy/t138/packages/ALG038-V001.tar.gz",
+  "archive_sha256": "b5cad63ef997dc0ead3dd17587b56340580119de8d460f95bcd5e9a9e5f6f367",
+  "size_bytes": 18559,
+  "checks": {
+    "archive_manifest": true,
+    "allowed_imports": true,
+    "resource_and_numerical_checks": true,
+    "changed_operations": true,
+    "unchanged_moment_kernel": true,
+    "reused_workspace_determinism": true,
+    "deterministic_current_source_identity": true,
+    "exact_integrated_cost": true
+  },
+  "pass": true,
+  "raw_import_findings": [],
+  "package_replay": "attempts/package-001/RESULT.json",
+  "targets_accessed": false
+}

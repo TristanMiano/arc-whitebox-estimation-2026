@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "api_version": "2.0",
+  "entrypoint": {
+    "module": "estimator",
+    "class": "Estimator"
+  },
+  "python": {
+    "min_version": "3.10"
+  },
+  "files": [
+    {
+      "name": "base_family.py",
+      "sha256": "74879a41f02313096a02b58684f9fa795af94b0827763aad045b4225606efec6"
+    },
+    {
+      "name": "estimator.py",
+      "sha256": "d863c644be2bc1e8de3a1ce253d7fb4a1c451aeb1da708b6225f1c84dc7a9aec"
+    },
+    {
+      "name": "LICENSE",
+      "sha256": "e3e4daa4b31b6f2b409ecab8610b223bc5ce5c917f0a633fd9f66dbf9e7f6c5f"
+    },
+    {
+      "name": "observer_family.py",
+      "sha256": "90bd48f14e43adf547920b6403463cb6bfe542516277a0043c5f2ce54338805b"
+    },
+    {
+      "name": "README.md",
+      "sha256": "76b4372a20403c53cb0b3916282f0816b0cfa3a2ca52c6e4f3f414a7a9614588"
+    },
+    {
+      "name": "response_family.py",
+      "sha256": "3e2c4fdfb377d1670653864187177b73622aa3b581505e53a7567e737bafb32e"
+    }
+  ],
+  "created_at_utc": "2026-09-02T20:57:53.129096+00:00",
+  "packager_version": "0.1.0",
+  "whestbench_version": "0.16.0",
+  "flopscope_version": "0.12.0",
+  "python_version": "3.10.20",
+  "numpy_version": "2.2.6"
+}

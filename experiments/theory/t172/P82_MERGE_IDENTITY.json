@@ -1,0 +1,5 @@
+{
+  "float32_max_abs": 7.152557373046875e-07,
+  "pass_": true,
+  "scope": "All four output heads on257 synthetic feature vectors spanning clipped and unclipped regions; separate versus batched normalizers."
+}

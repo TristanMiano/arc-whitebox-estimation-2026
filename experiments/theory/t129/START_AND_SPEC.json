@@ -1,0 +1,29 @@
+{
+  "task_id": "T129",
+  "status": "ACTIVE_THEORY",
+  "task_start_utc": "2026-09-06T03:46:58+00:00",
+  "estimated_total_minutes": 225,
+  "owner_minimum_root_active_theory_minutes": 180,
+  "hard_task_deadline_utc": "2026-09-06T07:46:58+00:00",
+  "planned_agent_drafts_utc": "2026-09-06T05:18:08.848707+00:00",
+  "agent_hard_stop_utc": "2026-09-06T07:16:58+00:00",
+  "timing_rule": "Root active mathematical work tracked separately from agent time; overlapping agent time does not multiply elapsed theory credit. Pauses/cancellation supersede the minimum. No idle padding.",
+  "incumbent": "ALG031-V000 / 329989",
+  "official_adjusted_score": 1.3618567538742354e-07,
+  "one_time_multi_agent_trial_authorized": true,
+  "user_reports_effort": "Ultra",
+  "reset_use_authorized": false,
+  "scope": "Written theory, prior-result synthesis, focused primary-source search and synthetic mathematical checks; optional input-only feature geometry. No candidate fit, new challenge prediction, challenge-target access or upload.",
+  "assignments": {
+    "rcerc": "Corrected exact first-layer controls, one deployable design or scoped obstruction.",
+    "uniform": "Uniform fixed-count suffix continuation, full estimator variance and setup cost.",
+    "current_shape": "Continue current physical/Hermite/functional-shape path after T128; seek structural successor, not a direction or hyperparameter sweep.",
+    "root": "DS/M and KCAS history/correction derivations, current-carrier compatibility, integration and adversarial comparison; output-aware compression if time useful."
+  },
+  "deliverables": [
+    "One root scratchpad with linked agent working notes",
+    "Zero to two frozen prospective candidates with lean next-test plan",
+    "Concise findings, limitations and actual root/agent timing",
+    "One-time trial assessment without permanent protocol changes"
+  ]
+}

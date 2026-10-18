@@ -1,0 +1,265 @@
+{
+  "task_id": "T133",
+  "experiment_id": "E126",
+  "algorithm_id": "ALG035-V000",
+  "comparator": "ALG031-V000",
+  "status": "COMPLETED_NO_SUPPORTED_IMPROVEMENT",
+  "task_checked_off": true,
+  "production_score": {
+    "task_id": "T133",
+    "algorithm_id": "ALG035-V000",
+    "evidence_class": "submission-facing production confirmation; reused development panels, not independent scientific validation",
+    "rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "n": 12,
+    "raw_mse": 1.2981135268860895e-06,
+    "adjusted_score": 1.29811352688609e-07,
+    "parent_raw_mse": 1.2887078848617875e-06,
+    "parent_adjusted_score": 1.2887078848617877e-07,
+    "ratio": 1.0072985058404536,
+    "improvement_percent": -0.7298505840453551,
+    "wins": 5,
+    "bootstrap_probability_of_mean_improvement": 0.4319,
+    "bootstrap_mean_change_90pct_interval": [
+      -8.283253826147595e-09,
+      9.986280144981479e-09
+    ],
+    "network_ratio_quantiles": {
+      "median": 1.031021958405594,
+      "p90": 1.2076086494547331,
+      "p95": 1.21172100507757,
+      "maximum": 1.2121538354909496
+    },
+    "flops": [
+      56786552287,
+      56786552287,
+      56786552287,
+      56786552287,
+      56786552287,
+      56786552287,
+      56786552287,
+      56786552287,
+      56786552287,
+      56786552287,
+      56786552287,
+      56786552287
+    ],
+    "multipliers": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "prediction_seal_sha256": "d295780707b9e5d214afc7a47c425662d64747530d5b0abafbc37bb4b96a7ab9",
+    "per_network": [
+      {
+        "row": 750,
+        "candidate_raw_mse": 1.1283663562308292e-06,
+        "parent_raw_mse": 9.613061065240224e-07,
+        "adjusted_ratio": 1.17378465462045
+      },
+      {
+        "row": 772,
+        "candidate_raw_mse": 1.3607217595913016e-06,
+        "parent_raw_mse": 1.5461194687571316e-06,
+        "adjusted_ratio": 0.8800883677411653
+      },
+      {
+        "row": 795,
+        "candidate_raw_mse": 1.2758499685642592e-06,
+        "parent_raw_mse": 1.052547895496706e-06,
+        "adjusted_ratio": 1.2121538354909496
+      },
+      {
+        "row": 817,
+        "candidate_raw_mse": 1.2831727031132115e-06,
+        "parent_raw_mse": 1.5187420477252175e-06,
+        "adjusted_ratio": 0.8448918004444248
+      },
+      {
+        "row": 840,
+        "candidate_raw_mse": 1.737399847059807e-06,
+        "parent_raw_mse": 1.4814747029963948e-06,
+        "adjusted_ratio": 1.1727502626577315
+      },
+      {
+        "row": 863,
+        "candidate_raw_mse": 1.2126540476376588e-06,
+        "parent_raw_mse": 1.1654032456858427e-06,
+        "adjusted_ratio": 1.0405445944369314
+      },
+      {
+        "row": 885,
+        "candidate_raw_mse": 1.334825271651337e-06,
+        "parent_raw_mse": 1.3067314313521238e-06,
+        "adjusted_ratio": 1.0214993223742568
+      },
+      {
+        "row": 908,
+        "candidate_raw_mse": 1.338537918322632e-06,
+        "parent_raw_mse": 1.4480573637585296e-06,
+        "adjusted_ratio": 0.9243680200958111
+      },
+      {
+        "row": 930,
+        "candidate_raw_mse": 1.3092022189459659e-06,
+        "parent_raw_mse": 1.0807644242027992e-06,
+        "adjusted_ratio": 1.2113668711029868
+      },
+      {
+        "row": 953,
+        "candidate_raw_mse": 1.092324283646346e-06,
+        "parent_raw_mse": 1.293026027692356e-06,
+        "adjusted_ratio": 0.8447813580332955
+      },
+      {
+        "row": 976,
+        "candidate_raw_mse": 1.2261625941919904e-06,
+        "parent_raw_mse": 1.4941730714030715e-06,
+        "adjusted_ratio": 0.820629562705603
+      },
+      {
+        "row": 999,
+        "candidate_raw_mse": 1.2781453536777383e-06,
+        "parent_raw_mse": 1.1161488327472557e-06,
+        "adjusted_ratio": 1.1451388167756706
+      }
+    ],
+    "competition_pass": false,
+    "resource_checks_pass": true,
+    "comparison_refit": false,
+    "new_fit": false,
+    "scientific_tier_awarded": false
+  },
+  "unchanged_upstream_source": true,
+  "source_freeze": {
+    "task_id": "T133",
+    "algorithm_id": "ALG035-V000",
+    "frozen_utc": "2026-09-06T20:53:53.511889+00:00",
+    "source_hashes": {
+      "LICENSE": "0414ac446fa4925715fb5d9c119b1dca026f18bca81a28f6ec587691f85e5005",
+      "estimator.py": "0a22f57ce5670d1acac0b9bc9d15651fd49e04f1cae7210e2068369e3685c37c"
+    },
+    "unchanged_upstream_source": true,
+    "external_calibration_asset_present": false,
+    "comparison_targets_accessed": false
+  },
+  "fit_calls": 0,
+  "training_rows": 0,
+  "comparison_networks": 12,
+  "comparison_extension": false,
+  "comparison_refit": false,
+  "exact_flops": 56786552287,
+  "flops_fraction_of_incumbent": 0.25931582560096905,
+  "floor_headroom_flops": 163115773268.2,
+  "multiplier": 0.1,
+  "external_reported_flops": 55694969087,
+  "external_cost_reproduced_exactly": false,
+  "external_official_receipt_independently_verified": false,
+  "residual_range_s": [
+    0.04545436203989084,
+    0.05171316000269144
+  ],
+  "prediction_wall_range_s": [
+    2.508476519999931,
+    2.799003158999767
+  ],
+  "peak_rss_bytes": 4817199104,
+  "max_setup_s": 0.002311938000275404,
+  "fixture_contract_review": {
+    "task_id": "T133",
+    "review_utc": "2026-09-06T20:54:52.168229+00:00",
+    "original_result": "attempts/probe-001/RESULT.json",
+    "original_result_preserved": true,
+    "estimator_source_unchanged": true,
+    "issue": "Inherited nonnegativity check exceeds actual Whest prediction validity contract. Negative estimates are scored normally.",
+    "official_check": "whestbench.scoring.validate_predictions (0.16.0), called successfully on sealed fixture output",
+    "negative_values": 841,
+    "minimum_prediction": -0.0003342425625305623,
+    "checks": {
+      "hard_flops": true,
+      "residual": true,
+      "wall": true,
+      "setup": true,
+      "memory": true,
+      "numerical_reference": true,
+      "determinism": true,
+      "official_finite_full_shape": true
+    },
+    "pass": true,
+    "targets_accessed": false
+  },
+  "small_shape_smoke": {
+    "ok": true,
+    "class_name": "Estimator",
+    "module_name": "_whestbench_submission_178263c612bc",
+    "output_shape": [
+      2,
+      4
+    ],
+    "whestbench_version": "0.16.0"
+  },
+  "production_execution_failures": 0,
+  "harness_false_rejections": 1,
+  "production_retries": 0,
+  "archive_created": false,
+  "archive_qualified": false,
+  "submission_attempts": 0,
+  "official_best_changed": false,
+  "retained_official_algorithm": "ALG031-V000",
+  "retained_official_submission_id": 329989,
+  "retained_official_adjusted_score": 1.3618567538742354e-07,
+  "scientific_tier_awarded": false,
+  "final_blind_block": "untouched",
+  "decision": {
+    "task_id": "T133",
+    "decision": "PARK_UNCHANGED_PUBLIC_SUBMISSION_RETAIN_CHEAP_BASELINE",
+    "reason": "Adjusted mean .72985% worse;5/12 wins and .4319 bootstrap support. No supported submission advantage, with broad uncertainty rather than a conclusive inferiority finding.",
+    "extension_decision": "Do not extend: near parity, a slightly adverse mean and broad paired dispersion give little reason to expect one doubling to create ~.90 support. The cheaper baseline/feature-transfer lead has higher expected value than another look at the unchanged candidate. No extra confidence or minimum-effect gate.",
+    "comparison_extension": false,
+    "new_fit": false,
+    "upload": false,
+    "family_status": "Runnable near-parity low-cost public baseline; full Gaussian/calibration family remains open. Complementarity with the incumbent has not been established by an ensemble or feature test.",
+    "next_task": "T134",
+    "next_action": "Propose L132-B as T134: one bounded absolute-state output-correction transfer on ALG031; await owner execution request. Preserve the cheaper ALG035 starting point and L132-C theory reserve. No automatic execution."
+  },
+  "next_task": "T134",
+  "next_action": "Propose L132-B as T134: one bounded absolute-state output-correction transfer on ALG031; await owner execution request. Preserve the cheaper ALG035 starting point and L132-C theory reserve. No automatic execution.",
+  "timing": {
+    "start_utc": "2026-09-06T20:49:50+00:00",
+    "end_checkoff_utc": "2026-09-06T20:59:30.249035+00:00",
+    "estimate_total_minutes": 40,
+    "actual_elapsed_minutes": 9.67081725,
+    "estimate_error_minutes": -30.32918275,
+    "initial_active_engineering_budget_minutes": 60,
+    "engineering_budget_extension": false,
+    "completed_metered_prediction_calls": 14,
+    "completed_metered_prediction_minutes": 0.612703784666625,
+    "grader_wait_minutes": 0,
+    "allocation_note": "No fitting or parent reruns. Twelve subprocess runs include public shard loading; metered prediction time is measured separately. Source review, runner adaptation and records overlap input loading. Elapsed time is an upper bound on active engineering, not a measured activity breakdown. Final verification/commit follow checkoff.",
+    "final_record_utc": "2026-09-06T21:03:56.760522+00:00",
+    "elapsed_through_verification_minutes": 14.112675366666668,
+    "estimate_error_through_verification_minutes": -25.887324633333332,
+    "post_checkoff_recordkeeping_minutes": 4.441858116666667
+  }
+}

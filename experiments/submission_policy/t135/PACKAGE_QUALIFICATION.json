@@ -1,0 +1,19 @@
+{
+  "task_id": "T135",
+  "algorithm_id": "ALG037-V000",
+  "archive": "experiments/submission_policy/t135/packages/ALG037-V000.tar.gz",
+  "archive_sha256": "5d6ddf7461fe7322c592bddfd420c8e5e5068797a47f34bd7f005e61e74748d5",
+  "size_bytes": 31750,
+  "checks": {
+    "archive_manifest": true,
+    "allowed_imports": true,
+    "resource_and_numerical_checks": true,
+    "fitted_reference": true,
+    "deterministic_current_source_identity": true,
+    "exact_integrated_cost": true
+  },
+  "pass": true,
+  "raw_import_findings": [],
+  "package_replay": "attempts/package-001/RESULT.json",
+  "targets_accessed": false
+}

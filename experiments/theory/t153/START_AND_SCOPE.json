@@ -1,0 +1,28 @@
+{
+  "task_id": "T153",
+  "experiment_id": "E151",
+  "status": "active_theory_recurrence",
+  "start_utc": "2026-09-12T11:49:14+00:00",
+  "registered_utc": "2026-09-12T11:50:34.849146+00:00",
+  "estimated_elapsed_minutes": [
+    260,
+    310
+  ],
+  "minimum_active_minutes": 240,
+  "minimum_category_minutes": {
+    "derivation": 120,
+    "literature": 30,
+    "empirical": 60,
+    "selection": 30
+  },
+  "owner_authority": "Owner explicitly starts T153 with 4 hours: 2 derivation, half literature, half selection, plus 1 interleaved empirical work.",
+  "scope": "Develop useful joint fourth-core/future-response information on V29, with a clear convention for inherited fitted covariance content. Use T155 evidence: metric-only precision is insufficient, and homogeneous conversion needs compatible state regeneration/calibration. Reuse the T148 joint-source and T150 response derivations; prefer the credible larger-gain line over automatically extending the easy HGC clamp change. Keep a distinct conditional or observable-state alternative if it has more upside. Focus any adjacent literature refresh on the chosen missing response/state mechanism. A representation-consistent HGC perturbation is a concrete lead, not a compulsory fallback. Nominate zero to two finite algorithms, with charged cost and explicit subjective success/gain estimates. Interleave numerous small hypothesis probes, partial prototypes and targeted parameter/rank comparisons with derivations. Use their feedback to revise the response/state mechanism. No automatic unchanged old-candidate qualification retry or large sweep/validation campaign.",
+  "incumbent_algorithm": "ALG043-V000",
+  "incumbent_submission": 330597,
+  "git_head_at_start": "152c4013f7e4f50b5aa15b38335551661881cf92",
+  "exploratory_data": "Generated examples and public/reused development networks only; repeated target access and adaptive changes labeled exploratory. Historical frozen validation and final blind roles preserved.",
+  "probe_record": "Short local probe/batch ID with question, code/configuration, inputs and comparator; preserve outputs and what changes in the derivation.",
+  "no_automatic_submission": true,
+  "no_agents_for_this_task": true,
+  "timing": "Mutually exclusive active categories; passive waits and routine records excluded. All four category floors will be tracked."
+}

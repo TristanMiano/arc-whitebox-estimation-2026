@@ -1,0 +1,13 @@
+{
+  "submission_id": 329989,
+  "created_at": "2026-09-06T01:01:12.416Z",
+  "recorded_utc": "2026-09-06T01:02:04.347540+00:00",
+  "deadline_utc": "2026-09-06T01:31:12.416000+00:00",
+  "attempt": 1,
+  "archive_sha256": "b40b309a9fa3a353fa3f8d9163fa8bd1566299af87e3338558cefb8607c0f247",
+  "status": "GRADED",
+  "retry_created": false,
+  "local_cli_recovery": "UPLOAD_CLIENT_RECOVERY.json",
+  "status_file": "SUBMISSION_329989_STATUS.json",
+  "official_adjusted_score": 1.3618567538742354e-07
+}

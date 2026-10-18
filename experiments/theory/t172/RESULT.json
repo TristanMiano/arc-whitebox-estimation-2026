@@ -1,0 +1,40 @@
+{
+  "task_id": "T172",
+  "experiment_id": "E168",
+  "status": "COMPLETED_WITH_OFFICIAL_IMPROVEMENTS",
+  "completed_utc": "2026-10-17T23:00:33.414739+00:00",
+  "starting_incumbent": {
+    "algorithm_id": "ALG053-V000",
+    "submission_id": 335391,
+    "adjusted_score": 4.1556172645504615e-09,
+    "final_layer_mse": 2.0127173101514018e-08,
+    "predecessor": "ALG052-V000_submission_332641",
+    "adjusted_ratio_to_predecessor": 0.9697644110502315,
+    "adjusted_relative_reduction": 0.03023558894976852,
+    "source_origin": "T170 P49 quadratic mixed-cumulant covariance adaptation of ALG052/public 504aldo V29"
+  },
+  "retained_official_best": {
+    "algorithm_id": "ALG058-V001",
+    "submission_id": 336809,
+    "adjusted_score": 2.971106406126817e-09,
+    "final_layer_mse": 1.9446764376596092e-08,
+    "predecessor": "ALG055-V000_submission_336785",
+    "adjusted_ratio_to_predecessor": 0.9960722026242023,
+    "adjusted_relative_reduction": 0.003927797375797737,
+    "source_origin": "T172 P82_anchor_merged; P19 physical path; fixed equal source average with72 normalized coordinates and64 hidden units. Duplicated local coordinates preserve the different normalizers and clipping exactly before rounding."
+  },
+  "official_uploads": 3,
+  "official_improvements": 3,
+  "adjusted_relative_reduction_from_start": 0.28503848718892555,
+  "active_work_minutes": 252.69294888333334,
+  "elapsed_minutes": 296.74024565,
+  "native_actual_calls": 174,
+  "research_capture_calls": 64,
+  "report": "experiments/theory/t172/REPORT.md",
+  "timing": "experiments/theory/t172/TIMING.json",
+  "evidence_inventory": "experiments/theory/t172/EVIDENCE_INVENTORY.json",
+  "untested_reserve": null,
+  "larger_route_status": "Fuller fourth-core physics has raw capacity but literal kernel cost is too high for a straightforward port; structural savings and integrated accuracy remain unresolved.",
+  "final_nomination": false,
+  "next_task": null
+}

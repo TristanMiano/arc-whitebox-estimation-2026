@@ -1,0 +1,73 @@
+{
+  "task_id": "T152",
+  "experiment_id": "E146",
+  "algorithm_id": "ALG045-V000",
+  "hypothesis_id": "H150-HGC6-A",
+  "name": "Anchored finite homogeneous conversion with fifth/sixth cumulants",
+  "status": "registered_before_execution",
+  "start_utc": "2026-09-11T16:41:02+00:00",
+  "registered_utc": "2026-09-11T16:43:57.793596+00:00",
+  "git_head_at_start": "dc3ccb281855f7da3e98e935dab3ff72c01ee107",
+  "estimate_total_range_minutes": [
+    60,
+    120
+  ],
+  "initial_active_engineering_budget_minutes": 60,
+  "reassess_at_minutes": 30,
+  "finite_engineering_extension_minutes": 30,
+  "owner_authorized_upload": true,
+  "grade_wait_minutes": 30,
+  "unchanged_generic_error_retry_limit": 1,
+  "fit_calls": 0,
+  "subagents": 0,
+  "mathematical_specification": "experiments/theory/t150/HGC6_A_SPEC.md",
+  "mathematical_specification_sha256": "fbd40283badbcdce69757175be4a54bcd2de464f020ca875aa4fa0ffe44b126b",
+  "implementation_handoff": "experiments/theory/t150/HGC6_A_SPEC.md",
+  "variant_change": "Register one new material variant before execution. Implement the fixed HGC6-A finite fifth/sixth-cumulant program on ALG043-V000, including the deterministic conversion guard, physical mean anchor, original-state feedback plus analytic injected columns, oriented source terms and repeated repair. Preserve public coefficients, physical rank16, compression settings and ordinary fallback. Reuse relevant T151 marginal and contraction primitives, source/score harness and T147 incumbent evidence. Meter early, use one small paired adjusted-score decision and qualified upload if supported. No SCP combination, coefficient/rank sweep or automatic cheap fallback.",
+  "numerical_contract": "Retain V29 first/settled arithmetic schedules, physical feedback rank16, residual rank16 and all compression/calibration settings. Only1024x16 uses the fixed guarded finite HGC6-A conversion; generic fallback and first layer retain the original moment program. One frozen formula; identity-preserving realization repairs recorded before any rerun.",
+  "comparison": {
+    "initial_rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "extension_rows": [
+      761,
+      783,
+      806,
+      829,
+      851,
+      874,
+      896,
+      919,
+      941,
+      964,
+      987,
+      994
+    ],
+    "extension_is_automatic": false,
+    "data_role": "Reused development rows; freeze all predictions before targets; reuse T147 incumbent predictions and each actual call cost. No training or final-blind access.",
+    "bootstrap_seed": 152001,
+    "decision": "A lower adjusted mean with roughly0.90 whole-network bootstrap support, interpreted as a screening diagnostic. No minimum effect size or added scientific gate."
+  },
+  "incumbent": {
+    "algorithm_id": "ALG043-V000",
+    "submission_id": 330597,
+    "official_adjusted_score": 5.419051334510831e-09,
+    "source_sha256": "86d9ca9b28e6fe2b6c74750a0b6ae4bba4c14f742ddc3f5f56bc7fb4ec9d8e27",
+    "paired_evidence": "experiments/submission_policy/t147/attempts/screen-sealed"
+  },
+  "runtime": "tmp/t128-runtime312/bin/python",
+  "final_blind_block": "untouched",
+  "no_automatic_second_candidate": true,
+  "preserved_deferred_task": "T149 not tested and deferred"
+}

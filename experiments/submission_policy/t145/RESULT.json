@@ -1,0 +1,136 @@
+{
+  "task_id": "T145",
+  "experiment_id": "E140",
+  "algorithm_id": "ALG042-V000",
+  "status": "COMPLETED_RAW_AND_ADJUSTED_LOSS_NO_UPLOAD",
+  "report": "experiments/submission_policy/t145/REPORT.md",
+  "score_record": "experiments/submission_policy/t145/attempts/screen-sealed/SCORE.json",
+  "source_freeze": "experiments/submission_policy/t145/SOURCE_FREEZE.json",
+  "candidate_raw_mse": 3.653508059331379e-08,
+  "incumbent_raw_mse": 3.5571504994737735e-08,
+  "raw_mse_increase_percent": 2.7088412444697063,
+  "raw_wins": 0,
+  "candidate_adjusted_score": 1.3784768426593507e-08,
+  "incumbent_adjusted_score": 1.2250184924399406e-08,
+  "adjusted_ratio": 1.125270231565042,
+  "adjusted_score_increase_percent": 12.527023156504203,
+  "adjusted_wins": 0,
+  "bootstrap_support": 0.0,
+  "bootstrap_mean_change_90pct_interval": [
+    1.4064530356926933e-09,
+    1.6823849372184042e-09
+  ],
+  "worst_network_adjusted_ratio": 1.1657338252578078,
+  "networks": 12,
+  "current_prediction_flops": 829696441070,
+  "current_multiplier": 0.3773022586165098,
+  "cost_increase_percent": 9.559237348092608,
+  "resource_summary": {
+    "task_id": "T145",
+    "all_completed": {
+      "prediction_calls": 15,
+      "flops": [
+        829696441070,
+        829891599086
+      ],
+      "wall_range_s": [
+        43.83956233899994,
+        46.085799189
+      ],
+      "residual_range_s": [
+        0.36995236200834825,
+        0.4071685990004994
+      ],
+      "wall_total_minutes": 11.240553661399996,
+      "setup_max_s": 0.008394928000143409,
+      "peak_rss_bytes": 6878740480,
+      "all_resources_pass": false
+    },
+    "current_source": {
+      "prediction_calls": 13,
+      "flops": [
+        829696441070
+      ],
+      "wall_range_s": [
+        43.83956233899994,
+        46.085799189
+      ],
+      "residual_range_s": [
+        0.36995236200834825,
+        0.39301582800044343
+      ],
+      "wall_total_minutes": 9.737418171699996,
+      "setup_max_s": 0.008394928000143409,
+      "peak_rss_bytes": 6878740480,
+      "all_resources_pass": true
+    },
+    "earlier_source_resource_failures": 1
+  },
+  "resource_record": "experiments/submission_policy/t145/RESOURCE_SUMMARY.json",
+  "numerical_realizations": 2,
+  "equation_changes_after_registration": 0,
+  "production_repairs": 1,
+  "obsolete_comparison_rows_before_resource_stop": 1,
+  "generated_precision_check_initial_failure_preserved": true,
+  "generated_float64_identity_max_error": 1.1046719095020308e-14,
+  "fit_calls": 0,
+  "comparison_looks": 1,
+  "comparison_extension": false,
+  "uploads": 0,
+  "archive_created": false,
+  "package_qualification_performed": false,
+  "final_blind_accessed": false,
+  "subagents": 0,
+  "usage_resets": 0,
+  "official_best_changed": false,
+  "retained_official_submission": {
+    "algorithm_id": "ALG041-V000",
+    "submission_id": 330392,
+    "adjusted_score": 1.1833081571784114e-08,
+    "final_layer_mse": 3.4359578897635856e-08,
+    "vs_sampling_approx": 101.41060827818428,
+    "predecessor": "ALG038-V001_submission_330153",
+    "adjusted_ratio_to_predecessor": 0.8067455043519604,
+    "adjusted_relative_reduction": 0.19325449564803965
+  },
+  "scope_of_loss": "The fixed one-extra-hop E1-on-JSP combination. Original E1 on ALG038 and longer-memory families are not tested or disproved.",
+  "timing": {
+    "task_id": "T145",
+    "start_utc": "2026-09-10T21:16:25Z",
+    "score_decision_utc": "2026-09-10T21:37:57.086018+00:00",
+    "record_completion_utc": "2026-09-10T21:42:43.800000+00:00",
+    "elapsed_minutes": 26.313333333333333,
+    "estimate_total_range_minutes": [
+      35,
+      75
+    ],
+    "error_to_lower_estimate_minutes": -8.686666666666667,
+    "error_to_upper_estimate_minutes": -48.68666666666667,
+    "initial_active_engineering_budget_minutes": 60,
+    "engineering_budget_extended": false,
+    "bounded_repair_allocation_minutes": 15,
+    "official_wait_minutes": 0,
+    "all_metered_prediction_minutes": 11.240553661399996,
+    "current_source_metered_prediction_minutes": 9.737418171699996,
+    "accounting_note": "Elapsed milestones and metered predictions measured. Compute overlaps implementation/records; these are not additive and no exact exclusive active-minute claim is made. The entire elapsed task remains below the 60-active-minute allocation."
+  },
+  "next_task": "T146",
+  "next_task_started": false,
+  "proposed_next_task": {
+    "task_id": "T146",
+    "status": "proposed_awaiting_owner",
+    "scope": "Focused joint-response literature/theory recurrence after the two T143 nominees. Preserve JSP as comparator; prioritize a better justified joint completion or a coherent omitted source response over retaining more modeled memory. Investigate response-oriented completion/gauge and coherent triangle/fourth-vertex constructions, with response-preserving compression as a larger-upside reserve. Reuse T143 literature and search only named missing ingredients. Keep cheap implementation ideas as fallbacks; no automatic memory-age, rank or coefficient sweep.",
+    "minimum_active_derivation_minutes": 120,
+    "minimum_focused_literature_minutes": 30,
+    "minimum_candidate_selection_minutes": 30,
+    "minimum_useful_minutes": 180,
+    "estimate_elapsed_minutes": [
+      180,
+      220
+    ],
+    "minimums_are_floors_not_ceilings": true,
+    "budget_rationale": "T143 spent 210 useful / 250 elapsed minutes and produced the 19.33% official JSP gain; its broader literature is now well covered. Retain two hours of derivation while narrowing the next literature phase to specific gaps. These are proposed allocations, subject to owner selection.",
+    "no_automatic_agents": true,
+    "no_automatic_candidate_runs_or_upload": true
+  }
+}

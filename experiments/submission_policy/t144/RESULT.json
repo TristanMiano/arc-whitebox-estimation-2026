@@ -1,0 +1,480 @@
+{
+  "task_id": "T144",
+  "experiment_id": "E139",
+  "algorithm_id": "ALG041-V000",
+  "status": "COMPLETED_OFFICIAL_IMPROVEMENT",
+  "task_checked_off": true,
+  "production_score": {
+    "task_id": "T144",
+    "algorithm_id": "ALG041-V000",
+    "evidence_class": "submission-facing production confirmation; reused development panels, not independent scientific validation",
+    "rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "n": 12,
+    "raw_mse": 3.5571504994737735e-08,
+    "adjusted_score": 1.2250184924399406e-08,
+    "parent_raw_mse": 4.5309500866514844e-08,
+    "parent_adjusted_score": 1.5595291677326586e-08,
+    "ratio": 0.7855053421161396,
+    "improvement_percent": 21.449465788386036,
+    "wins": 12,
+    "bootstrap_probability_of_mean_improvement": 1.0,
+    "bootstrap_mean_change_90pct_interval": [
+      -3.748274113389332e-09,
+      -2.927158511720613e-09
+    ],
+    "network_ratio_quantiles": {
+      "median": 0.774125049306986,
+      "p90": 0.8089905355675063,
+      "p95": 0.8503793889752285,
+      "maximum": 0.9000929005162013
+    },
+    "flops": [
+      757303958254,
+      757303958254,
+      757303958254,
+      757303958254,
+      757303958254,
+      757303958254,
+      757303958254,
+      757303958254,
+      757303958254,
+      757303958254,
+      757303958254,
+      757303958254
+    ],
+    "multipliers": [
+      0.3443819688318399,
+      0.3443819688318399,
+      0.3443819688318399,
+      0.3443819688318399,
+      0.3443819688318399,
+      0.3443819688318399,
+      0.3443819688318399,
+      0.3443819688318399,
+      0.3443819688318399,
+      0.3443819688318399,
+      0.3443819688318399,
+      0.3443819688318399
+    ],
+    "prediction_seal_sha256": "772324d9d872642261bf40311d4faccc96db0586298cdec28dc1a08114e6ddbc",
+    "per_network": [
+      {
+        "row": 750,
+        "candidate_raw_mse": 3.043580253977273e-08,
+        "parent_raw_mse": 3.8793625684691605e-08,
+        "adjusted_ratio": 0.7849835713130503
+      },
+      {
+        "row": 772,
+        "candidate_raw_mse": 3.523171433971647e-08,
+        "parent_raw_mse": 4.3922877254435005e-08,
+        "adjusted_ratio": 0.8025630762451693
+      },
+      {
+        "row": 795,
+        "candidate_raw_mse": 3.7587479484511e-08,
+        "parent_raw_mse": 4.950768159938803e-08,
+        "adjusted_ratio": 0.7596381994145547
+      },
+      {
+        "row": 817,
+        "candidate_raw_mse": 3.5381219272493065e-08,
+        "parent_raw_mse": 4.607015261500804e-08,
+        "adjusted_ratio": 0.7684034833204315
+      },
+      {
+        "row": 840,
+        "candidate_raw_mse": 4.3254323369370996e-08,
+        "parent_raw_mse": 5.806688216618281e-08,
+        "adjusted_ratio": 0.7453104247234297
+      },
+      {
+        "row": 863,
+        "candidate_raw_mse": 3.3303864143584666e-08,
+        "parent_raw_mse": 4.322507930039158e-08,
+        "adjusted_ratio": 0.7708946086181947
+      },
+      {
+        "row": 885,
+        "candidate_raw_mse": 3.026981538459744e-08,
+        "parent_raw_mse": 3.7404107289631236e-08,
+        "adjusted_ratio": 0.8097046977144327
+      },
+      {
+        "row": 908,
+        "candidate_raw_mse": 4.0152188877495887e-08,
+        "parent_raw_mse": 5.223600752456325e-08,
+        "adjusted_ratio": 0.7690869294985512
+      },
+      {
+        "row": 930,
+        "candidate_raw_mse": 3.6638551302399266e-08,
+        "parent_raw_mse": 4.657171323182797e-08,
+        "adjusted_ratio": 0.787140502008414
+      },
+      {
+        "row": 953,
+        "candidate_raw_mse": 3.302858868340796e-08,
+        "parent_raw_mse": 4.251150961446593e-08,
+        "adjusted_ratio": 0.7773554899957773
+      },
+      {
+        "row": 976,
+        "candidate_raw_mse": 4.03155280685558e-08,
+        "parent_raw_mse": 4.481477262689011e-08,
+        "adjusted_ratio": 0.9000929005162013
+      },
+      {
+        "row": 999,
+        "candidate_raw_mse": 3.1258984470947517e-08,
+        "parent_raw_mse": 4.058960149070256e-08,
+        "adjusted_ratio": 0.7705418975917867
+      }
+    ],
+    "competition_pass": true,
+    "resource_checks_pass": true,
+    "comparison_refit": false,
+    "single_training_fit": false,
+    "scientific_tier_awarded": false,
+    "interim_look": null,
+    "coefficient_fit_calls": 0
+  },
+  "raw_improvement_percent": 21.492172029142342,
+  "exact_prediction_flops": 757303958254,
+  "flop_increase_percent": 0.05439742998898378,
+  "multiplier": 0.3443819688318399,
+  "resources": {
+    "task_id": "T144",
+    "all_completed": {
+      "prediction_calls": 15,
+      "flops": [
+        757303958254
+      ],
+      "wall_range_s": [
+        42.9853641410009,
+        44.412870771997405
+      ],
+      "residual_range_s": [
+        0.37355095316888765,
+        0.3911173050546495
+      ],
+      "wall_total_minutes": 10.918906318650018,
+      "setup_max_s": 0.006913072997122072,
+      "peak_rss_bytes": 6822912000,
+      "all_resources_pass": true
+    },
+    "current_source": {
+      "prediction_calls": 15,
+      "flops": [
+        757303958254
+      ],
+      "wall_range_s": [
+        42.9853641410009,
+        44.412870771997405
+      ],
+      "residual_range_s": [
+        0.37355095316888765,
+        0.3911173050546495
+      ],
+      "wall_total_minutes": 10.918906318650018,
+      "setup_max_s": 0.006913072997122072,
+      "peak_rss_bytes": 6822912000,
+      "all_resources_pass": true
+    },
+    "earlier_source_resource_failures": 0,
+    "calls": [
+      {
+        "attempt": "integrated-probe-001",
+        "row": 0,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.005905402998905629,
+        "peak_rss_bytes": 6615429120,
+        "flops": 757303958254,
+        "wall_time_s": 43.47541720300069,
+        "residual_wall_time_s": 0.3761535602679942,
+        "outer_wall_time_s": 43.4754525640019
+      },
+      {
+        "attempt": "package-001",
+        "row": 0,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.005922329997702036,
+        "peak_rss_bytes": 6627594240,
+        "flops": 757303958254,
+        "wall_time_s": 43.657313832998625,
+        "residual_wall_time_s": 0.37355095316888765,
+        "outer_wall_time_s": 43.65734810300273
+      },
+      {
+        "attempt": "package-001",
+        "row": 0,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.005922329997702036,
+        "peak_rss_bytes": 6627594240,
+        "flops": 757303958254,
+        "wall_time_s": 44.412870771997405,
+        "residual_wall_time_s": 0.38786356607306516,
+        "outer_wall_time_s": 44.412912858999334
+      },
+      {
+        "attempt": "screen-row-0750-try-1",
+        "row": 750,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.006913072997122072,
+        "peak_rss_bytes": 6671888384,
+        "flops": 757303958254,
+        "wall_time_s": 43.8681056839996,
+        "residual_wall_time_s": 0.3867782709603489,
+        "outer_wall_time_s": 43.86815101499815
+      },
+      {
+        "attempt": "screen-row-0772-try-1",
+        "row": 772,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.006129687000793638,
+        "peak_rss_bytes": 6667591680,
+        "flops": 757303958254,
+        "wall_time_s": 43.451191590000235,
+        "residual_wall_time_s": 0.3824013551566168,
+        "outer_wall_time_s": 43.451225747001445
+      },
+      {
+        "attempt": "screen-row-0795-try-1",
+        "row": 795,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.006084992000978673,
+        "peak_rss_bytes": 6822912000,
+        "flops": 757303958254,
+        "wall_time_s": 43.46432239000205,
+        "residual_wall_time_s": 0.38406233508430887,
+        "outer_wall_time_s": 43.46436388299844
+      },
+      {
+        "attempt": "screen-row-0817-try-1",
+        "row": 817,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.0063815519970376045,
+        "peak_rss_bytes": 6495453184,
+        "flops": 757303958254,
+        "wall_time_s": 43.34175264100122,
+        "residual_wall_time_s": 0.3819676221355621,
+        "outer_wall_time_s": 43.34180035499958
+      },
+      {
+        "attempt": "screen-row-0840-try-1",
+        "row": 840,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.006508506001409842,
+        "peak_rss_bytes": 6776795136,
+        "flops": 757303958254,
+        "wall_time_s": 44.06425384999966,
+        "residual_wall_time_s": 0.3837465402284579,
+        "outer_wall_time_s": 44.06430452099812
+      },
+      {
+        "attempt": "screen-row-0863-try-1",
+        "row": 863,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.006220046998350881,
+        "peak_rss_bytes": 6635716608,
+        "flops": 757303958254,
+        "wall_time_s": 43.281273843000236,
+        "residual_wall_time_s": 0.3788650648057228,
+        "outer_wall_time_s": 43.28130800500003
+      },
+      {
+        "attempt": "screen-row-0885-try-1",
+        "row": 885,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.006015404000208946,
+        "peak_rss_bytes": 6603317248,
+        "flops": 757303958254,
+        "wall_time_s": 42.9853641410009,
+        "residual_wall_time_s": 0.37603505118750036,
+        "outer_wall_time_s": 42.98540662400046
+      },
+      {
+        "attempt": "screen-row-0908-try-1",
+        "row": 908,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.006847951000963803,
+        "peak_rss_bytes": 6638092288,
+        "flops": 757303958254,
+        "wall_time_s": 43.82654481600184,
+        "residual_wall_time_s": 0.38833053898633807,
+        "outer_wall_time_s": 43.8265822780013
+      },
+      {
+        "attempt": "screen-row-0930-try-1",
+        "row": 930,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.005957410998234991,
+        "peak_rss_bytes": 6667579392,
+        "flops": 757303958254,
+        "wall_time_s": 43.5847430190006,
+        "residual_wall_time_s": 0.3851068560798012,
+        "outer_wall_time_s": 43.5847759069984
+      },
+      {
+        "attempt": "screen-row-0953-try-1",
+        "row": 953,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.006331774999125628,
+        "peak_rss_bytes": 6518431744,
+        "flops": 757303958254,
+        "wall_time_s": 43.50082153399853,
+        "residual_wall_time_s": 0.3815161911879841,
+        "outer_wall_time_s": 43.50085953799862
+      },
+      {
+        "attempt": "screen-row-0976-try-1",
+        "row": 976,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.006010471999616129,
+        "peak_rss_bytes": 6747406336,
+        "flops": 757303958254,
+        "wall_time_s": 43.95557554900006,
+        "residual_wall_time_s": 0.37875832914869534,
+        "outer_wall_time_s": 43.95562131200131
+      },
+      {
+        "attempt": "screen-row-0999-try-1",
+        "row": 999,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.006143733000499196,
+        "peak_rss_bytes": 5713371136,
+        "flops": 757303958254,
+        "wall_time_s": 44.26482825399944,
+        "residual_wall_time_s": 0.3911173050546495,
+        "outer_wall_time_s": 44.26486536199809
+      }
+    ]
+  },
+  "package": {
+    "task_id": "T144",
+    "algorithm_id": "ALG041-V000",
+    "archive": "experiments/submission_policy/t144/packages/ALG041-V000.tar.gz",
+    "archive_sha256": "25de10fad808b8f66b11bcd363841c34a6daf518f24c040ea589aa174c98ad70",
+    "size_bytes": 18673,
+    "checks": {
+      "archive_manifest": true,
+      "unchanged_incumbent_kernel": true,
+      "allowed_imports": true,
+      "resource_and_numerical_checks": true,
+      "changed_operations": true,
+      "reused_workspace_determinism": true,
+      "deterministic_current_source_identity": true,
+      "exact_integrated_cost": true
+    },
+    "pass": true,
+    "raw_import_findings": [],
+    "package_replay": "attempts/package-001/RESULT.json",
+    "targets_accessed": false
+  },
+  "submission_id": 330392,
+  "submission_attempts": 1,
+  "official_adjusted_score": 1.1833081571784114e-08,
+  "official_raw_mse": 3.4359578897635856e-08,
+  "official_predecessor_adjusted_score": 1.4667675875416682e-08,
+  "official_ratio": 0.8067455043519604,
+  "official_improvement_percent": 19.325449564803964,
+  "official_best_changed": true,
+  "retained_official_algorithm": "ALG041-V000",
+  "source_realizations": 1,
+  "repairs": 0,
+  "fit_calls": 0,
+  "comparison_looks": 1,
+  "comparison_extension": false,
+  "challenge_comparison_networks": 12,
+  "full_size_prediction_calls": 15,
+  "final_blind_accessed": false,
+  "subagents": 0,
+  "usage_resets": 0,
+  "scientific_tier_awarded": false,
+  "report": "experiments/submission_policy/t144/REPORT.md",
+  "source_freeze": "experiments/submission_policy/t144/SOURCE_FREEZE.json",
+  "timing": {
+    "task_id": "T144",
+    "start_utc": "2026-09-09T00:48:16Z",
+    "score_decision_utc": "2026-09-09T01:03:52.706159+00:00",
+    "accepted_utc": "2026-09-09T01:06:02.638Z",
+    "official_terminal_observed_utc": "2026-09-09T01:33:09Z",
+    "record_completion_utc": "2026-09-09T01:33:32.243912+00:00",
+    "elapsed_minutes": 45.270731866666665,
+    "estimate_total_range_minutes": [
+      35,
+      75
+    ],
+    "error_to_lower_estimate_minutes": 10.270731866666665,
+    "error_to_upper_estimate_minutes": -29.729268133333335,
+    "elapsed_through_upload_minutes": 17.7773,
+    "official_wait_until_observed_minutes": 27.106033333333336,
+    "metered_prediction_minutes": 10.918906318650018,
+    "initial_active_engineering_budget_minutes": 60,
+    "engineering_budget_extended": false,
+    "time_accounting_note": "Start, milestones, total elapsed, official wait and prediction meters measured. Compute and grader waiting overlap preparation/records; do not add these durations. No claim of exact exclusive active minutes.",
+    "first_attempt_wait_minutes_owner_override": 60,
+    "monitor_recovery_note": "Initial PID selector also matched its parent shell, stopped before mutation; shell then started a second read-only monitor. Corrected exact executable selection stops both monitors and resumes a single watcher. No duplicate submission or candidate change."
+  },
+  "next_task": "T145",
+  "next_task_started": false,
+  "proposed_next_task": {
+    "task_id": "T145",
+    "status": "proposed_awaiting_owner",
+    "scope": "T145: prospectively register E1-on-JSP as a new combined candidate, then one bounded production/submission attempt against ALG041-V000. Keep JSP fresh source and full main history; add exactly one completion hop from H143-E1 with its prescribed repeated-entry repair. This is an explicit new parent/formula decision, not execution of unchanged H143-E1 against ALG038. No age/rank/coefficient sweep. Early full-size meter, usual 12 paired reused networks, approximately 90% support; 60 active engineering minutes, 30-minute reassessment; 35\u201375 elapsed estimate. Actual added cost must earn its raw-error reduction; roughly 9% projected hurdle.",
+    "estimated_elapsed_minutes": [
+      35,
+      75
+    ],
+    "initial_active_engineering_minutes": 60,
+    "reassess_at_active_minutes": 30,
+    "no_automatic_execution": true,
+    "original_E1_parent_preserved": "ALG038-V001",
+    "new_proposed_parent": "ALG041-V000",
+    "combined_candidate_not_yet_registered": true
+  },
+  "owner_wait_extension": {
+    "task_id": "T144",
+    "submission_id": 330392,
+    "owner_instruction": "You can wait longer this round, up to one hour before retrying.",
+    "recorded_utc": "2026-09-09T01:29:27.024693+00:00",
+    "scope": "Current first submission attempt only; standing default and one-retry limit unchanged.",
+    "original_deadline_utc": "2026-09-09T01:36:02.638000+00:00",
+    "new_deadline_utc": "2026-09-09T02:06:02.638000+00:00",
+    "first_attempt_wait_minutes": 60,
+    "second_attempt_wait_minutes_if_needed": 30,
+    "monitor_restart_pids": [
+      32833,
+      34182
+    ],
+    "monitor_recovery_note": "Initial PID selector also matched its parent shell, stopped before mutation; shell then started a second read-only monitor. Corrected exact executable selection stops both monitors and resumes a single watcher. No duplicate submission or candidate change."
+  }
+}

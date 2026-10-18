@@ -1,0 +1,20 @@
+{
+  "task_id": "T137",
+  "checks": {
+    "task_complete": true,
+    "event": true,
+    "todo": true,
+    "source": true,
+    "archive": true,
+    "predictions": true,
+    "full_screen": true,
+    "no_fit": true,
+    "interim_disclosed": true,
+    "qualification": true,
+    "retained_best": true,
+    "better_grade": true
+  },
+  "pass": true,
+  "new_predictions": 0,
+  "new_target_access": false
+}

@@ -1,0 +1,17 @@
+{
+  "task_id": "T155",
+  "experiment_id": "E149",
+  "status": "active_owner_authorized_diagnosis",
+  "start_utc": "2026-09-11T17:46:08.949606+00:00",
+  "estimated_active_minutes": [
+    45,
+    75
+  ],
+  "estimate_is_minimum": false,
+  "objective": "Diagnose T151 SCP-A, T152 HGC6-A, T149 CMF2 and T154 FAR-CT losses; distinguish costs, directional errors, finite-closure/calibration/compression effects and actual implementation defects; identify bounded repairs.",
+  "scope": "Reuse sealed12-network predictions first, then at most16 targeted full-shape diagnostic calls if informative. Register each material intervention before execution; no fit/sweep/submission claim from post-hoc diagnostics. Preserve all source and result freezes.",
+  "data_roles": "Known reused development panel; post-hoc diagnostic selection disclosed. Final blind block untouched. No new official submission unless separately supported.",
+  "subagents": 0,
+  "first_analysis": "Exact MSE-change decomposition, layerwise prediction changes, directional correlation and descriptive optimal scalar (not a fitted submission); compare computational penalties and replay scale.",
+  "interventions": "To be specified after saved-output analysis, before execution. T153 recurrence remains proposed."
+}

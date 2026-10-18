@@ -1,0 +1,32 @@
+{
+  "task_id": "T136",
+  "verified_utc": "2026-09-07T00:58:48.198416+00:00",
+  "checks": {
+    "useful_floor": true,
+    "theory_floor": true,
+    "timing_no_overlap": true,
+    "credits_within_intervals": true,
+    "one_or_two_nominees": true,
+    "frozen_specs": true,
+    "frozen_math_evidence": true,
+    "frozen_math_sources": true,
+    "frozen_costs": true,
+    "frozen_source_pin": true,
+    "final_source_not_superseded_formula": true,
+    "selected_cost": true,
+    "cheap_cost": true,
+    "kernel_cost_reference": true,
+    "unrolled_derivatives": true,
+    "source_reparameterization": true,
+    "incumbent_preserved": true,
+    "no_candidate_execution": true,
+    "next_task_not_started": true,
+    "canonical_result": true,
+    "todo_complete_and_next_proposed": true,
+    "diff_whitespace": true,
+    "one_event": true
+  },
+  "pass": true,
+  "new_prediction_runs": 0,
+  "new_target_access": false
+}

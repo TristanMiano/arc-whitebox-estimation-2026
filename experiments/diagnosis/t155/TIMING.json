@@ -1,0 +1,22 @@
+{
+  "task_id": "T155",
+  "start_utc": "2026-09-11T17:46:08.949606+00:00",
+  "records_snapshot_utc": "2026-09-11T18:11:05.689538+00:00",
+  "elapsed_minutes": 27.597146366666667,
+  "exclusive_minutes": {
+    "investigation": 24.945665533333333,
+    "records_and_verification": 2.6514808333333333
+  },
+  "estimated_active_range_minutes": [
+    45,
+    75
+  ],
+  "estimate_is_minimum": false,
+  "estimate_error_minutes": [
+    -17.402853633333333,
+    -47.402853633333336
+  ],
+  "method": "Observed UTC. All compute overlapped useful derivation, inspection or record preparation; no unattended wait or agent time is claimed.",
+  "explanation": "Saved full-panel predictions, reusable execution code and14 bounded diagnostic calls answered the main questions sooner than the estimate. No time floor applied to this diagnosis, and unresolved mechanisms do not justify an automatic larger campaign.",
+  "end_utc": "2026-09-11T18:13:44.778388+00:00"
+}

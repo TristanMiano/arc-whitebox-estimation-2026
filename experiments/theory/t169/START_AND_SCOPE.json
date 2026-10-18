@@ -1,0 +1,30 @@
+{
+  "task_id": "T169",
+  "experiment_id": "E165",
+  "start_utc": "2026-10-08T21:47:25+00:00",
+  "registered_utc": "2026-10-08T21:50:35.153464+00:00",
+  "status": "active_native_constructor",
+  "owner_authority": "Alright, proceed to T169. The floor can be 4 hours as before.",
+  "minimum_active_work_minutes": 240,
+  "estimated_elapsed_minutes": [
+    255,
+    330
+  ],
+  "objective": "Implement one complete native update of T168 P64/P65: high mean/covariance observations, transported proxy, carried fourth terms, remaining scalar/two-index/repeated targets, masks, actual bases, old-state transport and one shared pair compression. Verify against the dense definition at small shape and meter a1024 fixture, including first-rich versus steady cost distinctions. Decide whether the whole-estimator port has a credible adjusted-score margin before a large implementation or comparison panel.",
+  "incumbent": {
+    "algorithm_id": "ALG052-V000",
+    "submission_id": 332641,
+    "adjusted_score": 4.285182274373245e-09,
+    "final_layer_mse": 2.0914763076973487e-08,
+    "predecessor": "ALG051-V000_submission_332018",
+    "adjusted_ratio_to_predecessor": 0.9809244167408736,
+    "adjusted_relative_reduction": 0.019075583259126394,
+    "source_origin": "T166 intermediate-supervised neural source adaptation of ALG051/public504aldoV29"
+  },
+  "incumbent_source_sha256": "b094bb97c90e42d91b0552f80ed9f8817922afb99706f761a235cb49f86ae7b1",
+  "git_head_at_start": "d7489900f35db1555e3070d43dec9ccbdd318769",
+  "no_agents": true,
+  "no_automatic_upload": true,
+  "data_role": "Generated fixtures, reused generated references and exposed development only. Historical freezes and final blind protected.",
+  "compute_plan": "One heavy job at a time, 13.25GB research RSS guard. Existing qualified native/Torch runtimes. Exact small comparisons and complete1024 first/steady update bills; no full panel required."
+}

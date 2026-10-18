@@ -1,0 +1,20 @@
+{
+  "task_id": "T138",
+  "checks": {
+    "complete": true,
+    "unique_event": true,
+    "todo_complete": true,
+    "source": true,
+    "archive": true,
+    "predictions": true,
+    "screen": true,
+    "no_fit": true,
+    "no_interim_score_look": true,
+    "qualification": true,
+    "retained_best": true,
+    "moment_kernel_unchanged": true,
+    "setup_equivalence": true,
+    "report_links": true
+  },
+  "pass": true
+}

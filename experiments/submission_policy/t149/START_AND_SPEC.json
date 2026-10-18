@@ -1,0 +1,73 @@
+{
+  "task_id": "T149",
+  "experiment_id": "E147",
+  "algorithm_id": "ALG046-V000",
+  "hypothesis_id": "H148-CMF2",
+  "name": "Norm-conditioned two-direction fourth metric on V29",
+  "status": "registered_before_execution",
+  "start_utc": "2026-09-11T17:09:00+00:00",
+  "registered_utc": "2026-09-11T17:10:48.507224+00:00",
+  "git_head_at_start": "4674dcb9b2597a96692a966f522d43796cb033dd",
+  "estimate_total_range_minutes": [
+    60,
+    120
+  ],
+  "initial_active_engineering_budget_minutes": 60,
+  "reassess_at_minutes": 30,
+  "finite_engineering_extension_minutes": 30,
+  "owner_authorized_upload": true,
+  "grade_wait_minutes": 30,
+  "unchanged_generic_error_retry_limit": 1,
+  "fit_calls": 0,
+  "subagents": 0,
+  "mathematical_specification": "experiments/theory/t148/CMF2_SPEC.md",
+  "mathematical_specification_sha256": "6ce5f7910e1865a27145c5b4f8f3933193bd1d395524e653774a12a4d98e16ee",
+  "implementation_handoff": "experiments/theory/t148/IMPLEMENTATION_HANDOFF.md",
+  "variant_change": "Register one new variant before execution. Implement the fixed norm-conditioned two-direction fourth metric on unchanged V29, including its oriented fourth slices, complete modeled single-L211 source, canonical repeated repair and A/P-aligned two-column history. Preserve all published coefficients, ranks, age gates, arithmetic settings and normal fallback. Meter the actual full-shape Python/Whest path early; use one small paired final-score decision and a qualified upload if supported. No coefficient, rank or age sweep and no automatic second candidate.",
+  "numerical_contract": "CMF2_SPEC.md including float64 geometry, eps32 guard, two padded columns, canonical repeated source and A/P-aligned compression. Public coefficients, ranks, sketch and lifecycle unchanged; ordinary fallback retained.",
+  "comparison": {
+    "initial_rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "extension_rows": [
+      761,
+      783,
+      806,
+      829,
+      851,
+      874,
+      896,
+      919,
+      941,
+      964,
+      987,
+      994
+    ],
+    "extension_is_automatic": false,
+    "data_role": "Reused development rows; freeze all predictions before targets; reuse T147 incumbent predictions and each actual call cost. No training or final-blind access.",
+    "bootstrap_seed": 149001,
+    "decision": "A lower adjusted mean with roughly0.90 whole-network bootstrap support, interpreted as a screening diagnostic. No minimum effect size or added scientific gate."
+  },
+  "incumbent": {
+    "algorithm_id": "ALG043-V000",
+    "submission_id": 330597,
+    "official_adjusted_score": 5.419051334510831e-09,
+    "source_sha256": "86d9ca9b28e6fe2b6c74750a0b6ae4bba4c14f742ddc3f5f56bc7fb4ec9d8e27",
+    "paired_evidence": "experiments/submission_policy/t147/attempts/screen-sealed"
+  },
+  "runtime": "tmp/t128-runtime312/bin/python",
+  "final_blind_block": "untouched",
+  "no_automatic_second_candidate": true,
+  "previous_deferred_status_superseded_by": "Owner explicitly selected CMF2/T149 this turn."
+}

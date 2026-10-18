@@ -1,0 +1,20 @@
+[
+  {
+    "category": "engineering",
+    "start": "2026-09-11T17:09:00+00:00",
+    "note": "Read scoped specification, implement CMF2, focused checks and early resource probe.",
+    "end": "2026-09-11T17:19:53.598520+00:00"
+  },
+  {
+    "category": "unattended_compute",
+    "start": "2026-09-11T17:19:53.598520+00:00",
+    "note": "Sealed12-row screen running; only resource/completion monitoring.",
+    "end": "2026-09-11T17:26:32.859094+00:00"
+  },
+  {
+    "category": "engineering",
+    "start": "2026-09-11T17:26:32.859094+00:00",
+    "note": "Score the sealed comparison and follow its supported decision.",
+    "end": "2026-09-11T17:30:56.419991+00:00"
+  }
+]

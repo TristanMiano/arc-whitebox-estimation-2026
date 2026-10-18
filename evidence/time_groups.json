@@ -1,0 +1,543 @@
+[
+  {
+    "event": 74,
+    "task_id": "T075",
+    "submission_ids": [
+      328477,
+      328479
+    ],
+    "task_ids": [
+      "T001",
+      "T002",
+      "T003",
+      "T004",
+      "T005",
+      "T006",
+      "T007",
+      "T008",
+      "T009",
+      "T010",
+      "T012",
+      "T013",
+      "T014",
+      "T011",
+      "T015",
+      "T054",
+      "T055",
+      "T056",
+      "T016",
+      "T017",
+      "T057",
+      "T058",
+      "T060",
+      "T018",
+      "T019",
+      "T020",
+      "T021",
+      "T061",
+      "T062",
+      "T063",
+      "T022",
+      "T024",
+      "T023",
+      "T064",
+      "T065",
+      "T066",
+      "T025",
+      "T026",
+      "T027",
+      "T028",
+      "T033",
+      "T070",
+      "T071",
+      "T034",
+      "T073",
+      "T076",
+      "T077",
+      "T078",
+      "T079",
+      "T080",
+      "T081",
+      "T082",
+      "T083",
+      "T084",
+      "T085",
+      "T086",
+      "T087",
+      "T088",
+      "T089",
+      "D001",
+      "D002",
+      "T090",
+      "T091",
+      "T091A",
+      "T092",
+      "T093",
+      "T094",
+      "T067",
+      "T068",
+      "T069",
+      "T102",
+      "T074",
+      "T075"
+    ],
+    "task_count": 73,
+    "recorded_session_minutes": 983.555382236,
+    "active_research_minutes": 0,
+    "mathematics_minutes": 0,
+    "agent_person_minutes": 0,
+    "missing_task_times": [
+      "T001",
+      "T002",
+      "T003",
+      "T004",
+      "T005",
+      "T006",
+      "T007",
+      "T008",
+      "T009",
+      "T010",
+      "T012",
+      "T013",
+      "T014",
+      "T011",
+      "T015",
+      "T054",
+      "T055",
+      "T056",
+      "T016",
+      "T017",
+      "T057",
+      "T058",
+      "T060",
+      "T018",
+      "T019",
+      "T020",
+      "T021",
+      "T061",
+      "T062",
+      "T063",
+      "T022",
+      "T024",
+      "T023",
+      "T064",
+      "T065",
+      "T066"
+    ],
+    "cumulative_session_minutes": 983.555382236
+  },
+  {
+    "event": 78,
+    "task_id": "T096A",
+    "submission_ids": [
+      328500
+    ],
+    "task_ids": [
+      "T095",
+      "T096",
+      "T096A"
+    ],
+    "task_count": 3,
+    "recorded_session_minutes": 84.83781807300001,
+    "active_research_minutes": 0,
+    "mathematics_minutes": 0,
+    "agent_person_minutes": 0,
+    "missing_task_times": [],
+    "cumulative_session_minutes": 1068.3932003090001
+  },
+  {
+    "event": 85,
+    "task_id": "T105A",
+    "submission_ids": [
+      328686
+    ],
+    "task_ids": [
+      "T097",
+      "T098",
+      "T103",
+      "T103A",
+      "T104",
+      "T105",
+      "T105A"
+    ],
+    "task_count": 7,
+    "recorded_session_minutes": 227.445430872,
+    "active_research_minutes": 0,
+    "mathematics_minutes": 0,
+    "agent_person_minutes": 0,
+    "missing_task_times": [],
+    "cumulative_session_minutes": 1295.8386311810002
+  },
+  {
+    "event": 92,
+    "task_id": "T108A",
+    "submission_ids": [
+      328762
+    ],
+    "task_ids": [
+      "T099",
+      "T100",
+      "T101",
+      "T106",
+      "T107",
+      "T108",
+      "T108A"
+    ],
+    "task_count": 7,
+    "recorded_session_minutes": 379.16964069299996,
+    "active_research_minutes": 120.0,
+    "mathematics_minutes": 120.0,
+    "agent_person_minutes": 0,
+    "missing_task_times": [],
+    "cumulative_session_minutes": 1675.0082718740002
+  },
+  {
+    "event": 103,
+    "task_id": "T117A",
+    "submission_ids": [
+      329529
+    ],
+    "task_ids": [
+      "T108B",
+      "T109",
+      "T110",
+      "T111",
+      "T112",
+      "T113",
+      "T114",
+      "T115",
+      "T116",
+      "T117",
+      "T117A"
+    ],
+    "task_count": 11,
+    "recorded_session_minutes": 882.301946711,
+    "active_research_minutes": 480.0,
+    "mathematics_minutes": 480.0,
+    "agent_person_minutes": 0,
+    "missing_task_times": [],
+    "cumulative_session_minutes": 2557.3102185850003
+  },
+  {
+    "event": 106,
+    "task_id": "T118A",
+    "submission_ids": [
+      329690
+    ],
+    "task_ids": [
+      "T117B",
+      "T118",
+      "T118A"
+    ],
+    "task_count": 3,
+    "recorded_session_minutes": 192.15257971,
+    "active_research_minutes": 0,
+    "mathematics_minutes": 0,
+    "agent_person_minutes": 0,
+    "missing_task_times": [],
+    "cumulative_session_minutes": 2749.462798295
+  },
+  {
+    "event": 111,
+    "task_id": "T120B",
+    "submission_ids": [
+      329774
+    ],
+    "task_ids": [
+      "T119",
+      "T119A",
+      "T120",
+      "T120A",
+      "T120B"
+    ],
+    "task_count": 5,
+    "recorded_session_minutes": 375.648167104,
+    "active_research_minutes": 120.0,
+    "mathematics_minutes": 120.0,
+    "agent_person_minutes": 0,
+    "missing_task_times": [],
+    "cumulative_session_minutes": 3125.110965399
+  },
+  {
+    "event": 114,
+    "task_id": "T124",
+    "submission_ids": [
+      329806
+    ],
+    "task_ids": [
+      "T123",
+      "T122",
+      "T124"
+    ],
+    "task_count": 3,
+    "recorded_session_minutes": 185.467015866,
+    "active_research_minutes": 120.7105905,
+    "mathematics_minutes": 120.7105905,
+    "agent_person_minutes": 0,
+    "missing_task_times": [],
+    "cumulative_session_minutes": 3310.5779812650003
+  },
+  {
+    "event": 117,
+    "task_id": "T127",
+    "submission_ids": [
+      329989
+    ],
+    "task_ids": [
+      "T125",
+      "T126",
+      "T127"
+    ],
+    "task_count": 3,
+    "recorded_session_minutes": 193.20584918400002,
+    "active_research_minutes": 120.3164795,
+    "mathematics_minutes": 120.3164795,
+    "agent_person_minutes": 0,
+    "missing_task_times": [],
+    "cumulative_session_minutes": 3503.783830449
+  },
+  {
+    "event": 127,
+    "task_id": "T134",
+    "submission_ids": [
+      330097
+    ],
+    "task_ids": [
+      "T128",
+      "T128A",
+      "T128B",
+      "T129",
+      "T130",
+      "T131",
+      "T132",
+      "T133",
+      "T134"
+    ],
+    "task_count": 9,
+    "recorded_session_minutes": 430.3036938496667,
+    "active_research_minutes": 181.15182858333336,
+    "mathematics_minutes": 181.15182858333336,
+    "agent_person_minutes": 284.91112891666666,
+    "missing_task_times": [],
+    "cumulative_session_minutes": 3934.0875242986667
+  },
+  {
+    "event": 128,
+    "task_id": "T135",
+    "submission_ids": [
+      330101
+    ],
+    "task_ids": [
+      "T135"
+    ],
+    "task_count": 1,
+    "recorded_session_minutes": 29.059416166666665,
+    "active_research_minutes": 0,
+    "mathematics_minutes": 0,
+    "agent_person_minutes": 0,
+    "missing_task_times": [],
+    "cumulative_session_minutes": 3963.1469404653335
+  },
+  {
+    "event": 130,
+    "task_id": "T137",
+    "submission_ids": [
+      330141
+    ],
+    "task_ids": [
+      "T136",
+      "T137"
+    ],
+    "task_count": 2,
+    "recorded_session_minutes": 209.91055445,
+    "active_research_minutes": 120.08956136666666,
+    "mathematics_minutes": 83.0,
+    "agent_person_minutes": 0,
+    "missing_task_times": [],
+    "cumulative_session_minutes": 4173.057494915333
+  },
+  {
+    "event": 132,
+    "task_id": "T138",
+    "submission_ids": [
+      330153
+    ],
+    "task_ids": [
+      "T137A",
+      "T138"
+    ],
+    "task_count": 2,
+    "recorded_session_minutes": 69.0720946,
+    "active_research_minutes": 0,
+    "mathematics_minutes": 0,
+    "agent_person_minutes": 0,
+    "missing_task_times": [],
+    "cumulative_session_minutes": 4242.1295895153335
+  },
+  {
+    "event": 139,
+    "task_id": "T144",
+    "submission_ids": [
+      330392
+    ],
+    "task_ids": [
+      "T138A",
+      "T139",
+      "T140",
+      "T141",
+      "T142",
+      "T143",
+      "T144"
+    ],
+    "task_count": 7,
+    "recorded_session_minutes": 498.07222533333334,
+    "active_research_minutes": 330.3413717166667,
+    "mathematics_minutes": 212.39539789999998,
+    "agent_person_minutes": 0,
+    "missing_task_times": [],
+    "cumulative_session_minutes": 4740.201814848667
+  },
+  {
+    "event": 142,
+    "task_id": "T147",
+    "submission_ids": [
+      330597
+    ],
+    "task_ids": [
+      "T145",
+      "T146",
+      "T147"
+    ],
+    "task_count": 3,
+    "recorded_session_minutes": 315.1539619833333,
+    "active_research_minutes": 180.49332569999999,
+    "mathematics_minutes": 120.11458329999999,
+    "agent_person_minutes": 0,
+    "missing_task_times": [],
+    "cumulative_session_minutes": 5055.355776832
+  },
+  {
+    "event": 154,
+    "task_id": "T159",
+    "submission_ids": [
+      330887
+    ],
+    "task_ids": [
+      "T148",
+      "T150",
+      "T151",
+      "T152",
+      "T149",
+      "T154",
+      "T155",
+      "T156",
+      "T153",
+      "T157",
+      "T158",
+      "T159"
+    ],
+    "task_count": 12,
+    "recorded_session_minutes": 986.7955432666668,
+    "active_research_minutes": 735.3940805166667,
+    "mathematics_minutes": 395.0586397166667,
+    "agent_person_minutes": 0,
+    "missing_task_times": [],
+    "cumulative_session_minutes": 6042.1513200986665
+  },
+  {
+    "event": 157,
+    "task_id": "T161",
+    "submission_ids": [
+      331607
+    ],
+    "task_ids": [
+      "T159A",
+      "T160",
+      "T161"
+    ],
+    "task_count": 3,
+    "recorded_session_minutes": 298.60668753333334,
+    "active_research_minutes": 240.2218078,
+    "mathematics_minutes": 101.36585931666666,
+    "agent_person_minutes": 0,
+    "missing_task_times": [],
+    "cumulative_session_minutes": 6340.758007632
+  },
+  {
+    "event": 160,
+    "task_id": "T164",
+    "submission_ids": [
+      332018
+    ],
+    "task_ids": [
+      "T162",
+      "T163",
+      "T164"
+    ],
+    "task_count": 3,
+    "recorded_session_minutes": 545.6814252999999,
+    "active_research_minutes": 480.1815131833333,
+    "mathematics_minutes": 197.64942543333336,
+    "agent_person_minutes": 0,
+    "missing_task_times": [],
+    "cumulative_session_minutes": 6886.439432932
+  },
+  {
+    "event": 163,
+    "task_id": "T167",
+    "submission_ids": [
+      332641
+    ],
+    "task_ids": [
+      "T165",
+      "T166",
+      "T167"
+    ],
+    "task_count": 3,
+    "recorded_session_minutes": 584.5375367666667,
+    "active_research_minutes": 482.77970475,
+    "mathematics_minutes": 281.73950064999997,
+    "agent_person_minutes": 0,
+    "missing_task_times": [],
+    "cumulative_session_minutes": 7470.976969698667
+  },
+  {
+    "event": 167,
+    "task_id": "T171",
+    "submission_ids": [
+      335391
+    ],
+    "task_ids": [
+      "T168",
+      "T169",
+      "T170",
+      "T171"
+    ],
+    "task_count": 4,
+    "recorded_session_minutes": 832.5875082666666,
+    "active_research_minutes": 722.1236520166666,
+    "mathematics_minutes": 260.9486903833333,
+    "agent_person_minutes": 0,
+    "missing_task_times": [],
+    "cumulative_session_minutes": 8303.564477965334
+  },
+  {
+    "event": 168,
+    "task_id": "T172",
+    "submission_ids": [
+      336778,
+      336785,
+      336809
+    ],
+    "task_ids": [
+      "T172"
+    ],
+    "task_count": 1,
+    "recorded_session_minutes": 296.74024565,
+    "active_research_minutes": 252.69294888333334,
+    "mathematics_minutes": 0,
+    "agent_person_minutes": 0,
+    "missing_task_times": [],
+    "cumulative_session_minutes": 8600.304723615334
+  }
+]

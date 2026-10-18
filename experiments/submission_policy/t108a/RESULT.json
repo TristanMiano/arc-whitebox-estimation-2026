@@ -1,0 +1,31 @@
+{
+  "schema_version": "arc-t108a-result-v1",
+  "task_id": "T108A",
+  "experiment_id": "E092",
+  "status": "completed_positive_graded_official_succession",
+  "task_checked_off": true,
+  "algorithm_id": "ALG019-V000",
+  "official_submission_id": 328762,
+  "official_adjusted_score": 2.3995983178792816e-7,
+  "official_final_layer_mse": 2.399598317879281e-6,
+  "official_vs_sampling_approx": 5.000836977834426,
+  "prior_best_officially_graded_entry": "ALG018-V000_submission_328686",
+  "candidate_to_prior_official_adjusted_ratio": 0.8910015318786768,
+  "official_adjusted_relative_reduction": 0.10899846812132324,
+  "official_succession": "ALG019-V000_submission_328762_replaces_ALG018-V000_submission_328686",
+  "local_T108_adjusted_prediction": 2.4508671800218226e-7,
+  "official_to_local_prediction_ratio": 0.9790813380013174,
+  "qualification": "PASS",
+  "scientific_tier_transfer": false,
+  "historical_P1": "NOT_RUN",
+  "rigorous_science": "DEFERRED_NOT_FAILED",
+  "final_designation": false,
+  "next_task": "T109",
+  "timing": {
+    "start_pdt": "2026-08-28T08:31:17,357330906-07:00",
+    "estimate_minutes": 25,
+    "end_checkoff_pdt": "2026-08-28T08:53:10,257795860-07:00",
+    "elapsed_ns": 1312900464954,
+    "elapsed_hms": "00:21:52.900464954"
+  }
+}

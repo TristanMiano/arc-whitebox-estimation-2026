@@ -1,0 +1,81 @@
+{
+  "task_id": "T138",
+  "experiment_id": "E132",
+  "algorithm_id": "ALG038-V001",
+  "name": "CSK3-R with final marginal contractions and a four-level kernel",
+  "status": "COMPLETED_OFFICIAL_IMPROVEMENT",
+  "start_utc": "2026-09-07T03:27:43Z",
+  "registered_utc": "2026-09-07T03:29:50.895566+00:00",
+  "estimate_total_minutes": 75,
+  "estimate_total_range_minutes": [
+    60,
+    90
+  ],
+  "initial_active_engineering_budget_minutes": 60,
+  "reassess_at_minutes": 30,
+  "owner_authorized_upload": true,
+  "grade_wait_minutes": 30,
+  "unchanged_generic_error_retry_limit": 1,
+  "fit_calls": 0,
+  "mathematical_parent": "ALG038-V000; all state, coefficients, recurrence and source blocks retained",
+  "changes": [
+    "At final layer compute only diag(M C M.T), diag(M D M.T), diag(M M.T), sum_r (M A)_ir (M B)_ir^2, and sum_j (M E)_ij M_ij^2. Use same univariate mean response.",
+    "First meter final-contraction implementation with existing depth3 kernel. Then try one depth4 kernel with cached views and shared workspace; retain depth3 only if depth4 is not feasible within the bounded task.",
+    "No moment closure, fitted coefficient, factor rank, numerical cutoff, or sampling changes. Source realizations are frozen separately."
+  ],
+  "numerical_contract": {
+    "dense_dtype": "float32",
+    "moments_dtype": "float64",
+    "final_reduction_dtype": "float64 after float32 elementwise products",
+    "initial_kernel_depth": 3,
+    "intended_kernel_depth": 4,
+    "chunk_columns": 4096,
+    "chunk_rows": 4096,
+    "generated_matrix_relative_frobenius_tolerance": 3e-05,
+    "prediction_reference_rms_tolerance": 5e-06,
+    "prediction_reference_max_absolute_tolerance": 5e-05,
+    "justification": "RMS tolerance is 2.35% of retained local residual RMSE; actual adjusted MSE still decides. Floating point order changes, not historical byte equality. Current package must replay exactly."
+  },
+  "comparison": {
+    "initial_rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "data_role": "same reused development networks, saved ALG038-V000 predictions; seal candidate outputs before targets; no new fit",
+    "bootstrap_seed": 138001,
+    "decision": "lower actual arithmetic mean adjusted score with about .90 whole-network bootstrap support; stop when clear; no additional ablation suite"
+  },
+  "incumbent": {
+    "algorithm_id": "ALG038-V000",
+    "submission_id": 330141,
+    "official_adjusted_score": 1.7369283609807433e-08,
+    "flops": 896310006000,
+    "multiplier": 0.40759460080153076
+  },
+  "runtime": "tmp/t128-runtime312/bin/python",
+  "final_blind_block": "untouched",
+  "subagents": 0,
+  "git_head_at_start": "14ad513ad8671335f4b0f7c360d228de0d3f71b8",
+  "parent_source_hashes": {
+    "README.md": "cc46388e92aa720cfb232b8d085e903ebefa0ca7e7b05a3df2b3d86c4b57e140",
+    "LICENSE": "e3e4daa4b31b6f2b409ecab8610b223bc5ce5c917f0a633fd9f66dbf9e7f6c5f",
+    "fast_kernel.py": "4968175bf368bebb85920b9d74f37cd882f96c685988d1705e945fc52229c6f9",
+    "moments.py": "1023af54259c5d743c40455384e809435d36d9be2b70d5cff0bb58cc93fabe8a",
+    "PUBLIC_FAST_LICENSE": "8951bf59cbe4e79527fecd49bc816f4d13f40c7631a3cbd37d2bd930e40b4616",
+    "estimator.py": "42cf57561a399013941144de237114e7d85bb2095f329bebcb485cd8b92a5c1d",
+    "public_release/public_fast_reference.py": "b5418459c4c0cce62129027affb15170cc5aca477ff0af6c5590d718bc9947ed"
+  },
+  "qualification_record": "experiments/submission_policy/t138/PREUPLOAD_SEAL.json",
+  "result_record": "experiments/submission_policy/t138/RESULT.json",
+  "official_submission_id": 330153
+}

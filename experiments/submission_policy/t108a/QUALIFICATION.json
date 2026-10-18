@@ -1,0 +1,48 @@
+{
+  "schema_version": "arc-t108a-qualification-v1",
+  "task_id": "T108A",
+  "algorithm_id": "ALG019-V000",
+  "status": "pass",
+  "hard_gate": "PASS",
+  "source": {
+    "path": "submissions/phase2_alg019_v000/estimator.py",
+    "class": "EstimatorV000",
+    "sha256": "74879a41f02313096a02b58684f9fa795af94b0827763aad045b4225606efec6"
+  },
+  "archive": {
+    "path": "experiments/submission_policy/t108a/packages/ALG019-V000.tar.gz",
+    "sha256": "cf95929aaf2f76b35f0c5374339943ffbcceeaf0a7617b0d6ff56ccc3887bb7a",
+    "size_bytes": 4721,
+    "byte_identical_to_T108_qualified_archive": true,
+    "embedded_estimator_hash_matches_source": true
+  },
+  "environment": {
+    "platform": "Windows_native",
+    "python": "3.10.20",
+    "whestbench": "0.16.0",
+    "flopscope": "0.12.0",
+    "numpy": "2.2.6"
+  },
+  "fresh_checks": {
+    "contract_validation_seed_1729": "PASS",
+    "package_manifest_validation": "PASS"
+  },
+  "inherited_exact_T108_checks": {
+    "target_blind_invariants": "PASS",
+    "fixed_seed_repeated_prediction_and_flops_identity": "PASS",
+    "measured_flops": 219788985209,
+    "score_multiplier": 0.1,
+    "score_floor_headroom_flops": 113340346.2000122,
+    "maximum_residual_wall_time_s": 0.19488020005519502,
+    "maximum_wall_time_s": 2.588051799990353,
+    "maximum_peak_working_set_bytes": 311115776,
+    "evidence": [
+      "experiments/checkpoint3/t108/TARGET_BLIND_QUALIFICATION.json",
+      "experiments/checkpoint3/t108/EXACT_COST_RESULT.json",
+      "experiments/checkpoint3/t108/PACKAGE_VALIDATION.json"
+    ]
+  },
+  "official_submission_id": 328762,
+  "official_grading_status": "graded",
+  "scientific_tier_transfer": false
+}

@@ -1,0 +1,20 @@
+{
+  "task_id": "T127",
+  "verified_utc": "2026-09-06T01:20:50.327826+00:00",
+  "pass": true,
+  "fit_calls": 1,
+  "comparison_networks": 12,
+  "fit_source_archive_identity": true,
+  "incumbent_identity_unchanged": true,
+  "all_comparison_parent_outputs_match_retained_final_outputs": true,
+  "zero_update_current_parent_byte_exact": true,
+  "current_package_byte_replay": true,
+  "allowed_import_manifest_and_fallback_checks": true,
+  "all_new_python_compiles": true,
+  "historical_evidence_preserved": true,
+  "new_estimator_runs": 0,
+  "new_target_reads": 0,
+  "official_grade_checked": true,
+  "complete_runtime_failure_log_reflected": true,
+  "terminal_state_queue_consistent": true
+}

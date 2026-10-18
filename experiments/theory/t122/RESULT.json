@@ -1,0 +1,58 @@
+{
+  "task_id": "T122",
+  "experiment_id": "E113",
+  "status": "COMPLETED_THEORY_AND_PROSPECTIVE_ROUTE",
+  "task_checked_off": true,
+  "incumbent": "ALG028-V000",
+  "official_submission_id": 329774,
+  "official_adjusted_score": 1.4229966461698496e-07,
+  "official_best_changed": false,
+  "next_task": "T124",
+  "next_task_started": false,
+  "first_candidate": "T122-A",
+  "conditional_second_candidate": "T122-B",
+  "second_candidate_automatically_queued": false,
+  "candidate_implementations": 0,
+  "coefficient_fits": 0,
+  "new_challenge_predictions": 0,
+  "challenge_targets_accessed": false,
+  "uploads": 0,
+  "saved_training_source_geometry_networks": 12,
+  "scientific_tier_changed": false,
+  "parked_tasks": [
+    "T120A",
+    "T121"
+  ],
+  "theory": {
+    "theory_start_utc": "2026-09-04T21:04:16.364570+00:00",
+    "theory_end_utc": "2026-09-04T23:14:59+00:00",
+    "theory_interval_elapsed_minutes": 130.7105905,
+    "conservative_non_theory_allowance_minutes": 10,
+    "active_theory_minutes_lower_estimate": 120.7105905,
+    "minimum_active_theory_minutes": 120,
+    "minimum_satisfied": true,
+    "timing_method": "Continuous written mathematics, derivations, source/prior synthesis and prospective design; subtract a conservative ten-minute allowance for context compaction and administrative/retrieval overhead. Active allocation is an estimate, not an instrumented stopwatch.",
+    "idle_wait_minutes": 0,
+    "new_challenge_execution_wait_minutes": 0,
+    "bookkeeping_after_theory_excluded": true
+  },
+  "timing": {
+    "task_start_utc": "2026-09-04T21:03:04+00:00",
+    "estimated_total_minutes": 135,
+    "end_checkoff_utc": "2026-09-04T23:21:04.534608+00:00",
+    "actual_elapsed_minutes": 138.00891013333333,
+    "estimate_error_minutes": 3.0089101333333304,
+    "active_theory_minutes_lower_estimate": 120.7105905,
+    "ordinary_work_after_theory_minutes": 6.092243466666667,
+    "commit_after_checkoff_excluded": true
+  },
+  "checks": {
+    "mathematical_artifacts": "PASS; retained prior exact/synthetic checks, latest scalar counterexamples",
+    "source_and_freeze_integrity": "PASS",
+    "queue_json_and_local_links": "PASS",
+    "git_diff_check": "PASS",
+    "status_script": "PASS"
+  },
+  "report": "experiments/theory/t122/REPORT.md",
+  "freeze": "experiments/theory/t122/DECISION_FREEZE.json"
+}

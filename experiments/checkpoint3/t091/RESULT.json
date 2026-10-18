@@ -1,0 +1,101 @@
+{
+  "schema_version": "arc-t091-final-result-v1",
+  "task": "T091",
+  "experiment_id": "E064",
+  "hypothesis_id": "H090-B",
+  "candidate_id": "ALG014-V001",
+  "mechanism_control_id": "ALG014-V000",
+  "policy_id": "FFSP003",
+  "status": "terminal_rejected_at_P1_pooled_direction",
+  "timing": {
+    "start": "2026-08-22T20:12:10,882250128-07:00",
+    "estimate_minutes": 60,
+    "end_check_off": "2026-08-22T20:54:33,348463412-07:00",
+    "elapsed": "00:42:22.466213284",
+    "elapsed_nanoseconds": 2542466213284
+  },
+  "platforms": {
+    "m1": "Windows native MSVC",
+    "f0_f3": "Linux WSL2 Clang 17 plus pinned NumPy OpenBLAS"
+  },
+  "m1": {
+    "candidate_to_iid_work_normalized_ratio": 0.43731437289593406,
+    "equal_weight_to_iid_work_normalized_ratio": 0.44459758368022423,
+    "candidate_to_equal_weight_variance_ratio": 0.98361842022621382,
+    "candidate_to_debiased_whitening_variance_ratio": 0.99843358963259088,
+    "wins": 12,
+    "networks": 12,
+    "maximum_ratio": 0.71045241221070066,
+    "m1_awarded": true,
+    "provisional_n2_retained": true
+  },
+  "registration": {
+    "candidate_modeled_flops": 247351948181,
+    "hard_budget_flops": 272000000000,
+    "reserve_flops": 24648051819,
+    "minimum_required_reserve_flops": 11000000000,
+    "status": "pass"
+  },
+  "post_run_metadata_audit": {
+    "finding": "stale_derived_identity_hashes_in_registered_specs",
+    "scientific_behavior_affected": false,
+    "registered_bytes_preserved": true,
+    "canonical_current_specs_repaired": true,
+    "status": "repaired_append_only"
+  },
+  "adapter_requalification": {
+    "positive_fixture": "pass",
+    "reject_fixture": "pass",
+    "early_stop_fixture": "pass",
+    "partial_resume_fixture": "pass",
+    "mutation_fail_closed_fixture": "pass",
+    "status": "qualified"
+  },
+  "cross_compiler_audit": {
+    "route": "F3A/000",
+    "primary": "Clang 17",
+    "reproduction": "GCC 13",
+    "maximum_absolute_metric_difference": 0,
+    "status": "pass_exact"
+  },
+  "funnel": {
+    "f0": "pass",
+    "f1_determinism": "byte_exact_2_of_2",
+    "f1_candidate_to_mechanism_ratio_report_only": 1.07486658186,
+    "f2_candidate_to_mechanism_ratio": 0.92871932096524334,
+    "f2_maximum_paired_ratio": 1.0959471595664414,
+    "f3a_candidate_to_mechanism_ratio": 1.0049002487989898,
+    "f3b_candidate_to_mechanism_ratio": 1.014361058276503,
+    "pooled_f3_candidate_to_mechanism_ratio": 1.0088422669648154,
+    "pooled_f3_bootstrap_upper90_ratio": 1.0303684640556561,
+    "maximum_f3_paired_ratio": 1.1652863769595176,
+    "pooled_f3_candidate_to_incumbent_ratio": 0.77471582270426387,
+    "candidate_mean_adjusted_score_proxy": 4.5285248893916616E-7,
+    "equal_weight_mean_adjusted_score_proxy": 4.4888334258794492E-7,
+    "incumbent_mean_adjusted_score_proxy": 5.8454013157807401E-7,
+    "p1_promising": false
+  },
+  "promotion_audit": {
+    "current_tier": "M1-mechanism-signal",
+    "highest_supported_tier": "M1-mechanism-signal",
+    "next_tier_considered": "P1-promising",
+    "primary_blocker_class": "SCIENTIFIC_NEGATIVE_POOLED_MECHANISM_DIRECTION",
+    "strict_gate_was_sole_blocker": false,
+    "sole_p1_failure": "pooled_F3_candidate_to_equal_weight_ratio_must_be_lt_1",
+    "observation": 1.0088422669648154,
+    "threshold": 1.0,
+    "absolute_miss": 0.0088422669648154,
+    "plain_language": "The novel leverage weights made the complete estimator 0.8842% worse than the otherwise identical equal-weight Haar-Stiefel rule on pooled fresh F3 networks.",
+    "immediate_high_impact_unlock": "Prospectively adjudicate the already frozen equal-weight Haar-Stiefel descendant against a direct collective-balancing-removal control on fresh E0004 evidence; do not retroactively promote it from its ablation role."
+  },
+  "prior_calibration": {
+    "frozen_outcome_category": "M1_then_rejected_before_P1",
+    "frozen_outcome_probability": 0.25,
+    "surprise_bits": 2.0,
+    "surprise_label": "mildly_surprising_unconditional",
+    "conditional_rejection_probability_after_M1": 0.5813953488372093,
+    "conditional_interpretation": "expected_after_M1"
+  },
+  "next_task": "T091A",
+  "owner_action_required": false
+}

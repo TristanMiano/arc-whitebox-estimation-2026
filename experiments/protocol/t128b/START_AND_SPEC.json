@@ -1,0 +1,7 @@
+{
+  "task_id": "T128B",
+  "experiment_id": "E121",
+  "start_utc": "2026-09-06T03:17:49+00:00",
+  "estimate_total_minutes": 35,
+  "scope": "Retrospective neglected-track audit; rank at least five tracks with source-supported failure scope, remaining question, subjective useful-result probabilities and possible bounded future agent assignments. No theory recurrence, subagents, new candidate runs, fitting, target access, submission, model changes, reset use or permanent protocol change."
+}

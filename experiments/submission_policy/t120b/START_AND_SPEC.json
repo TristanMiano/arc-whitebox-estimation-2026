@@ -1,0 +1,53 @@
+{
+  "task_id": "T120B",
+  "algorithm_id": "ALG028-V000",
+  "parent": "ALG026-V000",
+  "start_utc": "2026-09-04T20:13:08Z",
+  "estimate_active_engineering_minutes": 60,
+  "estimate_total_minutes": 75,
+  "generic_evaluator_retry_limit": 1,
+  "grade_wait_per_attempt_minutes": 15,
+  "authorization": "Owner explicitly requested bounded attempt to submit T120 simpler trace variant; upload and monitoring authorized.",
+  "scope": "Submission realization of frozen T120 R1P; no coefficient fit, grid, or new scientific tier.",
+  "novelty": "N1-NOVEL-COMBINATION; physical third-cumulant trace rebase of ALG026 with unchanged AS coefficients; prior art and derivation inherited from T119/T120.",
+  "semantic_delta": "Replace terminal harmonic skew correction with radial-law-corrected trace projection, reconstruct the fixed AS design on that carrier, retain parent closure and all coefficients.",
+  "initial_rows": [
+    750,
+    772,
+    795,
+    817,
+    840,
+    863,
+    885,
+    908,
+    930,
+    953,
+    976,
+    999
+  ],
+  "comparison_role": "Production confirmation on reused T120 development panels, not fresh independent validation.",
+  "competition_rule": {
+    "pooled_adjusted_ratio_less_than": 1.0,
+    "paired_network_bootstrap_probability_of_improvement_at_least": 0.9,
+    "bootstrap_draws": 20000,
+    "seed": 120028
+  },
+  "numeric_equivalence": {
+    "max_absolute_terminal_difference_at_most": 1e-05,
+    "mean_squared_terminal_difference_at_most": 1e-12,
+    "purpose": "Predeclared production-vs-frozen R1P tolerance, retaining fixed coefficients and recording all differences; actual production scores remain decisive."
+  },
+  "hard_gates": [
+    "finite nonnegative full output",
+    "deterministic replay",
+    "allowed numerical APIs",
+    "actual FLOPs <=2**41",
+    "residual <0.4s",
+    "wall <120s",
+    "setup <5s",
+    "memory <8GiB",
+    "immutable archive and clean extraction"
+  ],
+  "platform": "WSL current grader stack; T118A and T120A already preserved repeatable Windows residual failures on these inherited kernels.",
+  "protocol_restructuring": "Deferred until this task finishes, per owner. Approximate 90% submission confidence applies prospectively to this task."
+}

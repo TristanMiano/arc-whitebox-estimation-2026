@@ -1,0 +1,33 @@
+{
+  "task_id": "T151",
+  "start_utc": "2026-09-11T16:12:45+00:00",
+  "records_snapshot_utc": "2026-09-11T16:36:46.951508+00:00",
+  "elapsed_through_records_minutes": 24.032525133333333,
+  "exclusive_minutes": {
+    "engineering": 17.479620999999998,
+    "unattended_compute": 6.552904133333333
+  },
+  "estimated_elapsed_range_minutes": [
+    120,
+    180
+  ],
+  "estimate_error_through_records_minutes": {
+    "versus_lower": -95.96747486666666,
+    "versus_upper": -155.96747486666666
+  },
+  "initial_active_engineering_budget_minutes": 90,
+  "engineering_extension_used": false,
+  "estimate_is_minimum": false,
+  "explanation": "A complete theory specification, reusable parent code and qualified harness allowed implementation before the30-minute reassessment. One coherent source passed the probe; a clear local loss avoided package qualification, grading and retry allowances. Compute overlapping useful engineering is counted as engineering; the later attended-only monitoring interval is classified as unattended compute.",
+  "method": "Exclusive observed UTC categories; no minimum-time padding, no agents.",
+  "verification_end_utc": "2026-09-11T16:39:52.923127+00:00",
+  "elapsed_through_verification_minutes": 27.132052116666667,
+  "exclusive_minutes_through_verification": {
+    "engineering": 20.579147983333332,
+    "unattended_compute": 6.552904133333333
+  },
+  "estimate_error_through_verification_minutes": {
+    "versus_lower": -92.86794788333333,
+    "versus_upper": -152.86794788333333
+  }
+}

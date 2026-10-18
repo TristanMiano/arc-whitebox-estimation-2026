@@ -1,0 +1,78 @@
+{
+  "schema_version": "arc-t094-result-v1",
+  "task": "T094",
+  "experiment_id": "E068",
+  "status": "completed_negative_before_M1",
+  "hypothesis_id": "H090-C",
+  "semantic_fingerprint_sha256": "31373be9160b677759032b8f93e6cb8d463a8e454c40572d4a475fd044ae9496",
+  "project_provenance": "OURS+PUBLIC",
+  "academic_novelty": "N1-NOVEL-COMBINATION",
+  "novelty_dimension": 2,
+  "selected_configuration": {
+    "width64_subframe_bases": 1,
+    "width256_projected_subframe_bases": 4,
+    "independent_center_rotations": 1,
+    "pilot_pooled_candidate_to_carrier_ratio": 1.1155370928738686,
+    "width64_candidate_cost": 581501184,
+    "width64_carrier_cost": 563380224,
+    "width256_projected_candidate_cost": 145174299648
+  },
+  "heldout": {
+    "pooled_candidate_to_carrier_variance_cost_ratio": 1.0943592163607989,
+    "pooled_raw_trace_variance_ratio": 1.0602563802343201,
+    "candidate_to_carrier_cost_ratio": 1.032164707293666,
+    "network_wins_after_cost": 0,
+    "network_wins_before_cost": 2,
+    "networks": 12,
+    "maximum_network_ratio": 1.1694740799451038,
+    "minimum_network_ratio": 1.0202332866816137
+  },
+  "gates": {
+    "construction_identity_stream_source_replay": "PASS",
+    "candidate_to_carrier_pooled": {
+      "threshold_lte": 0.99,
+      "observation": 1.0943592163607989,
+      "margin_adverse": 0.1043592163607989,
+      "status": "FAIL-SCIENTIFIC"
+    },
+    "network_wins": {
+      "threshold_gte": 7,
+      "observation": 0,
+      "margin_short": 7,
+      "status": "FAIL-SCIENTIFIC"
+    },
+    "maximum_network_ratio": {
+      "threshold_strict_lt": 2.0,
+      "observation": 1.1694740799451038,
+      "margin_pass": 0.8305259200548962,
+      "status": "PASS"
+    },
+    "M1": "NOT-AWARDED",
+    "registration": "NOT-RUN",
+    "F0_F3": "NOT-RUN",
+    "P1": "NOT-AWARDED"
+  },
+  "primary_blocker_class": "SCIENTIFIC_NEGATIVE_VARIANCE_DIRECTION_AND_BREADTH",
+  "strict_gate_was_sole_blocker": false,
+  "public_complete_mub_carrier_external_p1_transferred": false,
+  "frozen_outcome_category": "rejected_before_M1",
+  "frozen_outcome_probability": 0.74,
+  "surprise_bits": 0.4344028241457749,
+  "surprise_label": "expected",
+  "candidate_registered": false,
+  "current_submission_candidate": "ALG014-V000",
+  "submission_candidate_changed": false,
+  "post_first_p1_distinct_attempts_complete": 2,
+  "cross_compiler_status": "PASS_DECISION_AND_NUMERICAL",
+  "pre_result_operational_attempts_preserved": 1,
+  "owner_action_required": false,
+  "next_task": "T067",
+  "timing": {
+    "start": "2026-08-23T19:39:53.508134746-07:00",
+    "estimate_minutes": 55,
+    "end_check_off": "2026-08-23T20:16:49.256051230-07:00",
+    "elapsed": "00:36:55.747916484",
+    "elapsed_nanoseconds": 2215747916484
+  },
+  "evidence": "experiments/checkpoint3/t094/REPORT.md"
+}

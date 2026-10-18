@@ -1,0 +1,15 @@
+{
+  "task_id": "T128A",
+  "experiment_id": "E119",
+  "kind": "retrospective_strategy_and_effort_audit",
+  "start_utc": "2026-09-06T02:35:38+00:00",
+  "estimate_total_minutes": 35,
+  "scope": "Map approaches through T128, audit task/time evidence and supervised fitting/search versus deduction; durable document and tree; no theory recurrence, candidate evaluation, fit, target access or upload.",
+  "outputs": [
+    "docs/RESEARCH_STRATEGY_MAP.md",
+    "experiments/protocol/t128a/TASK_AUDIT.csv",
+    "experiments/protocol/t128a/STRATEGY_DATA.json"
+  ],
+  "prior_head": "22626e0",
+  "theory_T129_started": false
+}

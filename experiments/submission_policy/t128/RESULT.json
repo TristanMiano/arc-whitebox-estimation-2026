@@ -1,0 +1,211 @@
+{
+  "task_id": "T128",
+  "experiment_id": "E118",
+  "algorithm_id": "ALG032-V000",
+  "parent": "ALG031-V000",
+  "status": "COMPLETED_LOCAL_NEGATIVE",
+  "task_checked_off": true,
+  "production_score": {
+    "task_id": "T128",
+    "algorithm_id": "ALG032-V000",
+    "evidence_class": "submission-facing production confirmation; reused development panels, not independent scientific validation",
+    "rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "n": 12,
+    "raw_mse": 1.2979497600778847e-06,
+    "adjusted_score": 1.2979497600778844e-07,
+    "parent_raw_mse": 1.2887078848617875e-06,
+    "parent_adjusted_score": 1.2887078848617877e-07,
+    "ratio": 1.007171427539677,
+    "improvement_percent": -0.7171427539677033,
+    "wins": 5,
+    "bootstrap_probability_of_mean_improvement": 0.0484,
+    "bootstrap_mean_change_90pct_interval": [
+      7.733288205680303e-12,
+      1.905712299846801e-09
+    ],
+    "network_ratio_quantiles": {
+      "median": 1.0035561101805903,
+      "p90": 1.0291533294646236,
+      "p95": 1.0364286157777394,
+      "maximum": 1.0435852069140372
+    },
+    "flops": [
+      219257819691,
+      219257819691,
+      219257819691,
+      219257819691,
+      219257819691,
+      219257819691,
+      219257819691,
+      219257819691,
+      219257819691,
+      219257819691,
+      219257819691,
+      219257819691
+    ],
+    "multipliers": [
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "prediction_seal_sha256": "d2190e8c766b621c88d250bc506f650dbf8afce5029e76c84fc4f77847bad665",
+    "per_network": [
+      {
+        "row": 750,
+        "candidate_raw_mse": 9.677233551752638e-07,
+        "parent_raw_mse": 9.613061065240224e-07,
+        "adjusted_ratio": 1.0066755517391286
+      },
+      {
+        "row": 772,
+        "candidate_raw_mse": 1.5660453261559195e-06,
+        "parent_raw_mse": 1.5461194687571316e-06,
+        "adjusted_ratio": 1.0128876570028613
+      },
+      {
+        "row": 795,
+        "candidate_raw_mse": 1.069782617216152e-06,
+        "parent_raw_mse": 1.052547895496706e-06,
+        "adjusted_ratio": 1.0163742873775004
+      },
+      {
+        "row": 817,
+        "candidate_raw_mse": 1.5069016010855754e-06,
+        "parent_raw_mse": 1.5187420477252175e-06,
+        "adjusted_ratio": 0.992203780321104
+      },
+      {
+        "row": 840,
+        "candidate_raw_mse": 1.5267681595041982e-06,
+        "parent_raw_mse": 1.4814747029963948e-06,
+        "adjusted_ratio": 1.0305732230298594
+      },
+      {
+        "row": 863,
+        "candidate_raw_mse": 1.1659121407152714e-06,
+        "parent_raw_mse": 1.1654032456858427e-06,
+        "adjusted_ratio": 1.000436668622052
+      },
+      {
+        "row": 885,
+        "candidate_raw_mse": 1.3044521031747736e-06,
+        "parent_raw_mse": 1.3067314313521238e-06,
+        "adjusted_ratio": 0.9982557026465709
+      },
+      {
+        "row": 908,
+        "candidate_raw_mse": 1.4469481670918408e-06,
+        "parent_raw_mse": 1.4480573637585296e-06,
+        "adjusted_ratio": 0.9992340105478902
+      },
+      {
+        "row": 930,
+        "candidate_raw_mse": 1.0935385571169096e-06,
+        "parent_raw_mse": 1.0807644242027992e-06,
+        "adjusted_ratio": 1.0118195349773222
+      },
+      {
+        "row": 953,
+        "candidate_raw_mse": 1.2858939201152996e-06,
+        "parent_raw_mse": 1.293026027692356e-06,
+        "adjusted_ratio": 0.9944841732306156
+      },
+      {
+        "row": 976,
+        "candidate_raw_mse": 1.4766347630140035e-06,
+        "parent_raw_mse": 1.4941730714030715e-06,
+        "adjusted_ratio": 0.9882621975159819
+      },
+      {
+        "row": 999,
+        "candidate_raw_mse": 1.164796410569406e-06,
+        "parent_raw_mse": 1.1161488327472557e-06,
+        "adjusted_ratio": 1.0435852069140372
+      }
+    ],
+    "competition_pass": false,
+    "resource_checks_pass": true,
+    "comparison_refit": false,
+    "single_training_fit": true,
+    "scientific_tier_awarded": false
+  },
+  "training_rows": 32,
+  "fit_calls": 1,
+  "training_improvement_percent": 0.20205386417835314,
+  "new_coefficients": [
+    0.27012531404381174,
+    -247.43953178803764
+  ],
+  "comparison_networks": 12,
+  "comparison_extension": false,
+  "comparison_refit": false,
+  "exact_flops": 219257819691,
+  "added_flops": 271754512,
+  "multiplier": 0.1,
+  "residual_range_s": [
+    0.29243076284728886,
+    0.30929459611979837
+  ],
+  "prediction_wall_range_s": [
+    15.249597773999994,
+    15.965467070000159
+  ],
+  "peak_rss_bytes": 4816621568,
+  "local_incomplete_training_attempts": 8,
+  "local_incomplete_comparison_attempts": 0,
+  "training_timing_overrun": {
+    "row": 402,
+    "residual_s": 0.4052998799525085,
+    "preserved_as_failure": true,
+    "features_retained": true
+  },
+  "runtime_resolution": "Isolated system CPython3.12.3 with same Whest0.16.0/FlopScope0.12.0/NumPy2.2.6; frozen fixture and features byte-identical, same FLOPs. Two missing training rows, fitted fixture and 12 comparison rows passed first try. Root cause of CPython3.10 failures unproved. Existing environments unchanged.",
+  "parent_and_current_source_identity_verified": true,
+  "current_archive_qualified": false,
+  "archive_created": false,
+  "submission_attempts": 0,
+  "official_best_changed": false,
+  "retained_official_algorithm": "ALG031-V000",
+  "retained_official_submission_id": 329989,
+  "retained_official_adjusted_score": 1.3618567538742354e-07,
+  "scientific_tier_awarded": false,
+  "final_blind_block": "untouched",
+  "next_task": "T129",
+  "next_task_started": false,
+  "next_task_recommendation": "Theory recurrence after the two T126 nominees have been tested; preserve the small official T127 win and this complete-variant negative result. No automatic shape-direction, loading, bin, training-size or coefficient grid. The failure does not disprove higher-order shape corrections generally.",
+  "timing": {
+    "start_utc": "2026-09-06T01:23:36+00:00",
+    "end_utc": "2026-09-06T02:14:19.588667+00:00",
+    "estimate_total_minutes": 75,
+    "actual_elapsed_minutes": 50.72647778333333,
+    "estimate_error_minutes": -24.27352221666667,
+    "completed_metered_prediction_calls_in_logs": 48,
+    "completed_metered_prediction_minutes": 12.836508682866588,
+    "initial_active_engineering_budget_minutes": 60,
+    "engineering_budget_extension": false,
+    "grader_wait_minutes": 0,
+    "note": "Elapsed includes input loading, production work, bounded repairs and records. Metered time includes the successful row209 prediction lost during subsequent parent replay; failed-call durations and input loading are additional. Final integrity verification and commit follow checkoff."
+  }
+}

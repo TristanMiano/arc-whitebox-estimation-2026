@@ -1,0 +1,25 @@
+{
+  "task_id": "T141",
+  "start_utc": "2026-09-08T19:09:27Z",
+  "decision_utc": "2026-09-08T19:18:14Z",
+  "record_completion_utc": "2026-09-08T19:21:21.279027+00:00",
+  "elapsed_minutes": 11.90465045,
+  "estimate_total_range_minutes": [
+    45,
+    75
+  ],
+  "error_to_lower_estimate_minutes": -33.09534955,
+  "error_to_upper_estimate_minutes": -63.09534955,
+  "metered_full_size_prediction_minutes": 5.508260006500071,
+  "official_wait_minutes": 0,
+  "explicit_idle_sleep_minutes": 2.25,
+  "approximate_active_engineering_minutes": 9.40465045,
+  "approximate_execution_and_io_wait_minutes": 2.5,
+  "allocation_method": "Elapsed and full-size prediction time measured. Approximate active/wait split; prediction meters overlap useful work and are not additive. Explicit sleeps135s and final process wait8.17s lie within the2.5-minute wait estimate.",
+  "budget_extension": false,
+  "estimate_explanation": "Immediate production feasibility and a clear negative screen avoided packaging and grader waiting; reused most T140 implementation.",
+  "final_verification_utc": "2026-09-08T19:22:58.945900+00:00",
+  "elapsed_through_commit_preparation_minutes": 13.532431666666668,
+  "final_error_to_lower_estimate_minutes": -31.467568333333332,
+  "final_error_to_upper_estimate_minutes": -61.46756833333333
+}

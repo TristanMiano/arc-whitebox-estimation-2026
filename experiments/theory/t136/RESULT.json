@@ -1,0 +1,165 @@
+{
+  "task_id": "T136",
+  "experiment_id": "E129",
+  "status": "COMPLETED_TWO_NOMINEES_NO_CANDIDATE_RUN",
+  "report": "experiments/theory/t136/REPORT.md",
+  "scratchpad": "experiments/theory/t136/SCRATCHPAD.md",
+  "nominees": [
+    {
+      "id": "H136-C",
+      "name": "CSK3-R",
+      "priority": 1,
+      "spec": "CANDIDATE_A.md",
+      "next_task": "T137",
+      "status": "PROPOSED_UNEXECUTED",
+      "projected_flops": 904625538816,
+      "projected_multiplier": 0.4113760673208162,
+      "official_win_probability_subjective_range": [
+        0.15,
+        0.3
+      ],
+      "conditional_score_reduction_planning_range": [
+        0.1,
+        0.5
+      ],
+      "forecast_elapsed_minutes": [
+        75,
+        120
+      ]
+    },
+    {
+      "id": "H136-A",
+      "name": "A2LR",
+      "priority": 2,
+      "spec": "CANDIDATE_B.md",
+      "next_task": null,
+      "status": "FALLBACK_NOT_AUTOMATIC",
+      "projected_flops": 136852719360,
+      "projected_multiplier": 0.1,
+      "official_win_probability_subjective_range": [
+        0.2,
+        0.35
+      ],
+      "conditional_score_reduction_planning_range": [
+        0.03,
+        0.15
+      ],
+      "forecast_elapsed_minutes": [
+        50,
+        90
+      ]
+    }
+  ],
+  "preferred_next_task": "T137",
+  "next_task_started": false,
+  "incumbent": {
+    "algorithm_id": "ALG037-V000",
+    "submission_id": 330101,
+    "adjusted_score": 1.285804677308988e-07,
+    "final_layer_mse": 1.2858046773089883e-06,
+    "vs_sampling_approx": 9.332677203441463,
+    "predecessor": "ALG036-V000_submission_330097",
+    "adjusted_ratio_to_predecessor": 0.9694193806762685,
+    "adjusted_relative_reduction": 0.03058061932373146
+  },
+  "official_best_changed": false,
+  "new_algorithm_registered": false,
+  "candidate_implementation": false,
+  "candidate_fit_calls": 0,
+  "new_challenge_predictions": 0,
+  "challenge_targets_accessed": false,
+  "final_blind_accessed": false,
+  "uploads": 0,
+  "subagents": 0,
+  "usage_resets_redeemed": 0,
+  "permanent_protocol_change": false,
+  "mathematical_checks": [
+    "ANALYTIC_TABLE_CHECKS.json",
+    "BALANCING_IDENTITY_CHECKS.json",
+    "BIVARIATE_MOMENT_CHECKS.json",
+    "CORRELATED_GAUSSIAN_SOURCE_CHECKS.json",
+    "NONGAUSSIAN_TRANSMISSION_CHECKS.json",
+    "SOURCE_COMPRESSION_CHECKS.json",
+    "SOURCE_TAIL_CHECKS.json"
+  ],
+  "costs_are_projections_not_measurements": true,
+  "timing": {
+    "task_id": "T136",
+    "start_utc": "2026-09-06T22:40:01+00:00",
+    "minimum_useful_minutes": 120,
+    "minimum_active_theory_minutes": 80,
+    "method": "Elapsed intervals are observed UTC wall clock. Mixed initial orientation/search is conservatively credited; later active phases logged prospectively. No idle or overlapping credit. Category estimates are not second-accurate telemetry.",
+    "intervals": [
+      {
+        "start_utc": "2026-09-06T22:40:01+00:00",
+        "end_utc": "2026-09-06T22:55:40.118606+00:00",
+        "kind": "initial_orientation_and_literature",
+        "useful_literature_minutes": 10.0,
+        "active_theory_minutes": 0,
+        "other_useful_minutes": 0,
+        "note": "Conservative 10-minute literature credit only; registration, orientation, compaction and preliminary derivations excluded from useful/theory floors."
+      },
+      {
+        "start_utc": "2026-09-06T22:55:40.118606+00:00",
+        "kind": "active_theory",
+        "focus": "Balanced compression, finite-bank risk, exact first-layer controls, output-sensitive response rank; primary-source lookups used only to resolve derivation dependencies.",
+        "end_utc": "2026-09-06T23:56:21.788755+00:00",
+        "active_theory_minutes": 57.0,
+        "useful_literature_minutes": 2.0,
+        "other_useful_minutes": 0,
+        "note": "Observed continuous research interval. Conservative active credit for written derivations and small mathematical checks; two minutes of primary-source refresh separated; remaining elapsed time uncredited for messages/tools/record overhead."
+      },
+      {
+        "start_utc": "2026-09-06T23:56:21.788755+00:00",
+        "kind": "active_theory",
+        "focus": "Challenge the compressed-source full-history K3 route: source distortion, complete cost, numerical safeguards and a bounded implementation decision.",
+        "end_utc": "2026-09-07T00:27:19.602517+00:00",
+        "active_theory_minutes": 23.0,
+        "useful_literature_minutes": 0,
+        "other_useful_minutes": 0,
+        "note": "Conservative credit for source compression, nonlinear transmission, tail identities, rectangular costs and repeated-matrix refinement; approximately five minutes of compaction plus remaining administrative/message overhead excluded."
+      },
+      {
+        "start_utc": "2026-09-07T00:27:19.602517+00:00",
+        "kind": "focused_literature_confirmation",
+        "focus": "Confirm public cumulant method scope and compression-source attribution before selection; no broad new search.",
+        "end_utc": "2026-09-07T00:37:12.769073+00:00",
+        "useful_literature_minutes": 4.5,
+        "active_theory_minutes": 3.0,
+        "other_useful_minutes": 0,
+        "note": "Mixed source confirmation and selection-changing derivation. Source status and theorem assumptions checked; full repeated source reparameterized and analytic pair table derived. Remaining record/message overhead excluded."
+      },
+      {
+        "start_utc": "2026-09-07T00:37:12.769073+00:00",
+        "kind": "selection_and_handoff",
+        "focus": "Final source attribution, executable equation handoff, cost and candidate decision, scoped route/state/event records and verification.",
+        "end_utc": "2026-09-07T00:58:48.142755+00:00",
+        "active_theory_minutes": 0,
+        "useful_literature_minutes": 0,
+        "other_useful_minutes": 20.589561366666665,
+        "note": "Useful candidate selection, mathematical implementation handoff, source attribution, scoped state/event records and review. One additional minute conservatively excluded for messages/tool overhead; no idle credit."
+      }
+    ],
+    "end_checkoff_utc": "2026-09-07T00:58:48.142755+00:00",
+    "totals": {
+      "active_theory_minutes": 83.0,
+      "useful_literature_minutes": 16.5,
+      "other_useful_minutes": 20.589561366666665
+    },
+    "useful_total_minutes": 120.08956136666666,
+    "elapsed_minutes": 138.78571258333335,
+    "excluded_elapsed_minutes": 18.696151216666692,
+    "estimate_total_minutes": 150,
+    "estimate_error_minutes": -11.21428741666665,
+    "floors_met": true,
+    "idle_wait_minutes": 0,
+    "category_precision": "Conservative activity estimates within observed UTC intervals, not second-accurate telemetry."
+  },
+  "rough_active_theory_route_allocation_minutes": {
+    "R09_balance_and_exact_controls": 25,
+    "R08_joint_cumulants_and_cost": 58
+  },
+  "route_allocation_note": "Approximate split of83 conservatively credited active theory minutes; mixed work assigned once, source/file times anchor chronology, not a per-keystroke activity audit.",
+  "decision": "Propose CSK3-R first for larger upside; retain A2LR fallback and park sample compression pending an output-sensitive residual feature. Await owner next-task request.",
+  "decision_freeze_sha256": "1d998a4668b4a7c0017f109d452cb0e359a6ff54d43f79b1cead61a2530a15e5"
+}

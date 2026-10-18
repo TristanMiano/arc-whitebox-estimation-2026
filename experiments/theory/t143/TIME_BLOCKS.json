@@ -1,0 +1,146 @@
+[
+  {
+    "start": "2026-09-08T20:33:24+00:00",
+    "end": "2026-09-08T20:34:44.052733+00:00",
+    "category": "setup",
+    "note": "Owner scope, protocol and current evidence intake; excluded from floors."
+  },
+  {
+    "start": "2026-09-08T20:34:44.052733+00:00",
+    "category": "literature",
+    "note": "Broaden primary-source review: cumulant closure, statistical linear response, kinetic moment methods, conditional mixtures and adjoint/observable methods.",
+    "end": "2026-09-08T20:39:47+00:00"
+  },
+  {
+    "start": "2026-09-08T20:39:47+00:00",
+    "end": "2026-09-08T20:44:11+00:00",
+    "category": "overhead",
+    "note": "Conservative exclusion for context consolidation and resumption; not credited to requested floors."
+  },
+  {
+    "start": "2026-09-08T20:44:11+00:00",
+    "end": "2026-09-08T20:57:40.954650+00:00",
+    "category": "literature",
+    "note": "Primary-source sections on EP, conditional splitting, kinetic reduction, truncated Gaussian moments and connected response; transfer notes."
+  },
+  {
+    "start": "2026-09-08T20:57:40.954650+00:00",
+    "category": "theory",
+    "note": "Derive and check fixed-factor heavy-leg source update, then investigate omitted joint-response terms. Remaining literature floor will be completed in later interleaved blocks.",
+    "end": "2026-09-08T21:12:26+00:00"
+  },
+  {
+    "start": "2026-09-08T21:12:26+00:00",
+    "end": "2026-09-08T21:17:56.840655+00:00",
+    "category": "overhead",
+    "note": "Conservative exclusion for context consolidation and resumption; no useful-work credit."
+  },
+  {
+    "start": "2026-09-08T21:17:56.840655+00:00",
+    "category": "theory",
+    "note": "Conditional Hermite projection, mixed mode response, and independent finite-dimensional checks.",
+    "end": "2026-09-08T21:25:09.080831+00:00"
+  },
+  {
+    "start": "2026-09-08T21:25:09.080831+00:00",
+    "category": "literature",
+    "note": "Investigate Gaussian conditional projection, generalized Price identities and adjacent response-aware dimension reduction; verify transfer conditions against the new derivations.",
+    "end": "2026-09-08T21:28:25.164939+00:00"
+  },
+  {
+    "start": "2026-09-08T21:28:25.164939+00:00",
+    "category": "theory",
+    "note": "Derive response-weighted Gaussian mode selection and an explicit next-layer error metric for omitted third tensors; distinguish covariance geometry from final mean response.",
+    "end": "2026-09-08T21:53:55.511421+00:00"
+  },
+  {
+    "start": "2026-09-08T21:53:55.511421+00:00",
+    "category": "literature",
+    "note": "Verify deflated trace estimation, higher-chaos projection and residual-source decomposition in primary literature; broaden beyond local cumulant propagation.",
+    "end": "2026-09-08T21:59:15.542712+00:00"
+  },
+  {
+    "start": "2026-09-08T21:59:15.542712+00:00",
+    "category": "theory",
+    "note": "Develop the coherent joint-response operator suggested by trace-estimation and Gaussian-chaos review: include incoming skewness loops and the leading radial fourth vertex, with cheap repeated-index exclusions.",
+    "end": "2026-09-08T22:25:54.124592+00:00"
+  },
+  {
+    "start": "2026-09-08T22:25:54.124592+00:00",
+    "category": "literature",
+    "note": "Complete the wider adjacent review: finite-memory projection, ensemble-versus-fixed-network field theory, and practical limitations of nonlinear/trace closures.",
+    "end": "2026-09-08T22:26:00+00:00"
+  },
+  {
+    "start": "2026-09-08T22:26:00+00:00",
+    "end": "2026-09-08T22:30:55.388735+00:00",
+    "category": "overhead",
+    "note": "Conservative exclusion for context consolidation/resumption; no requested-floor credit."
+  },
+  {
+    "start": "2026-09-08T22:30:55.388735+00:00",
+    "category": "literature",
+    "note": "Continue adjacent primary-source review: finite-memory optimal prediction, perturbative finite-width neural hierarchies, current public-method versions, and source transfer limits.",
+    "end": "2026-09-08T22:38:46.635346+00:00"
+  },
+  {
+    "start": "2026-09-08T22:38:46.635346+00:00",
+    "category": "theory",
+    "note": "Derive finite-age versus full completion memory in the Gaussian-whitened tensor metric, then investigate broader low-rank Gaussian triangle sources and stable joint heavy-leg updates.",
+    "end": "2026-09-08T23:13:16+00:00"
+  },
+  {
+    "start": "2026-09-08T23:13:16+00:00",
+    "end": "2026-09-08T23:21:29.485019+00:00",
+    "category": "overhead",
+    "note": "Conservative exclusion for context consolidation/resumption, including uncredited final identity checks; no floor credit."
+  },
+  {
+    "start": "2026-09-08T23:21:29.485019+00:00",
+    "category": "theory",
+    "note": "Finalize the fresh-source joint update, its first-order response and gauge/diagonal conventions; audit candidate operation counts and response metrics.",
+    "end": "2026-09-08T23:32:55.224884+00:00"
+  },
+  {
+    "start": "2026-09-08T23:32:55.224884+00:00",
+    "category": "literature",
+    "note": "Complete the remaining adjacent primary-source review: arc-cosine observable kernels, higher-order Stein methods, goal-oriented reduction, and limits of their transfer to the fixed-network estimator.",
+    "end": "2026-09-08T23:41:42+00:00"
+  },
+  {
+    "start": "2026-09-08T23:41:42+00:00",
+    "end": "2026-09-08T23:48:20.884977+00:00",
+    "category": "overhead",
+    "note": "Conservative exclusion for context consolidation/resumption; no useful floor credit."
+  },
+  {
+    "start": "2026-09-08T23:48:20.884977+00:00",
+    "category": "literature",
+    "note": "Finish adjacent primary sources: quadratic-Gaussian trace cumulants, loop expansions, non-Gaussian statistical linearization and transfer limits; reconcile source read depth.",
+    "end": "2026-09-08T23:59:23+00:00"
+  },
+  {
+    "start": "2026-09-08T23:59:23+00:00",
+    "end": "2026-09-09T00:05:06.349460+00:00",
+    "category": "overhead",
+    "note": "Conservative context consolidation/resumption exclusion; no requested-floor credit."
+  },
+  {
+    "start": "2026-09-09T00:05:06.349460+00:00",
+    "category": "literature",
+    "note": "Finish source-method comparison and adjacent literature synthesis before exclusive candidate selection.",
+    "end": "2026-09-09T00:10:14.899832+00:00"
+  },
+  {
+    "start": "2026-09-09T00:10:14.899832+00:00",
+    "category": "selection",
+    "note": "Compare complete candidates by retained-score prospects and total cost; write explicit formula handoffs, reservations and one bounded next-task recommendation. No candidate execution.",
+    "end": "2026-09-09T00:40:27.416905+00:00"
+  },
+  {
+    "start": "2026-09-09T00:40:27.416905+00:00",
+    "category": "overhead",
+    "note": "All three exclusive useful-work floors met. Complete state/event records and scoped repository verification; this administrative time is excluded from the floors.",
+    "end": "2026-09-09T00:43:50.002370+00:00"
+  }
+]

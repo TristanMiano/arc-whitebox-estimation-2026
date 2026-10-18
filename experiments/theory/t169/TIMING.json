@@ -1,0 +1,103 @@
+{
+  "task_id": "T169",
+  "start_utc": "2026-10-08T21:47:25+00:00",
+  "research_end_utc": "2026-10-09T03:08:52.242318+00:00",
+  "end_recorded_utc": "2026-10-09T03:11:42.896017+00:00",
+  "elapsed_minutes": 324.29826694999997,
+  "estimated_elapsed_range_minutes": [
+    255,
+    330
+  ],
+  "estimate_midpoint_minutes": 292.5,
+  "estimate_error_from_midpoint_minutes": 31.79826694999997,
+  "active_research_minutes": 240.0390960833333,
+  "minimum_active_research_minutes": 240,
+  "minimum_written_derivation_minutes": 60,
+  "category_minutes": {
+    "administration": 27.86661246666667,
+    "derivation": 70.45998655,
+    "empirical": 154.31329071666664,
+    "passive": 56.3925584,
+    "selection": 12.955213550000003,
+    "literature": 2.3106052666666668
+  },
+  "dominant_route_minutes": {
+    "complete_constructor": 5.605886516666667,
+    "native_implementation": 19.36600106666667,
+    "deferred_contractions": 21.82774171666667,
+    "cross_rank_recovery": 8.185846616666668,
+    "complete_cost_reduction": 4.236931266666667,
+    "omit_completion": 12.379616866666668,
+    "symmetric_complete_constructor": 7.504785366666667,
+    "repeated_observation_interface": 3.7682960499999996,
+    "actual_interface": 18.408058333333333,
+    "compiled_observation_polynomial": 3.214456016666667,
+    "no211_exact_runtime": 3.3345176999999997,
+    "native_shared_interface": 4.0751891166666665,
+    "shared_term_program": 2.42982205,
+    "integrated_cost_shadow": 1.90875415,
+    "fused_observation_runtime": 2.0163453,
+    "packed_birth_fusion": 8.201503016666667,
+    "batched_bank": 5.0515478,
+    "integrated_vector_runtime": 7.51035025,
+    "anchored_carry_completion": 1.1736868333333335,
+    "port_budget_margin": 4.8624483000000005,
+    "scalar_proxy_repair": 0.5698645166666666,
+    "recovery_probes": 3.951083816666667,
+    "structured_pair_queries": 1.9360280333333333,
+    "collected_pair_adjoint": 3.8244252,
+    "pair_gauge_feasibility": 3.6523434,
+    "gauge_capacity": 6.079765133333334,
+    "native_feedback_semantics": 5.068754966666666,
+    "actual_readout_pilot": 5.453432916666666,
+    "diagonal_trace_completion": 10.583229900000001,
+    "joint_tangent": 7.250083216666667,
+    "observable_preservation": 5.35775135,
+    "lookahead_completion": 8.10043885,
+    "compression_geometry": 2.0953194833333333,
+    "native_trace_rescue": 5.9689827,
+    "score_geometry": 2.0654391166666666,
+    "feasibility_synthesis": 1.8961645833333334,
+    "small_moment_diagnosis": 3.3728579499999998,
+    "candidate_decision": 8.410835233333334,
+    "transfer_diagnosis": 1.82247555,
+    "learned_overlap": 0.8920585833333334,
+    "score_observables": 2.1505785833333335,
+    "layer_source_diagnosis": 1.2639007,
+    "representation_crosscheck": 2.3106052666666668,
+    "final_decision": 5.9420718500000005,
+    "source_semantics": 1.2526789666666667,
+    "decision_scope": 0.20614188333333333,
+    "context_recovery_adjustment": -6.5
+  },
+  "category_adjustments": [
+    {
+      "from": "empirical",
+      "to": "administration",
+      "minutes": 3.0,
+      "note": "Conservative exclusion for context compaction/recovery before 02:05:39 UTC."
+    },
+    {
+      "from": "selection",
+      "to": "administration",
+      "minutes": 3.0,
+      "reason": "Conservatively exclude context compaction and recovery after last P54 work at02:48UTC, before02:51:42 checkpoint."
+    },
+    {
+      "from": "derivation",
+      "to": "empirical",
+      "minutes": 4.0,
+      "reason": "Conservative reclassification of prototype coding mixed into earlier native derivation blocks; research total unchanged."
+    },
+    {
+      "from": "selection",
+      "to": "administration",
+      "minutes": 0.5,
+      "reason": "State/ledger format inspection during final-decision block; exclude routine records preparation."
+    }
+  ],
+  "floor_met": true,
+  "written_floor_met": true,
+  "records_closed": true,
+  "accounting": "Exclusive active categories. Interruptions, context recovery and routine records excluded from research; overlapping compute counted once. Summed guard time is not additional task time. Final state writing, verification and commit after this endpoint are administrative and excluded."
+}

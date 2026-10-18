@@ -1,0 +1,369 @@
+{
+  "task_id": "T142",
+  "experiment_id": "E137",
+  "algorithm_id": "ALG040-V000",
+  "status": "COMPLETED_ADJUSTED_LOSS_WITH_RAW_GAIN_NO_UPLOAD",
+  "report": "experiments/submission_policy/t142/REPORT.md",
+  "source_freeze": "experiments/submission_policy/t142/SOURCE_FREEZE.json",
+  "score_record": "experiments/submission_policy/t142/attempts/screen-sealed/SCORE.json",
+  "local_raw_mse": 4.161968419040392e-08,
+  "incumbent_local_raw_mse": 4.5309500866514844e-08,
+  "raw_improvement_percent": 8.143582704610674,
+  "raw_wins": 12,
+  "adjusted_score": 1.606559970421637e-08,
+  "incumbent_adjusted_score": 1.5595291677326586e-08,
+  "adjusted_ratio": 1.0301570523091625,
+  "adjusted_wins": 3,
+  "bootstrap_support": 0.0019,
+  "current_prediction_flops": 848844195990,
+  "current_multiplier": 0.38600964944180305,
+  "resources": {
+    "task_id": "T142",
+    "all_completed": {
+      "prediction_calls": 18,
+      "flops": [
+        812091369622,
+        813318203542,
+        813564618902,
+        828296693910,
+        848844195990
+      ],
+      "wall_range_s": [
+        43.7280097949988,
+        49.05630460700013
+      ],
+      "residual_range_s": [
+        0.36722163410559006,
+        0.43933937708789017
+      ],
+      "wall_total_minutes": 13.733009630333283,
+      "setup_max_s": 0.010846396000488312,
+      "peak_rss_bytes": 6954844160,
+      "all_resources_pass": false
+    },
+    "current_source": {
+      "prediction_calls": 13,
+      "flops": [
+        848844195990
+      ],
+      "wall_range_s": [
+        43.7280097949988,
+        46.48274392299936
+      ],
+      "residual_range_s": [
+        0.36722163410559006,
+        0.39109699914843077
+      ],
+      "wall_total_minutes": 9.780100307549917,
+      "setup_max_s": 0.009065264999662759,
+      "peak_rss_bytes": 6824292352,
+      "all_resources_pass": true
+    },
+    "earlier_source_resource_failures": 4,
+    "calls": [
+      {
+        "attempt": "integrated-probe-001",
+        "row": 0,
+        "current_source": false,
+        "resource_pass": false,
+        "setup_s": 0.007208376999187749,
+        "peak_rss_bytes": 6707404800,
+        "flops": 812091369622,
+        "wall_time_s": 48.96414660799928,
+        "residual_wall_time_s": 0.4340896099474776,
+        "outer_wall_time_s": 48.96419658400009
+      },
+      {
+        "attempt": "integrated-probe-002",
+        "row": 0,
+        "current_source": false,
+        "resource_pass": false,
+        "setup_s": 0.006128985998657299,
+        "peak_rss_bytes": 6580699136,
+        "flops": 813318203542,
+        "wall_time_s": 49.05630460700013,
+        "residual_wall_time_s": 0.43933937708789017,
+        "outer_wall_time_s": 49.056356983001024
+      },
+      {
+        "attempt": "integrated-probe-003",
+        "row": 0,
+        "current_source": false,
+        "resource_pass": false,
+        "setup_s": 0.00771325699861336,
+        "peak_rss_bytes": 6769119232,
+        "flops": 813564618902,
+        "wall_time_s": 47.0299228390013,
+        "residual_wall_time_s": 0.40578099189042405,
+        "outer_wall_time_s": 47.02995621399896
+      },
+      {
+        "attempt": "integrated-probe-004",
+        "row": 0,
+        "current_source": false,
+        "resource_pass": true,
+        "setup_s": 0.009283637000407907,
+        "peak_rss_bytes": 6786412544,
+        "flops": 828296693910,
+        "wall_time_s": 45.52039176100152,
+        "residual_wall_time_s": 0.3941568388745509,
+        "outer_wall_time_s": 45.52042318599888
+      },
+      {
+        "attempt": "integrated-probe-005",
+        "row": 0,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.00825780000013765,
+        "peak_rss_bytes": 6666240000,
+        "flops": 848844195990,
+        "wall_time_s": 44.53658278599869,
+        "residual_wall_time_s": 0.3759369458803121,
+        "outer_wall_time_s": 44.53662132699901
+      },
+      {
+        "attempt": "screen-row-0750-try-1",
+        "row": 750,
+        "current_source": false,
+        "resource_pass": false,
+        "setup_s": 0.010846396000488312,
+        "peak_rss_bytes": 6954844160,
+        "flops": 828296693910,
+        "wall_time_s": 46.60379355199984,
+        "residual_wall_time_s": 0.4008241520332376,
+        "outer_wall_time_s": 46.60382810900046
+      },
+      {
+        "attempt": "screen-v5-row-0750-try-1",
+        "row": 750,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.008010157000171603,
+        "peak_rss_bytes": 6606209024,
+        "flops": 848844195990,
+        "wall_time_s": 44.25270708899916,
+        "residual_wall_time_s": 0.3712735967765184,
+        "outer_wall_time_s": 44.25275548100035
+      },
+      {
+        "attempt": "screen-v5-row-0772-try-1",
+        "row": 772,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.008327944999109604,
+        "peak_rss_bytes": 6786916352,
+        "flops": 848844195990,
+        "wall_time_s": 45.947123857000406,
+        "residual_wall_time_s": 0.3786768809623027,
+        "outer_wall_time_s": 45.94715907700083
+      },
+      {
+        "attempt": "screen-v5-row-0795-try-1",
+        "row": 795,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.008229664999817032,
+        "peak_rss_bytes": 6621470720,
+        "flops": 848844195990,
+        "wall_time_s": 46.2046402649994,
+        "residual_wall_time_s": 0.3877226159784186,
+        "outer_wall_time_s": 46.20467453299898
+      },
+      {
+        "attempt": "screen-v5-row-0817-try-1",
+        "row": 817,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.00882510300107242,
+        "peak_rss_bytes": 6690205696,
+        "flops": 848844195990,
+        "wall_time_s": 45.16831620599987,
+        "residual_wall_time_s": 0.37688713381976413,
+        "outer_wall_time_s": 45.16835264900146
+      },
+      {
+        "attempt": "screen-v5-row-0840-try-1",
+        "row": 840,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.008015359999262728,
+        "peak_rss_bytes": 6689005568,
+        "flops": 848844195990,
+        "wall_time_s": 45.293909948000874,
+        "residual_wall_time_s": 0.37767794302089897,
+        "outer_wall_time_s": 45.293948532000286
+      },
+      {
+        "attempt": "screen-v5-row-0863-try-1",
+        "row": 863,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.008180775999790058,
+        "peak_rss_bytes": 6824292352,
+        "flops": 848844195990,
+        "wall_time_s": 44.666407202999835,
+        "residual_wall_time_s": 0.3680946390777535,
+        "outer_wall_time_s": 44.66644276199986
+      },
+      {
+        "attempt": "screen-v5-row-0885-try-1",
+        "row": 885,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.007794398999976693,
+        "peak_rss_bytes": 6678671360,
+        "flops": 848844195990,
+        "wall_time_s": 43.7280097949988,
+        "residual_wall_time_s": 0.36722163410559006,
+        "outer_wall_time_s": 43.728046981999796
+      },
+      {
+        "attempt": "screen-v5-row-0908-try-1",
+        "row": 908,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.008322470001075999,
+        "peak_rss_bytes": 6701629440,
+        "flops": 848844195990,
+        "wall_time_s": 44.45829620999939,
+        "residual_wall_time_s": 0.36985629306946066,
+        "outer_wall_time_s": 44.45833562000007
+      },
+      {
+        "attempt": "screen-v5-row-0930-try-1",
+        "row": 930,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.007733837999694515,
+        "peak_rss_bytes": 6774046720,
+        "flops": 848844195990,
+        "wall_time_s": 46.48274392299936,
+        "residual_wall_time_s": 0.382229669170556,
+        "outer_wall_time_s": 46.48279637000087
+      },
+      {
+        "attempt": "screen-v5-row-0953-try-1",
+        "row": 953,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.007828177000192227,
+        "peak_rss_bytes": 6598070272,
+        "flops": 848844195990,
+        "wall_time_s": 45.76025176800067,
+        "residual_wall_time_s": 0.3804905550823605,
+        "outer_wall_time_s": 45.760290995000105
+      },
+      {
+        "attempt": "screen-v5-row-0976-try-1",
+        "row": 976,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.008028508000279544,
+        "peak_rss_bytes": 6748987392,
+        "flops": 848844195990,
+        "wall_time_s": 45.7635181329988,
+        "residual_wall_time_s": 0.39109699914843077,
+        "outer_wall_time_s": 45.76365716700093
+      },
+      {
+        "attempt": "screen-v5-row-0999-try-1",
+        "row": 999,
+        "current_source": true,
+        "resource_pass": true,
+        "setup_s": 0.009065264999662759,
+        "peak_rss_bytes": 5786427392,
+        "flops": 848844195990,
+        "wall_time_s": 44.543511269999726,
+        "residual_wall_time_s": 0.3722105610231665,
+        "outer_wall_time_s": 44.543547365999984
+      }
+    ]
+  },
+  "timing": {
+    "task_id": "T142",
+    "start_utc": "2026-09-08T19:39:41Z",
+    "decision_utc": "2026-09-08T20:07:16Z",
+    "record_completion_utc": "2026-09-08T20:16:24.324096+00:00",
+    "elapsed_minutes": 36.72206826666666,
+    "estimate_total_range_minutes": [
+      45,
+      75
+    ],
+    "error_to_lower_estimate_minutes": -8.27793173333334,
+    "error_to_upper_estimate_minutes": -38.27793173333334,
+    "all_metered_prediction_minutes": 13.733009630333283,
+    "current_source_metered_prediction_minutes": 9.780100307549917,
+    "official_wait_minutes": 0,
+    "explicit_sleep_minutes": 1.5,
+    "approximate_active_implementation_analysis_records_minutes": 29.72206826666666,
+    "approximate_execution_io_wait_minutes": 7,
+    "allocation_method": "Elapsed and prediction meters measured. Rough exclusive active/wait allocation; metered prediction time overlaps active work and is not additive. Two45-second sleeps plus asynchronous waiting are included in wait.",
+    "initial_active_engineering_budget_minutes": 60,
+    "repair_allocation_minutes": 20,
+    "repair_episode_elapsed_minutes_approx": 12,
+    "engineering_budget_extended": false,
+    "reassessment": "At the first score decision, the compliant design loses adjusted score despite a raw gain. Stop this realization; preserve Q4D and cost envelope for future work.",
+    "final_verification_utc": "2026-09-08T20:21:43.131387+00:00",
+    "elapsed_through_commit_preparation_minutes": 42.03552311666667,
+    "final_error_to_lower_estimate_minutes": -2.964476883333333,
+    "final_error_to_upper_estimate_minutes": -32.96447688333333
+  },
+  "cost_envelope": {
+    "task_id": "T142",
+    "conditional_arithmetic_only": true,
+    "assumption": "Hold final-source predictions fixed and vary only an already-metered cost. Earlier cheaper sources are not qualified by these calculations; their residual failures remain. No fitted equation or new candidate run.",
+    "raw_wins": 12,
+    "raw_improvement_percent": 8.143582704610674,
+    "point_break_even_flops": 823994937555.6494,
+    "approx_90pct_support_max_flops": 812815353788.3483,
+    "hypothetical_scores_at_metered_costs": [
+      {
+        "flops": 812091369622,
+        "adjusted_ratio": 0.9855538336570843,
+        "bootstrap_support": 0.91375
+      },
+      {
+        "flops": 813564618902,
+        "adjusted_ratio": 0.9873417685251921,
+        "bootstrap_support": 0.8852
+      },
+      {
+        "flops": 828296693910,
+        "adjusted_ratio": 1.005220610174028,
+        "bootstrap_support": 0.311
+      },
+      {
+        "flops": 848844195990,
+        "adjusted_ratio": 1.0301570523091623,
+        "bootstrap_support": 0.0019
+      }
+    ],
+    "not_an_operational_pass": true
+  },
+  "all_generated_checks_pass": true,
+  "comparison_looks": 1,
+  "comparison_extension": false,
+  "fit_calls": 0,
+  "equation_changes_after_registration": 0,
+  "numerical_realizations": 5,
+  "obsolete_comparison_rows_before_resource_stop": 1,
+  "final_blind_accessed": false,
+  "uploads": 0,
+  "archive_created": false,
+  "subagents": 0,
+  "usage_resets": 0,
+  "official_best_changed": false,
+  "retained_incumbent": {
+    "algorithm_id": "ALG038-V001",
+    "submission_id": 330153,
+    "adjusted_score": 1.4667675875416682e-08,
+    "final_layer_mse": 4.261352437140431e-08,
+    "vs_sampling_approx": 81.81255232202287,
+    "predecessor": "ALG038-V000_submission_330141",
+    "adjusted_ratio_to_predecessor": 0.8444606124765383,
+    "adjusted_relative_reduction": 0.15553938752346175
+  },
+  "next_task": "T143",
+  "next_task_started": false,
+  "next_task_scope": "Focused literature/theory recurrence; preserve Q4D as cheap fallback while pursuing missing third-source response and other larger gains. At least120 useful minutes including90 written theory; no automatic agents."
+}

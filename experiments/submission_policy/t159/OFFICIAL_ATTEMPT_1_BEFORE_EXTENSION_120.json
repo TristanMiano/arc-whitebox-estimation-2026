@@ -1,0 +1,11 @@
+{
+  "submission_id": 330887,
+  "created_at": "2026-09-13T14:48:47.840Z",
+  "recorded_utc": "2026-09-13T14:48:48.215743+00:00",
+  "deadline_utc": "2026-09-13T15:48:47.840000+00:00",
+  "attempt": 1,
+  "archive_sha256": "f61fc6eb9e0525f6d40c8c856a46becb88a360d116d036d36a1e4024512f001e",
+  "status": "ACCEPTED_MONITORING",
+  "status_file": "SUBMISSION_330887_STATUS.json",
+  "owner_wait_minutes": 60
+}

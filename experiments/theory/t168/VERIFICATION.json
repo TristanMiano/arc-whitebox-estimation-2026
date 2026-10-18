@@ -1,0 +1,462 @@
+{
+  "record_checks": "pass",
+  "active_minutes": 241.91006056666666,
+  "generated_records": 45,
+  "full_shape_calls": 1,
+  "component_records": 19,
+  "guard_failures": 5,
+  "incumbent_unchanged": true,
+  "source_identity_checks": [
+    {
+      "result": "experiments/theory/t168/small_runs/P37_star_interaction16/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P32_star_observation/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P37_star_interaction16/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P37_star_interaction16/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P36_n384_star_cov_basis/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P32_star_observation/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P36_n384_star_cov_basis/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P35_star_cov_basis/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P31_star_repeated/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P31_star_repeated/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P31_star_repeated/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P31_star_repeated/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P42_gate_star/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P43_n384_gate_star/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P42_gate_star/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P38_transported_star/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P46_n384_gate_star_one_family/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P49_gate_star_warm/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P46_n384_gate_star_one_family/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P38_transported_star/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P41_n384_transported_diagnostic/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P41_n384_transported_diagnostic/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P41_n384_transported_diagnostic/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P38_transported_star/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P18_split_query/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P18_split_query/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P18_split_query/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P14_cov_interaction16/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P45_gate_star_one_family/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P49_gate_star_warm/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P45_gate_star_one_family/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P38_transported_star/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P10_upper_observation/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P10_upper_observation/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P10_upper_observation/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P10_upper_observation/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P38_transported_star/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P39_n384_transported_star/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P38_transported_star/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P38_transported_star/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P23_n384_warm_pair/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P23_n384_warm_pair/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P23_n384_warm_pair/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P22_warm_pair/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P08_cubic_span/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P08_cubic_span/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P08_cubic_span/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P08_cubic_span/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P06_n384_no_power/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P06_n384_no_power/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P06_n384_no_power/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P05_no_power/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P54_n384_gate_star_mc_warm/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P55_gate_star_mc_warm_c1/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P54_n384_gate_star_mc_warm/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P49_gate_star_warm/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P30_n384_star_query/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P32_star_observation/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P30_n384_star_query/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P29_star_query/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P01_n256_middle_cov64/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P32_star_observation/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P01_n256_middle_cov64/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P01_middle_cov64/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P43_n384_gate_star/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P43_n384_gate_star/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P43_n384_gate_star/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P38_transported_star/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P63_n384_omit_hard_graphs/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P55_gate_star_mc_warm_c1/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P63_n384_omit_hard_graphs/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P62_omit_hard_graphs/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P28_n384_full_interaction_cov/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P28_n384_full_interaction_cov/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P28_n384_full_interaction_cov/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P11_interaction_observation/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P56_n384_gate_star_mc_warm_c1/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P55_gate_star_mc_warm_c1/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P56_n384_gate_star_mc_warm_c1/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P55_gate_star_mc_warm_c1/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P64_omit_hard_cov_sketch/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P55_gate_star_mc_warm_c1/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P64_omit_hard_cov_sketch/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P64_omit_hard_cov_sketch/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P65_n384_omit_hard_cov_sketch/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P55_gate_star_mc_warm_c1/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P65_n384_omit_hard_cov_sketch/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P64_omit_hard_cov_sketch/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P62_omit_hard_graphs/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P55_gate_star_mc_warm_c1/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P62_omit_hard_graphs/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P62_omit_hard_graphs/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P29_star_query/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P32_star_observation/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P29_star_query/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P29_star_query/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P05_no_power/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P05_no_power/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P05_no_power/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P05_no_power/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P26_n384_fresh_pair/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P26_n384_fresh_pair/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P26_n384_fresh_pair/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P14_cov_interaction16/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P27_harmonic_residual/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P27_harmonic_residual/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P27_harmonic_residual/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P27_harmonic_residual/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P49_gate_star_warm/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P49_gate_star_warm/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P49_gate_star_warm/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P49_gate_star_warm/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P39_n384_transported_star/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P39_n384_transported_star/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P39_n384_transported_star/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P38_transported_star/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P14_cov_interaction16/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P14_cov_interaction16/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P14_cov_interaction16/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P14_cov_interaction16/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P51_gate_star_mc_warm/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P55_gate_star_mc_warm_c1/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P51_gate_star_mc_warm/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P49_gate_star_warm/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P02_n384_middle_cov64/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P32_star_observation/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P02_n384_middle_cov64/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P01_middle_cov64/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P07_fourth_feedback_only/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P07_fourth_feedback_only/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P07_fourth_feedback_only/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P07_fourth_feedback_only/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P33_n384_star_observation/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P32_star_observation/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P33_n384_star_observation/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P32_star_observation/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P47_gate_star_mean_cov/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P55_gate_star_mc_warm_c1/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P47_gate_star_mean_cov/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P38_transported_star/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P04_carried_query128/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P04_carried_query128/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P04_carried_query128/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P04_carried_query128/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P59b_covariance_sketch/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P55_gate_star_mc_warm_c1/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P59b_covariance_sketch/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P59b_covariance_sketch/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P22_warm_pair/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P22_warm_pair/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P22_warm_pair/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P22_warm_pair/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P60_n384_covariance_sketch/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P55_gate_star_mc_warm_c1/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P60_n384_covariance_sketch/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P59b_covariance_sketch/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P12_shared_delta/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P12_shared_delta/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P12_shared_delta/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P11_interaction_observation/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P11_interaction_observation/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P11_interaction_observation/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P11_interaction_observation/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P11_interaction_observation/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P35_star_cov_basis/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P32_star_observation/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P35_star_cov_basis/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P35_star_cov_basis/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P55_gate_star_mc_warm_c1/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P55_gate_star_mc_warm_c1/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P55_gate_star_mc_warm_c1/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P55_gate_star_mc_warm_c1/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P32_star_observation/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P32_star_observation/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P32_star_observation/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P32_star_observation/factor_k4.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P17_sparse_refresh/RESULT.json",
+      "key": "source_sha256",
+      "retained_source": "experiments/theory/t168/small_runs/P17_sparse_refresh/SOURCE.py"
+    },
+    {
+      "result": "experiments/theory/t168/small_runs/P17_sparse_refresh/RESULT.json",
+      "key": "high_sha256",
+      "retained_source": "experiments/theory/t168/sources/P17_sparse_refresh/factor_k4.py"
+    }
+  ],
+  "initial_check_repair": "The first verification assumed every older runner copied FACTOR_SOURCE.py into its run directory. Some retain the high module in task sources instead. Verification now resolves recorded hashes against the retained source inventory; no research result changed."
+}

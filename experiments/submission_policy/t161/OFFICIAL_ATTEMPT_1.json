@@ -1,0 +1,12 @@
+{
+  "submission_id": 331607,
+  "created_at": "2026-09-20T02:38:52.104Z",
+  "recorded_utc": "2026-09-20T02:38:51.808530+00:00",
+  "deadline_utc": "2026-09-20T03:38:52.104000+00:00",
+  "attempt": 1,
+  "owner_wait_minutes": 60,
+  "archive_sha256": "f3e186139f65d0407539bf8518de43a7e4522f5f9e4ac1e46e73212f594ab1bc",
+  "status": "GRADED",
+  "status_file": "SUBMISSION_331607_STATUS.json",
+  "last_recorded_utc": "2026-09-20T03:10:07.414214+00:00"
+}

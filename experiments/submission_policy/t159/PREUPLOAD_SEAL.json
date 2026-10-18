@@ -1,0 +1,205 @@
+{
+  "task_id": "T159",
+  "algorithm_id": "ALG049-V000",
+  "sealed_utc": "2026-09-13T14:48:45.393499+00:00",
+  "owner_authorized_upload": true,
+  "qualification_pass": true,
+  "archive_path": "experiments/submission_policy/t159/packages/ALG049-V000.tar.gz",
+  "archive_sha256": "f61fc6eb9e0525f6d40c8c856a46becb88a360d116d036d36a1e4024512f001e",
+  "source_hashes": {
+    "README.md": "faa77fdc05dcacbe86fc0bbdc9db6b2b147ad681202e955dc9a9cb45e83f19bb",
+    "LICENSE": "d2c9a83a86ed95c8d279219cd36d5a025c0372dee57d072fe4718850e226e740",
+    "estimator.py": "61375dbead94c8593db5684baa9619abb702f9016cefa937b4984acfd7d69039"
+  },
+  "research_equivalent_default_only_changes": true,
+  "production_score": {
+    "candidate": "H158-TRACE-WINOGRAD",
+    "source": "experiments/theory/t158/sources/P26_trace_winograd_pilot/estimator.py",
+    "source_sha256": "d61aaea1101c915ec15e53e3e6adfa5cc7450b27f16f524e001638ba35f112e7",
+    "environment": {
+      "V21_R_OLD": "320",
+      "V24_R_OLD2": "192",
+      "V26_STRASSEN": "6",
+      "V26_STRASSEN_MIN": "16"
+    },
+    "n": 8,
+    "adjusted_wins": 8,
+    "mean_adjusted_ratio": 0.9255308595392495,
+    "mean_raw_ratio": 1.0464854500132736,
+    "descriptive_network_bootstrap_support": 1.0,
+    "descriptive_network_bootstrap_ratio_90pct": [
+      0.9105929410026212,
+      0.9388536060016808
+    ],
+    "bootstrap_is_not_private_suite_probability": true,
+    "records": [
+      {
+        "row": 750,
+        "raw": 2.357374672941953e-08,
+        "parent_raw": 2.2526603445800444e-08,
+        "adjusted": 5.770004547289061e-09,
+        "parent_adjusted": 6.0158687048496146e-09,
+        "raw_ratio": 1.046484739083659,
+        "adjusted_ratio": 0.959130730801629,
+        "flops": 538241728384,
+        "parent_flops": 587262754287,
+        "residual": 0.2503511459144647
+      },
+      {
+        "row": 772,
+        "raw": 2.2231556183441152e-08,
+        "parent_raw": 2.139285948390113e-08,
+        "adjusted": 4.978785980012042e-09,
+        "parent_adjusted": 5.4330200441356786e-09,
+        "raw_ratio": 1.039204515888639,
+        "adjusted_ratio": 0.9163938177231777,
+        "flops": 492474123904,
+        "parent_flops": 558473140719,
+        "residual": 0.28477795106664416
+      },
+      {
+        "row": 817,
+        "raw": 1.9282489355414152e-08,
+        "parent_raw": 1.918155763216295e-08,
+        "adjusted": 4.239550456039357e-09,
+        "parent_adjusted": 4.844480157381286e-09,
+        "raw_ratio": 1.0052619148656605,
+        "adjusted_ratio": 0.8751301106228646,
+        "flops": 483488924800,
+        "parent_flops": 555383704047,
+        "residual": 0.2646061900013592
+      },
+      {
+        "row": 885,
+        "raw": 1.9392911516016616e-08,
+        "parent_raw": 1.8036984882874954e-08,
+        "adjusted": 4.237739233211939e-09,
+        "parent_adjusted": 4.55540770148711e-09,
+        "raw_ratio": 1.0751747945649737,
+        "adjusted_ratio": 0.9302656339252647,
+        "flops": 480530585472,
+        "parent_flops": 555383704047,
+        "residual": 0.2726290659447841
+      },
+      {
+        "row": 930,
+        "raw": 2.3393720923691395e-08,
+        "parent_raw": 2.1710303225408604e-08,
+        "adjusted": 5.111996148038999e-09,
+        "parent_adjusted": 5.4831382937258975e-09,
+        "raw_ratio": 1.0775400362125116,
+        "adjusted_ratio": 0.9323120946791403,
+        "flops": 480530585472,
+        "parent_flops": 555383704047,
+        "residual": 0.26568812502227956
+      },
+      {
+        "row": 976,
+        "raw": 2.1786552886417195e-08,
+        "parent_raw": 2.0503113547801374e-08,
+        "adjusted": 4.760797771235387e-09,
+        "parent_adjusted": 5.178251352242185e-09,
+        "raw_ratio": 1.0625972897054676,
+        "adjusted_ratio": 0.9193832912676129,
+        "flops": 480530585472,
+        "parent_flops": 555383704047,
+        "residual": 0.2663756247875426
+      },
+      {
+        "row": 795,
+        "raw": 2.4517569064777298e-08,
+        "parent_raw": 2.366317439234389e-08,
+        "adjusted": 6.00101827749305e-09,
+        "parent_adjusted": 6.31939700216275e-09,
+        "raw_ratio": 1.036106511251079,
+        "adjusted_ratio": 0.9496188125922872,
+        "flops": 538241728384,
+        "parent_flops": 587262754287,
+        "residual": 0.2523439781725756
+      },
+      {
+        "row": 999,
+        "raw": 2.0269469832531566e-08,
+        "parent_raw": 1.9684344583295356e-08,
+        "adjusted": 4.539374184684921e-09,
+        "parent_adjusted": 4.999118456193169e-09,
+        "raw_ratio": 1.0297254118246215,
+        "adjusted_ratio": 0.9080349314510254,
+        "flops": 492474123904,
+        "parent_flops": 558473140719,
+        "residual": 0.2898325750029471
+      }
+    ],
+    "maximum_residual_s": 0.2898325750029471,
+    "maximum_peak_rss_bytes": 7653724160,
+    "rss_headroom_bytes": 936210432,
+    "maximum_outer_wall_s": 54.82644616200014,
+    "flops_by_first_four_call_positions": [
+      538241728384,
+      492474123904,
+      483488924800,
+      480530585472
+    ],
+    "incumbent_flops_by_first_three_call_positions": [
+      587262754287,
+      558473140719,
+      555383704047
+    ],
+    "permutation_stress_adjusted_ratio": 0.9139595774593253,
+    "subjective_probability_of_retained_official_win": [
+      0.85,
+      0.95
+    ],
+    "subjective_central_probability": 0.9,
+    "conditional_gain_range": [
+      0.04,
+      0.1
+    ],
+    "illustrative_expected_retained_gain": 0.06300000000000001,
+    "forecast_note": "Judgment after adaptive reused-development pilots, transferred networks and permutation/resource checks; not a calibrated posterior or grade.",
+    "six_network_gain_attribution": {
+      "physics_adjusted_ratio": 0.9704091969746417,
+      "combined_adjusted_ratio": 0.9234757411759917,
+      "kernel_on_physics_adjusted_ratio": 0.9516353967532767,
+      "kernel_on_physics_raw_ratio": 0.9988284832410175
+    },
+    "cost_only_lifecycle_scenarios_at_observed_mean_raw_ratio": {
+      "all_cold": {
+        "candidate_flops": 538241728384,
+        "parent_flops": 587262754287,
+        "projected_adjusted_ratio": 0.9591313823872809
+      },
+      "one_worker_ten_calls": {
+        "candidate_flops": 487791887539.2,
+        "parent_flops": 558880552738.2,
+        "projected_adjusted_ratio": 0.9133742629677889
+      },
+      "settled": {
+        "candidate_flops": 480530585472,
+        "parent_flops": 555383704047,
+        "projected_adjusted_ratio": 0.9054429618990981
+      }
+    },
+    "lifecycle_scenario_limit": "Cost sensitivity only; cold recursion can change rounding, and official worker reuse is unknown. These are not extra measured network results."
+  },
+  "production_score_reused": true,
+  "qualification_full_size_calls": 5,
+  "settled_replay": true,
+  "resources": {
+    "maximum_residual_s": 0.3041107229964837,
+    "maximum_rss_bytes": 7654592512,
+    "maximum_outer_wall_s": 58.709521000999985,
+    "setup_s": 0.022269883000035406,
+    "flops": [
+      538241728384,
+      492474123904,
+      483488924800,
+      480530585472,
+      480530585472
+    ]
+  },
+  "grade_wait_minutes": 30,
+  "unchanged_generic_error_retry_limit": 1,
+  "new_target_fits": 0,
+  "final_blind_accessed": false
+}

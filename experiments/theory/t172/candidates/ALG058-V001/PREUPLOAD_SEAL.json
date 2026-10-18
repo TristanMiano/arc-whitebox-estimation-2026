@@ -1,0 +1,14 @@
+{
+  "algorithm_id": "ALG058-V001",
+  "archive_path": "experiments/theory/t172/candidates/ALG058-V001/ALG058-V001.tar.gz",
+  "archive_sha256": "2c28711f6d44709182886eb6e1535503af415ecd97721b46868b39f2ff0660db",
+  "qualification_pass": true,
+  "owner_authorized_upload": true,
+  "decision": "SUPPORTED_SUBMISSION",
+  "scored_utc": "2026-10-17T22:26:30.762971+00:00",
+  "score_path": "experiments/theory/t172/candidates/ALG058-V001/SCORE.json",
+  "automatic_decision": "REASSESS",
+  "judgment_utc": "2026-10-17T22:26:53.248719+00:00",
+  "decision_basis": "Positive0.1702% adjusted mean,8/12 wins,0.89306 bootstrap support, all archive/resource/replay checks pass. This is approximately the owner's prior90% preference; latest T172 instruction explicitly removes internal protocol restrictions. Use one bounded official feedback attempt on the fixed equal blend, retaining ALG055 if it loses. No claim that bootstrap support is a calibrated private-suite probability.",
+  "owner_protocol_override": "T172 latest owner mandate: no restrictions on research protocol other than best adjusted score, at least4hours work, and ARC rules."
+}

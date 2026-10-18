@@ -1,0 +1,153 @@
+{
+  "schema_version": "arc-t101-rc002-adjudication-v1",
+  "task": "T101",
+  "experiment_id_execution": "E087",
+  "experiment_id_adjudication": "E088",
+  "cycle_id": "RC002",
+  "status": "completed_negative_no_R1_no_P2_return_checkpoint3B",
+  "candidate_id": "ALG017-V000",
+  "mechanism_control_id": "ALG017-V001",
+  "incumbent_id": "ALG003-V008",
+  "evidence_bindings": {
+    "t099_cycle_seal_sha256": "b7bae78de3cb12bb358434f33f428f0a6c77706036b306380e77ef016f1f25c4",
+    "t100_result_sha256": "0aabdd682a7c7a1f6aebdd8c633ad6baa7f1a16042f71f8f32448251bb685f74",
+    "t100_mde_seal_sha256": "dd72180ab924fb448089c0a742bfa4b0e21119bac21adfd89b32388ccc829daf",
+    "t100_determinism_sha256": "a15e716df4493e29539fb5f5636e775d5bd573dadd0048742ff39929e8ad1d60",
+    "t100_t064_completion_sha256": "5d684033c1496d1bacaa20767c65f1b4ecf63c8ad37587ad211e413cae017793"
+  },
+  "evidence_completeness": {
+    "blocks": 3,
+    "routes": 72,
+    "missing_routes": 0,
+    "operational_failures": 0,
+    "nonfinite_predictions": 0,
+    "t064_complete_verified": true,
+    "mde_sealed_before_scores": true,
+    "two_compiler_preoutcome_parity": "PASS",
+    "six_route_full_payload_replay": "PASS_BYTE_EXACT",
+    "comparator_substitution": false
+  },
+  "r1_mechanism_confirmed": {
+    "status": "NOT_AWARDED",
+    "block_adjusted_score_ratio_strict_lt_1": {
+      "observations": [0.9615823004873548, 0.9172241691183931, 1.0031978850234051],
+      "margins": [0.03841769951264518, 0.08277583088160689, -0.0031978850234051],
+      "status": "FAIL-STRICT-GATE",
+      "failed_block": "B3"
+    },
+    "pooled_adjusted_score_ratio_strict_lt_1": {
+      "observation": 0.9622671563349947,
+      "favorable_margin": 0.03773284366500529,
+      "status": "PASS"
+    },
+    "bootstrap_upper_0_9875_strict_lt_1": {
+      "observation": 0.9852521037691104,
+      "favorable_margin": 0.01474789623088957,
+      "status": "PASS"
+    },
+    "mean_benefit_strict_gt_pair_mde": {
+      "benefit": 1.859584135882136E-8,
+      "pair_mde": 1.4967449979929958E-9,
+      "favorable_margin": 1.7099096360828364E-8,
+      "status": "PASS"
+    },
+    "pooled_p95_ratio_strict_lt_2_5": {
+      "observation": 1.1565283080330875,
+      "favorable_margin": 1.3434716919669125,
+      "status": "PASS"
+    },
+    "maximum_ratio_strict_lt_4": {
+      "observation": 1.2179491684965611,
+      "favorable_margin": 2.782050831503439,
+      "status": "PASS"
+    },
+    "identity_invariants_budget_reproducibility_mechanism_ablation": "PASS",
+    "primary_blocker_class": "STRICT_GATE_LIMITED_BLOCK_HETEROGENEITY",
+    "strict_gate_was_sole_blocker": true,
+    "mean_mechanism_evidence_direction": "POSITIVE_AND_WELL_RESOLVED",
+    "plain_language_reason": "The candidate has a resolved pooled mechanism benefit and passes every other frozen R1 condition, but B3 is 0.3198 percent adverse and the prospectively frozen every-block rule is conjunctive."
+  },
+  "p2_competitive": {
+    "status": "NOT_AWARDED",
+    "requires_r1": {
+      "observation": "R1_NOT_AWARDED",
+      "status": "FAIL-SEQUENTIAL"
+    },
+    "block_adjusted_score_ratio_lte_1_05": {
+      "observations": [1.4181561688042763, 0.7533296231697498, 1.4214738920503573],
+      "margins": [-0.3681561688042763, 0.2966703768302502, -0.3714738920503573],
+      "status": "FAIL-SCIENTIFIC",
+      "failed_blocks": ["B1", "B3"]
+    },
+    "pooled_adjusted_score_ratio_strict_lt_1": {
+      "observation": 1.1365456535192358,
+      "adverse_margin": 0.1365456535192358,
+      "status": "FAIL-SCIENTIFIC"
+    },
+    "bootstrap_upper_0_9875_strict_lt_1": {
+      "observation": 1.4060621800058504,
+      "adverse_margin": 0.4060621800058504,
+      "status": "FAIL-SCIENTIFIC"
+    },
+    "mean_benefit_strict_gt_pair_mde": {
+      "benefit": -5.697481899920606E-8,
+      "pair_mde": 2.6239559271804816E-8,
+      "adverse_margin": 8.321437827101087E-8,
+      "status": "FAIL-SCIENTIFIC"
+    },
+    "pooled_p95_ratio_strict_lt_2_5": {
+      "observation": 4.019953409882544,
+      "adverse_margin": 1.519953409882544,
+      "status": "FAIL-SCIENTIFIC"
+    },
+    "maximum_ratio_strict_lt_4": {
+      "observation": 5.270799968505426,
+      "adverse_margin": 1.2707999685054263,
+      "status": "FAIL-SCIENTIFIC"
+    },
+    "minimum_reserve_flops_gte_11000000000": {
+      "observation": 248159033733,
+      "favorable_margin": 237159033733,
+      "status": "PASS"
+    },
+    "primary_blocker_class": "SCIENTIFIC_NONCOMPETITIVENESS_AND_R1_PREREQUISITE",
+    "strict_gate_was_sole_blocker": false,
+    "plain_language_reason": "Two blocks, the pooled point estimate, familywise interval, target-noise resolution, and both tails independently reject incumbent competitiveness."
+  },
+  "surprise_assessment": {
+    "calibrated_rc002_outcome_prior_was_frozen": false,
+    "r1_result": "MILDLY_SURPRISING_SINGLE_BLOCK_REVERSAL",
+    "r1_reason": "T103 made a pooled mechanism win expected; the fresh pooled win persists, but a 0.3198 percent B3 reversal was mildly worse than expected and is the sole frozen R1 blocker.",
+    "p2_result": "MODERATELY_SURPRISING_COMPETITIVE_REVERSAL",
+    "p2_reason": "T103 had a context-only candidate/incumbent ratio of 0.726672, whereas the larger prospective cohort is 1.136546 with two adverse blocks. The earlier comparison was not confirmatory, so no probability or surprisal bits are invented.",
+    "surprise_bits": null
+  },
+  "submission_relevance": {
+    "submission_lane_comparable": false,
+    "phase2_adaptation_alg017_v002_already_noncompetitive": true,
+    "alg017_v002_ratio_to_then_incumbent_alg015_v000": 1.505848700509314,
+    "current_submission_candidate": "ALG018-V000",
+    "submission_candidate_changed": false
+  },
+  "routing": {
+    "rc002_slate_frozen_negative": true,
+    "rc002_blocks_consumed_historical": true,
+    "unchanged_alg017_family_more_expensive_compute_allowed": false,
+    "alg017_v000_historical_p1_preserved": true,
+    "return_to_checkpoint": "3B",
+    "next_fast_cycle": "FC007",
+    "next_task": "T106",
+    "next_task_purpose": "install competitive-leverage and fixed-duration theory policy before opening FC007",
+    "first_new_hypothesis_task_after_policy": "T107"
+  },
+  "owner_action_required": false,
+  "immediate_high_impact_unlock": "Agent executes T106 to restructure the research loop around fixed-duration theory generation and submission-competitive screens, then begins T107 without more ALG017 compute.",
+  "timing": {
+    "start": "2026-08-27T16:01:34,238893594-07:00",
+    "estimate_minutes": 25,
+    "plausible_range_minutes": [15, 40],
+    "end_check_off": "2026-08-27T16:06:26,068351108-07:00",
+    "elapsed": "00:04:51.829457514",
+    "elapsed_nanoseconds": 291829457514
+  }
+}

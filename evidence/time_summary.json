@@ -1,0 +1,13 @@
+{
+  "successful_algorithm_versions": 24,
+  "failed_attempts": 2,
+  "recorded_tasks_through_last_submission": 165,
+  "timed_tasks": 129,
+  "missing_task_times": 36,
+  "recorded_session_hours": 143.33841206025556,
+  "active_research_or_work_hours": 78.10828107527777,
+  "recorded_mathematics_hours": 46.57418325472222,
+  "overlapping_agent_person_hours": 4.7485188152777775,
+  "post_submission_documentation_minutes": 18.101951,
+  "caveat": "Recorded task sessions, not human hours or model token-thinking time. T172 active_work includes engineering/records. Untimed work and this release task are excluded."
+}

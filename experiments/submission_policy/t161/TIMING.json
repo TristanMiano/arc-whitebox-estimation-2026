@@ -1,0 +1,32 @@
+{
+  "task_id": "T161",
+  "start_utc": "2026-09-20T02:29:51+00:00",
+  "record_completion_utc": "2026-09-20T03:10:07.414214+00:00",
+  "elapsed_minutes": 40.27357023333333,
+  "estimate_total_range_minutes": [
+    45,
+    90
+  ],
+  "estimate_error_minutes": [
+    -4.726429766666669,
+    -49.72642976666667
+  ],
+  "elapsed_through_first_acceptance_minutes": 9.018400000000002,
+  "official_wait_records": [
+    {
+      "submission_id": 331607,
+      "accepted_utc": "2026-09-20T02:38:52.104Z",
+      "latest_changed_state_observed_utc": "2026-09-20T03:08:53+00:00",
+      "latest_status": "graded",
+      "minutes_to_latest_changed_state": 30.01493333333333,
+      "monitor_elapsed_seconds": 1801.339195728302,
+      "deadline_utc": "2026-09-20T03:38:52.104000+00:00"
+    }
+  ],
+  "metered_prediction_minutes": 3.0191667135666647,
+  "initial_active_engineering_budget_minutes": 60,
+  "engineering_budget_extended": false,
+  "grade_wait_minutes_per_attempt": 60,
+  "no_minimum_duration": true,
+  "accounting_note": "Wallclock milestones and metered prediction durations. Waiting overlaps record preparation; intervals are not additive and no exact exclusive active-time claim is made. Final verification/Git delivery after this record is excluded."
+}

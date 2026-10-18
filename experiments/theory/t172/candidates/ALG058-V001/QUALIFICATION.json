@@ -1,0 +1,226 @@
+{
+  "algorithm_id": "ALG058-V001",
+  "probe": "P82_anchor_merged",
+  "archive_path": "experiments/theory/t172/candidates/ALG058-V001/ALG058-V001.tar.gz",
+  "archive_sha256": "2c28711f6d44709182886eb6e1535503af415ecd97721b46868b39f2ff0660db",
+  "source_hashes": {
+    "README.md": "09b332389c335f2131a3456d35454bdb513c18d33707af9f9da19723b72ca4ff",
+    "LICENSE": "17cf7ad008400756c32ef01c6e20d3c33b38e6e51bc16cf0cea664358a3492ec",
+    "nn_asset.json": "bd824f7c1a7e4d1392e0b8507931e973237eb3ca02cabc9a07b66970d2c8e856",
+    "ALG053_LICENSE": "d2c9a83a86ed95c8d279219cd36d5a025c0372dee57d072fe4718850e226e740",
+    "estimator.py": "6c295943161d1365afa042948770e451091d6fe16706ee7728505ece62b4ab44"
+  },
+  "records": [
+    {
+      "call": 0,
+      "row": 817,
+      "meter": {
+        "flops": 329295094309,
+        "wall_time_s": 42.73363648600025,
+        "residual_wall_time_s": 0.38555631887356867,
+        "outer_wall_time_s": 42.73368773199945
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "peak_rss_bytes": 5851340800,
+      "setup_s": 0.023874563999925158,
+      "prediction_sha256": "4e252d163050c04310963eec1ca06a1918f9f417cebc0d519eef5e7d021fceef"
+    },
+    {
+      "call": 1,
+      "row": 840,
+      "meter": {
+        "flops": 345292308681,
+        "wall_time_s": 41.53821654100102,
+        "residual_wall_time_s": 0.37249618487294356,
+        "outer_wall_time_s": 41.53827022099904
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "peak_rss_bytes": 5856653312,
+      "setup_s": 0.023874563999925158,
+      "prediction_sha256": "01f7916e7b13cc0874cb9bd95d05bfbec7e915f7f3aadc39c0dedb73654a44f6"
+    },
+    {
+      "call": 2,
+      "row": 863,
+      "meter": {
+        "flops": 334292521973,
+        "wall_time_s": 41.565034253000704,
+        "residual_wall_time_s": 0.3795304048235266,
+        "outer_wall_time_s": 41.565086857001006
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "peak_rss_bytes": 5885964288,
+      "setup_s": 0.023874563999925158,
+      "prediction_sha256": "b9d79d1a09bbf4e3a78cec2952db5359d98a4600dd697835d47c4f4ae1563f36"
+    },
+    {
+      "call": 3,
+      "row": 885,
+      "meter": {
+        "flops": 347415737981,
+        "wall_time_s": 42.92340556400086,
+        "residual_wall_time_s": 0.3876608272330486,
+        "outer_wall_time_s": 42.92345692299932
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "peak_rss_bytes": 5885964288,
+      "setup_s": 0.023874563999925158,
+      "prediction_sha256": "56a39b6bc592e4147f322441ed6a81629ae03c921c8282da4fc820898cb2fd90"
+    },
+    {
+      "call": 4,
+      "row": 908,
+      "meter": {
+        "flops": 335067521226,
+        "wall_time_s": 40.3369691150001,
+        "residual_wall_time_s": 0.3642872039654321,
+        "outer_wall_time_s": 40.33702177499981
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "peak_rss_bytes": 5907140608,
+      "setup_s": 0.023874563999925158,
+      "prediction_sha256": "260873a7d9a3a71222a2bbae0eb890e564ea3e3332e2c2edafebc7bbae38ed83"
+    },
+    {
+      "call": 5,
+      "row": 930,
+      "meter": {
+        "flops": 351376066657,
+        "wall_time_s": 41.83777312099846,
+        "residual_wall_time_s": 0.3698852690504282,
+        "outer_wall_time_s": 41.837825949000035
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "peak_rss_bytes": 6041292800,
+      "setup_s": 0.023874563999925158,
+      "prediction_sha256": "2df21dd22c8c5e5d20e0b983dd905ac070d51d538da9a777905cfe6eea0de809"
+    },
+    {
+      "call": 6,
+      "row": 953,
+      "meter": {
+        "flops": 329654472381,
+        "wall_time_s": 41.31992562499909,
+        "residual_wall_time_s": 0.3747438229911495,
+        "outer_wall_time_s": 41.319977616998585
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "peak_rss_bytes": 6060072960,
+      "setup_s": 0.023874563999925158,
+      "prediction_sha256": "3bdbdab082da38ff86172d91409e7d411062c4c69e9fea092aec90e4c474a752"
+    },
+    {
+      "call": 7,
+      "row": 999,
+      "meter": {
+        "flops": 342658266835,
+        "wall_time_s": 41.74105196099845,
+        "residual_wall_time_s": 0.37247704583023733,
+        "outer_wall_time_s": 41.74110581000059
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true
+      },
+      "peak_rss_bytes": 6073507840,
+      "setup_s": 0.023874563999925158,
+      "prediction_sha256": "f81430516d190a031270dcc88a2960388a3f94ba314ce37984413e34ae67734e"
+    },
+    {
+      "call": 8,
+      "row": 999,
+      "meter": {
+        "flops": 342658266835,
+        "wall_time_s": 41.277506471999004,
+        "residual_wall_time_s": 0.36820828720556165,
+        "outer_wall_time_s": 41.27755792300013
+      },
+      "checks": {
+        "finite": true,
+        "flops": true,
+        "residual": true,
+        "wall": true,
+        "memory": true,
+        "setup": true,
+        "byte_replay": true
+      },
+      "peak_rss_bytes": 6086852608,
+      "setup_s": 0.023874563999925158,
+      "prediction_sha256": "f81430516d190a031270dcc88a2960388a3f94ba314ce37984413e34ae67734e"
+    }
+  ],
+  "imports": [
+    "__future__",
+    "flopscope",
+    "flopscope.numpy",
+    "gc",
+    "json",
+    "local_engine",
+    "math",
+    "os",
+    "pathlib",
+    "re",
+    "whestbench",
+    "whestbench.domain"
+  ],
+  "manifest_pass": true,
+  "clean_archive_pass": true,
+  "fallback_pass": true,
+  "pass_": true,
+  "runtime": "FlopScope0.12.3/WhestBench0.16.2/Python3.12.3",
+  "targets_accessed": false,
+  "utc": "2026-10-17T22:26:30.171507+00:00"
+}

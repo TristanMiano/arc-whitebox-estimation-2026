@@ -1,0 +1,10 @@
+{
+  "algorithm_id": "ALG058-V001",
+  "archive_path": "experiments/theory/t172/candidates/ALG058-V001/ALG058-V001.tar.gz",
+  "archive_sha256": "2c28711f6d44709182886eb6e1535503af415ecd97721b46868b39f2ff0660db",
+  "qualification_pass": true,
+  "owner_authorized_upload": true,
+  "decision": "REASSESS",
+  "scored_utc": "2026-10-17T22:26:30.762971+00:00",
+  "score_path": "experiments/theory/t172/candidates/ALG058-V001/SCORE.json"
+}

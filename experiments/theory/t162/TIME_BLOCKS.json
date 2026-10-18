@@ -1,0 +1,495 @@
+{
+  "closed": [
+    {
+      "category": "administration",
+      "start_utc": "2026-09-20T04:52:51+00:00",
+      "end_utc": "2026-09-20T04:54:34.368036+00:00",
+      "minutes": 1.7228006,
+      "note": "Read live protocol, prior research and qualification; register scope"
+    },
+    {
+      "category": "literature",
+      "start_utc": "2026-09-20T04:54:34.368036+00:00",
+      "note": "Focused source refresh and adjacent fourth-moment/conditional-closure literature",
+      "end_utc": "2026-09-20T04:58:17.849675+00:00",
+      "minutes": 3.7246939833333332
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-20T04:58:17.849675+00:00",
+      "note": "Finite bounded fourth residual and source bookkeeping; prior literature informs exact truncation",
+      "end_utc": "2026-09-20T05:05:43.343720+00:00",
+      "minutes": 7.424900750000001
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-20T05:05:43.343720+00:00",
+      "note": "Implement generated transported-trace identity and bounded fourth residual prototypes",
+      "end_utc": "2026-09-20T05:14:46.907911+00:00",
+      "minutes": 9.059403183333334
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-20T05:14:46.907911+00:00",
+      "note": "Distributed positive-state capacity and an analytic random-features alternative; interpret early integrated failures",
+      "end_utc": "2026-09-20T05:17:44.430042+00:00",
+      "minutes": 2.9587021833333336
+    },
+    {
+      "category": "literature",
+      "start_utc": "2026-09-20T05:17:44.430042+00:00",
+      "note": "Targeted adjacent search: polynomial translation joint laws, low-rank-plus-diagonal quadratic-form cumulants and nonlinear projection",
+      "end_utc": "2026-09-20T05:21:45.196467+00:00",
+      "minutes": 4.01277375
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-20T05:21:45.196467+00:00",
+      "note": "Exact low-rank-plus-diagonal quadratic cumulants, projection feasibility, and support-aware moment metrics",
+      "end_utc": "2026-09-20T05:26:56.390231+00:00",
+      "minutes": 5.186562733333333
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-20T05:26:56.390231+00:00",
+      "note": "Implement post-weight age compression and verify new trace formulas; continue existing short capacity probes",
+      "end_utc": "2026-09-20T05:40:25.489645+00:00",
+      "minutes": 13.484990233333333
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-20T05:40:25.489645+00:00",
+      "note": "Evaluate compact post-weight pilot and distributed capacity results",
+      "end_utc": "2026-09-20T05:41:08.677835+00:00",
+      "minutes": 0.7198031666666667
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-20T05:41:08.677835+00:00",
+      "note": "Interpret distributed-law capacity failure; derive native cubic diagonal protection and full-rank positive perturbation alternatives",
+      "end_utc": "2026-09-20T05:43:16.462037+00:00",
+      "minutes": 2.1297367
+    },
+    {
+      "category": "administration",
+      "start_utc": "2026-09-20T05:43:16.462037+00:00",
+      "note": "Save scoped crash-recovery checkpoint of early research",
+      "end_utc": "2026-09-20T05:43:16.594169+00:00",
+      "minutes": 0.0022022
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-20T05:43:16.594169+00:00",
+      "note": "Build and test trace-free cubic diagonal protection; bounded unchanged runtime retry",
+      "end_utc": "2026-09-20T05:46:12.254684+00:00",
+      "minutes": 2.92767525
+    },
+    {
+      "category": "literature",
+      "start_utc": "2026-09-20T05:46:12.254684+00:00",
+      "note": "Investigate graph-cumulant resummation and residual-aware tensor transport; distinguish prior failed geometry from new options",
+      "end_utc": "2026-09-20T05:48:45.730027+00:00",
+      "minutes": 2.5579223833333335
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-20T05:48:45.730027+00:00",
+      "note": "Develop a complete bounded native-third-by-covariance fourth source and its future trace contractions",
+      "end_utc": "2026-09-20T05:52:27.402821+00:00",
+      "minutes": 3.694546566666667
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-20T05:52:27.402821+00:00",
+      "note": "Check native/repeated3+2 fourth identities and saved-state capacity; retry compact diagonal pilot unchanged",
+      "end_utc": "2026-09-20T05:56:16.311303+00:00",
+      "minutes": 3.8151413666666665
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-20T05:56:16.311303+00:00",
+      "note": "Derive direct trilinear contraction for full native3+2 future diagonal without forming T(:,q,q)",
+      "end_utc": "2026-09-20T05:57:35.815710+00:00",
+      "minutes": 1.32507345
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-20T05:57:35.815710+00:00",
+      "note": "Implement one bounded full-native3+2 accuracy preflight, with actual metering",
+      "end_utc": "2026-09-20T05:59:02.055552+00:00",
+      "minutes": 1.4373307
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-20T05:59:02.055552+00:00",
+      "note": "Derive transport-aware oblique compression using sketch maps and post-boundary trace repair",
+      "end_utc": "2026-09-20T06:01:52.430341+00:00",
+      "minutes": 2.8395798166666664
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-20T06:01:52.430341+00:00",
+      "note": "Meter direct-weight-metric compression and inspect full-native fourth preflight",
+      "end_utc": "2026-09-20T06:10:06.729116+00:00",
+      "minutes": 8.238312916666667
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-20T06:10:06.729116+00:00",
+      "note": "Derive conditional trilinear3+2 response from an already observed cubic ray and covariance trace; assess information/computation reuse",
+      "end_utc": "2026-09-20T06:16:18.252643+00:00",
+      "minutes": 6.192058783333334
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-20T06:16:18.252643+00:00",
+      "note": "P18 constrained covariance-prior capacity and P19 cheap retained-ray integrated prototype",
+      "end_utc": "2026-09-20T06:20:27.000427+00:00",
+      "minutes": 4.1457964
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-20T06:20:27.000427+00:00",
+      "note": "Recover trilinear query from next mixed cubic slices through a linear pullback; derive stable restricted variants and cost boundary",
+      "end_utc": "2026-09-20T06:22:14.125905+00:00",
+      "minutes": 1.7854246333333335
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-20T06:22:14.125905+00:00",
+      "note": "P20 actual-weight mixed-slice pullback stability with gate cancellation, alongside small complete-fourth runtime feasibility",
+      "end_utc": "2026-09-20T06:29:54.929028+00:00",
+      "minutes": 7.6800520500000005
+    },
+    {
+      "category": "literature",
+      "start_utc": "2026-09-20T06:29:54.929028+00:00",
+      "note": "Targeted adjacent literature: stable cumulant truncation and function-space alternatives to finite moment closure",
+      "end_utc": "2026-09-20T06:32:51.650464+00:00",
+      "minutes": 2.945357266666667
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-20T06:32:51.650464+00:00",
+      "note": "Separate Torch recurrence from SciPy reference to preserve diagnostic output despite import failures; examine complete-order width scaling",
+      "end_utc": "2026-09-20T06:36:11.590225+00:00",
+      "minutes": 3.33232935
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-20T06:36:11.590225+00:00",
+      "note": "Global quadratic-Gaussian skew/kurtosis feasibility, native-tensor lift covariance budget, and higher-chaos alternatives",
+      "end_utc": "2026-09-20T06:38:30.755999+00:00",
+      "minutes": 2.3194295666666664
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-20T06:38:30.755999+00:00",
+      "note": "P22 exact quadratic-family feasibility and correlated higher-chaos marginal diagnostics",
+      "end_utc": "2026-09-20T06:50:35.240787+00:00",
+      "minutes": 12.074746466666666
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-20T06:50:35.240787+00:00",
+      "note": "Moment-and-trace constrained higher-chaos copula: derive leading trace solve and exact scalar feasibility equations",
+      "end_utc": "2026-09-20T06:56:20.850219+00:00",
+      "minutes": 5.7601572
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-20T06:56:20.850219+00:00",
+      "note": "Measure higher-order cubic increment capacity; run a feedback-basis accuracy variant without narrowed pooled views",
+      "end_utc": "2026-09-20T07:02:15.882006+00:00",
+      "minutes": 5.9171964500000005
+    },
+    {
+      "category": "administration",
+      "start_utc": "2026-09-20T07:02:15.882006+00:00",
+      "note": "Second scoped checkpoint and crash-resume note",
+      "end_utc": "2026-09-20T07:05:57.924849+00:00",
+      "minutes": 3.70071405
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-20T07:05:57.924849+00:00",
+      "note": "Paired fourth-feedback sidecar: exact projection, repeated-sector repair and transport cost",
+      "end_utc": "2026-09-20T07:09:05.551873+00:00",
+      "minutes": 3.1271170666666666
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-20T07:09:05.551873+00:00",
+      "note": "P27 recurrent paired-sidecar capacity and exact repeated-sector identity checks",
+      "end_utc": "2026-09-20T07:11:50.302525+00:00",
+      "minutes": 2.7458442
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-20T07:11:50.302525+00:00",
+      "note": "Persistent quartic pair-state compression, repeated-sector invariance, and matrix-free contractions",
+      "end_utc": "2026-09-20T07:15:52.967734+00:00",
+      "minutes": 4.04442015
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-20T07:15:52.967734+00:00",
+      "note": "P29 compact persistent signed-pair fourth state, optional trace and nested matrix repair",
+      "end_utc": "2026-09-20T07:20:17.695542+00:00",
+      "minutes": 4.412130133333333
+    },
+    {
+      "category": "literature",
+      "start_utc": "2026-09-20T07:20:17.695542+00:00",
+      "note": "Adjacent double-factorization and tensor-hypercontraction methods for signed quartic state",
+      "end_utc": "2026-09-20T07:23:31.398239+00:00",
+      "minutes": 3.2283782833333334
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-20T07:23:31.398239+00:00",
+      "note": "P32 width scaling of compact fourth state against complete third recurrences; P19 fallback expansion; interrupted immediately after launch, conservatively credited zero minutes",
+      "end_utc": "2026-09-20T07:23:31.398239+00:00",
+      "minutes": 0.0
+    },
+    {
+      "category": "passive",
+      "start_utc": "2026-09-20T07:23:31.398239+00:00",
+      "end_utc": "2026-09-20T14:38:43+00:00",
+      "minutes": 435.19336268333336,
+      "note": "Owner-reported abrupt interruption; no active work credited. Runtime processes absent on return."
+    },
+    {
+      "category": "administration",
+      "start_utc": "2026-09-20T14:38:43+00:00",
+      "note": "Recover T162 after interruption; audit completed outputs and repair exclusive clock",
+      "end_utc": "2026-09-20T14:40:06.792998+00:00",
+      "minutes": 1.3965499666666665
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-20T14:40:06.792998+00:00",
+      "note": "Resume P32b wider compact-fourth recurrence after crash; rebuild only interrupted work",
+      "end_utc": "2026-09-20T14:41:10.507956+00:00",
+      "minutes": 1.0619159666666667
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-20T14:41:10.507956+00:00",
+      "note": "Matrix-free fourth-cumulant Hessian sketches and exact nested cubic response; control-operator boundary limits",
+      "end_utc": "2026-09-20T14:52:42.622195+00:00",
+      "minutes": 11.535237316666667
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-20T14:52:42.622195+00:00",
+      "note": "P34 independent Price-series identity check for matrix-free Gaussian fourth birth; P35 augmented runtime diagnosis",
+      "end_utc": "2026-09-20T14:54:15.454118+00:00",
+      "minutes": 1.5471987166666668
+    },
+    {
+      "category": "administration",
+      "start_utc": "2026-09-20T14:54:15.454118+00:00",
+      "note": "Scoped crash-safe checkpoint before matrix-free quartic construction",
+      "end_utc": "2026-09-20T14:54:30.877540+00:00",
+      "minutes": 0.25705703333333335
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-20T14:54:30.877540+00:00",
+      "note": "Validate and prototype matrix-free quartic actions; check wider-state capacity without further fallback fitting",
+      "end_utc": "2026-09-20T15:13:54.421398+00:00",
+      "minutes": 19.392397633333335
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-20T15:13:54.421398+00:00",
+      "note": "Derive structured unsymmetrized quartic lift and coherent incoming fourth response; use completed capacity probes to choose representation",
+      "end_utc": "2026-09-20T15:21:08.078567+00:00",
+      "minutes": 7.227619483333333
+    },
+    {
+      "category": "literature",
+      "start_utc": "2026-09-20T15:21:08.078567+00:00",
+      "note": "Broaden search around stable quartic representations and deterministic control variates; relate sources to measured construction failures",
+      "end_utc": "2026-09-20T15:25:01.360426+00:00",
+      "minutes": 3.888030983333333
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-20T15:25:01.360426+00:00",
+      "note": "Apply literature-motivated proportional sketch truncation; test a distinct three-leg quartic projection and larger-width transfer",
+      "end_utc": "2026-09-20T15:29:39.826669+00:00",
+      "minutes": 4.64110405
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-20T15:29:39.826669+00:00",
+      "note": "Derive common binary mean/covariance mixture, exact marginal roots and necessary joint PSD constraints; alternative to the failed quadratic-Gaussian family",
+      "end_utc": "2026-09-20T15:32:05.896763+00:00",
+      "minutes": 2.434501566666667
+    },
+    {
+      "category": "administration",
+      "start_utc": "2026-09-20T15:32:05.896763+00:00",
+      "note": "Checkpoint recovered and subsequent work to protect against another abrupt interruption",
+      "end_utc": "2026-09-20T15:32:37.053130+00:00",
+      "minutes": 0.5192727833333334
+    },
+    {
+      "category": "literature",
+      "start_utc": "2026-09-20T15:32:37.053130+00:00",
+      "note": "Review adjacent Gaussian-mixture moment compression and stable tensor algorithms; choose concrete continuation instead of adding weak rank variants",
+      "end_utc": "2026-09-20T15:36:24.867055+00:00",
+      "minutes": 3.79689875
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-20T15:36:24.867055+00:00",
+      "note": "Check exact structured feature Gram and metric-correct native fourth constructor; distinguish representation capacity from deficient compression metric",
+      "end_utc": "2026-09-20T15:37:50+00:00",
+      "minutes": 1.4188824166666667
+    },
+    {
+      "category": "passive",
+      "start_utc": "2026-09-20T15:37:50+00:00",
+      "end_utc": "2026-09-20T15:44:08.090420+00:00",
+      "minutes": 6.301507,
+      "note": "Second user-reported crash. Conservatively exclude gap after last verified UTC clock; newer analysis time not credited. Research process no longer running; WSL processes restarted."
+    },
+    {
+      "category": "administration",
+      "start_utc": "2026-09-20T15:44:08.090420+00:00",
+      "note": "Recover second interruption and checkpoint files; no heavier augmented-fourth retry",
+      "end_utc": "2026-09-20T15:44:36.699915+00:00",
+      "minutes": 0.47682491666666665
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-20T15:44:36.699915+00:00",
+      "note": "Low-memory final observable projection check and interpretation; no retry of interrupted high-memory augmented fourth run",
+      "end_utc": "2026-09-20T15:46:23.408729+00:00",
+      "minutes": 1.7784802333333334
+    },
+    {
+      "category": "literature",
+      "start_utc": "2026-09-20T15:46:23.408729+00:00",
+      "note": "Finish source-to-route transfer notes, including Gaussian-mixture existence versus economical construction and quartic observable metrics",
+      "end_utc": "2026-09-20T15:49:13.215968+00:00",
+      "minutes": 2.83012065
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-20T15:49:13.215968+00:00",
+      "note": "Derive exact Gaussian fourth trace and harmonic/cup decomposition; determine whether observable error lives in a cheap trace matrix",
+      "end_utc": "2026-09-20T15:54:41.208211+00:00",
+      "minutes": 5.466537383333333
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-20T15:54:41.208211+00:00",
+      "note": "P52 independently check closed-form fourth trace and test trace-only / repaired quadratic state on saved full-width layers",
+      "end_utc": "2026-09-20T15:58:42.190685+00:00",
+      "minutes": 4.016374566666666
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-20T15:58:42.190685+00:00",
+      "note": "Write Gaussian observable norm, exact fourth trace and trace-plus-diagonal projection; analyze missing recurrent information and transport cost",
+      "end_utc": "2026-09-20T15:58:56.620354+00:00",
+      "minutes": 0.24049448333333334
+    },
+    {
+      "category": "selection",
+      "start_utc": "2026-09-20T15:58:56.620354+00:00",
+      "note": "Compare retained accuracy evidence, width transfer and reference uncertainty; choose finite next research questions and update route forecasts",
+      "end_utc": "2026-09-20T16:01:53.989222+00:00",
+      "minutes": 2.9561477999999997
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-20T16:01:53.989222+00:00",
+      "note": "P56 reveals aligned but excessive fourth response; test trace-only at n256 and predeclared half blend before final route selection",
+      "end_utc": "2026-09-20T16:03:32.831535+00:00",
+      "minutes": 1.6473718833333335
+    },
+    {
+      "category": "derivation",
+      "start_utc": "2026-09-20T16:03:32.831535+00:00",
+      "note": "Trace-free-first compression: preserve exact cup separately, spend pair rank on the harmonic residual, then remove residual trace after approximation",
+      "end_utc": "2026-09-20T16:05:47.962102+00:00",
+      "minutes": 2.252176116666667
+    },
+    {
+      "category": "selection",
+      "start_utc": "2026-09-20T16:05:47.962102+00:00",
+      "note": "Integrate trace/coupling failures, half-response diagnostic, realistic production cost, and scoped success forecasts; prepare bounded continuation rather than a forced nominee",
+      "end_utc": "2026-09-20T16:07:03.145931+00:00",
+      "minutes": 1.2530638166666668
+    },
+    {
+      "category": "administration",
+      "start_utc": "2026-09-20T16:07:03.145931+00:00",
+      "note": "Checkpoint recovered derivations and completed low-memory tests; excluded from research floor",
+      "end_utc": "2026-09-20T16:07:03.377666+00:00",
+      "minutes": 0.00386225
+    },
+    {
+      "category": "selection",
+      "start_utc": "2026-09-20T16:07:03.377666+00:00",
+      "note": "Rank untested fourth-response and positive-state continuations, with cheap reserves; cost-adjust forecasts and distinguish reference uncertainty from width failure",
+      "end_utc": "2026-09-20T16:07:18.233575+00:00",
+      "minutes": 0.24759848333333334
+    },
+    {
+      "category": "literature",
+      "start_utc": "2026-09-20T16:07:18.233575+00:00",
+      "note": "Adjacent methods: conservative low-rank compression and stability of moment closure; check whether they supply a useful trace-plus-residual construction",
+      "end_utc": "2026-09-20T16:11:42.352748+00:00",
+      "minutes": 4.401986216666667
+    },
+    {
+      "category": "selection",
+      "start_utc": "2026-09-20T16:11:42.352748+00:00",
+      "note": "Finalize research priorities: target analytic response rather than factor norm; account for ensemble cost and current native core overlap; explicit forecasts and stop conditions",
+      "end_utc": "2026-09-20T16:13:25.519207+00:00",
+      "minutes": 1.7194409833333333
+    },
+    {
+      "category": "empirical",
+      "start_utc": "2026-09-20T16:13:25.519207+00:00",
+      "note": "P59 final targeted capacity test: fit known next-W analytic queries and inspect two-layer effective rays; separate white-box projection from challenge-label fitting",
+      "end_utc": "2026-09-20T16:15:37.242151+00:00",
+      "minutes": 2.1953824
+    },
+    {
+      "category": "selection",
+      "start_utc": "2026-09-20T16:15:37.242151+00:00",
+      "note": "Final synthesis after known-future query test: simple analytic projection transfers better than a flexible core, but neither is an integrated candidate",
+      "end_utc": "2026-09-20T16:19:49.510671+00:00",
+      "minutes": 4.204475333333333
+    },
+    {
+      "category": "administration",
+      "start_utc": "2026-09-20T16:19:49.510671+00:00",
+      "note": "Prepare durable completion/state records; routine bookkeeping excluded from the active research floor",
+      "end_utc": "2026-09-20T16:20:06.765177+00:00",
+      "minutes": 0.2875751
+    },
+    {
+      "category": "selection",
+      "start_utc": "2026-09-20T16:20:06.765177+00:00",
+      "note": "Final decision sensitivity: compare raw-gain versus compute break-even, distinguish error cancellation from tensor damping, and sharpen the next prototype stop condition",
+      "end_utc": "2026-09-20T16:22:42.747204+00:00",
+      "minutes": 2.59970045
+    },
+    {
+      "category": "administration",
+      "start_utc": "2026-09-20T16:22:42.747204+00:00",
+      "note": "Finalize completed research records and scoped verification",
+      "end_utc": "2026-09-20T16:23:24.261768+00:00",
+      "minutes": 0.6919094
+    }
+  ],
+  "active": null
+}

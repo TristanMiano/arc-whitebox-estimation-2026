@@ -1,0 +1,15 @@
+{
+  "verified_utc": "2026-09-11T06:49:09.986237+00:00",
+  "checks": [
+    "JSON syntax for task records and live state",
+    "Unique E143 event and completed T148 / proposed T149 state",
+    "All three actual research floors satisfied",
+    "New task-document local links exist",
+    "Incumbent estimator SHA256 unchanged",
+    "Scoped git diff has no whitespace errors"
+  ],
+  "preserved_generated_check_records_read": 15,
+  "generated_checks_rerun_during_recovery": false,
+  "candidate_executed": false,
+  "source_sha256": "86d9ca9b28e6fe2b6c74750a0b6ae4bba4c14f742ddc3f5f56bc7fb4ec9d8e27"
+}

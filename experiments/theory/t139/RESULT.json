@@ -1,0 +1,159 @@
+{
+  "task_id": "T139",
+  "experiment_id": "E134",
+  "status": "COMPLETED_TWO_NOMINEES_NO_CANDIDATE_RUN",
+  "report": "experiments/theory/t139/REPORT.md",
+  "scratchpad": "experiments/theory/t139/SCRATCHPAD.md",
+  "nominees": [
+    {
+      "id": "H139-C64E",
+      "priority": 1,
+      "handoff": "C64E_MATHEMATICAL_HANDOFF.md",
+      "projected_flops": 427997897198,
+      "planning_probability_official_gain": 0.55,
+      "subjective_range": [
+        0.35,
+        0.7
+      ],
+      "candidate_evaluated": false
+    },
+    {
+      "id": "H139-Q4D",
+      "priority": 2,
+      "handoff": "Q4D_MATHEMATICAL_HANDOFF.md",
+      "projected_flops": 814932490478,
+      "planning_probability_official_gain": 0.3,
+      "subjective_range": [
+        0.15,
+        0.45
+      ],
+      "candidate_evaluated": false
+    }
+  ],
+  "preferred_next_task": "T140",
+  "next_task_started": false,
+  "incumbent": {
+    "algorithm_id": "ALG038-V001",
+    "submission_id": 330153,
+    "adjusted_score": 1.4667675875416682e-08,
+    "final_layer_mse": 4.261352437140431e-08,
+    "vs_sampling_approx": 81.81255232202287,
+    "predecessor": "ALG038-V000_submission_330141",
+    "adjusted_ratio_to_predecessor": 0.8444606124765383,
+    "adjusted_relative_reduction": 0.15553938752346175
+  },
+  "official_best_changed": false,
+  "new_algorithm_registered": false,
+  "production_candidate_calls": 0,
+  "small_generated_reference_trajectories": true,
+  "candidate_fit_calls": 0,
+  "new_challenge_predictions": 0,
+  "challenge_targets_accessed": false,
+  "final_blind_accessed": false,
+  "uploads": 0,
+  "subagents": 0,
+  "usage_resets_redeemed": 0,
+  "permanent_protocol_change": false,
+  "costs_are_projections_not_measurements": true,
+  "mathematical_checks": [
+    "CONDITIONAL_SOURCE_BOUNDARY_CHECKS.json",
+    "CONDITIONAL_SOURCE_CHECKS.json",
+    "COVARIANCE_GEOMETRY_CHECKS.json",
+    "FOURTH_PROJECTION_CHECKS.json",
+    "GAUGE_SCALAR_CHECK.json",
+    "HISTORY_GEOMETRY_CHECKS.json",
+    "OBSERVABLE_TRACE_CHECKS.json",
+    "ONE_LEG_CHECKS.json",
+    "REMAINDER_CORE_CHECKS.json",
+    "RESPONSE_IMPULSE_CHECKS.json",
+    "TWO_LEG_CHECKS.json"
+  ],
+  "retained_errors": [
+    "Initial static bilinear sketch count used4 instead of6 generic products; corrected before nomination.",
+    "Fourth-moment reference index0 convention error retained in FOURTH_PROJECTION_INITIAL_RAW_ZERO_CONVENTION_ERROR.json and corrected."
+  ],
+  "timing": {
+    "task_id": "T139",
+    "start_utc": "2026-09-08T16:45:33+00:00",
+    "end_utc": "2026-09-08T18:46:33.983719+00:00",
+    "elapsed_minutes": 121.01639531666666,
+    "useful_minutes": 120.05111628333333,
+    "active_theory_minutes": 92.37342444999999,
+    "literature_minutes": 10.66506055,
+    "selection_and_handoff_minutes": 17.012631283333334,
+    "excluded_setup_minutes": 0.9652790333333333,
+    "minimum_useful_minutes": 120,
+    "minimum_active_theory_minutes": 90,
+    "estimated_elapsed_minutes": [
+      120,
+      150
+    ],
+    "estimate_is_hard_ceiling": false,
+    "error_to_estimate_lower_minutes": 1.0163953166666602,
+    "error_to_estimate_upper_minutes": -28.98360468333334,
+    "both_floors_met": true,
+    "method": "Prospectively switched observed UTC blocks; active mathematical writing, derivation and short generated checks counted as theory. Search and selection/handoff separate. Setup excluded; no idle waits or agents. Time through record preparation, before final ledger write and commit.",
+    "blocks": [
+      {
+        "start": "2026-09-08T16:45:33+00:00",
+        "end": "2026-09-08T16:46:30.916742+00:00",
+        "category": "setup",
+        "note": "Read governing instructions, approved scope and source index."
+      },
+      {
+        "start": "2026-09-08T16:46:30.916742+00:00",
+        "category": "literature",
+        "note": "Focused prior-art and incumbent recurrence review.",
+        "end": "2026-09-08T16:51:19.992237+00:00"
+      },
+      {
+        "start": "2026-09-08T16:51:19.992237+00:00",
+        "category": "theory",
+        "note": "Derive weighted tensor compression and repeated-entry preservation; scratchpad sections1 onward.",
+        "end": "2026-09-08T17:32:08.516631+00:00"
+      },
+      {
+        "start": "2026-09-08T17:32:08.516631+00:00",
+        "category": "literature",
+        "note": "Targeted prior-art check for conditional cumulant transport and total-cumulance identity.",
+        "end": "2026-09-08T17:37:59.344769+00:00"
+      },
+      {
+        "start": "2026-09-08T17:37:59.344769+00:00",
+        "category": "theory",
+        "note": "Develop and verify Hermite-residual conditional source; finish compression construction and cost tradeoff.",
+        "end": "2026-09-08T18:27:07.085526+00:00"
+      },
+      {
+        "start": "2026-09-08T18:27:07.085526+00:00",
+        "category": "selection",
+        "note": "Rank completed mathematical candidates, write concise handoff and route status; retain actual timing and verification.",
+        "end": "2026-09-08T18:27:15.538978+00:00"
+      },
+      {
+        "start": "2026-09-08T18:27:15.538978+00:00",
+        "category": "theory",
+        "note": "Finish interpretation of the tensor projection checks and their optimization limits.",
+        "end": "2026-09-08T18:27:29.028962+00:00"
+      },
+      {
+        "start": "2026-09-08T18:27:29.028962+00:00",
+        "category": "selection",
+        "note": "Finalize candidate ranking and reviewable next-task recommendation, literature/route records and verification.",
+        "end": "2026-09-08T18:32:52.643907+00:00"
+      },
+      {
+        "start": "2026-09-08T18:32:52.643907+00:00",
+        "category": "theory",
+        "note": "Final adversarial review of old-E persistence: source-gauge dependence, low-dimensional limits and what compression changes.",
+        "end": "2026-09-08T18:35:05.294239+00:00"
+      },
+      {
+        "start": "2026-09-08T18:35:05.294239+00:00",
+        "category": "selection",
+        "note": "Complete task report, literature/route handoff, final timing and scoped repository verification.",
+        "end": "2026-09-08T18:46:33.983719+00:00"
+      }
+    ]
+  }
+}

@@ -1,0 +1,190 @@
+\clearpage\appendix
+\section{The covariance dictionary}\label{app:dictionary}
+This appendix specifies the unfused 32-field construction. The submitted code
+evaluates its weighted sum in grouped kernels. For distinct \(i,j\), abbreviate
+\(c=c_{ij}\), \(a=k_{3,i}\), \(b=k_{3,j}\), \(t=T_{iij}\),
+\(u=T_{jji}\), \(q_i=k_{4,i}\), and \(\gamma_i=q_i/v_i^2\).
+Write \(F_{pq}=f_i^{(p)}f_j^{(q)}\), with derivatives from
+Eq.~\eqref{eq:derivatives}. \(K_{31,ij}\) and \(K_{22,ij}\) are the base's
+available mixed fourth-cumulant approximations, not observed true cumulants.
+In the code these are \code{wk431} and \code{wk4m}, respectively;
+\(k_3,T,k_4\) use \code{D3}, \code{D21}, and \code{g4row}.
+Each listed field has an independent coefficient in each of three layer bins.
+
+\textbf{Six basic fields.} Let
+\(V_i^G=(\mu_i^2+v_i)\Phi(\alpha_i)+\mu_i\sigma_i\phi(\alpha_i)
+ -(f_i^{(0)})^2\). The first two fields are diagonal matrices with entries
+\(V_i^G\) and \(V_i^G\gamma_i\). The four off-diagonal fields are
+\begin{equation}
+ \tfrac12 c F_{11}(\gamma_i+\gamma_j),\qquad
+ \frac{c^r}{r!}F_{rr}\quad(r=2,3,4).
+\end{equation}
+All their unspecified diagonal entries are zero.
+
+\textbf{Eight marginal fields.} Two diagonal fields are
+\begin{equation}
+ \frac{k_{3,i}}3[f_i^{(2)}-f_i^{(0)}f_i^{(3)}],\qquad
+ \frac{k_{4,i}}{12}[f_i^{(3)}-f_i^{(0)}f_i^{(4)}].
+\end{equation}
+For \(r=1,2,3\), six off-diagonal fields are
+\begin{equation}
+ \frac{c^r}{6r!}(aF_{r+3,r}+bF_{r,r+3}),\qquad
+ \frac{c^r}{24r!}(q_iF_{r+4,r}+q_jF_{r,r+4}).
+\end{equation}
+
+\textbf{Eight mixed/reference fields.} The first seven are
+\begin{align}
+ &\frac{c^r}{2r!}(tF_{r+2,r+1}+uF_{r+1,r+2}),&&r=0,1,2,\nonumber\\
+ &\frac{K_{22,ij}c^r}{4}F_{r+2,r+2},&&r=0,1,\nonumber\\
+ &\frac{c^r}{6}(K_{31,ij}F_{r+3,r+1}+K_{31,ji}F_{r+1,r+3}),&&r=0,1.
+\end{align}
+The eighth is \(C^+_{\rm base}-G_8\) off the diagonal, where
+\(G_{8,ij}=\sum_{r=1}^{8}c^rF_{rr}/r!\). This allows a fitted correction to
+the difference between the base pair closure and its order-eight Gaussian
+reference. The unfused helper clips normalized correlation near \(\pm1\);
+the shipped fused kernel evaluates the corresponding polynomial directly
+from the carried covariance. Exact shipped code is the authority at numerical
+boundaries.
+
+\textbf{Ten quadratic third-cumulant fields.} The first two are
+\begin{equation}
+ \frac{c}{72}(a^2F_{71}+b^2F_{17}),\qquad \frac{cab}{36}F_{44}.
+\end{equation}
+For each \(r=0,1\), four more are
+\begin{align}
+ &\frac{c^r}{8}(t^2F_{r+4,r+2}+u^2F_{r+2,r+4}),\qquad
+ \frac{c^r tu}{4}F_{r+3,r+3},\nonumber\\
+ &\frac{c^r}{12}(atF_{r+5,r+1}+buF_{r+1,r+5}),\qquad
+ \frac{c^r}{12}(btF_{r+2,r+4}+auF_{r+4,r+2}).
+\end{align}
+Their diagonals are zero. The formulas motivate signed residual shapes; they
+do not assert that each missing term can be uniquely identified from fitted
+coefficients. The 96 shipped values exactly match the preserved all-32-network
+fit. They are included in the machine-readable evidence rather than rounded
+into this report.
+
+\clearpage
+\section{Mean-source features and training objective}\label{app:features}
+Define \(R_{ij}=c_{ij}/(\sigma_i\sigma_j)\),
+\(P_{ij}=T_{iij}/(v_i\sigma_j)\), \(g_{3,i}=k_{3,i}/\sigma_i^3\),
+\(g_{4,i}=k_{4,i}/v_i^2\), and
+\(\tau_i=\sum_j T_{jji}+k_{3,i}\). Angle brackets denote a neuron average at
+the current layer. Superscript \(\circ r\) means entrywise power.
+
+\begin{tabularx}{\linewidth}{@{}p{.17\linewidth}X@{}}\toprule
+Group & Features (in the implemented order)\\\midrule
+Local (4) & \(\alpha_i,\ g_{3,i},\ g_{4,i},\ \log(v_i/\langle v\rangle)\).\\[3pt]
+Pair (8) & \(\begin{aligned}
+&\sum_jR_{ij}^2,\ \sum_jR_{ij}^3,\ \sum_jR_{ij}^4,\ \sum_jP_{ij}^2,\\
+&\sum_jP_{ji}^2,\ \sum_jR_{ij}P_{ij},\ \sum_jR_{ij}P_{ji},\ (R^{\circ2}g_4)_i.
+\end{aligned}\)\\[3pt]
+Global (3) & \(\langle g_4\rangle,\ \langle g_3^2\rangle,\ (\ell-1)/15\).\\[3pt]
+Trace/signed (9) & \(\begin{aligned}
+&\sum_jP_{ij},\ \sum_jP_{ji},\ (R\alpha)_i,\ (P\alpha)_i,\ (P^T\alpha)_i,\\
+&((R\circ P)\alpha)_i,\ ((R\circ P^T)\alpha)_i,\ \tau_i/(\sigma_i\langle v\rangle),\\
+&\langle\tau\mu\rangle/(\langle\mu^2\rangle\langle v\rangle+10^{-30}).
+\end{aligned}\)\\\bottomrule
+\end{tabularx}
+
+The 48-input model appends 24 neuron-averaged features. Its statistics are
+computed from the features as represented by the public engine, including
+pruning conventions. The final layer uses zero pair and signed/trace blocks.
+The 24-input model and 48-input model have different normalization statistics;
+duplicating local coordinates in the batch preserves both sets of clipping
+boundaries. Replacing them with a common normalizer would be a different model.
+
+For source training, with training-fold layer RMS \(s_\ell\), the minibatch
+objective is
+\begin{equation}
+ \mathcal L(\theta)=\operatorname{mean}_{(j,\ell,i)\in\mathcal B}
+ \left[\frac{\widehat u_{j\ell i}(\theta)-u_{j\ell i}}{s_\ell}\right]^2
+ +10^{-4}\frac{\|\theta\|_2^2}{\#\theta}.
+\end{equation}
+The 24-input final fit has 932 learned parameters; the 48-input model has
+1,700. The merged 64-unit representation contains structural zeros and a
+combined output bias, so counting every stored array element as an independent
+learned parameter would overstate the fitted degrees of freedom.
+
+The innovation identity check in the research code starts from the observed
+first-layer error and reconstructs the final observed error to numerical
+precision. Deployment starts its additional response at zero and predicts
+the later innovations. Thus that identity check validates the construction of
+training targets; it does not prove the deployed response is exact or that
+the first-layer error is identically zero.
+
+For covariance fitting, let \(R_{j\ell}\beta\) denote the approximate mean
+response and \(B_{j\ell}\beta=R_{j\ell}\beta-J_{j\ell}R_{j,\ell-1}\beta\).
+The linear fitting system combines
+\begin{equation}
+ \operatorname{mean}_{j,\ell,i}
+ \frac{(B_{j\ell}\beta-u_{j\ell})_i^2}{s_\ell^2}
+ +\operatorname{mean}_{j,i}
+ \frac{(R_{j,16}\beta-e_{j,16})_i^2}{s_{16,\rm end}^2}
+ +10^{-3}\beta^T\diag(G)\beta,
+\end{equation}
+where \(G\) is the normalized design Gram matrix, with a \(10^{-30}\)
+floor on its diagonal in the implementation. The coefficients were selected
+from the local-plus-terminal objective; terminal-only fitting was a diagnostic
+alternative. The later full-state evaluation is not identical to this linear
+response model.
+
+\clearpage
+\section{Artifact identity and evidence map}\label{app:repro}
+The accepted estimator and fixed neural asset have the following SHA-256
+digests (join the wrapped lines):
+\begin{quote}\small\ttfamily
+estimator.py:\newline
+6c295943161d1365afa042948770e451091d\newline
+6fe16706ee7728505ece62b4ab44\medskip\newline
+nn\_asset.json:\newline
+bd824f7c1a7e4d1392e0b8507931e973237e\newline
+b3ca02cabc9a07b66970d2c8e856
+\end{quote}
+The accepted archive, source files, current working copies, and stored
+qualification hashes were compared on 18 October 2026; all matched. This was
+an identity audit using existing evidence, not another numerical qualification
+campaign. The live API still reported submission 336809 as successfully graded
+with the scores shown in Table~\ref{tab:official}.
+
+\begin{tabularx}{\linewidth}{@{}p{.24\linewidth}X@{}}\toprule
+Claim / component & Repository evidence or code location\\\midrule
+Accepted implementation & \path{submissions/phase2_alg058_v001/estimator.py};
+mean-source call around lines 3287--3311; covariance update around 3540;
+fused helper \code{\_fused\_cov\_delta}.\\
+Covariance fit & \path{experiments/theory/t170/fit_quadratic.py} and
+\path{experiments/theory/t170/P27_FIT/RESULT.json}.\\
+Source models & \path{experiments/theory/t172/train_source.py},
+\path{train_expanded_source.py}, and \path{build_anchor_merged.py}
+(last two in the same directory).\\
+Matched public-base comparison & \path{experiments/theory/t172/runs/},
+probes P02\_e30, P09\_fused\_cov, P19\_new\_trace, P82\_anchor\_merged.\\
+Official and qualification records & \path{experiments/theory/t172/candidates/},
+ALG054-V000, ALG055-V000, ALG058-V001.\\
+Report evidence index & \path{experiments/finalization/t173/WRITEUP_EVIDENCE.json},
+\path{PACKAGE_IDENTITY_AUDIT.json}, and \path{CURRENT_GRADES.json}
+(all in that directory).\\\bottomrule
+\end{tabularx}
+
+These repository paths identify retained evidence; they are not claims that
+the entire working repository or its research data has already been publicly
+released. The AIcrowd submission ID resolves the accepted executable package.
+Any public evidence release should include the relevant scripts, manifests,
+predictions/summaries, and licenses, without republishing private challenge
+weights or labels.
+
+\textbf{Training rows.} Labels come from the organizer's
+\path{aicrowd/arc-whestbench-public-2026} Full dataset; the original layer-label
+manifest pins revision \texttt{ce926b7d1ced65faa668c01b94a43f8c4f43783d}.
+The original 32 exposed dataset positions were
+\begin{quote}\small
+0, 16, 32, 48, 64, 80, 97, 113, 129, 145, 161, 177, 193, 209, 225, 241,
+258, 274, 290, 306, 322, 338, 354, 370, 386, 402, 419, 435, 451, 467, 483, 499.
+\end{quote}
+The additional 32 were
+\begin{quote}\small
+8, 23, 39, 55, 70, 86, 102, 117, 133, 148, 164, 180, 195, 211, 227, 242,
+259, 273, 289, 305, 320, 336, 352, 367, 383, 398, 414, 430, 445, 461, 477, 492.
+\end{quote}
+The submission-facing development order was 750, 976, 772, 795, 817, 840,
+863, 885, 908, 930, 953, 999. These are dataset row identifiers, not seeds or
+network identifiers used by the submitted inference algorithm.

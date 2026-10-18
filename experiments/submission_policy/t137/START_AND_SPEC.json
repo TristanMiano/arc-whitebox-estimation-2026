@@ -1,0 +1,69 @@
+{
+  "task_id": "T137",
+  "experiment_id": "E130",
+  "algorithm_id": "ALG038-V000",
+  "name": "CSK3-R",
+  "status": "registered_before_execution",
+  "start_utc": "2026-09-07T01:07:11Z",
+  "registered_utc": "2026-09-07T01:11:39.397066+00:00",
+  "estimate_total_minutes": 100,
+  "estimate_total_range_minutes": [
+    75,
+    120
+  ],
+  "initial_active_engineering_budget_minutes": 60,
+  "reassess_at_minutes": 30,
+  "possible_recorded_extension_minutes": 30,
+  "owner_authorized_upload": true,
+  "grade_wait_minutes": 30,
+  "unchanged_generic_error_retry_limit": 1,
+  "fit_calls": 0,
+  "source_spec": "experiments/theory/t136/CANDIDATE_A.md",
+  "final_source": "SCRATCHPAD.md section22: q=sqrt(k/(3e)), A=3diag(e), B=d*C_off+diag(q)",
+  "candidate": "Gaussian reference plus first-order signed mean/covariance response; persistent paired third factors, exact repeated-index remainder, radial fourth scalar; output max(mu+a,0); no calibration",
+  "runtime": "tmp/t128-runtime312/bin/python",
+  "comparison": {
+    "initial_rows": [
+      750,
+      772,
+      795,
+      817,
+      840,
+      863,
+      885,
+      908,
+      930,
+      953,
+      976,
+      999
+    ],
+    "data_role": "reused development networks; all predictions sealed before target access",
+    "bootstrap_seed": 137001,
+    "decision": "lower mean adjusted score and approximately .90 whole-network bootstrap support; at most one useful extension to24"
+  },
+  "incumbent": {
+    "algorithm_id": "ALG037-V000",
+    "submission_id": 330101,
+    "official_adjusted_score": 1.285804677308988e-07,
+    "flops": 218987857755
+  },
+  "numerical_contract": {
+    "kernel_depth": 3,
+    "source_chunk_columns": 4096,
+    "transform_chunk_rows": 4096,
+    "dense_dtype": "float32",
+    "moments_dtype": "float64",
+    "rho_clamp": 0.999999,
+    "variance_floor": 1e-30,
+    "tail": "CDF(-alpha) positive-tail cumulants; e floor1e-300 in source quotient; k clipped at0 only for source square root; scalar/pair arithmetic float64",
+    "response": "signed, no PSD projection",
+    "rescale": "after each layer use max marginal sigma; all tensors scale by order; exact paired-column gauge if needed"
+  },
+  "final_blind_block": "untouched",
+  "git_head_at_start": "b3a235e68fb242f60945e753b71eb9d59ca8f3ba",
+  "theory_hashes": {
+    "CANDIDATE_A.md": "9c8a5e33f5197d717a1bfdb746244c18086fafad3e08fd7be38201bd8d234970",
+    "ANALYTIC_MOMENT_KERNEL.md": "129b2e404a11760ddd31dca97724b2b28f73bfa068a65cbb431ca8c260344d28",
+    "SCRATCHPAD.md": "69cd1704a7b970226a9fd016593040463c4f7b01e55406eb9f20b208dbc40593"
+  }
+}
