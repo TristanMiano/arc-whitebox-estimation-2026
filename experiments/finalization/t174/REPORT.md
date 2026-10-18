@@ -1,6 +1,6 @@
 # T174 — Final report and owner delivery handoff
 
-The final 12-page writeup for **336809 / ALG058-V001** is complete and published in the public GitHub repository at commit `1ac12e91f5fbadc6398dcba91f5d92a751c3cb9e`. The owner approved **336809 and 336785** for nomination and explicitly chose to perform the two website actions after browser access failed. **Neither nomination nor forum publication has been performed or verified by this task.** No forum URL exists in the retained evidence yet.
+The final 12-page writeup for **336809 / ALG058-V001** is complete and published in the public GitHub repository at commit `1ac12e91f5fbadc6398dcba91f5d92a751c3cb9e`. The owner approved **336809 and 336785** for nomination and explicitly chose to perform the two website actions after browser access failed. **The owner subsequently confirmed selecting both nominations; forum publication remains pending.** Nominations were not independently checked through the website. No forum URL exists in the retained evidence yet.
 
 [Final PDF](writeup/arc-whestbench-phase2-336809.pdf) · [website instructions](OWNER_HANDOFF.md) · [forum title](FORUM_TITLE.txt) · [forum text](FORUM_POST.md) · [delivery status](DELIVERY_STATUS.json).
 
@@ -19,3 +19,7 @@ The fresh organizer posts confirm the nomination route and the one-PDF/one-ID fo
 ## Time
 
 Recorded preparation session: **9.10 minutes**, starting 2026-10-18 18:16:34 UTC. The original 25–60-minute estimate covered the full task; its error is not measurable while the external actions remain pending. This documentary work occurs after the last algorithmic submission and does not change the milestone effort totals.
+
+## Owner follow-up — 18 October 2026
+
+The owner confirmed selecting nominations336809and336785. This is direct owner confirmation, not an independent website verification. Forum publication remains pending: the owner’s screenshot shows the correct category without a visible New Topic button. Provided the documented Discourse `/new-topic` route with category2991 and the prepared title; the public route returned HTTP200, but the owner’s authenticated composer behavior is not yet verified. See OWNER_NOMINATION_CONFIRMATION.json and FORUM_COMPOSER_URL.txt.

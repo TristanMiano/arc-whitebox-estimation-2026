@@ -1,0 +1,13 @@
+{
+  "recorded_utc": "2026-10-18T18:46:47.162670+00:00",
+  "submission_ids": [
+    336809,
+    336785
+  ],
+  "source": "Direct owner statement in this chat: I selected the nominations.",
+  "independently_verified_in_website": false,
+  "forum_published": false,
+  "forum_problem": "Owner screenshot shows the challenge category with no visible New Topic button. Root cause unknown.",
+  "proposed_composer_url": "https://discourse.aicrowd.com/new-topic?category_id=2991&title=Phase%202%20writeup%20%E2%80%94%20submission%20336809%3A%20covariance%20correction%20and%20transported%20mean%20innovations",
+  "composer_route_documentation": "https://meta.discourse.org/t/creating-a-link-to-start-a-new-topic-with-pre-filled-information/28074"
+}

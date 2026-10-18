@@ -20,7 +20,7 @@ The best retained public submission is **336809 / ALG058-V001**, with adjusted f
 | Second | [ALG055-V000](writeups/ALG055-V000.md) | 336785 | 2.982822327838572e−9 |
 | Reserve | [ALG054-V000](writeups/ALG054-V000.md) | 336778 | 3.0332910471237746e−9 |
 
-The owner approved 336809 and 336785 on October 18, 2026. The owner will complete the website nominations and forum publication manually; neither is confirmed yet. [Website instructions and prepared post](experiments/finalization/t174/OWNER_HANDOFF.md).
+The owner approved 336809 and 336785 on October 18, 2026. The owner has confirmed selecting nominations **336809 and 336785**. Forum publication remains pending. [Website instructions and prepared post](experiments/finalization/t174/OWNER_HANDOFF.md).
 
 ## Attribution and evidence
 

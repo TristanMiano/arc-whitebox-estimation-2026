@@ -1,6 +1,6 @@
 # T174 website steps
 
-The final PDF is published on GitHub. The two website actions below have **not yet been performed or verified**. The owner chose to complete them manually after the browser connection failed.
+The final PDF is published on GitHub. The owner has **confirmed selecting nominations 336809 and 336785**. This confirmation is recorded from the owner; no independent website check was possible. The forum post remains pending.
 
 ## 1. Nominate the final submissions
 
@@ -13,6 +13,8 @@ The final PDF is published on GitHub. The two website actions below have **not y
 The [organizer's instructions](https://discourse.aicrowd.com/t/18251) say nominations remain editable until **October 22, 2026, 23:59 UTC / 4:59 p.m. PDT**.
 
 ## 2. Publish the writeup
+
+If the category page has no **New Topic** button, [open the composer directly](https://discourse.aicrowd.com/new-topic?category_id=2991&title=Phase%202%20writeup%20%E2%80%94%20submission%20336809%3A%20covariance%20correction%20and%20transported%20mean%20innovations). This pre-fills the category and title using [Discourse’s documented route](https://meta.discourse.org/t/creating-a-link-to-start-a-new-topic-with-pre-filled-information/28074). **Create Topic** is the publish button inside the composer. A missing button alone does not establish whether the cause is layout, authentication, or posting permissions.
 
 1. Open the [ARC challenge forum category](https://discourse.aicrowd.com/c/white-box-estimation-challenge-2026/2991), signed in with your AIcrowd account. Choose **New Topic** in that category.
 2. Use this title: **Phase 2 writeup — submission 336809: covariance correction and transported mean innovations**.

@@ -1,11 +1,11 @@
 {
   "task": "T174",
-  "status": "final_report_published_owner_will_nominate_and_post",
+  "status": "nominations_confirmed_by_owner_forum_pending",
   "nominations_requested": [
     336809,
     336785
   ],
-  "nominations_saved": false,
+  "nominations_saved": true,
   "nomination_state_verified": false,
   "writeup_submission_id": 336809,
   "final_pdf": "writeup/arc-whestbench-phase2-336809.pdf",
@@ -20,5 +20,6 @@
   "owner_will_complete_external_actions": true,
   "final_pdf_github_published": true,
   "public_report_commit": "1ac12e91f5fbadc6398dcba91f5d92a751c3cb9e",
-  "owner_handoff_accepted": "Owner explicitly chose to select 336809 and 336785 and publish the prepared forum post in this conversation. No completion confirmation received yet."
+  "owner_handoff_accepted": "Owner confirmed nominations selected; owner is preparing the forum post and reported a missing New Topic button.",
+  "nomination_confirmation_source": "Owner confirmed both requested nominations in this conversation on 2026-10-18; not independently checked via the website."
 }
